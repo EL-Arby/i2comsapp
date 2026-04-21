@@ -1,22 +1,73 @@
-<nav class="fixed top-0 w-full z-50 bg-[#f5fbf2]/70 backdrop-blur-md shadow-[0_20px_40px_rgba(0,138,69,0.06)] flex justify-between items-center px-8 py-4 max-w-full">
-    <a href="{{ route('home') }}" class="text-2xl font-black text-[#008a45] tracking-tighter font-['Space_Grotesk'] flex items-center gap-2">
-        <span class="material-symbols-outlined text-3xl">hub</span>
-        I2COMSAPP
-    </a>
-
-    <div class="hidden md:flex gap-8 items-center">
-        <a class="font-['Space_Grotesk'] font-bold uppercase tracking-tight hover:text-[#006768]" href="{{ route('home') }}">Home</a>
-        <a class="font-['Space_Grotesk'] font-bold uppercase tracking-tight hover:text-[#006768]" href="{{ route('call_for_papers') }}">Call for Papers</a>
-        <a class="font-['Space_Grotesk'] font-bold uppercase tracking-tight hover:text-[#006768]" href="{{ route('committees') }}">Committees</a>
-        <a class="font-['Space_Grotesk'] font-bold uppercase tracking-tight hover:text-[#006768]" href="{{ route('program') }}">Program</a>
-        <a class="font-['Space_Grotesk'] font-bold uppercase tracking-tight hover:text-[#006768]" href="{{ route('registration') }}">Registration</a>
-
-        <a href="{{ route('call_for_papers') }}" class="bg-primary text-on-primary px-6 py-2 rounded-xl font-bold uppercase text-sm tracking-widest">
-            Submit Abstract
+<nav class="fixed top-0 w-full z-50 bg-white shadow-lg navbar-scroll" style="background-color: rgba(33, 33, 33, 0.95);">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <!-- Logo -->
+        <a href="{{ route('home') }}" class="flex items-center gap-2 hover:opacity-90 transition">
+            <!-- Conference Logo -->
+            <img src="{{ asset('images/logo.png') }}" alt="I2COMSAPP Logo" class="h-10 w-auto drop-shadow-md">
+            <span class="text-lg font-extrabold ml-2">
+                <span style="color: #FFD700;">I2</span><span style="color: #FFFFFF;">COMSAPP</span>
+            </span>
         </a>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden lg:flex gap-2 items-center">
+            <a href="{{ route('home') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Home</a>
+            <a href="{{ route('call_for_papers') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Call for Papers</a>
+            <a href="{{ route('committees') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Committees</a>
+            <a href="{{ route('program') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Program</a>
+            <a href="{{ route('registration') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Registration</a>
+            <a href="{{ route('home') }}#hands-on-workshops" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Workshops</a>
+            <a href="{{ route('sponsors') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Sponsors</a>
+            <a href="{{ route('home') }}#previous-editions" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Previous editions</a>
+            {{-- <a href="{{ route('call_for_papers') }}" class="ml-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-2 rounded-lg font-bold text-sm uppercase tracking-wide hover:shadow-lg hover:from-blue-600 hover:to-purple-600 transition">
+                Submit Paper
+            </a> --}}
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="lg:hidden text-white" onclick="toggleMenu()">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
     </div>
 
-    <div class="md:hidden">
-        <span class="material-symbols-outlined text-[#008a45]">menu</span>
+    <!-- Mobile Navigation (hidden by default) -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-gray-900 border-t border-gray-700">
+        <div class="px-6 py-4 space-y-2">
+            <a href="{{ route('home') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Home</a>
+            <a href="{{ route('call_for_papers') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Call for Papers</a>
+            <a href="{{ route('committees') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Committees</a>
+            <a href="{{ route('program') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Program</a>
+            <a href="{{ route('registration') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Registration</a>
+            <a href="{{ route('home') }}#hands-on-workshops" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Workshops</a>
+            <a href="{{ route('sponsors') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Sponsors</a>
+            <a href="{{ route('home') }}#previous-editions" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Previous editions</a>
+            <a href="{{ route('call_for_papers') }}" class="block mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-bold text-center">Submit Paper</a>
+        </div>
     </div>
 </nav>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('hidden');
+}
+
+// Optional: Change navbar style on scroll
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('nav');
+    if (window.scrollY > 50) {
+        navbar.style.backgroundColor = 'rgba(33, 33, 33, 0.98)';
+    } else {
+        navbar.style.backgroundColor = 'rgba(33, 33, 33, 0.95)';
+    }
+});
+
+</script>
+
+<style>
+    body {
+
+
+        padding-top: 70px;
+    }
+</style>

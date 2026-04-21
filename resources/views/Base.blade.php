@@ -65,7 +65,12 @@
                         "on-tertiary-container": "#f3fffe",
                         "on-tertiary-fixed": "#002020",
                         "on-tertiary-fixed-variant": "#004f51",
-                        "primary-fixed-dim": "#6edd8d"
+                        "primary-fixed-dim": "#6edd8d",
+                        "brand-blue": "#77b",
+                        "brand-dark": "#000",
+                        "brand-light": "#ccd",
+                        "brand-accent": "#448",
+                        "brand-hover": "#fff"
                     },
                     borderRadius: {
                         DEFAULT: "0.125rem",
