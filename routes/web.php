@@ -13,9 +13,11 @@ Route::get('/committees', [PageController::class, 'committees'])->name('committe
 Route::get('/speakers', [PageController::class, 'speakers'])->name('speakers');
 Route::get('/workshops', [PageController::class, 'workshops'])->name('workshops');
 Route::get('/hotels', [PageController::class, 'hotels'])->name('hotels');
+Route::get('/exhibitions', [PageController::class, 'exhibitions'])->name('exhibitions');
 Route::get('/sponsors', [PageController::class, 'sponsors'])->name('sponsors');
 Route::get('/program', [PageController::class, 'program'])->name('program');
 Route::get('/registration', [PageController::class, 'registration'])->name('registration');
+Route::get('/previous-editions', [PageController::class, 'previousEditions'])->name('previous_editions');
 
 Route::post('/registration', [RegistrationController::class, 'store'])->name('registration.store');
 Route::post('/paper-submit', [PaperController::class, 'store'])->name('paper.submit');

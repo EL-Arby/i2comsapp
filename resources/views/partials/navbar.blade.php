@@ -16,9 +16,14 @@
             <a href="{{ route('committees') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Committees</a>
             <a href="{{ route('program') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Program</a>
             <a href="{{ route('registration') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Registration</a>
-            <a href="{{ route('home') }}#hands-on-workshops" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Workshops</a>
-            <a href="{{ route('sponsors') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Sponsors</a>
-            <a href="{{ route('home') }}#previous-editions" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Previous editions</a>
+            {{-- <a href="{{ route('home') }}#hands-on-workshops" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Workshops</a>
+            <a href="{{ route('home') }}#hands-on-workshops" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Workshops</a> --}}
+
+            <a href="{{ route('workshops') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">workshops</a>
+            <a href="{{ route('exhibitions') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Exhibitions</a>
+            {{-- <a href="{{ route('sponsors') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Sponsors</a> --}}
+            <a href="{{ route('previous_editions') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Previous editions</a>
+
             {{-- <a href="{{ route('call_for_papers') }}" class="ml-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-2 rounded-lg font-bold text-sm uppercase tracking-wide hover:shadow-lg hover:from-blue-600 hover:to-purple-600 transition">
                 Submit Paper
             </a> --}}
@@ -38,9 +43,13 @@
             <a href="{{ route('committees') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Committees</a>
             <a href="{{ route('program') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Program</a>
             <a href="{{ route('registration') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Registration</a>
-            <a href="{{ route('home') }}#hands-on-workshops" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Workshops</a>
-            <a href="{{ route('sponsors') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Sponsors</a>
-            <a href="{{ route('home') }}#previous-editions" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Previous editions</a>
+            {{-- <a href="{{ route('home') }}#hands-on-workshops" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Workshops</a> --}}
+
+            {{-- <a href="{{ route('home') }}#hands-on-workshops" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Workshops</a> --}}
+            <a href="{{ route('workshops') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Workshops</a>
+            <a href="{{ route('exhibitions') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Exhibitions</a>
+            {{-- <a href="{{ route('sponsors') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Sponsors</a> --}}
+            <a href="{{ route('previous_editions') }}" class="block px-4 py-2 text-gray-200 hover:bg-white/10 rounded-lg font-600">Previous editions</a>
             <a href="{{ route('call_for_papers') }}" class="block mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-bold text-center">Submit Paper</a>
         </div>
     </div>

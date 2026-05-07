@@ -4,6 +4,7 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>@yield('title', 'I2COMSAPP 2026')</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 
     <link href="{{ asset('css/templatemo-topic-listing.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com" rel="preconnect"/>

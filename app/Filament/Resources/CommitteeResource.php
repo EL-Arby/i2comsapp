@@ -7,6 +7,10 @@ use App\Filament\Resources\CommitteeResource\RelationManagers;
 use App\Models\Committee;
 use Filament\Forms;
 use Filament\Schemas\Schema;
+use Filament\Actions\BulkActionGroup;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Actions\DeleteAction;
+use Filament\Actions\EditAction;
 use Filament\Resources\Resource;
 use Filament\Support\Enums\IconPosition;
 use BackedEnum;
@@ -95,12 +99,12 @@ class CommitteeResource extends Resource
                     ->label('Published'),
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
-                Tables\Actions\DeleteAction::make(),
+                EditAction::make(),
+                DeleteAction::make(),
             ])
             ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                BulkActionGroup::make([
+                    DeleteBulkAction::make(),
                 ]),
             ])
             ->defaultSort('sort_order');

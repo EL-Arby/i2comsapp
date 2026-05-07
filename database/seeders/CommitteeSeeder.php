@@ -83,7 +83,7 @@ class CommitteeSeeder extends Seeder
 
         $scientificMembers = [
             // Steering Board
-            ['title' => 'Steering Board', 'name' => 'MOHAMED ELHADJ Yahya', 'affiliation' => 'DAHD, Arab Center for Research and Policy Studies, Qatar'],
+            ['title' => 'Steering Board chair', 'name' => 'MOHAMED ELHADJ Yahya', 'affiliation' => 'DAHD, Arab Center for Research and Policy Studies, Qatar'],
             ['title' => 'Steering Board', 'name' => 'ABDUL-MAGEED Muhammad', 'affiliation' => 'University of British Columbia (Canada)& Mohamed bin Zayed University of Artificial Intelligence (UAE)'],
             ['title' => 'Steering Board', 'name' => 'DERICHE Mohamed', 'affiliation' => 'College of Engineering and Information Technology, Ajman university, UAE'],
             ['title' => 'Steering Board', 'name' => 'JEMNI Mohamed', 'affiliation' => 'LaTICe, University of Tunis, Director of ICT (ALECSO), Tunisia'],

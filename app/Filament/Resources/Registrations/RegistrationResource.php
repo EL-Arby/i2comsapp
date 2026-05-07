@@ -13,11 +13,16 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use UnitEnum;
 
 class RegistrationResource extends Resource
 {
     protected static ?string $model = Registration::class;
 
+    protected static ?string $navigationLabel = 'Registrations';
+    protected static string|UnitEnum|null $navigationGroup = 'Conference Management';
+    protected static ?string $modelLabel = 'Registration';
+    protected static ?string $pluralModelLabel = 'Registrations';
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedClipboardDocumentList;
 
     public static function form(Schema $schema): Schema

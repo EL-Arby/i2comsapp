@@ -9,14 +9,11 @@
         <div class="mb-16">
             <h1 class="text-6xl font-black tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Hands-on Workshops</h1>
             <p class="text-xl text-gray-600 font-medium">Learn practical skills directly from AI experts</p>
-            <p class="mt-4 text-sm text-gray-600">
-                <a href="{{ route('home') }}#hands-on-workshops" class="font-semibold text-blue-600 underline hover:text-blue-800">Hands-on Workshops overview</a>
-                on the conference home page (same section the main menu links to).
-            </p>
+
         </div>
 
         <!-- Workshops List -->
-        <div class="space-y-6">
+        {{-- <div class="space-y-6">
             @forelse ($workshops as $workshop)
                 <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all border-l-4 border-blue-600 overflow-hidden hover:-translate-y-2">
                     <div class="p-8">
@@ -28,21 +25,21 @@
                                 </div>
                             @endif
                         </div>
-                        
+
                         @if ($workshop->abstract)
                             <div class="mb-6 pb-6 border-b border-gray-200">
                                 <h4 class="font-bold text-blue-900 mb-2">📝 What You'll Learn:</h4>
                                 <p class="text-gray-700 leading-relaxed">{{ $workshop->abstract }}</p>
                             </div>
                         @endif
-                        
+
                         @if ($workshop->presenters)
                             <div class="mb-6 pb-6 border-b border-gray-200">
                                 <h4 class="font-bold text-blue-900 mb-2">👨‍🏫 Presenters:</h4>
                                 <p class="text-gray-700">{{ $workshop->presenters }}</p>
                             </div>
                         @endif
-                        
+
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                             @if ($workshop->start_date)
                                 <div class="flex items-center gap-3">
@@ -53,7 +50,7 @@
                                     </div>
                                 </div>
                             @endif
-                            
+
                             @if ($workshop->location)
                                 <div class="flex items-center gap-3">
                                     <span class="text-2xl">📍</span>
@@ -63,7 +60,7 @@
                                     </div>
                                 </div>
                             @endif
-                            
+
                             <div>
                                 <a href="{{ route('registration') }}" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3 rounded-xl font-bold hover:shadow-lg transition-all text-center">
                                     Register Now
@@ -94,6 +91,19 @@
                 <p class="text-gray-700">Receive certificates for completed workshops</p>
             </div>
         </div>
-    </div>
+    </div> --}}
+
+    <div class="bg-gradient-to-br from-blue-50 via-purple-50 to-cyan-50 p-10 rounded-2xl border-2 border-blue-300 text-center">
+
+    <h3 class="text-2xl font-bold text-blue-900 mb-4">
+        🚧 Content Coming Soon
+    </h3>
+
+    <p class="text-gray-600 text-lg">
+        Will appear soon...
+    </p>
+
+</div>
+
 </main>
 @endsection

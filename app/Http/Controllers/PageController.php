@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Committee;
+use App\Models\SiteSetting;
 use App\Models\Speaker;
 use App\Models\Workshop;
 use App\Models\Hotel;
@@ -12,7 +13,9 @@ class PageController extends Controller
 {
     public function callForPapers()
     {
-        return view('pages.call-for-papers');
+        $settings = SiteSetting::query()->pluck('value', 'key')->all();
+
+        return view('pages.call-for-papers', compact('settings'));
     }
 
     public function committees()
@@ -51,6 +54,11 @@ class PageController extends Controller
         return view('pages.sponsors', compact('collaborators', 'platinumSponsors', 'goldSponsors', 'silverSponsors', 'bronzeSponsors'));
     }
 
+    public function exhibitions()
+    {
+        return view('pages.exhibitions');
+    }
+
     public function program()
     {
         return view('pages.program');
@@ -59,5 +67,10 @@ class PageController extends Controller
     public function registration()
     {
         return view('pages.registration');
+    }
+
+    public function previousEditions()
+    {
+        return view('pages.previous-editions');
     }
 }

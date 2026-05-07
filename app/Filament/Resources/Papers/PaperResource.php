@@ -13,11 +13,16 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use UnitEnum;
 
 class PaperResource extends Resource
 {
     protected static ?string $model = Paper::class;
 
+    protected static ?string $navigationLabel = 'Call for Papers';
+    protected static string|UnitEnum|null $navigationGroup = 'Conference Management';
+    protected static ?string $modelLabel = 'Paper';
+    protected static ?string $pluralModelLabel = 'Call for Papers';
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedDocumentText;
 
     public static function form(Schema $schema): Schema

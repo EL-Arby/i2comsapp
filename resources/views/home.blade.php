@@ -13,75 +13,6 @@
         }
     }
 
-     /* Gallery Section Styles */
-    .gallery-section {
-        padding: 60px 20px;
-        background: linear-gradient(135deg, #f5fbf2 0%, #e4eae1 100%);
-        margin: 40px 0;
-        scroll-margin-top: 5.5rem;
-    }
-
-    .gallery-title {
-        text-align: center;
-        font-size: 2.5em;
-        font-weight: 900;
-        color: #006b34;
-        margin-bottom: 40px;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    }
-
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .gallery-item {
-        position: relative;
-        overflow: hidden;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-        background: white;
-    }
-
-    .gallery-item:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    }
-
-    .gallery-item img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        display: block;
-    }
-
-    .gallery-item video {
-        width: 100%;
-        height: 300px;
-        display: block;
-        background: #000;
-    }
-
-    .video-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .gallery-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .gallery-title {
-            font-size: 1.8em;
-        }
-
     .home-hero-slide {
         opacity: 0;
         transition: opacity 1.2s ease-in-out;
@@ -172,7 +103,7 @@
     </div>
     <div>
       <p class="label">Location</p>
-      <p class="value">{{ $s['info_location'] ?? 'Convention Center, Nouakchott' }}</p>
+      <p class="value">{{ $s['info_location'] ?? 'Nouakchott University Campus, Nouakchott' }}</p>
     </div>
   </div>
 
@@ -180,26 +111,23 @@
 
 <!-- Organizer Card with Large University Logos -->
 <div class="organizer-card flex flex-col items-center gap-8 bg-white/10 p-8 rounded-xl backdrop-blur-sm">
-  {{-- <div class="flex gap-8 items-center justify-center">
-    {{-- <img src="{{ asset('images/fst_logo.jpg') }}" alt="FST Logo" class="h-40 w-auto drop-shadow-lg hover:scale-110 transition-transform"> --}}
-    {{-- <img src="{{ asset('images/fst_logo.jpg') }}" alt="Logo FST-UNA" class="h-32 w-auto drop-shadow-lg hover:scale-110 transition-transform"> --}}
-  {{-- </div> --}}
-  {{-- --}}
-      <img src="{{ asset('images/fst_logo.jpg') }}" alt="Logo FST-UNA" class="h-32 w-auto drop-shadow-lg hover:scale-110 transition-transform">
-
+  <div class="flex gap-8 items-center justify-center">
+   <img src="{{ asset('images/UNFST.png') }}" alt="Logo FST-UNA" class="h-32 w-auto drop-shadow-lg hover:scale-110 transition-transform">
 
   <p class="text-center text-lg font-semibold text-white max-w-2xl">
-    Organized by the
-    <strong>Faculty of Sciences and Techniques (FST)</strong>,
-    <br> Nouakchott University, Mauritania.
-  </p>
+    Organized by </br> the
+    <strong> Faculty of Sciences and Techniques </strong>,</br>
+    <b>Nouakchott University, Nouakchott, Mauritania </b>
+
+  </p> </div>
+
 </div>
 
             </div>
         </div>
     </section>
     <!-- Vertical News Ticker Section -->
-<section class="bg-surface-container-low border-b border-outline-variant/10 py-4 overflow-hidden">
+<section class="sticky top-16 z-30 bg-surface-container-low border-b border-outline-variant/10 py-4 overflow-hidden">
 <div class="max-w-7xl mx-auto px-8 flex items-center gap-8">
 <div class="flex-shrink-0 flex items-center gap-3">
 <div class="w-2 h-2 rounded-full bg-error animate-pulse"></div>
@@ -318,40 +246,29 @@
 </div>
 </section>
 <!-- Topics Section - Bento Grid Layout -->
-<section class="py-24 bg-surface-container-low">
-<div class="max-w-screen-2xl mx-auto px-8">
-<div class="flex justify-between items-end mb-16">
+<section class="py-16 bg-transparent">
+<div class="max-w-screen-xl mx-auto px-8">
+<div class="flex justify-between items-end mb-10">
 <div class="max-w-2xl">
 <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Research Domains</p>
-<h2 class="text-5xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Conference Pillars</h2>
+<h2 class="text-4xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Conference Topics</h2>
 </div>
-<a href="{{ route('call_for_papers') }}" class="flex items-center gap-2 text-blue-600 font-bold hover:underline">
-                        View Detailed Call <span class="material-symbols-outlined" data-icon="arrow_right_alt">arrow_right_alt</span>
-</a>
+
 </div>
-<div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 gap-4">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-3">
 @foreach($topics as $topic)
     @php
-        $start = $topic->color_start ?? $topic->start_color ?? $topic->color ?? '#0ea5e9';
-        $end = $topic->color_end ?? $topic->end_color ?? $topic->accent_color ?? '#7c3aed';
         $border = $topic->border_color ?? '#bfdbfe';
+        $style = "background: transparent; border-color: {$border};";
     @endphp
-    @if($topic->featured)
-        <div class="md:col-span-2 md:row-span-2 p-8 rounded-xl flex flex-col justify-between hover:shadow-lg transition-all group cursor-default text-white"
-             style="background: linear-gradient(135deg, {{ $start }}, {{ $end }});">
-            <span class="material-symbols-outlined text-white text-5xl">{{ $topic->icon_name ?? 'hub' }}</span>
-            <div>
-                <h3 class="text-2xl font-bold mb-2">{{ $topic->title }}</h3>
-                <p class="opacity-90">{{ $topic->description }}</p>
-            </div>
+    <div class="rounded-xl border-2 p-4 flex flex-col gap-3 transition hover:shadow-md text-slate-900"
+         style="{{ $style }}">
+        <span class="material-symbols-outlined text-4xl text-blue-600">{{ $topic->icon_name ?? 'circle' }}</span>
+        <div class="flex-1 space-y-2">
+            <h3 class="text-xl font-bold leading-tight">{{ $topic->title }}</h3>
+            <p class="text-xs text-on-surface-variant leading-relaxed">{{ $topic->description }}</p>
         </div>
-    @else
-        <div class="bg-white p-6 rounded-xl border-2 flex flex-col gap-4 hover:shadow-md transition" style="border-color: {{ $border }};">
-            <span class="material-symbols-outlined text-blue-600">{{ $topic->icon_name ?? 'circle' }}</span>
-            <h3 class="font-bold text-blue-900">{{ $topic->title }}</h3>
-            <p class="text-xs text-on-surface-variant">{{ $topic->description }}</p>
-        </div>
-    @endif
+    </div>
 @endforeach
 </div>
 </div>
@@ -371,7 +288,7 @@
 src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"/>
 {{-- src="{{ $speaker->photo_url ?? 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"/> --}}
 </div>
-<div class="p-6">
+<div class="p-6" data-speaker-card>
 <h3 class="text-xl font-headline font-bold text-blue-900">{{ $speaker->name }}</h3>
 @if($speaker->role_title)
 <p class="text-blue-600 font-bold text-xs uppercase tracking-wider mb-3">{{ $speaker->role_title }}</p>
@@ -379,7 +296,20 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 @if($speaker->affiliation)
 <p class="text-sm font-semibold text-gray-600 mb-4">{{ $speaker->affiliation }}</p>
 @endif
-<p class="text-sm text-gray-600 leading-relaxed opacity-80">{{ $speaker->bio }}</p>
+@php
+    $speakerBio = $speaker->bio ?? '';
+    $speakerBioPreview = \Illuminate\Support\Str::limit($speakerBio, 160);
+@endphp
+<div class="text-sm text-gray-600 leading-relaxed opacity-80">
+    <p data-speaker-bio>
+        {{ $speakerBioPreview }}
+    </p>
+    <span data-speaker-bio-full class="hidden">{{ $speakerBio }}</span>
+    <span data-speaker-bio-short class="hidden">{{ $speakerBioPreview }}</span>
+</div>
+@if(strlen($speakerBio) > 160)
+<button type="button" data-speaker-toggle data-expanded="false" class="mt-4 text-sm font-semibold text-blue-600 hover:text-blue-800 transition">Read more</button>
+@endif
 </div>
 </div>
 @empty
@@ -388,6 +318,38 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 </div>
 </div>
 </section>
+<script>
+    document.addEventListener('click', function (event) {
+        const button = event.target.closest('[data-speaker-toggle]');
+        if (!button) {
+            return;
+        }
+
+        const card = button.closest('[data-speaker-card]');
+        if (!card) {
+            return;
+        }
+
+        const bio = card.querySelector('[data-speaker-bio]');
+        const full = card.querySelector('[data-speaker-bio-full]');
+        const short = card.querySelector('[data-speaker-bio-short]');
+        const expanded = button.getAttribute('data-expanded') === 'true';
+
+        if (!bio || !full || !short) {
+            return;
+        }
+
+        if (expanded) {
+            bio.textContent = short.textContent.trim();
+            button.textContent = 'Read more';
+            button.setAttribute('data-expanded', 'false');
+        } else {
+            bio.textContent = full.textContent.trim();
+            button.textContent = 'Show less';
+            button.setAttribute('data-expanded', 'true');
+        }
+    });
+</script>
 <!-- Important Dates Timeline -->
 <section class="py-24 bg-gray-50">
 <div class="max-w-screen-2xl mx-auto px-8">
@@ -448,7 +410,7 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 </section>
 
 
-<!-- Workshops Section (navbar #hands-on-workshops) -->
+<!-- Workshops Section (navbar #hands-on-workshops)
 <section id="hands-on-workshops" class="py-24 bg-gradient-to-br from-indigo-50 to-purple-50 scroll-mt-[5.5rem]" aria-labelledby="hands-on-workshops-heading">
 <div class="max-w-screen-2xl mx-auto px-8">
 <div class="mb-16">
@@ -456,105 +418,10 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 <h2 id="hands-on-workshops-heading" class="text-5xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Hands-on Workshops</h2>
 <p class="text-gray-600 mt-4 max-w-2xl">Learn from industry experts and gain practical skills in cutting-edge AI technologies and applications.</p>
 <p class="text-sm text-gray-500 mt-3 max-w-2xl">
-    <a href="{{ route('workshops') }}" class="font-semibold text-blue-600 underline hover:text-blue-800">Workshop listings from the CMS</a>
+     <a href="{{ route('workshops') }}" class="font-semibold text-blue-600 underline hover:text-blue-800">Workshop listings from the CMS</a>
     for titles, abstracts, and schedules published by the committee.
-</p>
+</p>-->
 </div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<!-- Workshop 1 -->
-<div class="bg-white p-8 rounded-xl border-l-4 border-blue-500 shadow-lg hover:shadow-xl transition-all">
-<div class="flex items-start gap-4 mb-4">
-<span class="text-3xl">🎓</span>
-<div>
-<h3 class="text-xl font-bold text-blue-900">Unlocking Educational Potential</h3>
-<p class="text-sm text-blue-600 font-semibold mt-1">Generative AI in the Classroom</p>
-</div>
-</div>
-<p class="text-gray-600 mb-4">A practical guide to integrating Generative Artificial Intelligence in educational settings, covering foundational concepts, real-world use cases, and hands-on activities for both students and instructors.</p>
-<div class="pt-4 border-t border-gray-200">
-<p class="text-sm font-semibold text-gray-700 mb-2">👥 Presenters:</p>
-<p class="text-sm text-gray-600">Prof. Cheikh Ould Moulaye & Mariem Moulaye<br><em>Manitoba University, Canada</em></p>
-</div>
-</div>
-
-<!-- Workshop 2 -->
-<div class="bg-white p-8 rounded-xl border-l-4 border-purple-500 shadow-lg hover:shadow-xl transition-all">
-<div class="flex items-start gap-4 mb-4">
-<span class="text-3xl">🚀</span>
-<div>
-<h3 class="text-xl font-bold text-purple-900">Generative AI in the Era of LLMs</h3>
-<p class="text-sm text-purple-600 font-semibold mt-1">Large Language Models & Trustworthy AI</p>
-</div>
-</div>
-<p class="text-gray-600 mb-4">Explore the challenges of ensuring reliability, safety, and ethical use in generative AI systems. Discover trustworthy AI practices with focus on the Arab world and North Africa region.</p>
-<div class="pt-4 border-t border-gray-200">
-<p class="text-sm font-semibold text-gray-700 mb-2">👥 Presenters:</p>
-<p class="text-sm text-gray-600">Expert Scientists & Professionals<br><em>Multiple Universities & MBZUAI</em></p>
-</div>
-</div>
-
-<!-- Workshop 3 -->
-<div class="bg-white p-8 rounded-xl border-l-4 border-green-500 shadow-lg hover:shadow-xl transition-all">
-<div class="flex items-start gap-4 mb-4">
-<span class="text-3xl">🌍</span>
-<div>
-<h3 class="text-xl font-bold text-green-900">AlKhalil Platform</h3>
-<p class="text-sm text-green-600 font-semibold mt-1">Arabic Language Processing</p>
-</div>
-</div>
-<p class="text-gray-600 mb-4">Discover the cutting-edge AlKhalil Platform for Arabic Language Processing, featuring morphosyntactic analyzers, code sources, APIs, and live platform testing with ALECSO support.</p>
-<div class="pt-4 border-t border-gray-200">
-<p class="text-sm font-semibold text-gray-700 mb-2">👥 Presenters:</p>
-<p class="text-sm text-gray-600">Prof. Azzeddine Mazroui & Prof. Abdelhak Lakhouaja<br><em>Oujda-NLP Team, Mohammed I University, Morocco</em></p>
-</div>
-</div>
-
-<!-- Workshop 4 -->
-<div class="bg-white p-8 rounded-xl border-l-4 border-orange-500 shadow-lg hover:shadow-xl transition-all">
-<div class="flex items-start gap-4 mb-4">
-<span class="text-3xl">⚙️</span>
-<div>
-<h3 class="text-xl font-bold text-orange-900">Machine Learning to TinyML</h3>
-<p class="text-sm text-orange-600 font-semibold mt-1">Edge Impulse for Embedded Systems</p>
-</div>
-</div>
-<p class="text-gray-600 mb-4">Journey from traditional machine learning to tiny machine learning on edge devices. Learn optimization techniques for embedded systems deployment using Edge Impulse platform.</p>
-<div class="pt-4 border-t border-gray-200">
-<p class="text-sm font-semibold text-gray-700 mb-2">👥 Presenters:</p>
-<p class="text-sm text-gray-600">Dr. Eng. Mohamed Ould-Elhassen Aoueileyine<br><em>Innov'COM Lab, SUPCOM, University of Carthage, Tunisia</em></p>
-</div>
-</div>
-
-<!-- Workshop 5 -->
-<div class="bg-white p-8 rounded-xl border-l-4 border-red-500 shadow-lg hover:shadow-xl transition-all">
-<div class="flex items-start gap-4 mb-4">
-<span class="text-3xl">🏥</span>
-<div>
-<h3 class="text-xl font-bold text-red-900">Medical Image Segmentation</h3>
-<p class="text-sm text-red-600 font-semibold mt-1">AI in Surgical Guidance</p>
-</div>
-</div>
-<p class="text-gray-600 mb-4">Explore medical image segmentation with AI, surgical planning applications, and image-guided medical treatments. Includes live demo of neurosurgical navigation AR apps on 3D printed phantoms.</p>
-<div class="pt-4 border-t border-gray-200">
-<p class="text-sm font-semibold text-gray-700 mb-2">👥 Presenters:</p>
-<p class="text-sm text-gray-600">Javier Pascau & Mónica García-Sevilla<br><em>Universidad Carlos III de Madrid, Spain</em></p>
-</div>
-</div>
-</div>
-
-<!-- Workshop CTA -->
-<div class="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-2xl text-center">
-<h3 class="text-3xl font-bold mb-4">🎯 Register for Workshops</h3>
-<p class="text-blue-100 mb-8 max-w-2xl mx-auto">
-    Limited seats available in each workshop. Register now to secure your spot and enhance your AI expertise!
-</p>
-<a href="{{ route('registration') }}" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-gray-100 transition">
-    📝 Register for Workshop
-</a>
-</div>
-</div>
-</section>
 
 <!-- Sponsors Section -->
 <section class="py-24 bg-white" id="sponsors-section">
@@ -668,44 +535,12 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 </div>
 </div>
 </section>
+
+
 </main>
 
- <!-- Gallery Section -->
-    <div id="wb_LayoutGrid4">
-        <div id="LayoutGrid24">
-            <div class="row">
-                <section id="previous-editions" class="gallery-section" aria-labelledby="previous-editions-heading">
-                    <div class="container">
-                        <h2 id="previous-editions-heading" class="gallery-title">📸 Previous editions — Photo &amp; Video Gallery</h2>
 
-                        <div class="gallery-grid">
-                            <!-- Photos -->
-                            <div class="gallery-item">
-                                <img src="{{ asset('images/photo1.jpg') }}" alt="Event photo 1">
-                            </div>
-                            <div class="gallery-item">
-                                <img src="{{ asset('images/photo2.jpg') }}" alt="Event photo 2">
-                            </div>
-                            <div class="gallery-item">
-                                <img src="{{ asset('images/photo3.jpg') }}" alt="Event photo 3">
-                            </div>
 
-                            <!-- Videos -->
-                            <div class="gallery-item video-item">
-                                <video controls>
-                                    <source src="{{ asset('videos/I2COMSAPP.mp4') }}" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="gallery-item video-item">
-                                <video controls>
-                                    <source src="{{ asset('videos/video2.mp4') }}" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
     </div>

@@ -80,6 +80,140 @@ https://templatemo.com/tm-590-topic-listing
   background: #316ee9;
 }
 
+
+
+/* ===== call for paper ===== */
+/* ===== SECTION GLOBAL ===== */
+#wb_Submission,
+#wb_LayoutGrid17,
+#wb_LayoutGrid5,
+#wb_LayoutGrid9,
+#wb_LayoutGrid12 {
+    background: linear-gradient(135deg, #7b7ffd, #9b40e6);
+    padding: 80px 20px;
+    color: white;
+}
+
+/* ===== CONTAINER ===== */
+#Submission,
+#LayoutGrid17,
+#LayoutGrid5,
+#LayoutGrid9,
+#LayoutGrid12 {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ===== TITLE ===== */
+#wb_Text22 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#wb_Text22 span {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* ===== GRID ===== */
+.row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+/* ===== LEFT ICON ===== */
+.col-1 {
+    width: 120px;
+    text-align: center;
+}
+
+.col-1 img {
+    width: 90px;
+    height: auto;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.col-1 img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== RIGHT TEXT ===== */
+.col-2 {
+    flex: 1;
+}
+
+/* Titles */
+.col-2 strong {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.col-2 span {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #e0e7ff;
+}
+
+/* ===== SMALL TEXT ===== */
+#wb_Text10,
+#wb_Text100,
+#wb_Text102 {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #c7d2fe;
+}
+
+/* ===== BUTTON ===== */
+#ThemeableButton1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#ThemeableButton1 a {
+    display: inline-block;
+    background: white;
+    color: #1e3a8a;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Hover */
+#ThemeableButton1 a:hover {
+    background: #e0e7ff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    #wb_Text22 span {
+        font-size: 30px;
+    }
+}
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
@@ -175,21 +309,21 @@ body {
 .organizer-card {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 1px;
   background: rgba(27, 11, 149, 0.75);
   backdrop-filter: blur(12px);
-  padding: 1px;
+  padding: 2px;
   border-radius: 14px;
   border: 1px solid rgba(0,0,0,0.08);
-  max-width: 400px;
-  height: 204px;
+  max-width: 520px;
+  height: 170px;
 }
 
 .organizer-card img {
-  width: 200px;
-  height: 104px;
+  width: 150px;
+  height:80px;
   object-fit: contain;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .organizer-card p {
@@ -702,20 +836,9 @@ strong {
   border: 0;
 }
 
-.hero-section input[type="search"] {
-  border: 0;
-  box-shadow: none;
-  margin-bottom: 0;
-  padding-left: 0;
-}
 
-.hero-section button[type="submit"] {
-  background-color: var(--primary-color);
-  border: 0;
-  border-radius: var(--border-radius-large) !important;
-  color: var(--white-color);
-  max-width: 150px;
-}
+
+
 
 
 /*---------------------------------------
@@ -1351,3 +1474,51 @@ blockquote {
   }
 }
 
+/* Previous Editions Section */
+.previous-links {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.previous-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn-link {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+/* Springer Button */
+.springer {
+    background-color: #28a745;
+    color: white;
+}
+
+.springer:hover {
+    background-color: #218838;
+}
+
+/* Website Button */
+.website {
+    background-color: #333;
+    color: white;
+}
+
+.website:hover {
+    background-color: #000;
+}

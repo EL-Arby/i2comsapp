@@ -11,8 +11,12 @@
             <p class="text-xl text-gray-600 font-medium">3 days of learning, networking, and innovation</p>
         </div>
 
-        <!-- Day 1 -->
         <div class="mb-12">
+            <p>Will appear later ...</p>
+            </div>
+
+        <!-- Day 1 -->
+        {{-- <div class="mb-12">
             <div class="flex items-center gap-4 mb-6">
                 <div class="bg-blue-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl">1️⃣</div>
                 <div>
@@ -128,6 +132,6 @@
                 📥 Download PDF
             </button>
         </div>
-    </div>
+    </div> --}}
 </main>
 @endsection

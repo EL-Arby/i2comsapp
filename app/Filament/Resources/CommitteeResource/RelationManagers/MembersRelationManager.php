@@ -4,6 +4,11 @@ namespace App\Filament\Resources\CommitteeResource\RelationManagers;
 
 use Filament\Forms;
 use Filament\Schemas\Schema;
+use Filament\Actions\CreateAction;
+use Filament\Actions\BulkActionGroup;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Actions\DeleteAction;
+use Filament\Actions\EditAction;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -29,10 +34,10 @@ class MembersRelationManager extends RelationManager
 
                         Forms\Components\TextInput::make('title')
                             ->label('Role/Title')
-                            ->placeholder('e.g., Chair, Steering Board, Member')
+                            ->placeholder('e.g., Chair, Steering Board chair, Steering Board, Member')
                             ->default('Member')
                             ->maxLength(255)
-                            ->helperText('Chair, Steering Board, Member, or custom title'),
+                            ->helperText('Chair, Steering Board chair, Steering Board, Member, or custom title'),
 
                         Forms\Components\Textarea::make('affiliation')
                             ->label('Institutional Affiliation')
@@ -85,6 +90,7 @@ class MembersRelationManager extends RelationManager
                     ->badge()
                     ->color(fn (string $state): string => match($state) {
                         'Chair' => 'success',
+                         'Steering Board chair' => 'warning',
                         'Steering Board' => 'info',
                         default => 'gray'
                     }),
@@ -106,25 +112,26 @@ class MembersRelationManager extends RelationManager
             ->filters([
                 Tables\Filters\TernaryFilter::make('is_published')
                     ->label('Published'),
-                
+
                 Tables\Filters\SelectFilter::make('title')
                     ->label('Role')
                     ->options([
                         'Chair' => 'Chair',
+                        'Steering Board chair' => 'Steering Board chair',
                         'Steering Board' => 'Steering Board',
                         'Member' => 'Member',
                     ]),
             ])
             ->headerActions([
-                Tables\Actions\CreateAction::make(),
+                CreateAction::make(),
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
-                Tables\Actions\DeleteAction::make(),
+                EditAction::make(),
+                DeleteAction::make(),
             ])
             ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                BulkActionGroup::make([
+                    DeleteBulkAction::make(),
                 ]),
             ])
             ->defaultSort('sort_order');

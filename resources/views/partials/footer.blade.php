@@ -51,7 +51,7 @@
                     </div>
                     <div>
                         <p class="font-semibold text-white">Dates</p>
-                        <p>Dec 23-25, 2026</p>
+                        <p>Dec 14-16, 2026</p>
                     </div>
                 </div>
             </div>
