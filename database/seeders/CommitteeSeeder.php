@@ -21,7 +21,7 @@ class CommitteeSeeder extends Seeder
         $honorary = Committee::create([
             'name' => 'Honorary Chair',
             'slug' => 'honorary-chair',
-            'description' => 'Honorary Chair of the conference.',
+            'description' => 'Honorary General Chair of the Conference.',
             'sort_order' => 1,
             'is_published' => true,
         ]);
@@ -45,7 +45,7 @@ class CommitteeSeeder extends Seeder
         ]);
 
         $organizingMembers = [
-            ['title' => 'Chair', 'name' => 'Mohamed Abdel Wedoud M\'hamed', 'affiliation' => 'Vice-Dean of Faculty of Sciences and Techniques, Nouakchott University, Nouakchott, Mauritania'],
+            ['title' => 'Chair', 'name' => 'DIAGANA Yacouba', 'affiliation' => 'Vice-Dean of Faculty of Sciences and Techniques, Nouakchott University, Nouakchott, Mauritania'],
             ['title' => 'Vice-Chair', 'name' => 'CHEIKH Sidi', 'affiliation' => 'Faculty of Sciences and Techniques, Nouakchott University, Nouakchott, Mauritania'],
             ['title' => 'Member', 'name' => 'HIMEIDY Mohamed', 'affiliation' => 'Faculty of Sciences and Techniques, Nouakchott University, Mauritania'],
             ['title' => 'Member', 'name' => 'AHMED Sidi Mohamed', 'affiliation' => 'Faculty of Sciences and Techniques, Nouakchott University, Mauritania'],
