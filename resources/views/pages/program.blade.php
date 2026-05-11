@@ -7,7 +7,7 @@
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="mb-16">
-            <h1 class="text-6xl font-black tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Conference Program</h1>
+            <h1 class="text-6xl font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Conference Program</h1>
             <p class="text-xl text-gray-600 font-medium">3 days of learning, networking, and innovation</p>
         </div>
 

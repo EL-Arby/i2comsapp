@@ -87,7 +87,7 @@ class ManageHomeHero extends Page
                     ->content(implode("\n", [
                         'images/hero-1.jpg',
                         'images/hero-2.jpg',
-                        'images/Maurit AI2024 Header.jpg',
+                        'images/heroimg.png',
                     ])),
             ]);
     }

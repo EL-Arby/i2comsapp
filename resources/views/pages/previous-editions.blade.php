@@ -7,7 +7,7 @@
         <!-- Photo & Video Gallery -->
         <section class="gallery-section" aria-labelledby="gallery-heading">
             <div class="previous-links">
-                <h4 class="previous-title">Explore Previous Editions</h4>
+                <h6 class="previous-title">Explore Previous Editions</h6>
                 <div class="links-container">
                     <a href="https://link.springer.com/conference/i2comsapp"
                        target="_blank"
@@ -68,7 +68,7 @@
     .previous-title {
         font-size: 2em;
         font-weight: bold;
-        color: #006b34;
+        color: #000000;
         margin-bottom: 20px;
     }
 
@@ -109,9 +109,9 @@
 
     .gallery-title {
         text-align: center;
-        font-size: 2.5em;
-        font-weight: 900;
-        color: #006b34;
+        font-size: 2em;
+        font-weight: bold;
+        color: #000000;
         margin-bottom: 40px;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     }

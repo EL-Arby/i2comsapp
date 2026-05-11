@@ -14,15 +14,20 @@ class ConferenceContentSeeder extends Seeder
     public function run(): void
     {
         foreach ([
-            'hero_badge' => '23–25 December 2026 • Nouakchott',
+            'hero_badge' => '14–16 December 2026 • Nouakchott',
             'hero_display_mode' => 'single',
             'hero_single_image' => 'maurit_2024',
-            'hero_lead' => 'A premier platform for researchers, academics and professionals to discuss advances in AI, digital transformation, ethics, and real-world applications in developing countries.',
-            'info_dates' => '23–25 Dec 2026',
-            'info_location' => 'Convention Center, Nouakchott',
-            'about_title' => 'Bridging the AI Divide',
-            'about_lead' => 'I2COMSAPP 2026 addresses the transformative power of Artificial Intelligence specifically through the lens of developing nations.',
-            'vision_body' => 'The conference provides a premier interdisciplinary platform for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of AI.',
+            // 'hero_lead' => 'A premier platform for researchers, academics and professionals to discuss advances in AI, digital transformation, ethics, and real-world applications in developing countries.',
+            'info_dates' => '14–16 Dec 2026',
+            'info_location' => 'Nouakchott University Campus, Nouakchott.',
+            'about_title' => 'Scope',
+            'about_lead' => 'Artificial Intelligence (AI) technologies offer transformative potential for developing countries, presenting innovative solutions to longstanding challenges across healthcare, education, economic growth, infrastructure, and sustainable resource management.
+By adopting AI-driven approaches, these countries have the opportunity to bypass traditional development stages, accelerating socio-economic progress and significantly enhancing the quality of life.
+In alignment with this vision, the International Conference series on Artificial Intelligence and its Applications in the Age of Digital Transformation "I2COMSAPP" serves as an essential platform that convenes global experts, researchers, practitioners, policymakers, and innovators.
+The conference promotes the exploration of cutting-edge advancements, identifies key challenges, and showcases practical implementations of AI and Machine Learning (ML) technologies.
+Furthermore, it facilitates knowledge exchange, collaboration, and networking among stakeholders committed to responsible and impactful AI innovations that advance societal and industrial progress.
+Building upon the academic excellence, substantial social impact, and successful publication outcomes in Springer’s Scopus-indexed Lecture Notes in Networks and Systems (LNNS) series achieved by our inaugural conference, the 3rd edition of I2COMSAPP invites international contributions to delve deeper into recent advances, practical applications, and future trends of AI and ML.
+Special emphasis will be placed on the transformative potential of these technologies in fostering sustainable development and improving socio-economic outcomes in developing regions.',
             'vision_quote' => 'Empowering the next generation of researchers to solve local problems with global technologies.',
             'timeline_title' => 'Submission Timeline',
             'timeline_subtitle' => 'Keep track of these critical milestones to ensure your research is part of I2COMSAPP 2026.',
@@ -36,9 +41,9 @@ class ConferenceContentSeeder extends Seeder
         }
 
         $news = [
-            'Deadline for abstract submission extended to May 30th',
-            'Keynote speakers confirmed for the Opening Ceremony',
-            'Early Bird Registration now open!',
+            // 'Deadline for abstract submission extended to May 30th',
+            // 'Keynote speakers confirmed for the Opening Ceremony',
+            // 'Early Bird Registration now open!',
         ];
         foreach ($news as $i => $title) {
             NewsItem::query()->updateOrCreate(
@@ -47,65 +52,49 @@ class ConferenceContentSeeder extends Seeder
             );
         }
 
-        $speakers = [
-            [
-                'name' => 'Dr. Amadou Ba',
-                'role_title' => 'Professor of Computer Science',
-                'affiliation' => 'University of Nouakchott',
-                'bio' => 'Specialist in NLP and African languages processing, focusing on bridge technologies for rural development.',
-                'photo_url' => 'https://lh3.googleusercontent.com/aida-public/AB6AXuAtOAcrpaAPbZHUDbfTRFmXFlYSHZ4mw8Mep0XxrcbOax9CO8pH0WVeOT5xAlHH3OUktILBufA0fHD-y6RkyQ-X4ikXm4qsut4wDNVugglaS-W4qHK4EZbqB-4LB6GKcEnUT3HTnpKQXJUFP12GUsAdONB73ZiOmBic_F16gXzsTNVYR_jit8rLds5PQ9WMVrS_gHqv5t7kEWFSOTg8mWiQQ8ADutflXNP6E8KZNPOyupCQWfrlEAlb02KHid6Gz522E7MxbZES89o',
-            ],
-            [
-                'name' => 'Dr. Elena Petrova',
-                'role_title' => 'Lead AI Researcher',
-                'affiliation' => 'Global Tech Institute, London',
-                'bio' => 'Pioneer in Ethical AI frameworks and algorithmic transparency in public sector decision-making.',
-                'photo_url' => 'https://lh3.googleusercontent.com/aida-public/AB6AXuD-8fqL4WoE1qaqlTsL4OkbMwtdehfrfO4CmXI2fh5exk9kmcx0MBzy5cBoiW_k4KKlI9My03xHyns32J8yEjH5iJZgA6xznKqkYCcsywV-ytCccmOSbm25qJ8VNB_Q9Wk-W-8Jej6bOmcS566wUir97DzFOwR8lxOpd6veqj4Fp2gM28BFCpGP9UzINMmTdmqWAYEUPnPOV8UjihJgQenTAQK1tU-FI7EBg568-1LUSsncJhALrNlJVS_B-8r_74_nT1iFXXcPuR8',
-            ],
-            [
-                'name' => 'Prof. Marcus Chen',
-                'role_title' => 'Chair of Cyber-Physical Systems',
-                'affiliation' => 'MIT Research Labs',
-                'bio' => 'Expert in autonomous robotics and AI-driven predictive maintenance for industrial infrastructures.',
-                'photo_url' => 'https://lh3.googleusercontent.com/aida-public/AB6AXuBREjwwflLFyY62vpQP4IUBWHpWMi51xkyRdGoLvdFSbgLZ5NQ2X3hOimTFZ5sA5iBXrQSNErxc3z7lMdkxIaDoEHTYWtVXPAW5CpZq_Cb4Dr_dSks6DJIMAaWGntLJ1j824_rnmTNyKTseKHJ_DwLdj4H65YogQv6s0aEK5XoWRwUxmJJ5y95Z-txeTp55a1yoQGCyUNnP4YLR_yDVRhVelEUubg1xsTwgG2D773xPN6_-T5Vbhh1-tuJWnPK_UmtcjfHNI4Yfh50',
-            ],
-            [
-                'name' => 'Dr. Sarah Al-Farsi',
-                'role_title' => 'Director of Health AI',
-                'affiliation' => 'Medical Research Council',
-                'bio' => 'Focuses on leveraging ML for disease outbreak prediction and personalized diagnostics in resource-limited settings.',
-                'photo_url' => 'https://lh3.googleusercontent.com/aida-public/AB6AXuB3Qid6ZuX_f7UUFgpPdmsnPLnwJAyudxZM_hmrDJ1GIJ9gdAq1A-odiz5XwFXy-AkU7yxwjre_CCt-u8qoa9jGA1gj4PEh9IJBJ1IAxvt6kH3lduRgeYQv-LV3EE-11YyFeWflUr3qtr1O_oT-2bxpkJVdBou_H_yfNjLrWPwncttZGIGntmjP6U18Gi327OiUlWnl1Ksfhl_2TwNV8xwxRIVSosi4R4UrAdsMgd-2Vr3hWiNOHk3m6d-ePtaJp_-FsbsnzllG4fg',
-            ],
-        ];
-        foreach ($speakers as $i => $row) {
-            Speaker::query()->updateOrCreate(
-                ['name' => $row['name']],
-                array_merge($row, ['sort_order' => $i, 'is_published' => true])
-            );
-        }
+       $speakers = [
+    [],
+    [],
+];
+
+foreach ($speakers as $i => $row) {
+
+    if(empty($row['name'])) {
+        continue;
+    }
+
+    Speaker::query()->updateOrCreate(
+        ['name' => $row['name']],
+        array_merge($row, [
+            'sort_order' => $i,
+            'is_published' => true
+        ])
+    );
+
+}
 
         $milestones = [
             [
                 'title' => 'Paper Submission',
-                'milestone_date' => '2026-06-15',
+                'milestone_date' => '2026-07-15',
                 'description' => 'Deadline for submitting full research papers for peer review.',
-                'accent' => 'primary',
+                'accent' => 'tertiary',
             ],
             [
                 'title' => 'Acceptance Notification',
-                'milestone_date' => '2026-08-20',
+                'milestone_date' => '2026-09-30',
                 'description' => 'Authors will receive decisions from the international program committee.',
                 'accent' => 'secondary',
             ],
             [
                 'title' => 'Camera-Ready Paper',
-                'milestone_date' => '2026-10-10',
+                'milestone_date' => '2026-10-15',
                 'description' => 'Final versions of accepted papers must be submitted by this date.',
                 'accent' => 'tertiary',
             ],
             [
                 'title' => 'Conference Main Dates',
-                'milestone_date' => '2026-12-23',
+                'milestone_date' => '2026-12-14',
                 'description' => 'Join us in Nouakchott for the flagship event and keynote sessions.',
                 'accent' => 'highlight',
             ],
@@ -117,23 +106,186 @@ class ConferenceContentSeeder extends Seeder
             );
         }
 
-        $topics = [
-            ['title' => 'Digital Economy-Oriented AI', 'description' => 'Models for financial prediction, market analysis, and digital trade in emerging markets.', 'icon_name' => 'account_balance', 'featured' => true, 'sort_order' => 0],
-            ['title' => 'AI for Biometrics', 'description' => 'Identity management and secure recognition systems.', 'icon_name' => 'face', 'featured' => false, 'sort_order' => 1],
-            ['title' => 'AI/ML in Healthcare', 'description' => 'Predictive diagnostics and personalized patient care.', 'icon_name' => 'medical_services', 'featured' => false, 'sort_order' => 2],
-            ['title' => 'AI in Education', 'description' => 'Adaptive learning platforms and classroom analytics.', 'icon_name' => 'school', 'featured' => false, 'sort_order' => 3],
-            ['title' => 'Autonomous Systems', 'description' => 'Robotics, UAVs, and self-driving technologies.', 'icon_name' => 'precision_manufacturing', 'featured' => false, 'sort_order' => 4],
-            ['title' => 'Oil & Gas / Mining', 'description' => 'Resource optimization and predictive maintenance in industrial sectors.', 'icon_name' => 'oil_barrel', 'featured' => false, 'sort_order' => 5],
-            ['title' => 'Agriculture', 'description' => 'Precision farming and crop yield prediction.', 'icon_name' => 'agriculture', 'featured' => false, 'sort_order' => 6],
-            ['title' => 'Disability Support', 'description' => 'Assistive AI for inclusivity and accessibility.', 'icon_name' => 'accessible', 'featured' => false, 'sort_order' => 7],
-            ['title' => 'Generative AI', 'description' => 'Creative models and content generation ethics.', 'icon_name' => 'model_training', 'featured' => false, 'sort_order' => 8],
-            ['title' => 'Cloud Computing', 'description' => 'Distributed AI architectures and network security.', 'icon_name' => 'cloud', 'featured' => false, 'sort_order' => 9],
-        ];
-        foreach ($topics as $row) {
-            ConferenceTopic::query()->updateOrCreate(
-                ['title' => $row['title']],
-                array_merge($row, ['is_published' => true])
-            );
-        }
+
+$topics = [
+
+    [
+        'title' => 'AI for Digital Economy and Finance:',
+        'description' => "• Algorithmic Trading\n• Financial Forecasting\n• Customer Behavior Analysis\n• Fraud Detection and Prevention\n• Personalized Marketing and Recommendation Systems",
+        'icon_name' => 'account_balance',
+        'featured' => true,
+        'sort_order' => 0,
+    ],
+
+    [
+        'title' => 'AI for Biometrics and Cybersecurity:',
+        'description' => "• Facial Recognition\n• Fingerprint and Iris Recognition\n• Voice Recognition\n• Biometric Security Systems",
+        'icon_name' => 'fingerprint',
+        'featured' => false,
+        'sort_order' => 1,
+    ],
+
+    [
+        'title' => 'AI for Healthcare and Well-being:',
+        'description' => "• Disease Diagnosis and Predictive Modeling\n• Remote Patient Monitoring\n• Telemedicine\n• Electronic Health Records Analysis\n• Drug Discovery and Development",
+        'icon_name' => 'medical_services',
+        'featured' => false,
+        'sort_order' => 2,
+    ],
+
+    [
+        'title' => 'AI for Education and Learning:',
+        'description' => "• Personalized Learning Paths\n• Online and Remote Learning Environments\n• Domain Modeling and Knowledge Extraction\n• Intelligent Tutoring Systems\n• Automated Grading and Assessment",
+        'icon_name' => 'school',
+        'featured' => false,
+        'sort_order' => 3,
+    ],
+
+    [
+        'title' => 'AI for Autonomous Systems and Robotics:',
+        'description' => "• Autonomous Vehicles\n• Robotics Applications\n• Drone Applications\n• Smart Cities and Infrastructure\n• Disaster Management\n• Industrial Automation and Manufacturing",
+        'icon_name' => 'precision_manufacturing',
+        'featured' => false,
+        'sort_order' => 4,
+    ],
+
+    [
+        'title' => 'AI for Energy and Resource Management:',
+        'description' => "• Predictive Maintenance for Equipment\n• Reservoir Modeling and Optimization\n• Environmental Monitoring and Compliance\n• Supply Chain Management",
+        'icon_name' => 'oil_barrel',
+        'featured' => false,
+        'sort_order' => 5,
+    ],
+
+    [
+        'title' => 'AI for Agriculture and Food Security:',
+        'description' => "• Precision Agriculture\n• Crop Disease Detection and Management\n• Agricultural Robotics and Automation\n• Soil Health Analysis",
+        'icon_name' => 'agriculture',
+        'featured' => false,
+        'sort_order' => 6,
+    ],
+
+    [
+        'title' => 'AI for Culture and Accessibility:',
+        'description' => "• Assistive Technologies for the Visually Impaired\n• Speech Recognition and Augmented Communication\n• Mobility Aids and Navigation Systems\n• Cognitive Support for Neurodiverse Individuals",
+        'icon_name' => 'accessible',
+        'featured' => false,
+        'sort_order' => 7,
+    ],
+
+    [
+        'title' => 'Generative AI and Creative Technologies:',
+        'description' => "• Image Generation and Style Transfer\n• Text Generation and Natural Language Generation\n• Poetry Generation\n• Video Synthesis",
+        'icon_name' => 'model_training',
+        'featured' => false,
+        'sort_order' => 8,
+    ],
+
+    [
+        'title' => 'AI for Networking, Cloud, and Emerging Tech:',
+        'description' => "• AI for 5G/6G\n• AI for Cloud/Edge/Fog Computing\n• AI and Networking",
+        'icon_name' => 'cloud',
+        'featured' => false,
+        'sort_order' => 9,
+    ],
+
+    [
+        'title' => 'Other Relevant Topics in AI:',
+        'description' => "",
+        'icon_name' => 'psychology',
+        'featured' => false,
+        'sort_order' => 10,
+    ],
+
+];
+
+$topics = [
+    [
+        'title' => 'AI for Digital Economy and Finance:',
+        'description' => "• Algorithmic Trading and Financial Forecasting\n• Customer Behavior Analysis\n• Fraud Detection and Prevention\n• Personalized Marketing and Recommendation Systems\n• Etc",
+        'icon_name' => 'account_balance',
+        'featured' => true,
+        'sort_order' => 0,
+    ],
+    [
+        'title' => 'AI for Biometrics and Cybersecurity:',
+        'description' => "• Facial Recognition\n• Fingerprint and Iris Recognition\n• Voice and Speech Recognition\n• Biometric Security Systems\n• Etc",
+        'icon_name' => 'fingerprint',
+        'featured' => false,
+        'sort_order' => 1,
+    ],
+    [
+        'title' => 'AI for Healthcare and Well-being:',
+        'description' => "• Disease Diagnosis and Predictive Modeling\n• Remote Patient Monitoring\n• Remote Diagnosis and Telemedicine\n• Electronic Health Records Analysis\n• Drug Discovery and Development\n• Etc",
+        'icon_name' => 'medical_services',
+        'featured' => false,
+        'sort_order' => 2,
+    ],
+    [
+        'title' => 'AI for Education and Learning:',
+        'description' => "• Personalized Learning Paths\n• Online and Remote Learningenvironments\n• Domain modeling and knowledge extraction\n• Intelligent Tutoring Systems\n• Automated Grading and Assessment\n• Etc",
+        'icon_name' => 'school',
+        'featured' => false,
+        'sort_order' => 3,
+    ],
+    [
+        'title' => 'AI for Autonomous Systems and Robotics:',
+        'description' => "• Autonomous Vehicles\n• Robotics and Drone Applications\n• Smart Cities and Infrastructure\n• Disaster Management\n• Industrial Automation and Manufacturing\n• Etc",
+        'icon_name' => 'precision_manufacturing',
+        'featured' => false,
+        'sort_order' => 4,
+    ],
+    [
+        'title' => 'AI for Energy and Resource Management:',
+        'description' => "• Predictive Maintenance for Equipment\n• Reservoir Modeling and Optimization\n• Environmental Monitoring and Compliance\n• Supply Chain Management\n• Etc",
+        'icon_name' => 'oil_barrel',
+        'featured' => false,
+        'sort_order' => 5,
+    ],
+    [
+        'title' => 'AI for Agriculture and Food Security:',
+        'description' => "• Precision Agriculture\n• Crop Disease Detection and Management\n• Agricultural Robotics and Automation\n• Soil Health Analysis\n• Etc",
+        'icon_name' => 'agriculture',
+        'featured' => false,
+        'sort_order' => 6,
+    ],
+    [
+        'title' => 'AI for Culture and Accessibility:',
+        'description' => "• Assistive Technologies for the Visually Impaired\n• Speech Recognition and Augmented Communication\n• Mobility Aids and Navigation Systems\n• Cognitive Support for Neurodiverse Individuals\n• Etc",
+        'icon_name' => 'accessible',
+        'featured' => false,
+        'sort_order' => 7,
+    ],
+    [
+        'title' => 'Generative AI and Creative Technologies:',
+        'description' => "• Image Generation and Style Transfer\n• Text Generation and Natural Language Generation\n• Poetry Generation\n• Video Synthesis\n• Etc",
+        'icon_name' => 'model_training',
+        'featured' => false,
+        'sort_order' => 8,
+    ],
+    [
+        'title' => 'AI for Networking, Cloud, and Emerging Tech:',
+        'description' => "• AI for 5G/6G\n• AI for Cloud/Edge/Fog computing\n• AI and Networking\n• Etc",
+        'icon_name' => 'cloud',
+        'featured' => false,
+        'sort_order' => 9,
+    ],
+    [
+        'title' => 'Other Relevant Topics in AI:',
+        'description' => '',
+        'icon_name' => 'psychology',
+        'featured' => false,
+        'sort_order' => 10,
+    ],
+];
+        foreach ($topics as $topic) {
+
+    \App\Models\ConferenceTopic::updateOrCreate(
+        ['title' => $topic['title']],
+        $topic
+    );
+
+}
+
     }
 }

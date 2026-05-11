@@ -5,6 +5,7 @@ namespace App\Filament\Resources\Committees;
 use App\Filament\Resources\Committees\Pages\CreateCommittee;
 use App\Filament\Resources\Committees\Pages\EditCommittee;
 use App\Filament\Resources\Committees\Pages\ListCommittees;
+use App\Filament\Resources\Committees\RelationManagers;
 use App\Filament\Resources\Committees\Schemas\CommitteeForm;
 use App\Filament\Resources\Committees\Tables\CommitteesTable;
 use App\Models\Committee;
@@ -35,7 +36,7 @@ class CommitteeResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+            RelationManagers\MembersRelationManager::class,
         ];
     }
 

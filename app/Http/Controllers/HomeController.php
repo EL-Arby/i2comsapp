@@ -15,7 +15,7 @@ class HomeController extends Controller
     public function index()
     {
         $settings = SiteSetting::query()->pluck('value', 'key')->all();
-        
+
         $collaborators = Sponsor::published()->where('level', 'collaborator')->ordered()->get();
         $platinumSponsors = Sponsor::published()->where('level', 'platinum')->ordered()->get();
         $goldSponsors = Sponsor::published()->where('level', 'gold')->ordered()->get();

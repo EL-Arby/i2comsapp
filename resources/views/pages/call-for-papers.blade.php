@@ -16,10 +16,10 @@
     <div class="max-w-5xl mx-auto">
         <!-- Header Section -->
         <div class="mb-16">
-            <h1 class="text-6xl font-black tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">{{ $settings['call_for_papers_heading'] ?? 'Call for Papers' }}</h1>
-            <p class="text-xl text-gray-600 font-medium max-w-3xl">
+            <h1 class="text-6xl font-black text-zinc-950 mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">{{ $settings['call_for_papers_heading'] ?? 'Call for Papers' }}</h1>
+            {{-- <p class="text-xl text-gray-600 font-medium max-w-3xl">
                 {{ $settings['call_for_papers_lead'] ?? 'Submit your abstracts and research papers related to AI, digital transformation, ethics, and practical applications in developing nations.' }}
-            </p>
+            </p> --}}
         </div>
 
         <!-- Important Dates -->
@@ -73,7 +73,7 @@
             <p>• Contributions will be rigorously peer reviewed and checked against any kind of plagiarism.</p>
         </div>
 <div class="mt-8">
-    <a href="{{ asset('storage/PaperTemplates/Microsoft_Word_Proceedings_Templates.zip') }}"
+    <a href="{{ asset('storage\Microsoft+Word+Proceedings+Templates.zip') }}"
        download
        class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-purple-700 transition-all shadow-md hover:shadow-lg">
         📥 Download Paper Template

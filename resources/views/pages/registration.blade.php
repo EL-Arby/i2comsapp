@@ -7,7 +7,7 @@
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="mb-16 text-center">
-            <h1 class="text-6xl font-black tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Join the Conference</h1>
+            <h1 class="text-6xl font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Join the Conference</h1>
             <p class="text-xl text-gray-600 font-medium max-w-3xl mx-auto">
                 Secure your spot at I2COMSAPP 2026 and be part of the AI revolution in Africa
             </p>
@@ -39,9 +39,9 @@
     </div>
 
     <div class="bg-red-100 border-l-4 border-red-500 p-4 rounded-lg">
-        <p class="text-red-900 font-bold mb-2">📅 Important Deadlines</p>
-        <p class="text-red-800">• Registration deadline: September 30, 2025</p>
-        <p class="text-red-800">• Authors’ registration deadline: September 15, 2025 (extended to September 20, 2025)</p>
+        {{-- <p class="text-red-900 font-bold mb-2">📅 Important Deadlines</p> --}}
+        {{-- <p class="text-red-800">• Registration deadline: September 30, 2025</p>
+        <p class="text-red-800">• Authors’ registration deadline: September 15, 2025 (extended to September 20, 2025)</p> --}}
     </div>
 
 </div>
@@ -165,7 +165,10 @@
             For I2COMSAPP registration fee payment, please make the relevant amount transfer to the following account:
         </p>
 
-        <div class="grid md:grid-cols-2 gap-6">
+<p class="text-blue-700 font-semibold mb-8">
+Will appear here
+        </p>
+        {{-- <div class="grid md:grid-cols-2 gap-6">
             <div class="bg-white p-6 rounded-xl border-2 border-blue-200">
                 <h4 class="text-xl font-bold text-blue-700 mb-4">From outside Mauritania</h4>
                 <p class="text-gray-700"><strong>Bank name:</strong> Banque Islamique de Mauritanie (BIM)</p>
@@ -183,11 +186,11 @@
                     <strong class="text-green-800 text-lg">44808416</strong>
                 </p>
             </div>
-        </div>
-        </div>
+        </div> --}}
+        {{-- </div> --}}
 
         <!-- Registration Form -->
-        <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-2xl border border-blue-200 mb-12">
+        {{-- <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-2xl border border-blue-200 mb-12">
             <h2 class="text-3xl font-bold text-blue-900 mb-8">Registration Form</h2>
             <form action="{{ route('registration.store') }}" method="POST" class="space-y-6">
                 @csrf
@@ -220,7 +223,7 @@
                     </a>
                 </div>
             </form>
-        </div>
+        </div> --}}
 
         <!-- FAQ -->
         <div class="bg-white">

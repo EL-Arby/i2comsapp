@@ -3,6 +3,148 @@
 
 @push('styles')
 <style>
+
+
+
+.home-hero-slide{
+    position:absolute;
+    inset:0;
+    opacity:0;
+    transition:opacity 1.2s ease-in-out;
+}
+
+.home-hero-slide-active{
+    opacity:1;
+}
+
+    /* ============================================
+   Supported By / Strategic Partners
+============================================ */
+
+.supported-by {
+    width: 100%;
+    background: #ffffff;
+    padding: 18px 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 28px;
+
+    overflow: hidden;
+
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+}
+
+.supported-label {
+    flex-shrink: 0;
+
+    font-size: 22px;
+    font-weight: 800;
+    color: #0f172a;
+
+    white-space: nowrap;
+}
+
+.partners-wrapper {
+    flex: 1;
+    overflow: hidden;
+}
+
+.partners-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(30px, 6vw, 110px);
+    flex-wrap: nowrap;
+}
+
+.partner {
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner img {
+    max-width: 150px;
+    height: 70px;
+
+    object-fit: contain;
+
+    filter: grayscale(0);
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.partner img:hover {
+    transform: scale(1.06);
+    opacity: 0.9;
+}
+
+/* Optional animation */
+.partners-list.is-animated {
+    width: max-content;
+    animation: partners-scroll 25s linear infinite;
+}
+
+@keyframes partners-scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* RTL */
+html[dir="rtl"] .supported-by {
+    direction: rtl;
+}
+
+html[dir="rtl"] .partners-list {
+    direction: ltr;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .supported-by {
+        flex-direction: column;
+        padding: 18px 16px;
+        gap: 18px;
+        text-align: center;
+    }
+
+    .supported-label {
+        font-size: 20px;
+        white-space: normal;
+    }
+
+    .partners-wrapper {
+        width: 100%;
+    }
+
+    .partners-list {
+        flex-wrap: wrap;
+        gap: 22px;
+    }
+
+    .partner {
+        width: calc(50% - 14px);
+    }
+
+    .partner img {
+        max-width: 120px;
+        height: 54px;
+    }
+
+    .partners-list.is-animated {
+        animation: none;
+        width: 100%;
+    }
+}
     .asymmetric-grid {
         display: grid;
         grid-template-columns: 1fr 1.5fr;
@@ -20,113 +162,309 @@
     .home-hero-slide-active {
         opacity: 1;
     }
+
+
+
+
+.sponsors-section{
+    background:#ffffff;
+    padding:60px 20px;
+    overflow:hidden;
+}
+
+.sponsors-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.sponsors-title h2{
+    margin:0;
+
+    color:#111827;
+
+    font-family:Arial, sans-serif;
+    font-size:32px;
+    font-weight:900;
+
+    letter-spacing:5px;
+    text-transform:uppercase;
+}
+
+.sponsors-slider{
+    width:100%;
+    overflow:hidden;
+}
+
+.sponsors-track{
+    display:flex;
+    align-items:center;
+
+    gap:50px;
+
+    width:max-content;
+
+    animation:sponsorScroll 24s linear infinite;
+}
+
+.sponsor-item{
+    width:220px;
+    height:140px;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.sponsor-item img{
+    max-width:100%;
+    max-height:100%;
+
+    object-fit:contain;
+}
+
+@keyframes sponsorScroll{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(-50%);
+    }
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .sponsors-title h2{
+        font-size:24px;
+        letter-spacing:3px;
+    }
+
+    .sponsors-track{
+        gap:25px;
+    }
+
+    .sponsor-item{
+        width:150px;
+        height:100px;
+        padding:15px;
+    }
+}
+
 </style>
 @endpush
 
 @section('content')
+
+
+
+
 @php
     $s = $settings ?? [];
+
     $hero = $heroBackground ?? [
         'heroMode' => 'single',
-        'heroSingleUrl' => asset('images/Maurit AI2024 Header.jpg'),
+        'heroSingleUrl' => asset('images/heroimg.png'),
         'heroCarouselUrls' => [],
     ];
 @endphp
-<main class="pt-24">
-    <section class="relative min-h-[88vh] flex items-center px-8 md:px-16 overflow-hidden">
-        <div class="absolute inset-0 z-0">
-            @if(($hero['heroMode'] ?? 'single') === 'carousel' && count($hero['heroCarouselUrls'] ?? []) > 0)
-                <div class="home-hero-carousel absolute inset-0" id="home-hero-carousel" data-interval="5500" aria-label="{{ __('Hero images') }}">
-                    @foreach($hero['heroCarouselUrls'] as $i => $heroUrl)
-                        <img src="{{ $heroUrl }}" alt=""
-                             class="home-hero-slide absolute inset-0 w-full h-full object-cover brightness-50 {{ $i === 0 ? 'home-hero-slide-active' : '' }}"
-                             data-slide-index="{{ $i }}">
-                    @endforeach
-                </div>
-            /* @else
-                <img src="{{ $hero['heroSingleUrl'] ?? asset('images/Maurit AI2024 Header.jpg') }}" alt="Conference Hero"
-                     class="w-full h-full object-cover brightness-50">   */
-            @endif
-            <div class="absolute inset-0 bg-gradient-to-br from-primary/50 to-black/30"></div>
-        </div>
-        <div class="absolute right-0 bottom-0 w-1/3 h-2/3 bg-primary/5 rounded-tl-[200px] -z-10 blur-3xl pointer-events-none" aria-hidden="true"></div>
 
-        <div class="relative z-10 max-w-6xl mx-auto w-full">
-            <div class="max-w-4xl">
-                <span class="inline-block bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full text-xs font-bold tracking-[0.2em] uppercase mb-6">
-                    {{ $s['hero_badge'] ?? '23–25 December 2026 • Nouakchott' }}
-                </span>
+<main>
 
-                <h1 class="text-4xl md:text-7xl font-black text-white leading-tight tracking-tighter mb-6">
-                   3nd International Conference on
-                    <span style="color: #FFD700;">Artificial Intelligence</span>
-                    and its
-                    <span style="color: #FFD700;">Practical Applications</span>
-                    <br>
-                    <span style="color: #EE82EE;">in the Age of Digital Transformation</span>
-                </h1>
+@php
+    $s = $settings ?? [];
 
-                {{-- <p class="text-white/85 text-lg md:text-xl max-w-3xl leading-relaxed mb-10">
-                    {{ $s['hero_lead'] ?? 'A premier platform for researchers, academics and professionals to discuss advances in AI, digital transformation, ethics, and real-world applications in developing countries.' }}
-                </p> --}}
+    $hero = $heroBackground ?? [
+        'heroMode' => 'single',
+        'heroSingleUrl' => asset('images/heroimg.png'),
+        'heroCarouselUrls' => [],
+    ];
+@endphp
 
-                {{-- <div class="flex flex-wrap gap-4">
-                    <a href="{{ route('call_for_papers') }}" class="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-widest">
-                        Submit Paper
-                    </a>
-                    <a href="{{ route('registration') }}" class="bg-white/10 border border-white/20 text-white px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-widest backdrop-blur-md">
-                        Register Now
-                    </a> --}}
-                    {{-- <a href="#sponsors-section" class="bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-widest hover:shadow-lg transition">
-                        View Sponsors
-                    </a> --}}
-                {{-- </div> --}}
+<main>
+@php
+    $s = $settings ?? [];
 
+    $hero = $heroBackground ?? [
+        'heroMode' => 'single',
+        'heroSingleUrl' => asset('images/heroimg.png'),
+        'heroCarouselUrls' => [],
+    ];
+@endphp
 
-<div class="info-container">
+<main>
 
-  <!-- Dates -->
-  <div class="info-item">
-    <div class="icon-circle">
-      <span class="material-symbols-outlined">calendar_today</span>
-    </div>
-    <div>
-      <p class="label">Dates</p>
-      <p class="value">{{ $s['info_dates'] ?? '23–25 Dec 2026' }}</p>
-    </div>
-  </div>
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
 
-  <!-- Location -->
-  <div class="info-item">
-    <div class="icon-circle">
-      <span class="material-symbols-outlined">location_on</span>
-    </div>
-    <div>
-      <p class="label">Location</p>
-      <p class="value">{{ $s['info_location'] ?? 'Nouakchott University Campus, Nouakchott' }}</p>
-    </div>
-  </div>
+    {{-- HERO BACKGROUND --}}
+    <div class="absolute inset-0 z-0 overflow-hidden bg-black">
 
-</div>
+        @if(($hero['heroMode'] ?? 'single') === 'carousel' && count($hero['heroCarouselUrls'] ?? []) > 0)
 
-<!-- Organizer Card with Large University Logos -->
-<div class="organizer-card flex flex-col items-center gap-8 bg-white/10 p-8 rounded-xl backdrop-blur-sm">
-  <div class="flex gap-8 items-center justify-center">
-   <img src="{{ asset('images/UNFST.png') }}" alt="Logo FST-UNA" class="h-32 w-auto drop-shadow-lg hover:scale-110 transition-transform">
+            <div class="home-hero-carousel absolute inset-0"
+                 id="home-hero-carousel"
+                 data-interval="5500">
 
-  <p class="text-center text-lg font-semibold text-white max-w-2xl">
-    Organized by </br> the
-    <strong> Faculty of Sciences and Techniques </strong>,</br>
-    <b>Nouakchott University, Nouakchott, Mauritania </b>
+                @foreach($hero['heroCarouselUrls'] as $i => $heroUrl)
 
-  </p> </div>
+                    <div class="home-hero-slide {{ $i === 0 ? 'home-hero-slide-active' : '' }}"
+                         data-slide-index="{{ $i }}"
+                         style="
+                            background-image:url('{{ $heroUrl }}');
+                            background-size:cover;
+                            background-position:5% center;
+                            background-repeat:no-repeat;
+                         ">
+                    </div>
 
-</div>
+                @endforeach
 
             </div>
+
+        @else
+
+            <div class="absolute inset-0"
+                 style="
+                    background-image:url('{{ $hero['heroSingleUrl'] ?? asset('images/heroimg.png') }}');
+                    background-size:cover;
+                    background-position:5% center;
+                    background-repeat:no-repeat;
+                 ">
+            </div>
+
+        @endif
+
+        {{-- DARK OVERLAY --}}
+        <div class="absolute inset-0 bg-black/45"></div>
+
+    </div>
+
+    {{-- HERO CONTENT --}}
+    <div class="relative z-10 w-full max-w-6xl mx-auto px-6 text-center">
+
+        {{-- CONFERENCE TITLE --}}
+        <h1 class="font-black leading-tight tracking-tight mb-8">
+
+            <span class="block text-cyan-400 text-3xl md:text-5xl lg:text-6xl mb-2">
+                I2COMSAPP
+            </span>
+
+            <span class="block text-white text-lg md:text-3xl lg:text-4xl mb-2">
+                International Conference on
+            </span>
+
+            <span class="block text-yellow-400 text-3xl md:text-5xl lg:text-6xl mb-2">
+                Artificial Intelligence
+            </span>
+
+            <span class="block text-white text-lg md:text-3xl lg:text-4xl mb-2">
+                and its Practical Applications
+            </span>
+
+            <span class="block text-fuchsia-300 text-lg md:text-2xl lg:text-3xl mb-3">
+                in the Age of Digital Transformation
+            </span>
+
+            <span class="block text-green-400 text-xl md:text-2xl lg:text-3xl">
+                3rd Edition
+            </span>
+
+        </h1>
+
+        {{-- INFO BOXES --}}
+        <div class="flex flex-wrap justify-center gap-5 mb-10">
+
+            {{-- DATE --}}
+            <div class="flex items-center gap-4 bg-white/10 border border-white/10 backdrop-blur-md px-6 py-4 rounded-2xl">
+
+                <span class="material-symbols-outlined text-white text-3xl">
+                    calendar_today
+                </span>
+
+                <div class="text-left">
+
+                    <p class="text-xs uppercase tracking-[0.25em] text-white/60">
+                        Dates
+                    </p>
+
+                    <p class="text-lg font-bold text-white">
+                        {{ $s['info_dates'] ?? '23–25 Dec 2026' }}
+                    </p>
+
+                </div>
+
+            </div>
+
+            {{-- LOCATION --}}
+            <div class="flex items-center gap-4 bg-white/10 border border-white/10 backdrop-blur-md px-6 py-4 rounded-2xl">
+
+                <span class="material-symbols-outlined text-white text-3xl">
+                    location_on
+                </span>
+
+                <div class="text-left">
+
+                    <p class="text-xs uppercase tracking-[0.25em] text-white/60">
+                        Location
+                    </p>
+
+                    <p class="text-lg font-bold text-white">
+                        {{ $s['info_location'] ?? 'Nouakchott University Campus, Nouakchott' }}
+                    </p>
+
+                </div>
+
+            </div>
+
         </div>
-    </section>
-    <!-- Vertical News Ticker Section -->
+
+        {{-- ORGANIZER --}}
+        <div class="bg-white/10 border border-white/10 backdrop-blur-xl rounded-3xl p-6 md:p-8 max-w-4xl mx-auto">
+
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+
+                {{-- LOGO --}}
+               <img src="{{ asset('images/UNFST.png') }}"
+                    alt="Logo FST-UNA"
+                    class="h-16 md:h-16 object-contain drop-shadow-xl rounded-[20px]">
+                                {{-- TEXT --}}
+                <div class="text-center md:text-left">
+
+                    <p class="text-white/70 uppercase tracking-[0.25em] text-sm mb-2">
+                        Organized by
+                    </p>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-2">
+                        Faculty of Sciences and Techniques
+                    </h3>
+
+                    <p class="text-base md:text-lg text-white/90">
+                        Nouakchott University, Nouakchott, Mauritania
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Vertical News Ticker Section -->
 <section class="sticky top-16 z-30 bg-surface-container-low border-b border-outline-variant/10 py-4 overflow-hidden">
 <div class="max-w-7xl mx-auto px-8 flex items-center gap-8">
 <div class="flex-shrink-0 flex items-center gap-3">
@@ -153,6 +491,39 @@
 </div>
 </div>
 </div>
+</section>
+
+<!-- Supported By -->
+<section class="supported-by">
+    <div class="supported-label">
+        <strong>Strategic partners:</strong>
+    </div>
+
+    <div class="partners-wrapper">
+        <div class="partners-list">
+
+            <div class="partner">
+                <img src="{{ asset('images/comstech-logo.png') }}" alt="COMSTECH">
+            </div>
+
+            <div class="partner">
+                <img src="{{ asset('images/ALECSO.png') }}" alt="ALECSO">
+            </div>
+
+            <div class="partner">
+                <img src="{{ asset('images/FASRC.jpg') }}" alt="FASRC">
+            </div>
+
+            <div class="partner">
+                <img src="{{ asset('images/giz_logo.jpg') }}" alt="GIZ">
+            </div>
+
+            <div class="partner">
+                <img src="{{ asset('images/srping_LOGO.jpeg') }}" alt="Springer">
+            </div>
+
+        </div>
+    </div>
 </section>
 <!-- Organizer Section -->
 {{-- <section class="py-24 bg-surface-container-low">
@@ -202,48 +573,31 @@
 </div>
 </div>
 </section>
-<!-- About/Scope Section -->
+<!-- About / Scope Section -->
 <section class="py-24 bg-white">
-<div class="max-w-screen-2xl mx-auto px-8">
-<div class="asymmetric-grid gap-20 items-start">
-<div class="space-y-8 sticky top-32">
-<h2 class="text-5xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">{{ $s['about_title'] ?? 'Bridging the AI Divide' }}</h2>
-<div class="h-1 w-24 bg-gradient-to-r from-blue-600 to-purple-600"></div>
-<p class="text-xl leading-relaxed text-gray-600 font-medium">
-                            {{ $s['about_lead'] ?? 'I2COMSAPP 2026 addresses the transformative power of Artificial Intelligence specifically through the lens of developing nations.' }}
-                        </p>
-</div>
-<div class="space-y-12">
-<div class="bg-white p-10 rounded-xl relative overflow-hidden group border border-blue-100">
-<div class="absolute top-0 right-0 p-8 text-blue-600/10">
-<span class="material-symbols-outlined text-8xl" data-icon="diversity_3">diversity_3</span>
-</div>
-<h3 class="text-2xl font-bold mb-4 text-blue-900">Our Vision</h3>
-<p class="text-lg leading-relaxed text-gray-600 mb-6">
-                                {{ $s['vision_body'] ?? 'The conference provides a premier interdisciplinary platform for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of AI.' }}
-                            </p>
-<div class="grid grid-cols-2 gap-8 pt-6">
-<div class="space-y-2">
-<h4 class="font-bold text-blue-600">Knowledge Hub</h4>
-<p class="text-sm">Fostering intensive networking and scientific knowledge sharing across borders.</p>
-</div>
-<div class="space-y-2">
-<h4 class="font-bold text-purple-600">Ethical AI</h4>
-<p class="text-sm">Exploring deep ethical considerations unique to regional digital transformation.</p>
-</div>
-</div>
-</div>
-<div class="flex gap-8 items-center bg-gradient-to-r from-purple-100 to-blue-100 p-1 rounded-xl overflow-hidden shadow-xl border border-purple-200">
-<div class="bg-gradient-to-br from-blue-600 to-purple-600 p-8">
-<span class="text-white text-5xl material-symbols-outlined" data-icon="auto_graph">auto_graph</span>
-</div>
-<div class="pr-8 py-6">
-<p class="text-xl font-bold italic text-blue-900">"{{ $s['vision_quote'] ?? 'Empowering the next generation of researchers to solve local problems with global technologies.' }}"</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+    <div class="w-full max-w-screen-2xl mx-auto px-8">
+
+        <div class="w-full">
+
+            <div class="space-y-8">
+
+                <h2 class="text-5xl font-headline font-black text-zinc-950 mb-4">
+                    {{ $s['about_title'] ?? 'Scope' }}
+                </h2>
+
+                <div class="h-1 w-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"></div>
+
+                <p class="text-xl leading-relaxed text-gray-600 font-medium max-w-none">
+                    {{ $s['about_lead'] ?? 'I2COMSAPP 2026 addresses the transformative power of Artificial Intelligence specifically through the lens of developing nations.' }}
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 <!-- Topics Section - Bento Grid Layout -->
 <section class="py-16 bg-transparent">
@@ -251,7 +605,7 @@
 <div class="flex justify-between items-end mb-10">
 <div class="max-w-2xl">
 <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Research Domains</p>
-<h2 class="text-4xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Conference Topics</h2>
+<h2 class="text-4xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">Conference Topics</h2>
 </div>
 
 </div>
@@ -266,7 +620,7 @@
         <span class="material-symbols-outlined text-4xl text-blue-600">{{ $topic->icon_name ?? 'circle' }}</span>
         <div class="flex-1 space-y-2">
             <h3 class="text-xl font-bold leading-tight">{{ $topic->title }}</h3>
-            <p class="text-xs text-on-surface-variant leading-relaxed">{{ $topic->description }}</p>
+            <p class="text-xs text-on-surface-variant leading-relaxed">{!! nl2br(e($topic->description)) !!}</p>
         </div>
     </div>
 @endforeach
@@ -278,7 +632,7 @@
 <div class="max-w-screen-2xl mx-auto px-8">
 <div class="mb-16">
 <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Eminent Minds</p>
-<h2 class="text-5xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Keynote Speakers</h2>
+<h2 class="text-5xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">Keynote Speakers</h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 @forelse($speakers as $speaker)
@@ -354,7 +708,7 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 <section class="py-24 bg-gray-50">
 <div class="max-w-screen-2xl mx-auto px-8">
 <div class="mb-16 text-center max-w-2xl mx-auto">
-<h2 class="text-5xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">{{ $s['timeline_title'] ?? 'Submission Timeline' }}</h2>
+<h2 class="text-5xl font-headline font-black text-zinc-950 mb-6 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">{{ $s['timeline_title'] ?? 'Submission Timeline' }}</h2>
 <p class="text-gray-600 font-medium">{{ $s['timeline_subtitle'] ?? 'Keep track of these critical milestones to ensure your research is part of I2COMSAPP 2026.' }}</p>
 </div>
 <div class="relative pt-12">
@@ -376,7 +730,7 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         default => 'bg-blue-600',
     };
     $dateLabel = $milestone->accent === 'highlight'
-        ? 'Dec 23-25, 2026'
+        ? 'Dec 14-16, 2026'
         : $milestone->milestone_date->format('M j, Y');
     $dateTextClass = match ($milestone->accent) {
         'secondary' => 'text-purple-400',
@@ -423,16 +777,77 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 </p>-->
 </div>
 
+
+
+<section class="py-24 bg-white">
+
+    <div class="max-w-screen-2xl mx-auto px-8">
+
+        <!-- SECTION TITLE -->
+        <div class="mb-16">
+            <h2 class="text-5xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">
+                Discussion Panels
+            </h2>
+
+        </div>
+
+        <!-- PANELS -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- PANEL 1 -->
+            <div class="group relative bg-white rounded-xl overflow-hidden border border-gray-200 transition-all hover:shadow-xl">
+
+                <div class="overflow-hidden">
+                    <img src="{{ asset('images/AI-Future.jpg') }}"
+                         alt="Future of AI"
+                         class="w-full h-[340px] object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-blue-900 leading-snug">
+                        Future of AI : Predictions from Industry Leaders
+                    </h3>
+                </div>
+
+            </div>
+
+            <!-- PANEL 2 -->
+            <div class="group relative bg-white rounded-xl overflow-hidden border border-gray-200 transition-all hover:shadow-xl">
+
+                <div class="overflow-hidden">
+
+                    <img src="{{ asset('images/AI-Ethics.jpg') }}"
+                         alt="Ethics in AI"
+                         class="w-full h-[340px] object-cover transition-transform duration-500 group-hover:scale-105">
+
+                </div>
+
+                <div class="p-6">
+
+                    <h3 class="text-2xl font-bold text-blue-900 leading-snug">
+                        Ethics in AI : An Open Dialogue with Experts
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 <!-- Sponsors Section -->
 <section class="py-24 bg-white" id="sponsors-section">
     <div class="max-w-screen-2xl mx-auto px-8">
         <!-- Header -->
-        <div class="mb-16 text-center">
-            <h2 class="text-5xl font-headline font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-4">Our Sponsors & Partners</h2>
+        {{-- <div class="mb-16 text-center">
+            <h2 class="text-5xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-4">Our Sponsors & Partners</h2>
             <p class="text-xl text-gray-600 font-medium max-w-3xl mx-auto">
                 Thank you to our valued sponsors who make I2COMSAPP 2026 possible
             </p>
-        </div>
+        </div> --}}
 
         @if ($platinumSponsors->count() > 0)
         <!-- Platinum Sponsors -->
@@ -490,7 +905,7 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         <!-- Collaborators -->
         <div class="mb-16">
             <div class="mb-8">
-                <h3 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600">🌐 Collaborators</h3>
+                <h3 class="text-5xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600">Collaborators</h3>
                 <p class="text-gray-600 mt-2">Academic and research partners</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gradient-to-b from-indigo-50 to-white p-8 rounded-2xl border border-indigo-200">
@@ -498,6 +913,80 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
             </div>
         </div>
         @endif
+
+        <!-- Sponsors Section -->
+<section class="sponsors-section">
+
+    <div class="sponsors-title">
+        <h2>Sponsors</h2>
+    </div>
+
+   <div class="sponsors-slider">
+
+    <div class="sponsors-track">
+
+        <!-- University of Nouadhibou -->
+        <div class="sponsor-item">
+            <img src="images/UNDB.jpg"
+                 alt="University of Nouadhibou">
+        </div>
+
+        <!-- ISCAE -->
+        <div class="sponsor-item">
+            <img src="images/iscae.png"
+                 alt="ISCAE">
+        </div>
+
+        <!-- ESP -->
+        <div class="sponsor-item">
+            <img src="images/esp.jpg"
+                 alt="ESP">
+        </div>
+
+        <!-- ISGI -->
+        <div class="sponsor-item">
+            <img src="images/ISGI.jpg"
+                 alt="ISGI">
+        </div>
+
+        <!-- SUPNUM -->
+        <div class="sponsor-item">
+            <img src="images/LOGO-SUPNUM.png"
+                 alt="SUPNUM">
+        </div>
+
+        <!-- duplicate for infinite scroll -->
+
+        <div class="sponsor-item">
+            <img src="images/Moov_Mauritel_logo.png"
+                 alt="Moov Mauritel">
+        </div>
+
+        <div class="sponsor-item">
+            <img src="images/logo-Next-Tech.jpg"
+                 alt="Nex">
+        </div>
+
+        <div class="sponsor-item">
+            <img src="images/giz_logo.jpg"
+                 alt="GIZ">
+        </div>
+
+        <div class="sponsor-item">
+            <img src="images/logo-arsco.jpg"
+                 alt="ARSCO">
+        </div>
+
+        <div class="sponsor-item">
+            <img src="images/Maurit-MESRS.png"
+                 alt="MESRS">
+        </div>
+
+    </div>
+
+</div>
+
+</section>
 
         <!-- Sponsorship Opportunities -->
         <div class="mt-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-2xl text-center">
@@ -512,11 +1001,11 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
     </div>
 </section>
 
-<!-- Final CTA Section -->
+{{-- <!-- Final CTA Section -->
 <section class="py-20 bg-gradient-to-r from-blue-900 via-blue-800 to-purple-900 text-white overflow-hidden relative">
 <div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
-<span class="material-symbols-outlined text-[400px]" data-icon="hub">hub</span>
-</div>
+<span class="material-symbols-outlined text-[400px]" data-icon="hub">hub</span> --}}
+{{-- </div>
 <div class="max-w-screen-2xl mx-auto px-8 relative z-10">
 <div class="flex flex-col md:flex-row items-center justify-between gap-12">
 <div class="max-w-2xl">
@@ -533,7 +1022,7 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 </div>
 </div>
 </div>
-</div>
+</div> --}}
 </section>
 
 
