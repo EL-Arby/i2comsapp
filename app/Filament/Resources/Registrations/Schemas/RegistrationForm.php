@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Registrations\Schemas;
 
+use App\Models\Workshop;
 use Filament\Forms\Components\Checkbox;
 use Filament\Forms\Components\DateTimeInput;
 use Filament\Forms\Components\Select;
@@ -45,6 +46,17 @@ class RegistrationForm
 
                 TextInput::make('job_title')
                     ->maxLength(255),
+
+                Select::make('workshop_id')
+                    ->label('Workshop')
+                    ->options(fn () => Workshop::query()
+                        ->published()
+                        ->ordered()
+                        ->pluck('title', 'id'))
+                    ->searchable()
+                    ->preload()
+                    ->requiredIf('registration_type', 'workshop')
+                    ->nullable(),
 
                 Select::make('registration_type')
                     ->options([

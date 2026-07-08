@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PaperController;
@@ -21,3 +22,22 @@ Route::get('/previous-editions', [PageController::class, 'previousEditions'])->n
 
 Route::post('/registration', [RegistrationController::class, 'store'])->name('registration.store');
 Route::post('/paper-submit', [PaperController::class, 'store'])->name('paper.submit');
+
+// Route::middleware('guest')->group(function () {
+//     Route::get('/user/login', [AuthController::class, 'showLoginForm'])->name('user.login');
+//     Route::get('/user/login', [AuthController::class, 'showLoginForm'])->name('login');
+//     Route::post('/user/login', [AuthController::class, 'login'])->name('user.login.submit');
+// });
+
+Route::middleware('guest')->group(function () {
+    Route::get('/user/login', [AuthController::class, 'showLoginForm'])
+        ->name('user.login');
+
+    Route::post('/user/login', [AuthController::class, 'login'])
+        ->name('user.login.submit');
+});
+Route::get('/login', [AuthController::class, 'showLoginForm'])
+    ->name('login');
+Route::post('/user/logout', [AuthController::class, 'logout'])->name('user.logout');
+Route::middleware('auth')->get('/user/dashboard', [AuthController::class, 'dashboard'])->name('user.dashboard');
+Route::middleware('auth')->get('/user/payment', [AuthController::class, 'paymentPage'])->name('user.payment');
