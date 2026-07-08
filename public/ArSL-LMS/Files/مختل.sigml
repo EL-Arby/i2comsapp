@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="crazy">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BBLLL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"   thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="cheek" contact="close" side="right_beside" />
+     
+      <tgt_motion>
+         <directedmotion direction="r" size="small"/>
+               <handconfig handshape="flat"   thumbpos="opposed"/>
+      </tgt_motion>
+<wristmotion motion="twisting"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>
+

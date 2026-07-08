@@ -1,0 +1,57 @@
+<sigml>
+
+<hamgestural_sign gloss="S_A_A_S">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OSLAB"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X66"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+
+        				  <split_handconfig>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ul"/>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ru"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="pinkyside"  />
+      <location_hand location="pinkyside" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+	
+<tgt_motion>
+<split_motion>
+        <directedmotion direction="u" size="big" />
+  <directedmotion direction="u" size="big" />
+</split_motion>
+		  <split_handconfig>
+      <handconfig handshape="flat"   extfidir="u" palmor="ul"/>
+      <handconfig handshape="flat"   extfidir="u" palmor="ru"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>
+<split_motion>
+        <directedmotion direction="dr" curve="u" size="big" />
+  <directedmotion direction="dr" curve="u"  size="big" />
+</split_motion>
+		  <split_handconfig>
+      <handconfig handshape="fist"   extfidir="ro" palmor="l"/>
+      <handconfig handshape="fist"   extfidir="ro" palmor="r" />
+    </split_handconfig>
+
+    <handconstellation  >
+      <location_hand location="pinkyside"  />
+      <location_hand location="pinkyside" />
+      <location_bodyarm location="chest" side="right_at"  contact="close"/>
+    </handconstellation>
+</tgt_motion>
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

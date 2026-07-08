@@ -1,0 +1,53 @@
+<sigml>
+
+<hamgestural_sign gloss="Qurba">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="QORBA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+ 
+        <split_handconfig>
+<handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="l"/>
+     <handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="r"/>
+    
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop"   contact="close" side="right_at"/>
+	<location_bodyarm location="shoulders"  side="left_at" contact="armextended" />
+    </split_location>
+
+<tgt_motion>
+<split_motion>
+<directedmotion  direction="ol" size="big" manner="slow" />
+           <directedmotion />
+      </split_motion>
+    <split_handconfig>
+<handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="l"/>
+     <handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="r"/>
+    </split_handconfig>
+
+  <handconstellation contact="touch">
+      <location_hand location="palm"   />
+      <location_hand location="tip" digits="2"  />	 
+    </handconstellation>
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

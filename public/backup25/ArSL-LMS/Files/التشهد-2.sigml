@@ -1,0 +1,47 @@
+<sigml>
+
+<hamgestural_sign gloss="tashahod">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2"  bend2="222"  extfidir="ou" palmor="d" thumbpos="across"/>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="or" palmor="d"/>
+    </split_handconfig>
+    <handconstellation contact="touch" >
+      <location_hand location="handback" side="ulnar"  />
+      <location_hand location="thumbball" digits="1" />
+      <location_bodyarm location="chest"  side="right_at" />
+    </handconstellation>
+    
+<tgt_motion>
+      <split_handconfig>
+      <handconfig handshape="finger2"   extfidir="ou" palmor="d" thumbpos="across"/>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="or" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>
+      <split_handconfig>
+      <handconfig handshape="finger2"  bend2="222"  extfidir="ou" palmor="d" thumbpos="across"/>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="or" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+
+    
+<tgt_motion>
+      <split_handconfig>
+      <handconfig handshape="finger2"   extfidir="ou" palmor="d" thumbpos="across"/>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="or" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>
+      <split_handconfig>
+      <handconfig handshape="finger2"  bend2="222"  extfidir="ou" palmor="d" thumbpos="across"/>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="or" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+    </sign_manual>
+</hamgestural_sign>
+
+</sigml>
+

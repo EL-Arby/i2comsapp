@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="Janaba">
+  <sign_manual>
+    <handconfig handshape="pinch12"  extfidir="u"  palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close" />
+      <tgt_motion>
+            <handconfig handshape="finger2"  mainbend="300"  thumbpos="opposed"  extfidir="uo"  palmor="d"/>
+      </tgt_motion>
+
+ <tgt_motion>
+   <handconfig handshape="pinch12"  extfidir="u"  palmor="d"/>
+  </tgt_motion>
+ <tgt_motion>
+            <handconfig handshape="finger2"  mainbend="300"  thumbpos="opposed"  extfidir="uo"  palmor="d"/>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

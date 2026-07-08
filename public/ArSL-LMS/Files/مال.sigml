@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="mal">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L14"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12" mainbend="bent"  extfidir="uo" palmor="ul"/>
+    <location_bodyarm contact="close" location="shoulders" side="right_at"/>
+ 
+    <tgt_motion>
+      <handconfig handshape="fist" />
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

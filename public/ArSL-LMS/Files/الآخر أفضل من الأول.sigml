@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="The-other-is-better-than-the-First">
+
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AAKR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist"   thumbpos="out"      extfidir="o" palmor="l"/>
+      <handconfig handshape="finger2" thumbpos="across" mainbend="021" extfidir="lu" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="shouldertop"   side="left_at" contact="close" />
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion  />
+           <directedmotion  direction="r"  curve="u" />
+      </split_motion>
+    
+ <split_handconfig>
+      <handconfig handshape="fist"   thumbpos="out"      extfidir="o" palmor="l"/>
+      <handconfig handshape="finger2" thumbpos="across" mainbend="021" extfidir="ru" palmor="d"/>
+    </split_handconfig>
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

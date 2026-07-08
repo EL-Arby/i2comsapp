@@ -1,0 +1,46 @@
+<sigml>
+
+<hamgestural_sign gloss="Nearest">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AQRB"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+ 
+        <split_handconfig>
+<handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="l"/>
+     <handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="r"/>
+    
+    </split_handconfig>
+ 
+<handconstellation contact="close">
+      		<location_hand location="tip" digits="4"  side="right_at"    />
+      		<location_hand location="back" digits="4"    />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+<tgt_motion>
+<split_motion>
+<directedmotion  direction="o"  size="small" />
+           <directedmotion />
+      </split_motion>
+    <split_handconfig>
+<handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="l"/>
+     <handconfig handshape="flat" mainbend="311"  extfidir="o" palmor="r"/>
+    </split_handconfig>
+ 
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

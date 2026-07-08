@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="Read">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12open" mainbend="round" extfidir="l" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chin"    contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+   <rpt_motion repetition="fromstart">
+      <seq_motion>
+       <split_motion>
+ <circularmotion axis="l"  />
+           <directedmotion />
+      </split_motion>
+      </seq_motion>
+    </rpt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

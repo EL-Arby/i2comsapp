@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="judjment">
+  <sign_nonmanual>
+   <mouthing_tier>
+      <mouth_picture picture="OOCCKB"/>
+    </mouthing_tier>
+ <extra_tier>
+      <extra_par>
+        <extra_movement movement="X65"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger23"  mainbend="100"  thumbpos="across"/>
+    <handconfig extfidir="ou" palmor="l"/>
+    <location_bodyarm location="shouldertop"/>
+    <par_motion>
+      <directedmotion direction="d"  curve="u" size="big"/>
+      <tgt_motion>
+    <handconfig extfidir="d" palmor="dl"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

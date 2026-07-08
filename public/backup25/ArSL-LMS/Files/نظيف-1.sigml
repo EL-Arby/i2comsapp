@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="Clean">
+    <sign_nonmanual>
+    <extra_tier>
+      <extra_movement movement="X54"/>
+ <extra_movement movement="X54"/>
+    </extra_tier>
+  </sign_nonmanual>
+  		<sign_manual >
+    			<handconfig handshape="finger23" thumbpos="across"  extfidir="u" />
+    			<handconfig palmor="u"/>
+    			<location_bodyarm location="nostrils" contact="touch"/>
+	   <directedmotion direction="d" size="small" />
+		</sign_manual>
+	</hamgestural_sign>
+
+		</sigml>

@@ -1,0 +1,66 @@
+<sigml>
+
+<hamgestural_sign gloss="After-Bowing">
+ <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig  handshape="finger2"  thumbpos="across"  extfidir="u" palmor="d" />
+      <handconfig handshape="finger2345"  mainbend="022" thumbpos="out"  extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at" contact="close"   />
+	<location_bodyarm location="shouldertop"   contact="close"   />
+    </split_location>
+<tgt_motion>
+ <split_handconfig>
+      <handconfig  handshape="finger2"  thumbpos="across"  extfidir="u" palmor="d" />
+      <handconfig handshape="finger2345"    thumbpos="out"  extfidir="u" palmor="dr"/>
+    </split_handconfig>
+
+</tgt_motion>
+<tgt_motion>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+<hamgestural_sign gloss="MAAMOM">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BABOOM"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="finger2"  extfidir="li" palmor="d" thumbpos="across"  mainbend="3" />
+		<handconfig handshape="finger2345"  extfidir="u" palmor="rd"  thumbpos="out"/>
+	</split_handconfig>
+   
+
+
+    <handconstellation contact="touch">
+      <location_hand location="midjoint" digits="5" side="front" />
+      <location_hand location="tip" digits="2"   />
+ 	<location_bodyarm location="neck" />
+	 
+    </handconstellation>
+  
+	<par_motion>
+      			
+<split_motion>
+	<directedmotion  direction="ri"  size="small"   />
+        <directedmotion />
+      </split_motion> 
+	
+      			
+    			</par_motion>
+        
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

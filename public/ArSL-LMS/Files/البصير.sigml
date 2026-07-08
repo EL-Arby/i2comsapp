@@ -1,0 +1,35 @@
+<sigml>
+<hamgestural_sign gloss="un-blind">
+ 	<sign_manual>
+	<handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="ul" bend2="1 0 0 -6"/>
+      	<location_bodyarm location="lowereyelid"  side="right_at" />
+	<tgt_motion>
+                      <directedmotion direction="d"    curve="u"  manner="fast" />
+       	<handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="ur" bend2="1 0 0 -6"/>
+      	<location_bodyarm location="lowereyelid"  side="left_at" />
+                      </tgt_motion>
+                     </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="un-blind">
+<sign_nonmanual>
+   <extra_tier>
+      <extra_par>
+         <extra_movement movement="X14"/>
+        <extra_movement movement="X15"/>
+<extra_movement movement="X10"/>
+
+      </extra_par>
+</extra_tier>
+</sign_nonmanual>
+ 	<sign_manual>
+	<handconfig handshape="pinchall" thumbpos="opposed" extfidir="u" palmor="d"  />
+      	<location_bodyarm location="neck"  side="right_at" />
+	<directedmotion direction="o" size="small" manner="fast"/>
+	<tgt_motion>
+	<handconfig handshape="flat" thumbpos="opposed" extfidir="u" palmor="d" bend2="0 0 0 2" bend3="0 0 0 2" bend4="3 0 0 "   bend5="3 0 0 " />	
+	</tgt_motion>
+</sign_manual>
+</hamgestural_sign>
+
+</sigml>

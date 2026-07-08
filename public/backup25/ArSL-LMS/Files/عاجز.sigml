@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="uncapable">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="LAM"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2"  thumbpos="across"  extfidir="ul" palmor="r"/>
+    <handconstellation contact="close">
+      <location_hand location="wristback"    side="front" />
+      <location_hand location="wristback"  side="back" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+	
+	
+    	<tgt_motion >
+  <directedmotion direction="r"  size="big" />
+ <handconfig handshape="finger2"  thumbpos="across"  extfidir="u" palmor="d"  />
+	
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

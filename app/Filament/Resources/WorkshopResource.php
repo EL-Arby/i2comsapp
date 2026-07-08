@@ -38,8 +38,8 @@ class WorkshopResource extends Resource
                     ->columnSpanFull(),
                 Components\Textarea::make('presenters')
                     ->columnSpanFull(),
-                Components\DateTimeInput::make('start_date'),
-                Components\DateTimeInput::make('end_date'),
+                // Components\DateTimeInput::make('start_date'),
+                // Components\DateTimeInput::make('end_date'),
                 Components\TextInput::make('location')
                     ->maxLength(255),
                 Components\TextInput::make('capacity')

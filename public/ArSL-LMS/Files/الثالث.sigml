@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Third">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="THA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="finger23spread"   bend3="222"   thumbpos="out"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders" contact="close" side="right_at"/>
+<tgt_motion>
+    <handconfig handshape="finger23spread"       thumbpos="out"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

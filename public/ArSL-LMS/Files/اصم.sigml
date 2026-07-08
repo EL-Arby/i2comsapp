@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="deaf">
+ 	<sign_manual>
+	<handconfig handshape="flat"  extfidir="ul" palmor="rd"  bend4="222" bend5="222"/>
+      	<location_bodyarm location="earlobe"  side="dorsal" contact="close"/>
+	<tgt_motion>
+<handconfig handshape="flat"  bend2="100" bend3="100"  extfidir="u" palmor="ul"  bend4="222" bend5="222"/>
+      	<location_bodyarm location="underchin"    contact="close"/>
+
+</tgt_motion>
+
+                     </sign_manual>
+</hamgestural_sign>
+</sigml>

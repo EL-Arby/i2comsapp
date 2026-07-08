@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="panich">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>    
+        <extra_movement movement="X41"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="dl"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close" side="right_at"/>
+    <par_motion>
+      <directedmotion direction="dl" /> 
+    </par_motion>
+     <tgt_motion>
+	<handconfig extfidir="il"/>
+    	<handconfig palmor="r"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

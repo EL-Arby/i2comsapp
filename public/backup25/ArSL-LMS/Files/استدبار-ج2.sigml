@@ -1,0 +1,33 @@
+<sigml>
+
+<hamgestural_sign gloss="Estdbar">
+  <sign_manual  both_hands="true" >
+    <split_handconfig>
+      <handconfig handshape="flat"     extfidir="d" palmor="l"  />
+      <handconfig handshape="flat"    mainbend="010"  extfidir="u" palmor="l"/>
+    </split_handconfig>
+ <split_location>
+	<location_bodyarm location="belowstomach"  side="right_at"   contact="touch"/>
+	<location_bodyarm location="neck"    contact="close" />
+    </split_location>
+ 
+
+<tgt_motion>
+
+<split_motion>
+ <directedmotion   direction=""    />
+ <directedmotion direction="ir"     size="big" />
+      </split_motion>
+
+    <split_handconfig>
+      <handconfig handshape="flat"     extfidir="d" palmor="l"  />
+      <handconfig handshape="flat"    mainbend="010"  extfidir="i" palmor="l"/>
+    </split_handconfig>
+
+ </tgt_motion>
+
+    </sign_manual>
+</hamgestural_sign>
+
+</sigml>
+

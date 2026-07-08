@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="zawaj">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="zawaj"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="dr"/>
+      <handconfig extfidir="or" palmor="u"/>
+    </split_handconfig>
+   <handconstellation contact="close">
+      		<location_hand location="midjoint"  digits="2"   side="palmar" />
+      		<location_hand location="midjoint" digits="2"  side="palmar" />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+   
+    <tgt_motion>
+        <split_motion>
+      <directedmotion direction="d"/>
+      <nomotion/>
+    </split_motion>
+      <handconfig handshape="finger2" mainbend="round" thumbpos="across"/>
+ 
+
+<handconstellation contact="touch">
+      		<location_hand location="midjoint"  digits="2"   side="palmar" />
+      		<location_hand location="midjoint" digits="2"  side="palmar" />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

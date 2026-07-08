@@ -1,0 +1,15 @@
+<sigml>
+<hamgestural_sign gloss="feet">
+
+ <sign_manual  both_hands="true" lr_symm="true">
+
+    	<handconfig handshape="flat"   extfidir="u" palmor="d"/>
+
+ 	<location_bodyarm location="shouldertop" contact="close" />
+	<directedmotion direction="o"  size="small"  manner="fast"/>
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

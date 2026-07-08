@@ -1,0 +1,35 @@
+<sigml>
+
+<hamgestural_sign gloss="kill">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"   extfidir="l" palmor="d"/>
+      <handconfig handshape="fist"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="left_at"   contact="close"/>
+	<location_bodyarm location="shoulders"     />
+    </split_location>
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="ro" manner="fast"  size="big"  />
+           <directedmotion />
+      </split_motion>
+
+    
+ <split_handconfig>
+      <handconfig handshape="flat"   extfidir="o" palmor="d"/>
+      <handconfig handshape="fist"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="shoulders"     />
+    </split_location>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

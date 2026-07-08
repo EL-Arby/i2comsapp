@@ -1,0 +1,32 @@
+<sigml>
+
+<hamgestural_sign gloss="Rukn">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist" thumbpos="across"    extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="d"/>
+    </split_handconfig>
+
+<handconstellation contact="close">
+      		<location_hand location="palm" side="front" />
+      		<location_hand location="back"  digits="3"  />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+ <tgt_motion>
+<handconstellation contact="touch">
+      		<location_hand location="base" side="front" />
+      		<location_hand location="back"  digits="2"  />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+
+<split_motion>
+<directedmotion direction=""  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

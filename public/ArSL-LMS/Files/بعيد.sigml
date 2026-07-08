@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="Far">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BAEED"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+       	<handconfig handshape="fist" bend2="144"  thumbpos="across"  extfidir="ul" palmor="dr"/>
+      	<handconfig handshape="fist" bend2="144"  thumbpos="across"    extfidir="u" palmor="rd"/>
+    </split_handconfig>
+   
+
+  <handconstellation contact="touch">
+      <location_hand location="side"  digits="2"  />
+      <location_hand location="side"  digits="2" side="palmar" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+<split_motion>
+<directedmotion direction="ur"  size="big" />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,57 @@
+<sigml>
+
+
+<hamgestural_sign gloss="body">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12"  mainbend="bent"  bend5="0 2 2 2" bend4="0 2 2 2"  bend3="0 2 2 2" extfidir="ou" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="handback"  side="left_beside" />
+      		<location_hand location="tip"   />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="Abu_Hurirah">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="lo" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="handback"  side="left_beside" />
+      		<location_hand location="tip"   />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+<split_motion>
+<directedmotion direction="r" size="small" />
+           <directedmotion />
+      </split_motion>
+
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="l"  size="small" />
+           <directedmotion />
+      </split_motion>
+	</tgt_motion>
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="r"  size="small" />
+           <directedmotion />
+      </split_motion>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,44 @@
+<sigml>
+
+<hamgestural_sign gloss="around">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAOL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across"     extfidir="ul" palmor="r"/>
+      <handconfig handshape="finger2"   thumbpos="across" extfidir="ruo" palmor="ur"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest"   contact="armextended" />
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="od" curve="r" size="big"   />
+<directedmotion direction="iu" curve="l" size="big"   />
+      </split_motion>
+
+ <split_handconfig>
+<handconfig handshape="finger2"   thumbpos="across" extfidir="luo" palmor="ul"/>
+      <handconfig handshape="finger2" thumbpos="across"     extfidir="ur" palmor="l"/>
+      
+    </split_handconfig>
+
+ <split_location>
+<location_bodyarm location="chest"   contact="armextended" />
+	<location_bodyarm location="shoulders" side="left_at"   contact="close"/>
+	
+    </split_location>
+
+</tgt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

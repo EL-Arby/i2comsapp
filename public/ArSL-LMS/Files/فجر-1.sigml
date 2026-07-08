@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="down">
+
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="VAJR"/>
+    </mouthing_tier>
+</sign_nonmanual>
+ 
+	<sign_manual>
+		<handconfig handshape="ceeall"  ceeopening="tight"  extfidir="u" palmor="ld"/>
+		<location_bodyarm location="chest" side="right_at" contact="close" />
+
+		<tgt_motion>
+<directedmotion  direction="u" manner="fast" />
+	<handconfig handshape="ceeall"  ceeopening="slack"  extfidir="u" palmor="ld"/>
+      
+    
+    				
+		</tgt_motion>
+		
+    
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+
+</sigml>

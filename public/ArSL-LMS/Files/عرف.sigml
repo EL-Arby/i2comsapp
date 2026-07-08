@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="Arfa">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="MAROOF"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual >
+
+      <handconfig handshape="finger2"  thumbpos="across"  extfidir="li" palmor="d"/>
+  
+	<location_bodyarm location="forehead"  side="right_at"   contact="touch"/>
+ <tgt_motion>
+ 
+ <directedmotion direction="d"  curve="u"    />
+
+<handconfig handshape="finger2"  thumbpos="across" mainbend="100"  extfidir="ol" palmor="dl"/>
+  
+	<location_bodyarm location="shoulders"  side="right_at"    />
+
+</tgt_motion>
+
+       </sign_manual>
+</hamgestural_sign>
+
+</sigml>

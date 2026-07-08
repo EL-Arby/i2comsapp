@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="maseeh">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BBSSE"/>
+    </mouthing_tier>
+ 
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinchall" mainbend="bent" />
+    <handconfig extfidir="ui"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="forehead"/>
+<tgt_motion>
+    <directedmotion curve="l" direction="d"  />
+  <location_bodyarm contact="close" location="chin"/>
+</tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

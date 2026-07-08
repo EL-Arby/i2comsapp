@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="place">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BLD"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" extfidir="o" palmor="d" thumbpos="out"/>
+    <location_bodyarm location="shouldertop" side="right_at"  contact="close"  />
+	
+     <directedmotion direction="d" mannar="fast" size="small"/>  
+<directedmotion direction="u" mannar="fast" size="small" />  
+<directedmotion direction="d" mannar="fast" size="small" />  
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

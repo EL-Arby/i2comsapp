@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="nose">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ANF"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+
+  <sign_manual >
+
+    	<handconfig handshape="finger2"  thumbpos="across"  extfidir="u" palmor="u" bend2="200" />
+
+ 	<location_bodyarm location="nose" contact="touch "  />
+	
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="salam yad">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="salam   alikom"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="forehead" side="right_at" contact="close"/>
+
+    <tgt_motion>
+    <directedmotion direction="ord" size="big"/>
+
+      <handconfig handshape="fist" thumbpos="across"/>
+      <handconfig extfidir="o" palmor="l"/>
+    </tgt_motion>
+    <directedmotion direction="u" size="small"/>
+    <directedmotion direction="d" size="small"/>
+    <directedmotion direction="u" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

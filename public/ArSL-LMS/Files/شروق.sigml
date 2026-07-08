@@ -1,0 +1,46 @@
+<sigml>
+
+<hamgestural_sign gloss="Dawn">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+          <extra_movement movement="X15"/>
+<extra_movement movement="X14"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X15"/>
+<extra_movement movement="X14"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="ceeall"  ceeopening="tight"   extfidir="ru" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="chest"   contact="close" />
+	<location_bodyarm location="shouldertop"     contact="close"/>
+	
+    </split_location>
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="uo"  size="big"  manner="slow" />
+           <directedmotion />
+      </split_motion>
+
+  <split_handconfig>
+      <handconfig handshape="ceeall"  ceeopening="slack"   extfidir="ru" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

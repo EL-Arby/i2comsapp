@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="alima-iftakara">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L07"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  thumbpos="across"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="forehead" contact="touch"  side="right_at"/>
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

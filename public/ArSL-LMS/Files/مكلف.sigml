@@ -1,0 +1,13 @@
+<sigml>
+
+<hamgestural_sign gloss="resbonsible">
+  <sign_manual >
+ 
+      <handconfig handshape="flat"  mainbend="2 0.5 0.5"  extfidir="lu" palmor="d"/>
+   
+       <location_bodyarm location="shoulders"  side="right_at" contact="close" />
+  
+      <directedmotion direction="u" size="big"  />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

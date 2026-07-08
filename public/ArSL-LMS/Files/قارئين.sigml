@@ -1,0 +1,46 @@
+<sigml>
+
+<hamgestural_sign gloss="readers">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OOLB"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="2 0 0 4"  thumbpos="opposed"  extfidir="uo" palmor="ul"/>
+      <handconfig handshape="finger2345"  thumbpos="out"   extfidir="ou" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="cheek" side="right_beside"   contact="close"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"  thumbpos="opposed"  extfidir="uo" palmor="ul"/>
+      <handconfig handshape="finger2345"  thumbpos="out"   extfidir="ou" palmor="dr"/>
+    </split_handconfig>
+</tgt_motion>
+
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="2 0 0 4"  thumbpos="opposed"  extfidir="uo" palmor="ul"/>
+      <handconfig handshape="finger2345"  thumbpos="out"   extfidir="ou" palmor="dr"/>
+    </split_handconfig>
+</tgt_motion>
+
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"  thumbpos="opposed"  extfidir="uo" palmor="ul"/>
+      <handconfig handshape="finger2345"  thumbpos="out"   extfidir="ou" palmor="dr"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

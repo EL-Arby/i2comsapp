@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="Eklal">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_beside" />
+	 
+	<tgt_motion>
+     <directedmotion direction="dl"  curve="u"  />
+  <handconfig handshape="fist" thumbpos="out"  extfidir="ol" palmor="r"/>
+</tgt_motion>
+    	
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

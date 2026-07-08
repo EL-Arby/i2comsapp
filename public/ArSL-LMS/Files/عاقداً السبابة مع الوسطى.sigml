@@ -1,0 +1,12 @@
+<sigml>
+	<hamgestural_sign gloss="Connect-Third_finger_with_thumb">
+  		<sign_manual >  
+			<handconfig handshape="pinch12" bend2="012"   specialfingers="3"  />
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+
+
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

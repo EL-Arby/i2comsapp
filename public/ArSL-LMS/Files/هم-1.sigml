@@ -1,0 +1,39 @@
+<sigml>
+
+<hamgestural_sign gloss="Then">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="300"  thumbpos="across"    extfidir="liu" palmor="d"/>
+      <handconfig handshape="finger2345" thumbpos="out"  extfidir="u" palmor="rd"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="right_at" contact="armextended" />
+	<location_bodyarm location="chest"  side="left_at" contact="close"   />
+    </split_location>
+<tgt_motion>
+ 
+<handconstellation contact="touch">
+      <location_hand location="tip"  digits="3" />
+      <location_hand location="tip" digits="2"/>
+     <location_bodyarm location="chest"  side="left_at" contact="close"   />
+    </handconstellation>
+</tgt_motion>
+
+<tgt_motion>
+ <split_motion>
+<directedmotion direction="or" size="small"  />
+           <directedmotion />
+      </split_motion>
+</tgt_motion>
+<tgt_motion>
+ <split_motion>
+<directedmotion direction="il" size="small"  />
+           <directedmotion />
+      </split_motion>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

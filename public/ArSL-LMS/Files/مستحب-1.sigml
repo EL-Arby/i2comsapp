@@ -1,0 +1,22 @@
+<sigml>
+
+<hamgestural_sign gloss="Mustahab">
+
+  <sign_manual>
+    <handconfig handshape="finger2" mainbend="100"  thumbpos="across"  extfidir="u"  palmor="u"/>
+    <location_bodyarm location="lips" contact="touch" />
+<directedmotion direction="d" />
+
+ <tgt_motion>
+<handconfig handshape="pinchall" mainbend="bent"  thumbpos="across"/>
+    <handconfig extfidir="li"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="earlobe" contact="close" side="right_at"/>
+
+ </tgt_motion>
+<directedmotion direction="d" size="small" manner="fast" />
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

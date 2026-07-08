@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="change">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2" mainbend="0 0 0 5"    extfidir="u" palmor="d"  thumbpos="across"/>
+      <handconfig handshape="finger2"       extfidir="u" palmor="u"  thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="nail"   digits="5"  />
+      <location_hand location="nail"   digits="5"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="hands">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2" mainbend="0 0 0 5"    extfidir="u" palmor="u"  thumbpos="across"/>
+      <handconfig handshape="finger2"       extfidir="u" palmor="d"  thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="nail"   digits="5"  />
+      <location_hand location="nail"   digits="5"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="FesQ">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="FFESQ"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="opposed"  mainbend="3 1.5 1"  extfidir="o" palmor="u"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+	
+    	<tgt_motion>
+	<directedmotion direction="l"  />
+  <handconstellation contact="touch">
+      <location_hand location="side" digits="5"  />
+      <location_hand location="side" digits="5"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+	</tgt_motion>
+
+<tgt_motion>
+	<directedmotion direction="ur"  size="small"/>
+  <handconfig handshape="flat" thumbpos="opposed"  mainbend="1 1.5 1 2"  extfidir="o" palmor="u"/>
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

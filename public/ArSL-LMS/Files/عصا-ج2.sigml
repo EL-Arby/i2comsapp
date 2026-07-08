@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="stick">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger23"  mainbend="400"  thumbpos="opposed"/>
+    <handconfig extfidir="o" palmor="l"/>
+     <handconstellation contact="touch">
+      		<location_hand location="tip"  digits="2"  />
+      		<location_hand location="tip"   digits="2"  />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+	
+     <directedmotion direction="r"  />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

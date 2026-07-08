@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="Men">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="RAJL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  mainbend="224" />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="lips" contact="touch" />
+    
+      <tgt_motion>
+  <directedmotion direction="ro" manner="fast" />
+ <handconfig handshape="finger2"  mainbend="244" />
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

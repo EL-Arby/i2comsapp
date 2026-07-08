@@ -1,0 +1,40 @@
+<sigml>
+
+<hamgestural_sign gloss="tall">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="TOEL"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X14"/>
+<extra_movement movement="X15"/>
+</extra_par>
+<extra_par>
+            <extra_movement movement="X14"/>
+<extra_movement movement="X15"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across"   extfidir="o" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="l"  size="big"/>
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

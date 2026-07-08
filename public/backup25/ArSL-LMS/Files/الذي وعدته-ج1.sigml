@@ -1,0 +1,42 @@
+<sigml>
+<hamgestural_sign gloss="time">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="MAHMOD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="finger2"  bend2="0.5 0 0"  thumbpos="across"   />
+		<handconfig handshape="fist" thumbpos="across"/>
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="ol" palmor="d"/>
+      <handconfig extfidir="dr" palmor="d"/>
+    </split_handconfig>
+   <split_location>
+	<location_bodyarm location="shoulders"     contact="close"/>
+	<location_bodyarm location="chest"      />
+    </split_location>
+
+<split_motion>
+       	<directedmotion direction="d" size="small"  manner="fast"/>
+      	<directedmotion direction=" "/>
+    </split_motion>
+<split_motion>
+       	<directedmotion direction="u" size="small" manner="fast"/>
+      	<directedmotion direction=" "/>
+    </split_motion>
+<split_motion>
+       	<directedmotion direction="d" size="small" manner="fast"/>
+      	<directedmotion direction=" "/>
+    </split_motion>
+
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

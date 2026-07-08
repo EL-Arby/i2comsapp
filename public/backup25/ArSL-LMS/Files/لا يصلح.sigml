@@ -1,0 +1,57 @@
+<sigml>
+
+<hamgestural_sign gloss="No-Use">
+
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"    extfidir="dl" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="ro" palmor="u"/>
+    </split_handconfig>
+ <handconstellation contact="close">
+      		<location_hand location="palm" />
+      		<location_hand location="tips" digits="2" />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="or"   />
+           <directedmotion />
+      </split_motion>
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"    extfidir="uo" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="or" palmor="u"/>
+    </split_handconfig>
+</tgt_motion>
+
+
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="li"   />
+           <directedmotion />
+      </split_motion>
+ <split_handconfig>
+            <handconfig handshape="flat"  thumbpos="out"    extfidir="dl" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="ro" palmor="u"/>
+    </split_handconfig>
+</tgt_motion>
+
+
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="or"   />
+           <directedmotion />
+      </split_motion>
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"    extfidir="uo" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="or" palmor="u"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

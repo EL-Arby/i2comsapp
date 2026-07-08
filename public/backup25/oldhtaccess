@@ -1,0 +1,5 @@
+DirectoryIndex index.html
+
+
+RewriteEngine On
+RewriteRule ^previous/?$ /Backup2024/I2COMSAPP/i2comsapp.org/index.html [L]

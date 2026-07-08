@@ -1,0 +1,22 @@
+<sigml>
+
+<hamgestural_sign gloss="passing">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AVDAL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual>
+
+      <handconfig handshape="fist"  thumbpos="out" extfidir="ol" palmor="o"/>
+  
+	<location_bodyarm location="chest" contact="close" side="right_at" />
+ 
+	     <directedmotion direction="u"  manner="fast"  /> 
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

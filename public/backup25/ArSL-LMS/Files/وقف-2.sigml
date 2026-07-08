@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="stand">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAQF"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="opposed"  extfidir="u" palmor="d"  bend5="400"  bend4="3.5 0 0 " bend2="0 0 0 2" bend3="0 0 0 3" />
+    <location_bodyarm location="shouldertop" side="right_at"/>
+    <par_motion>
+      <directedmotion direction="d" />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="flat" thumbpos="opposed"  extfidir="u" palmor="d"  bend5="400"  bend4="3.5 0 0 " bend2="0 1 2 2" bend3="0 1 2 3" />
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

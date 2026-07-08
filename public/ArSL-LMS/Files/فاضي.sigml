@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="fathe">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Fathe"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true">
+    <split_handconfig>
+      <handconfig handshape="flat" thumbpos="out"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="l"/>
+      <handconfig extfidir="u" palmor="d"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <wristmotion motion="nodding" size="big"  manner="slow" />
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

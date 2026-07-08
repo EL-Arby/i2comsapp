@@ -1,0 +1,57 @@
+<sigml>
+
+<hamgestural_sign gloss="save">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAAAVFD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  mainbend="0 0 0 4" thumbpos="opposed"     extfidir="uo" palmor="dl"/>
+      <handconfig handshape="flat"   thumbpos="out" extfidir="uo" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="shoulders" side="left_at"   contact="close"/>
+    </split_location>
+
+<tgt_motion>
+
+<split_motion>
+<directedmotion direction="l"  curve="d" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"  mainbend="0 0 0 4" thumbpos="opposed"     extfidir="u" palmor="ul"/>
+      <handconfig handshape="flat"   thumbpos="out" extfidir="uo" palmor="dr"/>
+    </split_handconfig>
+  
+</tgt_motion>
+
+<tgt_motion>
+
+<split_motion>
+<directedmotion direction="ur"  size="big" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="pinchall"   thumbpos="opposed"  mainbend="bent"      extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"    extfidir="d" palmor="r"/>
+    </split_handconfig>
+  
+ <split_location>
+	<location_bodyarm location="forehead" side="right_at"   contact="touch"/>
+	<location_bodyarm location="belowstomach" side="left_at"   contact="touch"/>
+    </split_location>
+</tgt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

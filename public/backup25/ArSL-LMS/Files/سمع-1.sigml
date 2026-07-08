@@ -1,0 +1,23 @@
+<sigml>
+
+<hamgestural_sign gloss="Hear">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ESMMA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual  >
+
+      <handconfig handshape="finger2" mainbend="100"    extfidir="u" palmor="l"/>
+
+	<location_bodyarm location="shouldertop"   contact="close" side="right_at"/>
+<tgt_motion>
+      <handconfig handshape="finger2" mainbend="100"    extfidir="ul" palmor="d"/>
+
+	<location_bodyarm location="earlobe"   contact="touch"/>
+	</tgt_motion>
+
+</sign_manual>
+</hamgestural_sign>
+
+</sigml>

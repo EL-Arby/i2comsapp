@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="earth quake">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X18"/>
+      </extra_par>
+<extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X18"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+
+	<sign_manual both_hands="true">
+
+				
+      <handconfig handshape="finger2345" extfidir="o" thumbpos="out"  palmor="d"  />
+     
+	
+		
+
+		<location_bodyarm location="shoulders" contact="close" side="right_at"  />
+	
+		
+    	<directedmotion direction="r"  manner="fast" />
+	<directedmotion direction="l"  manner="fast" />
+	<directedmotion direction="r" manner="fast" />
+	<directedmotion direction="l"  manner="fast" />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

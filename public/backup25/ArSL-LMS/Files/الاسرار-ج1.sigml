@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="take">
+  <sign_manual>
+    <handconfig handshape="finger2"  bend2="044"  extfidir="lu"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="lowerlip" side="right_beside"  contact="touch"/>
+      <tgt_motion>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chin" side="rihgt_beside"  contact="touch"/>
+      </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

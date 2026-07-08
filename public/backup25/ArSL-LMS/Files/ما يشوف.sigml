@@ -1,0 +1,60 @@
+<sigml>
+	<hamgestural_sign gloss="nothing">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BAREF"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  	<sign_manual both_hands="true">
+	
+	<split_handconfig>
+		<handconfig handshape="flat"  thumbpos="out" extfidir="lu" palmor="l"		/>
+       		<handconfig handshape="flat"   thumbpos="out"  extfidir="ur" palmor="r"/>
+      	</split_handconfig>
+   
+    
+	<handconstellation contact="touch">
+      		<location_hand location="back" digits="2" side="front"/>
+		<location_hand location="nail" digits="3"/>
+      		<location_bodyarm location="head" contact="close"   />
+    	</handconstellation>
+
+
+	<tgt_motion>
+
+<split_motion>
+<directedmotion direction="or"     />
+           <directedmotion direction="lo"   />
+      </split_motion>
+
+<split_handconfig>
+		<handconfig handshape="fist"  thumbpos="out" extfidir="lu" palmor="l"		/>
+       		<handconfig handshape="fist"   thumbpos="out"  extfidir="ur" palmor="r"/>
+      	</split_handconfig>
+
+
+</tgt_motion>
+
+
+
+	
+  		</sign_manual>
+	</hamgestural_sign>
+
+
+<hamgestural_sign gloss="nothing">
+  	<sign_manual both_hands="true">
+	<split_handconfig>
+		<handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="u"		/>
+       		<handconfig handshape="flat"   thumbpos="out"  extfidir="o" palmor="u"/>
+      	</split_handconfig>
+<split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="shoulders" side="left_at"   contact="armextended"/>
+    </split_location>
+
+	
+  		</sign_manual>
+	</hamgestural_sign>
+
+</sigml>

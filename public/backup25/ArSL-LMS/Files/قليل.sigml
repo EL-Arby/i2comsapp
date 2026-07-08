@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="kaleel">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <facial_expr_par>
+        <eye_brows movement="RB"/>
+        <eye_lids movement="SL"/>
+      </facial_expr_par>
+    </facialexpr_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12"  bend2="4 0 2" />
+    <handconfig extfidir="ou"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="close" location="shoulders"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="fist" />
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

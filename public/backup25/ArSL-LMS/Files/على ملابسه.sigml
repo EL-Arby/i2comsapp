@@ -1,0 +1,39 @@
+<sigml>
+<hamgestural_sign gloss="Alamalabisihi">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L18"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinchall"/>
+    <handconfig extfidir="il"/>
+    <handconfig palmor="dr"/>
+    <location_bodyarm   location="shouldertop"/>
+    <rpt_motion repetition="fromstart">
+      <seq_motion fused="true">
+        <split_motion>
+          <seq_motion>
+            <tgt_motion>
+              <changeposture/>
+              <handconfig handshape="finger2345" thumbpos="opposed"/>
+            </tgt_motion>
+            <directedmotion direction="di" fast="true"/>
+          </seq_motion>
+          <nomotion/>
+        </split_motion>
+        <split_motion>
+          <nomotion/>
+          <seq_motion>
+            <tgt_motion>
+              <changeposture/>
+              <handconfig handshape="finger2345" thumbpos="opposed"/>
+            </tgt_motion>
+            <directedmotion direction="di" fast="true"/>
+          </seq_motion>
+        </split_motion>
+      </seq_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="cover">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAVD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  mainbend="0 2 2 3"   thumbpos="out" extfidir="uo" palmor="ul"/>
+      <handconfig handshape="finger23"   mainbend="2 0 0 8" extfidir="rdo" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+ 
+  
+<handconstellation contact="close">
+      		<location_hand location="handback" digits="1"   />
+      		<location_hand location="palm"   />
+      		 <location_bodyarm location="neck"  side="left_at"  contact="close"/>
+    	</handconstellation>
+
+<par_motion>
+      <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="fist"     thumbpos="across" extfidir="uo" palmor="ul"/>
+      <handconfig handshape="finger23"   mainbend="2 0 0 8" extfidir="rdo" palmor="d" thumbpos="across"/>
+    </split_handconfig>      
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

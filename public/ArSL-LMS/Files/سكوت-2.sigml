@@ -1,0 +1,10 @@
+<sigml>
+
+<hamgestural_sign gloss="Silence">
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="ul" palmor="l" thumbpos="out"/>
+    <location_bodyarm location="chin"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

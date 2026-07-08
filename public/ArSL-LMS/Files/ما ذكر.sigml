@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="ma thakar">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="D06"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="round"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="close" location="cheek"/>
+    <directedmotion direction="o" size="small"/>
+    <directedmotion direction="d"/>
+    <directedmotion direction="d" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

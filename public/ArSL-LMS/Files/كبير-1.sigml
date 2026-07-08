@@ -1,0 +1,53 @@
+<sigml>
+
+<hamgestural_sign gloss="Old">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SHAEB"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+ 
+    </extra_tier>
+
+  </sign_nonmanual>
+
+
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"    thumbpos="out"  extfidir="u" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"    contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="d"  />
+           <directedmotion />
+      </split_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2345"    thumbpos="out"  extfidir="o" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="u"  size="big"/>
+           <directedmotion />
+      </split_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2345"    thumbpos="out"  extfidir="u" palmor="lu"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

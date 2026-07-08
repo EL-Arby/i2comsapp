@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="HARD">
+          <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SSAAB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual  both_hands="true">
+        <handconfig handshape="fist"   extfidir="ou" palmor="l" />
+     <location_bodyarm location="shoulders"      />
+
+<tgt_motion>
+ 
+<directedmotion direction="ui"    />
+     <handconfig handshape="fist"   extfidir="u" palmor="l" />
+</tgt_motion>
+<tgt_motion>
+ 
+<directedmotion direction="od"  />
+     <handconfig handshape="fist"   extfidir="uo" palmor="l" />
+</tgt_motion>		
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

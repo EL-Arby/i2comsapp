@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="late">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="TAKER"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="210" thumbpos="out" />
+    <handconfig extfidir="ol"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at"/>
+    <par_motion>
+      <directedmotion direction="o" size="small"/>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

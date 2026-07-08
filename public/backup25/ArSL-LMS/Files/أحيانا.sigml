@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="sometime">
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="uo"  palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close" />
+      <tgt_motion>
+       <handconfig extfidir="oul" palmor="l"/>
+      </tgt_motion>
+
+      <tgt_motion>
+       <handconfig extfidir="ou" palmor="d"/>
+      </tgt_motion>
+
+         </sign_manual>
+</hamgestural_sign>
+</sigml>

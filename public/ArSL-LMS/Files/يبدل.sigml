@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="yobadal">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="badalbadal"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="cee12"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders"/>
+    <split_motion>
+      <directedmotion direction="l"/>
+      <directedmotion direction="or" size="big"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="r"/>
+      <directedmotion direction="il" size="big"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="ol" size="big"/>
+      <seq_motion>
+        <directedmotion direction="r" size="small"/>
+        <directedmotion direction="r" size="small"/>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

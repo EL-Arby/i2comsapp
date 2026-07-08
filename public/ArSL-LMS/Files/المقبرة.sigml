@@ -1,0 +1,58 @@
+<sigml>
+<hamgestural_sign gloss="Makbara">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"  extfidir="o"  palmor="d"/>
+    <location_bodyarm location="chest"/>
+    <directedmotion direction="r"/>
+    <directedmotion direction="i"/>
+    <tgt_motion>
+    <directedmotion direction="l"/>
+    <handconfig handshape="finger2" mainbend="200"  thumbpos="across"  extfidir="od"  palmor="d"/>
+  
+    </tgt_motion>
+
+ 
+
+ 
+ 
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="bent" extfidir="o"  palmor="d"/>
+          <handconfig handshape="flat" mainbend="bent" extfidir="o"  palmor="d"/>
+        </split_handconfig>
+ 
+<split_location>
+	<location_bodyarm location="shoulders"    contact="armsextended"/>
+	<location_bodyarm location="shoulders"  side="left_at" contact="close"/>
+    </split_location>
+
+
+<split_motion>
+<directedmotion direction="d"  />
+<directedmotion direction="d"  />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="u"  />
+<directedmotion direction="u"  />
+      </split_motion>
+<split_motion>
+<directedmotion direction="r" size="small" />
+<directedmotion direction="r"  size="small"/>
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="d"  />
+<directedmotion direction="d"  />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

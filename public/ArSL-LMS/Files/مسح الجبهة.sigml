@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="mash jebha">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="011" />
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="close" location="eyes" side="right_at" />
+ 
+    <directedmotion direction="ir" size="small"/>
+    <rpt_motion repetition="fromstart">
+      <directedmotion direction="l" curve="u"  size="small"/>
+    </rpt_motion>
+     
+ <tgt_motion>
+  <handconfig extfidir="u"/>
+    <handconfig palmor="u"/>
+    <location_bodyarm contact="close" location="eyes" side="left_at" />
+ </tgt_motion>
+ <directedmotion direction="dli" size="small"/>
+    <rpt_motion repetition="fromstart">
+      <directedmotion direction="r" curve="u"  size="small"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

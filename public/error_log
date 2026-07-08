@@ -1,0 +1,371 @@
+[12-May-2026 16:38:31 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:38:35 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:38:37 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:39:39 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:43:40 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:44:50 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:45:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:46:52 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:47:40 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:54:14 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:55:29 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:55:37 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 16:55:48 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:04:00 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:08:00 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:31:08 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:31:43 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:53:37 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:53:46 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:53:48 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:53:51 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 17:53:52 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 18:05:41 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 18:19:50 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 18:19:51 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 18:26:39 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 18:48:35 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 18:48:54 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:09:50 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:19:30 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:19:38 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:19:41 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:05 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:05 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:05 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:08 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:08 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:09 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:19 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:21 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:22 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:22 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:22 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:22 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:23 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:20:23 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26
+[12-May-2026 19:21:33 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.0". You are running 7.4.33. in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/vle0nxy38ty5/i2comsapp/vendor/composer/autoload_real.php(25): require()
+#1 /home/vle0nxy38ty5/i2comsapp/vendor/autoload.php(22): ComposerAutoloaderInitc57754c93ae34ac3b9b716a0fd2f2149::getLoader()
+#2 /home/vle0nxy38ty5/public_html/index.php(14): require('/home/vle0nxy38...')
+#3 {main}
+  thrown in /home/vle0nxy38ty5/i2comsapp/vendor/composer/platform_check.php on line 26

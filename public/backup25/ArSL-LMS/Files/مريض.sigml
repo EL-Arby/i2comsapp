@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="Maridh">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Maridh"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig   handshape="finger2345" thumbpos="opposed" bend2="300" />
+    <handconfig extfidir="lu"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="forehead" side="right_at" contact="close" />
+    <directedmotion direction="o" size="small" />
+     <directedmotion direction="i" size="small" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

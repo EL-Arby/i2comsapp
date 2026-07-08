@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="Okey">
+  <sign_manual>
+    <handconfig handshape="finger23spread" thumbpos="across"/>
+    <handconfig extfidir="l" palmor="l"/>
+    <location_bodyarm location="shoulders" contact="close" />
+    <par_motion>
+      <directedmotion direction="or" />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="o"  />
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

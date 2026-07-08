@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="khaserateh">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="stomach"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="l"/>
+        <directedmotion direction="il"/>
+        <rpt_motion repetition="fromstart">
+          <tgt_motion>
+            <changeposture/>
+            <handconfig extfidir="il" palmor="r"/>
+          </tgt_motion>
+        </rpt_motion>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="i" size="small"/>
+      <seq_motion>
+        <directedmotion direction="r"/>
+        <directedmotion direction="ir"/>
+        <directedmotion direction="dr" size="small"/>
+        <rpt_motion repetition="fromstart">
+          <tgt_motion>
+            <changeposture/>
+            <handconfig extfidir="ir" palmor="l"/>
+          </tgt_motion>
+        </rpt_motion>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,40 @@
+<sigml>
+<hamgestural_sign gloss="Alatoul">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="alatoul"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="u"/>
+      <handconfig extfidir="or" palmor="ur"/>
+    </split_handconfig>
+    <location_bodyarm location="chest"/>
+    
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="ul" curve="u" size="small"/>
+           <directedmotion />
+      </split_motion>
+<split_handconfig>
+     <handconfig      extfidir="o" palmor="d"/>
+       <handconfig extfidir="or" palmor="ur"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+<location_hand location="thumbball"    />
+<location_hand location="tip" digits="2"  />
+      		
+      		
+      		 <location_bodyarm location="chest"    />
+    	</handconstellation>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

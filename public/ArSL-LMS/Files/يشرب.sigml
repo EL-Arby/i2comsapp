@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="yachrab">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="mmmaah"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="ceeall"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_at"/>
+ 
+ 
+    
+    <tgt_motion>
+<directedmotion direction="i" size="small"/>
+      <handconfig extfidir="u" palmor="l"/>
+    <location_bodyarm location="lips"  contact="close" />
+    </tgt_motion>
+    <tgt_motion>
+ </tgt_motion>
+ <tgt_motion>
+      <changeposture/>
+      <handconfig extfidir="l" palmor="l"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

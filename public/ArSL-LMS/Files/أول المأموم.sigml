@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Awal">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Awal"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="fist" />
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_at"/>
+<tgt_motion>
+    <directedmotion direction="u"/>
+ <handconfig handshape="fist"  thumbpos="out"  />
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

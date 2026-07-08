@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="Diffrent">
+  <sign_manual>
+    <handconfig handshape="finger23spread" thumbpos="across"  bend3="200" extfidir="lu" palmor="l"/>
+    <location_bodyarm location="shoulders" side="left_at"/>
+         <par_motion>
+     
+      <directedmotion direction="r"  size="big"  />
+<tgt_motion>
+  <wristmotion motion="twisting"  size="big" /> 
+      <handconfig extfidir="ou" palmor="d" />
+      </tgt_motion>
+</par_motion>
+  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,17 @@
+
+<sigml>
+ <hamgestural_sign gloss="red">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_movement movement="X29"/>
+<extra_movement movement="X29"/>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+   	<handconfig handshape="finger2" thumbpos="across" extfidir="ul" palmor="l"/>
+      	bend2="0 0 0 7" />
+    	<location_bodyarm location="lips"/>
+	
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

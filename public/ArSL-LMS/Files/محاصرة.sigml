@@ -1,0 +1,13 @@
+<sigml>
+
+<hamgestural_sign gloss="Locked">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="cee12" ceeopening="slack" />
+    <handconfig extfidir="ro" palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at"  contact="close"  />
+	
+     <directedmotion direction="d"  manner="fast"  />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

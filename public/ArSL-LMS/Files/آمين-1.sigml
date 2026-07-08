@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="AMEN">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ABEN"/>
+    </mouthing_tier>
+<eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+  </sign_nonmanual>
+ <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger23" mainbend="0 0 0 2"  thumbpos="across"  bend4="332" bend5="332" />
+    <handconfig extfidir="l" palmor="d"/>
+     
+   <handconstellation contact="touch">
+      <location_hand location="tip" digits="2"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shouldertop" contact="close"/>
+    </handconstellation>
+	<tgt_motion>
+     <directedmotion direction="ur"  curve="u"    />
+ <handconfig extfidir="u" palmor="l"/>  
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

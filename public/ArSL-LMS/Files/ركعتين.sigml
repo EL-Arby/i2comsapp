@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="two-Rakaa">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+  <sign_manual>
+        <handconfig handshape="finger23spread"   extfidir="ou" palmor="d" thumbpos="close"/>
+     <location_bodyarm location="head"  side="right_at"  contact="close" />
+<tgt_motion>
+<directedmotion  direction="d" size="big"    />
+  <handconfig handshape="finger23spread"   extfidir="o" palmor="d" thumbpos="close"/>
+</tgt_motion>	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

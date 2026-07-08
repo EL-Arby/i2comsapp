@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="Heavy">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="THKEL"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345"  thumbpos="out"/>
+    <handconfig extfidir="ou" palmor="u"/>
+    <location_bodyarm location="neck" />
+	
+     <directedmotion direction="d"  manner="slow"/>
+	
+    	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

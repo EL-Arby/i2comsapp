@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="mohammed messenger of allah">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BOHBAD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+        <handconfig handshape="flat"   extfidir="o" palmor="u"/>
+     <location_bodyarm location="chest"  side="right_at"  contact="close" />
+<directedmotion  direction="u"  size="big"  />
+
+<tgt_motion>
+   
+        <handconfig handshape="fist" thumbpos="across"  extfidir="o" palmor="d"/>
+
+     
+      <location_bodyarm location="chin" contact="close"/>
+    
+	</tgt_motion>			
+
+	<tgt_motion>
+
+	<handconfig handshape="finger2345" thumbpos="opposed" 
+	bend2="0.2 0 0 3" bend3="0.2 0 0 3" 	
+	bend4="0.2 0 0 3" bend5="0.2 0 0 3" />
+
+	<location_bodyarm location="shoulders" contact="close"/>
+	
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

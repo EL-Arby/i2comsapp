@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="the_highest">
+  <sign_manual>
+        <handconfig handshape="flat"   extfidir="o" palmor="u" />
+     <location_bodyarm location="shoulders"  side="right_at"  contact="close" />
+
+<tgt_motion>
+<directedmotion  direction="u"  size = "big"   />
+                   <handconfig handshape="flat"   extfidir="ou" palmor="u" />
+</tgt_motion>	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

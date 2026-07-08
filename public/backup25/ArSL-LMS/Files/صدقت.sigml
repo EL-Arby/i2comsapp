@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="fair">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KLAB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"  extfidir="l"  palmor="d"/>
+    <location_bodyarm location="lips" side="right_at"  />
+      <wristmotion motion="stircw" size="big"  />
+    </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="fair">
+
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="u"  palmor="l"/>
+    <location_bodyarm location="head"  />
+      <tgt_motion>
+   <directedmotion direction="d" size="big" manner="fast"/>
+<handconfig   extfidir="o"  palmor="l"/>
+           </tgt_motion>
+    </sign_manual>
+</hamgestural_sign>
+</sigml>

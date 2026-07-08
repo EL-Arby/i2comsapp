@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="talabess">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <directedmotion direction="d" size="small"/>
+      <directedmotion direction="u" size="small"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion curve="r" direction="u" size="big"/>
+      <directedmotion direction="dr"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion curve="l" direction="dl"/>
+      <seq_motion>
+        <directedmotion curve="r" direction="u" size="big"/>
+        <directedmotion direction="dl"/>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

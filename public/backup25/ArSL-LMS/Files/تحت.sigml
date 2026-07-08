@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="tahet">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="TAT"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="101" />
+    <handconfig extfidir="l"/>
+    <handconfig palmor="lu"/>
+    <location_bodyarm location="chest" contact="touch"/>
+ <directedmotion   direction="o" size="small"/>
+
+    <directedmotion curve="u" direction="d" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

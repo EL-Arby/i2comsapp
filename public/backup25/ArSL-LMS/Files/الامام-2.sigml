@@ -1,0 +1,47 @@
+<sigml>
+
+<hamgestural_sign gloss="IMAM">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="IMAM"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"      extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="d"/>
+    </split_handconfig>
+ 
+   <split_location>
+	<location_bodyarm location="shoulders"    contact="armextended"   />
+	<location_bodyarm location="shouldertop"   contact="close"  />
+    </split_location>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="IMAM">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"  thumbpos="across"    extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2"  thumbpos="across"  extfidir="o" palmor="d" bend2="100" />
+    </split_handconfig>
+ 
+
+  <handconstellation contact="close">
+      <location_hand location="tip" digits="2"/>
+      <location_hand location="midjoint" digits="2"/>
+      <location_bodyarm location="shoulders" contact="armextended"/>
+    </handconstellation>
+	 <split_motion>
+           <directedmotion />
+<directedmotion direction="o"  size="small" />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

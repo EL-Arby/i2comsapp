@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="kalimat iklass">
+  <sign_nonmanual/>
+  <sign_manual>
+
+   <handconfig handshape="flat"  extfidir="u" palmor="d" thumbpos="across"/>
+    <location_bodyarm contact="close" location="head" side="right_at"/>
+<tgt_motion>
+    <handconfig handshape="cee12" ceeopening="slack"   extfidir="ru" palmor="lu"/>
+</tgt_motion>
+ 
+   <par_motion>
+      <tgt_motion>
+        <handconfig handshape="fist" thumbpos="across"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="u" palmor="d"/>
+      </tgt_motion>
+    </par_motion>
+    <directedmotion direction="o" size="small" tense="true"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </tgt_motion>
+    <directedmotion direction="u" size="small" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

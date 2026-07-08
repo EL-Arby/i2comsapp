@@ -1,0 +1,18 @@
+<sigml>
+	<hamgestural_sign gloss="mem">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  		<sign_manual >  
+			<handconfig handshape="finger2" thumbpos="across"  specialfingers="5" />
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

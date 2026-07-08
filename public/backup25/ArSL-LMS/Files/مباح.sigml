@@ -1,0 +1,23 @@
+<sigml>
+
+<hamgestural_sign gloss="allow">
+    <sign_nonmanual>
+    <extra_tier>
+            <extra_movement movement="X41"/>
+
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    
+
+      <handconfig handshape="flat"    extfidir="l" palmor="l" thumbpos="out" mainbend="012" />
+ <location_bodyarm location="shoulders" side="right_at"  contact="close"/>
+	
+<tgt_motion>
+<directedmotion direction="o"  size="big"  manner="fast"   />
+               <handconfig handshape="flat"    extfidir="ul" palmor="d" thumbpos="out" mainbend="010" />
+   </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

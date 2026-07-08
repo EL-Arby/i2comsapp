@@ -1,0 +1,45 @@
+<sigml>
+<hamgestural_sign gloss="al khassy">
+  <sign_nonmanual>
+    <mouthing_tier>
+     <mouth_picture picture="mmmm"/>
+      <mouth_gesture movement="C01"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="ceeall"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="ol" palmor="u"/>
+      <handconfig extfidir="or" palmor="d"/>
+    </split_handconfig>
+    <location_bodyarm location="chest"/>
+    <split_motion>
+      <directedmotion direction="d"/>
+      <directedmotion direction="u" size="small"/>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="ul"/>
+        <directedmotion direction="l" size="small"/>
+        <directedmotion direction="ul" size="small"/>
+        <directedmotion curve="d" direction="ol" size="small"/>
+        <directedmotion direction="ir"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger23spread" thumbpos="across"/>
+          <handconfig extfidir="ol" palmor="u"/>
+        </tgt_motion>
+        
+        <tgt_motion>
+          <directedmotion direction="ol"/>
+          <handconfig handshape="finger23" thumbpos="across"/>
+        </tgt_motion>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

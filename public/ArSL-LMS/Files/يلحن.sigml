@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="mug">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X29"/>
+<extra_movement movement="X61"/>
+</extra_par>
+
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger23"  mainbend="2 0 0 2"  />
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dr"/>
+    <location_bodyarm location="shoulders"/>
+    <par_motion>
+      <directedmotion direction="r" size="small" manner="fast"  />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ru" palmor="ru"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

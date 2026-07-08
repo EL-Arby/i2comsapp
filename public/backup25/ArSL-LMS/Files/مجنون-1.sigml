@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="Majnoun">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Majnoun"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig bend3="round" bend4="round" bend5="dblbent" handshape="finger2345" thumbpos="opposed"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="cheek"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2345"  mainbend="0 1 2 3" thumbpos="opposed"/>
+      <handconfig extfidir="u" palmor="l"/>
+    </tgt_motion>
+    <wristmotion motion="twisting"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

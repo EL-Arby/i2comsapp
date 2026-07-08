@@ -1,0 +1,31 @@
+<sigml>
+<hamgestural_sign gloss="yaktolon">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L28"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="out"/>
+    <split_handconfig>
+      <handconfig extfidir="or" palmor="l"/>
+      <handconfig extfidir="rd" palmor="r"/>
+    </split_handconfig>
+<split_location>
+<location_bodyarm contact="close" location="shouldertop"/>
+	<location_bodyarm location="head" side="left_at"   contact="close"/>
+	
+    </split_location>
+    
+
+   
+    <tgt_motion>
+       <split_motion>
+      <directedmotion direction="dr" size="big"/>
+      <directedmotion direction="dr" size="big" />
+    </split_motion>
+      <handconfig bend2="hooked" handshape="finger2" thumbpos="out"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

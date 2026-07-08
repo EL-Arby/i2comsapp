@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="good">
+   <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BMTAZ"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual>
+    <handconfig handshape="finger2" thumbpos="opposed"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders"   side="right_at" contact="close"/>
+      <tgt_motion>
+        <changeposture/>
+      <handconfig handshape="pinch12" mainbend="bent"  thumbpos="opposed"/>
+      </tgt_motion>
+<tgt_motion>
+      <handconfig handshape="finger2"    thumbpos="opposed"/>
+      </tgt_motion>
+<tgt_motion>
+      <handconfig handshape="pinch12" mainbend="bent"  thumbpos="opposed"/>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="friend">
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders"/>
+     <tgt_motion>
+      <directedmotion direction="r" size="big" />
+    <handconfig extfidir="iru"/>
+    <handconfig palmor="ru"/>
+ </tgt_motion>
+   
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

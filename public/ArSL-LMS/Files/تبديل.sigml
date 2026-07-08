@@ -1,0 +1,49 @@
+<sigml>
+<hamgestural_sign gloss="change">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2"     extfidir="ou" palmor="ul"  thumbpos="across"/>
+      <handconfig handshape="finger2"       extfidir="ru" palmor="dl"  thumbpos="across"/>
+    </split_handconfig>
+    
+  <split_location>
+                      <location_bodyarm location="chest"    contact="close" />
+	<location_bodyarm location="shoulders"    side="left_at"  contact="close"/>
+    </split_location>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="change">
+  <sign_manual>
+    <split_handconfig>
+ <handconfig handshape="finger2"       extfidir="lu" palmor="dr"  thumbpos="across"/>
+      <handconfig handshape="finger2"     extfidir="ou" palmor="ur"  thumbpos="across"/>
+    </split_handconfig>
+    
+  <split_location>
+<location_bodyarm location="shoulders"     contact="close"/>
+                      <location_bodyarm location="chest"  side="left_at"   contact="close" />
+    </split_location>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="change">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2"     extfidir="ou" palmor="ul"  thumbpos="across"/>
+      <handconfig handshape="finger2"       extfidir="ru" palmor="dl"  thumbpos="across"/>
+    </split_handconfig>
+    
+  <split_location>
+                      <location_bodyarm location="chest"     contact="close" />
+	<location_bodyarm location="shoulders"    side="left_at"  contact="close"/>
+    </split_location>
+
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

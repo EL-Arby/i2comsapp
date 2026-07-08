@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="always">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ALATOL"/>
+    </mouthing_tier>
+<extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  thumbpos="across"  extfidir="l"  palmor="l"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close" />
+
+ <circularmotion axis="l"    />
+ <circularmotion axis="l"    />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

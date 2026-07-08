@@ -13,7 +13,7 @@
         </div>
 
         <!-- Workshops List -->
-        {{-- <div class="space-y-6">
+         <div class="space-y-6">
             @forelse ($workshops as $workshop)
                 <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all border-l-4 border-blue-600 overflow-hidden hover:-translate-y-2">
                     <div class="p-8">
@@ -41,15 +41,15 @@
                         @endif
 
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            @if ($workshop->start_date)
-                                <div class="flex items-center gap-3">
-                                    <span class="text-2xl">📅</span>
-                                    <div>
-                                        <p class="text-xs text-gray-600 uppercase tracking-widest font-bold">Date & Time</p>
-                                        <p class="text-gray-900 font-semibold">{{ $workshop->start_date->format('M d, Y • H:i') }}</p>
-                                    </div>
-                                </div>
-                            @endif
+                            <!--@if ($workshop->start_date)-->
+                            <!--    <div class="flex items-center gap-3">-->
+                            <!--        <span class="text-2xl">📅</span>-->
+                            <!--        <div>-->
+                            <!--            <p class="text-xs text-gray-600 uppercase tracking-widest font-bold">Date & Time</p>-->
+                            <!--            <p class="text-gray-900 font-semibold">{{ $workshop->start_date->format('M d, Y • H:i') }}</p>-->
+                            <!--        </div>-->
+                            <!--    </div>-->
+                            <!--@endif-->
 
                             @if ($workshop->location)
                                 <div class="flex items-center gap-3">
@@ -77,7 +77,7 @@
         </div>
 
         <!-- Workshop Benefits -->
-        <div class="mt-20 grid md:grid-cols-3 gap-8">
+      <!--  <div class="mt-20 grid md:grid-cols-3 gap-8">
             <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border border-blue-200">
                 <h3 class="text-2xl font-bold text-blue-900 mb-4">💡 Learn</h3>
                 <p class="text-gray-700">Gain hands-on experience with cutting-edge AI frameworks and tools</p>
@@ -90,8 +90,8 @@
                 <h3 class="text-2xl font-bold text-cyan-900 mb-4">📜 Certify</h3>
                 <p class="text-gray-700">Receive certificates for completed workshops</p>
             </div>
-        </div>
-    </div> --}}
+        </div> 
+    </div> 
 
     <div class="bg-gradient-to-br from-blue-50 via-purple-50 to-cyan-50 p-10 rounded-2xl border-2 border-blue-300 text-center">
 
@@ -101,7 +101,7 @@
 
     <p class="text-gray-600 text-lg">
         Will appear soon...
-    </p>
+    </p>   -->
 
 </div>
 

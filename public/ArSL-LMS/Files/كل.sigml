@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="All">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KOOOL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    
+      <handconfig handshape="finger2345" thumbpos="out"  extfidir="o" palmor="d"/>
+     
+      <location_bodyarm location="shoulders" side="right_at" contact="close"/>
+    <circularmotion axis="d" manner="slow" />
+   
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

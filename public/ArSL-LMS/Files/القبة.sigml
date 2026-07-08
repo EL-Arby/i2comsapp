@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="Dome">
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+       	<handconfig handshape="flat" thumbpos="opposed" mainbend="211" extfidir="l" palmor="d"/>
+      	<handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="u"/>
+    </split_handconfig>
+   
+    
+	<handconstellation contact="close">
+      		<location_hand location="thumbball" side="palmar" />
+      		<location_hand location="palm" />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+    
+
+	  <split_motion>
+        <directedmotion direction="dor" size="small"  />
+	<directedmotion />
+      </split_motion> 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

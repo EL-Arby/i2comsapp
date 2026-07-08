@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="fall">
+
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KAFFEV"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="u" palmor="u"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	<tgt_motion>
+     <directedmotion direction="odr"  manner="fast"  />
+ <handconfig extfidir="uo" palmor="u"/>
+</tgt_motion>  
+	<tgt_motion>
+     <directedmotion direction="uil"  manner="fast"  />
+ <handconfig extfidir="u" palmor="u"/>
+</tgt_motion>
+	<tgt_motion>
+     <directedmotion direction="odr"  manner="fast"  />
+ <handconfig extfidir="uo" palmor="u"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

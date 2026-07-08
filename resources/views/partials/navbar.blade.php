@@ -21,7 +21,7 @@
 
     <a href="{{ route('call_for_papers') }}"
        class="px-3 py-2 text-[15px] font-semibold text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-xl transition whitespace-nowrap">
-        Important Dates
+        Submission 
     </a>
 
     <a href="{{ route('committees') }}"
@@ -62,7 +62,7 @@
 </div>
         {{-- <div class="hidden lg:flex gap-2 items-center">
             <a href="{{ route('home') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Home</a>
-            <a href="{{ route('call_for_papers') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Important Dates</a>
+            <a href="{{ route('call_for_papers') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Submission</a>
             <a href="{{ route('committees') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Committees</a>
             <a href="{{ route('program') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Program</a>
             <a href="{{ route('registration') }}" class="px-4 py-2 font-600 text-gray-200 hover:text-blue-300 hover:bg-white/10 rounded-lg transition">Registration</a>

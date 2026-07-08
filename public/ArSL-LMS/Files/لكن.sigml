@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="But">
+          <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="LAB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual both_hands="true" lr_symm="true" outofphase="true">
+    
+<split_handconfig>
+	<handconfig handshape="finger2" thumbpos="across" extfidir="ul" palmor="dr"/>
+        <handconfig handshape="finger2" thumbpos="across" extfidir="ur" palmor="dl"/>
+</split_handconfig>
+  
+        
+
+       <handconstellation contact="touch">
+      
+      
+      <location_hand location="midjoint" digits="2"   />
+      <location_hand location="midjoint" digits="2" side="front"/>
+     <location_bodyarm location="chin" side="right_at" contact="close" />
+    </handconstellation>
+
+  	<tgt_motion>
+
+<split_motion>
+        <directedmotion direction="r" curve="u" />
+	 <directedmotion direction="l" curve="u" />
+</split_motion> 	
+	<split_handconfig>
+	<handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="d"/>
+        <handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="d"/>
+</split_handconfig>	  
+			</tgt_motion>	
+ </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="family">
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="l" palmor="l"/>
+    <location_bodyarm location="chest" contact="touch"/>
+   <tgt_motion>
+      <directedmotion direction="ro" />
+  <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="l"/>
+</tgt_motion>
+<tgt_motion>
+    <directedmotion direction="l" />
+  <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="u"/>
+      </tgt_motion>
+    <directedmotion direction="r" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -19,18 +19,35 @@ class SpeakerForm
 
                 TextInput::make('role_title'),
 
+                // TextInput::make('talk_title')
+                //     ->label('Talk Title'),
+
+                Textarea::make('talk_abstract')
+                    ->label('Talk Abstract')
+                    ->rows(5)
+                    ->columnSpanFull(),
+
                 TextInput::make('affiliation'),
 
                 Textarea::make('bio')
                     ->columnSpanFull(),
 
+                // FileUpload::make('photo_url')
+                //     ->image()
+                //     ->directory('speakers')
+                //     ->disk('public')
+                //     ->visibility('public')
+                //     ->imagePreviewHeight('200')
+                //     ->required(),
                 FileUpload::make('photo_url')
                     ->image()
-                    ->directory('speakers')
-                    ->disk('public')
+                    ->directory('')
+                    ->disk('public_images')
                     ->visibility('public')
-                    ->imagePreviewHeight('200')
-                    ->required(),
+                    ->imagePreviewHeight('200'),
+                    // ->required(),
+
+
 
                 TextInput::make('sort_order')
                     ->required()

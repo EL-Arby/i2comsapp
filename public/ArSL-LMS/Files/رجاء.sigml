@@ -1,0 +1,27 @@
+<sigml>
+<hamgestural_sign gloss="Please">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+      <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X41"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  bend2="010" mainbend="011" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chin" contact="touch"   />
+    <par_motion>
+      <directedmotion direction="d"  />
+      <tgt_motion>
+
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

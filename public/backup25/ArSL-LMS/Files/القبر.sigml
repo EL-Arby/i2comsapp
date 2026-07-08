@@ -1,0 +1,41 @@
+<sigml>
+<hamgestural_sign gloss="kaber">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="T12"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"  thumbpos="out"  mainbend="bent"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="d"/>
+     <split_location>
+	<location_bodyarm location="shouldertop" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="shoulders"   contact="close" />
+    </split_location>
+    <directedmotion direction="u" size="small"/>
+    <directedmotion direction="d"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="flat" thumbpos="out"/>
+    </tgt_motion>
+    <split_motion>
+      <tgt_motion>
+        <handconfig extfidir="o" palmor="u"/>
+      </tgt_motion>
+      <tgt_motion>
+        <handconfig extfidir="o" palmor="d"/>
+      </tgt_motion>
+    </split_motion>
+ 
+ <tgt_motion>
+
+<handconstellation contact="close">
+      		<location_hand location="palm"    />
+      		<location_hand location="palm"  />
+      		 <location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+    	</handconstellation>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

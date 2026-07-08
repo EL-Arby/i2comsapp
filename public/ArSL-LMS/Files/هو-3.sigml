@@ -1,0 +1,22 @@
+<sigml>
+
+<hamgestural_sign gloss="he">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="HOW"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="finger2" thumbpos="across" />
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close"  side="right_at" />
+	
+ <tgt_motion>
+<directedmotion direction="u"  curve="u" size = "big" />
+   <handconfig extfidir="iu" palmor="u"/>
+   <location_bodyarm location="earlobe" contact="close"  side="right_beside" />
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

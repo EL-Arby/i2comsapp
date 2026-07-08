@@ -1,0 +1,15 @@
+<sigml>
+<hamgestural_sign gloss="ta-marbota">
+  <sign_manual>
+    <handconfig handshape="finger23" 
+	bend2="0 1 3" 
+	bend3="0 1 3" 
+	thumbpos="across"  />
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

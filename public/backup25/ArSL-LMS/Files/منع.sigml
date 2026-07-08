@@ -1,0 +1,31 @@
+<sigml>
+
+<hamgestural_sign gloss="Prevented">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ORF"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+ </extra_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger23spread" />
+    <handconfig extfidir="u" palmor="u" thumbpos="across" />
+    <location_bodyarm location="headtop" side="right_at" />
+	
+	
+     <tgt_motion>
+   <directedmotion direction="d" size="big" />
+        <handconfig handshape="finger23spread" thumbpos="across"  extfidir="u" palmor="u" bend2="0 2 2 3" bend3=" 0 2 2 3" />   
+	</tgt_motion>
+    	<tgt_motion manner="rest">
+	  
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="OLD">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KABEER"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="flat"  extfidir="lu" palmor="d" mainbend="2.5 0 0"/>
+    <location_bodyarm location="shoulders"  side="right_at" />
+	
+     <directedmotion direction="u" manner="slow" size="big"    />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

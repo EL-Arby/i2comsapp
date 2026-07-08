@@ -1,0 +1,59 @@
+<sigml>
+<hamgestural_sign gloss="sayl">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L07"/>
+      <mouth_gesture movement="L02"/>
+      <mouth_gesture movement="L02"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"     extfidir="o" palmor="ld"/>
+      <handconfig handshape="flat"  thumbpos="out"   extfidir="o" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_beside"   contact="close"/>
+	<location_bodyarm location="shoulders"   contact="close" />
+    </split_location>
+
+<tgt_motion>
+    <split_motion>
+        <directedmotion  direction="ol"   size="big"   />
+        <directedmotion  direction="ol" size="big" />
+  </split_motion>
+
+
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"     extfidir="ol" palmor="l"/>
+      <handconfig handshape="flat"  thumbpos="out"   extfidir="oul" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+       
+    <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="flat" thumbpos="out"  mainbend="1 0 0 1" bend2="100"    extfidir="l" palmor="dl"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+</tgt_motion>
+
+<split_motion>
+<directedmotion direction="dil" size="big"   />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

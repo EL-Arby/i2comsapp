@@ -1,0 +1,18 @@
+<sigml>
+
+
+<hamgestural_sign gloss="Debt">
+  <sign_manual>
+    
+   <handconfig handshape="finger2"  bend2="300" thumbpos="opposed" extfidir="ul" palmor="d" />
+      <location_bodyarm location="lips"   contact="close"/>
+    <circularmotion axis="i"  size="small" />
+   
+	 <tgt_motion>
+ <circularmotion axis="i"  size="small" />
+        	<location_bodyarm location="nose"   contact="touch"/>
+     	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

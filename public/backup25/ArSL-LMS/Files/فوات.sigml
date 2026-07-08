@@ -1,0 +1,18 @@
+<sigml>
+
+<hamgestural_sign gloss="Fawat">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="DA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual  both_hands="true" lr_symm="true">
+    <handconfig handshape="pinchall" mainbend="bent"    extfidir="ol" palmor="dl"/>
+    <location_bodyarm location="head" side="right_at" contact="close"  />
+<tgt_motion>	
+     <directedmotion direction="d"  manner="fast" size="big"/>
+    <handconfig handshape="flat" mainbend="1 0 0 4" thumbpos="opposed"  extfidir="o" palmor="dl"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

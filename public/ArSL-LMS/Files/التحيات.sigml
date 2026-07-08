@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="taheyat">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L04"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dr"/>
+    <location_bodyarm contact="close" location="eyes" side="right_beside"      />
+ 
+<directedmotion direction="or"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

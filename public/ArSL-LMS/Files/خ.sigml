@@ -1,0 +1,12 @@
+<sigml>
+<hamgestural_sign gloss="ka">
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="411"  />
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

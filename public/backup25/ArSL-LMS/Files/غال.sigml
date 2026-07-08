@@ -1,0 +1,33 @@
+<sigml>
+
+
+<hamgestural_sign gloss="expensive">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="GAAL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+
+      <handconfig  handshape="finger2"  extfidir="l"  bend2="044"   palmor="l"   />
+
+
+ 	<location_bodyarm location="shoulders"  side="right_at"  contact="close"/>
+
+<tgt_motion>  
+<directedmotion direction="d"   />
+      <handconfig  handshape="finger2"  extfidir="d"  bend2="044"   palmor="d"   />
+</tgt_motion>
+
+<tgt_motion>  
+<directedmotion direction="u" size="big"  />
+      <handconfig  handshape="finger2"  extfidir="ul"  bend2="044"   palmor="dl"   />
+</tgt_motion>
+
+      <handconfig  handshape="finger23spread"  extfidir="u"  bend5="222" bend4="211" palmor="ld"  thumbpos="out" />
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

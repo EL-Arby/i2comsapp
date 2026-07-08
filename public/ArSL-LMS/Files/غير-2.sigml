@@ -1,0 +1,54 @@
+<sigml>
+
+<hamgestural_sign gloss="diffrent">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAAA"/>
+    </mouthing_tier>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X38"/>
+        <extra_movement movement="X41"/>
+      </extra_par>
+      <extra_par>
+        <extra_movement movement="X38"/>
+        <extra_movement movement="X41"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <split_handconfig>
+        <handconfig handshape="finger23spread"  thumbpos="out"   extfidir="l" palmor="rd" />
+	<handconfig handshape="flat"   mainbend="0.5 0 0"  extfidir="u" palmor="d"/>
+    
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="palm" digits="2"  />
+      <location_hand location="side" digits="2" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+        <tgt_motion>
+         <directedmotion direction="o" size="big"  />
+   <split_handconfig>
+        <handconfig handshape="finger23spread"  thumbpos="out"   extfidir="l" palmor="ld" />
+	<handconfig handshape="flat"   mainbend="0.5 0 0"  extfidir="u" palmor="d"/>
+    
+    </split_handconfig>
+ </tgt_motion>
+
+
+        <tgt_motion>
+         <directedmotion direction="i" size="big"  />
+   <split_handconfig>
+        <handconfig handshape="finger23spread"  thumbpos="out"   extfidir="l" palmor="rd" />
+	<handconfig handshape="flat"   mainbend="0.5 0 0"  extfidir="u" palmor="d"/>
+    
+    </split_handconfig>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

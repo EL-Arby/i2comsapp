@@ -1,0 +1,84 @@
+<sigml>
+
+<hamgestural_sign gloss="line">
+   <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X29"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+
+
+  <split_handconfig>
+      <handconfig handshape="flat"   extfidir="u" palmor="d"  thumbpos="across"/>
+       <handconfig handshape="flat"    extfidir="u" palmor="d"  thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="side" digits="2"  side="right_at"/>
+      <location_hand location="side" digits="2" side="left_at" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2345"   extfidir="u" palmor="d"  thumbpos="across"/>
+       <handconfig handshape="finger2345"    extfidir="u" palmor="d"  thumbpos="across"/>
+    </split_handconfig>
+   <handconstellation contact="touch">
+      <location_hand location="side" digits="2"  side="right_at"/>
+      <location_hand location="side" digits="2" side="left_at" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+ </tgt_motion>   
+    </sign_manual>
+</hamgestural_sign>	
+
+<hamgestural_sign gloss="line">
+ 
+  <sign_manual both_hands="true" >
+
+  <split_handconfig>
+      <handconfig handshape="finger2"   extfidir="o" palmor="d"  thumbpos="across"/>
+       <handconfig handshape="finger2345"    extfidir="u" palmor="d"  thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_hand location="tip" digits="4" side="left_at"  />
+      <location_hand location="tip" digits="2"   />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+ 
+ <split_motion>
+<directedmotion direction="d" size="small"  />
+           <directedmotion />
+      </split_motion>
+
+    </sign_manual>
+</hamgestural_sign>	
+
+
+<hamgestural_sign gloss="line">
+ 
+  <sign_manual both_hands="true" >
+
+  <split_handconfig>
+      <handconfig handshape="finger2"   extfidir="o" palmor="d"  thumbpos="across"/>
+       <handconfig handshape="finger2345"    extfidir="u" palmor="d"  thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_hand location="tip" digits="3" side="left_at"  />
+      <location_hand location="tip" digits="2"   />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+ 
+ <split_motion>
+<directedmotion direction="d" size="small"  />
+           <directedmotion />
+      </split_motion>
+
+    </sign_manual>
+</hamgestural_sign>	
+
+	
+</sigml>

@@ -1,0 +1,9 @@
+<sigml>
+<hamgestural_sign gloss="Go">
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="o"  palmor="l"/>
+    <location_bodyarm location="shoulders"/>
+      <directedmotion direction="o"  />
+       </sign_manual>
+</hamgestural_sign>
+</sigml>

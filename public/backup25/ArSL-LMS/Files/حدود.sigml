@@ -1,0 +1,27 @@
+<sigml>
+<hamgestural_sign gloss="HDO">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="HDOOD"/>
+    </mouthing_tier>
+<extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+</extra_tier>
+ </sign_nonmanual>
+
+
+  <sign_manual  both_hands="true" lr_symm="true">
+
+    	<handconfig handshape="finger2"  thumbpos="across"  extfidir="o" palmor="l"/>
+
+ 	<location_bodyarm location="shouldertop" contact="close" />
+	<directedmotion direction="d" size="big"   />
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="Mojrem">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Moojrem"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12open"  />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="eyes"  side="right_at" contact="close"  />
+    <directedmotion  direction="iul" size="small"/>
+    <directedmotion direction="do" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

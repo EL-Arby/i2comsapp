@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="alot">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KATHEER"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="lu"/>
+    <location_bodyarm location="shouldertop" contact="close"  />
+	<tgt_motion>
+   <handconfig handshape="pinchall" mainbend="bent" />
+</tgt_motion>
+
+	<tgt_motion>
+  <directedmotion direction="r" manner="slow"    />
+   <handconfig handshape="finger2345" thumbpos="opposed"  mainbend="1 0 0 2" />
+    <handconfig extfidir="ou" palmor="lu"/>
+</tgt_motion>
+     
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

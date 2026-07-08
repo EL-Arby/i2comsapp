@@ -1,0 +1,36 @@
+<sigml>
+<hamgestural_sign gloss="Ratib">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="RATTB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  mainbend="022" thumbpos="opposed"/>
+    <handconfig extfidir="u" palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at"  />
+ 
+      <tgt_motion>
+<directedmotion direction="i"  />
+    <handconfig extfidir="iu" palmor="l"/>
+      </tgt_motion>
+
+
+      <tgt_motion>
+<directedmotion direction="o"   />
+    <handconfig extfidir="u" palmor="l"/>
+      </tgt_motion>
+      <tgt_motion>
+<directedmotion direction="i"  />
+    <handconfig extfidir="iu" palmor="l"/>
+      </tgt_motion>
+
+    <tgt_motion>
+<directedmotion direction="o"   />
+    <handconfig extfidir="u" palmor="l"/>
+      </tgt_motion>
+   
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

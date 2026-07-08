@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"   thumbpos="out"   extfidir="ul" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chin" side="right_at"   contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="Lm-YAT-Beha">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="l" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ 
+
+<handconstellation contact="touch">
+      		<location_hand location="nail" digits="5"    />
+      		<location_hand location="thumbball"   />
+      		 <location_bodyarm location="chest"   contact="touch"/>
+    	</handconstellation>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

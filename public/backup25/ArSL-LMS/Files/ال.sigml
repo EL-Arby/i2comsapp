@@ -1,0 +1,13 @@
+<sigml>
+	<hamgestural_sign gloss="AL">
+  <sign_manual>
+    <handconfig handshape="finger23spread" thumbpos="out"
+	    />
+	<handconfig extfidir="u" palmor="d"/>
+	<location_bodyarm location="shoulders" side="right_at"/>
+	<tgt_motion manner="rest">
+	 
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

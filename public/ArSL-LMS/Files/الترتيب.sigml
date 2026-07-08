@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="tarteb">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="cheek" side="right_at" contact="close"  />
+    <tgt_motion>
+      <changeposture/>
+      <handconfig bend3="dblbent" bend4="dblbent" bend5="dblbent" handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig bend4="dblbent" bend5="dblbent" handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+ 
+    <tgt_motion>
+  <directedmotion direction="d" size="small"/>
+      <handconfig bend5="dblbent" handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

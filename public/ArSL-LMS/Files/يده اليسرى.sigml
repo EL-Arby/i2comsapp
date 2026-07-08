@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="close fingers">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  />
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="dr" palmor="rd"/>
+    </split_handconfig>
+ <split_location>
+	<location_bodyarm location="belowstomach" side="right_at"  contact="touch"/>
+	<location_bodyarm location="shouldertop"  side="left_at"    contact="close" />
+    </split_location>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

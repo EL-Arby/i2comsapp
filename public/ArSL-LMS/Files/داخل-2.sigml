@@ -1,0 +1,16 @@
+<sigml>
+
+<hamgestural_sign gloss="inside">
+  <sign_manual>
+    
+      <handconfig handshape="flat" mainbend="2 1 0"    extfidir="i" palmor="d"/>
+ 
+<location_bodyarm location="neck"     contact="close"/>
+<directedmotion direction="id" size="small"  />
+<directedmotion direction="ou" size="small"  />
+<directedmotion direction="id" size="small"  />
+          
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

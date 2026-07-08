@@ -1,0 +1,13 @@
+<sigml>
+
+<hamgestural_sign gloss="right">
+  <sign_manual >
+    <handconfig handshape="fist" thumbpos="out" />
+    <handconfig extfidir="o" palmor="l"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close"  />
+	
+     <directedmotion direction="o" />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

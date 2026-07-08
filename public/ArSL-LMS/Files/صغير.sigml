@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="small">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SSGER"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="flat"  extfidir="lu" palmor="d" mainbend="2.5 0 0"/>
+    <location_bodyarm location="shouldertop"  side="right_at"  contact="close"/>
+	
+     <directedmotion direction="d" manner="slow"    />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

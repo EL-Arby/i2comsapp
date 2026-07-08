@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="yarfaa yadaho al okhraa">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="ou"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="chest" side="right_at"/>
+  <tgt_motion>
+  <directedmotion direction="u" manner="slow" />
+  <handconfig extfidir="u"/>
+    <location_bodyarm location="cheek" side="right_at" contact="close" />
+  </tgt_motion>
+
+    <tgt_motion>
+      <handconfig extfidir="l" palmor="l"/>
+  <location_bodyarm location="chest"   contact="touch" />
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

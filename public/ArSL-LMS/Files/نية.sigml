@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="intention">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="NEA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  		<sign_manual >
+    			<handconfig handshape="flat" thumbpos="out" bend2="310" />
+    			<handconfig extfidir="l"/>
+    			<handconfig palmor="l"/>
+    			<location_bodyarm location="chest" contact="close"/>
+	   <directedmotion direction="i" size="small"/>
+ <directedmotion direction="o" size="small" />
+ <directedmotion direction="i" size="small" />
+       
+
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+
+</sigml>

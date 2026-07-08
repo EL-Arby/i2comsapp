@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist"      extfidir="o" thumbpos="across" palmor="l"/>
+      <handconfig handshape="fist"   extfidir="o" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chest" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest" side="left_at"   contact="close"/>
+    </split_location>
+<tgt_motion>
+
+ <split_handconfig>
+      <handconfig handshape="fist"      extfidir="o" thumbpos="across" palmor="l"/>
+      <handconfig handshape="fist"   extfidir="d" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chest" side="right_at"   contact="close"/>
+	<location_bodyarm location="belowstomach" side="left_at"   contact="close"/>
+    </split_location>
+</tgt_motion>
+<split_motion>
+           <directedmotion />
+<directedmotion direction="di"   />
+      </split_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

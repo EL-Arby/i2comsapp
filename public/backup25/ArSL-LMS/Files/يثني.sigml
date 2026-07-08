@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="yathni">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L05"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="l"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+     <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest" side="left_at"    contact="close" />
+    </split_location>
+    
+ 
+    
+    <tgt_motion>
+      <directedmotion curve="l" direction="l"   manner="slow"/>
+ <handconfig handshape="ceeall"/>
+      <handconfig extfidir="il" palmor="r"/>
+
+<handconstellation contact="touch">
+      		<location_hand location="side" digits="1"   />
+      		<location_hand location="side" digits="5"  />
+      		 <location_bodyarm location="chest"    />
+    	</handconstellation>
+    </tgt_motion>
+     
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

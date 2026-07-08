@@ -1,0 +1,13 @@
+<sigml>
+<hamgestural_sign gloss="waw">
+  <sign_manual>
+    <handconfig handshape="fist" bend2="414" bend3="414" bend4="414"  
+	bend5="3 2 4 0.3 " thumbpos="opposed"  />
+    <handconfig extfidir="r" palmor="do"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

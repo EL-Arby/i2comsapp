@@ -1,0 +1,39 @@
+<sigml>
+
+<hamgestural_sign gloss="Rajeem">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="RAJEM"/>
+    </mouthing_tier>
+ <eyegaze_tier>
+      <eye_gaze direction="RI"/>
+    </eyegaze_tier>
+
+  </sign_nonmanual>
+
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="200"  thumbpos="opposed"  extfidir="lu" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+  <tgt_motion>
+<split_motion>
+<directedmotion direction="r"  size="big" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"  extfidir="ru" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+  </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,75 @@
+<sigml>
+<hamgestural_sign gloss="thahr">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="dhahr"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="u"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="ear" side="right_beside"/>
+      <location_bodyarm contact="touch" location="stomach"/>
+    </split_location>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat" mainbend="bent"/>
+          <handconfig extfidir="i" palmor="d"/>
+        </tgt_motion>
+        <rpt_motion repetition="fromstart">
+          <directedmotion direction="di" size="small"/>
+        </rpt_motion>
+        <directedmotion direction="o" size="big"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger23spread" thumbpos="across"/>
+          <handconfig extfidir="o" palmor="u"/>
+        </tgt_motion>
+       
+ 
+      </seq_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="o" palmor="u"/>
+        </tgt_motion>
+   
+      </seq_motion>
+    </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="Bowl">
+   <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger23spread"  thumbpos="across"  extfidir="o" palmor="u"/>
+      <handconfig handshape="flat"  extfidir="o" palmor="u"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="palm"    />
+      		<location_hand location="handback"   />
+      		 <location_bodyarm location="chest"   contact="armextended"/>
+    	</handconstellation>
+
+     
+<split_motion>
+<directedmotion direction="i"  />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

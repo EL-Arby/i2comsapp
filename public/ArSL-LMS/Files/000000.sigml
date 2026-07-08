@@ -1,0 +1,16 @@
+<sigml>
+
+<hamgestural_sign gloss="million">
+  <sign_manual both_hands="true" >
+   
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="o" palmor="d"/>
+      <handconfig handshape="fist"   thumbpos="out"  extfidir="o" palmor="r"/>
+    </split_handconfig>
+    <location_bodyarm location="shoulders" contact="close"  />
+	
+     <directedmotion direction="o"   size="small"/>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

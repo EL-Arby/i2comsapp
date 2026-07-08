@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="fall">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	
+     <directedmotion direction="d"  manner="fast" size="big"/>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

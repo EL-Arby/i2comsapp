@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="family">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual both_hands="true"  lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="ou" palmor="l"/>
+   
+  <handconstellation contact="touch">
+      <location_hand location="midjoint" digits="5" />
+      <location_hand location="midjoint" digits="5"  />	
+ <location_bodyarm location="shoulders"/> 
+    </handconstellation>
+<tgt_motion>
+	 <circularmotion  axis="u"/>
+  <handconstellation contact="touch">
+      <location_hand location="midjoint" digits="5" />
+      <location_hand location="midjoint" digits="5"  />	
+ <location_bodyarm location="shoulders" contact="armextended"/> 
+    </handconstellation>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,45 @@
+<sigml>
+<hamgestural_sign gloss="theraain">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="across"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <location_bodyarm location="elbowinside"/>
+    <split_motion>
+      <directedmotion direction="r"/>
+      <seq_motion>
+        <directedmotion direction="il"/>
+        <directedmotion direction="ur"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="dl" size="big"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="l" palmor="l"/>
+        </tgt_motion>
+      </seq_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="u" palmor="r"/>
+        </tgt_motion>
+        <directedmotion direction="l" size="big"/>
+        <directedmotion direction="l"/>
+        <directedmotion direction="u" size="small"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="ol" size="small"/>
+        <directedmotion direction="l"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

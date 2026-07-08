@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="goodness">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KAYR"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+     <handconfig handshape="finger23" thumbpos="out" extfidir="ul"   palmor="l"/>
+      <handconfig handshape="flat"    mainbend="111" extfidir="ou" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="lips" contact="touch"/>
+	<location_bodyarm location="shoulders"   contact="close"  side="left_at"/>
+    </split_location>
+
+<split_motion>
+<directedmotion direction="d"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

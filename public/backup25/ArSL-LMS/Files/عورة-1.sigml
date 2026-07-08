@@ -1,0 +1,46 @@
+<sigml>
+<hamgestural_sign gloss="AWRA">
+  <sign_manual>
+    <handconfig handshape="flat" />
+    <handconfig extfidir="l"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="stomach" contact="close" side="ulnar"/>
+<directedmotion direction="i" size="small" />
+     </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="AWRA">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="d" palmor="l"/>
+      <handconfig handshape="finger23spread"   mainbend="2 0 0 8" extfidir="rdo" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="belowstomach" side="right_at"   contact="touch" />
+	<location_bodyarm location="shoulders"  side="left_at"   contact="close"/>
+	
+    </split_location>
+
+
+
+<par_motion>
+
+<split_motion>
+           <directedmotion />
+ <directedmotion direction="r" manner="slow"/>
+      </split_motion>
+     
+      <tgt_motion>
+<split_motion>
+           <directedmotion />
+ <fingerplay/>
+      </split_motion>
+      
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="one">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAHD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+ 
+ <split_handconfig>
+      <handconfig handshape="flat"  bend2="3.5 0 0 30"   thumbpos="opposed" extfidir="u" palmor="ld"/>
+      <handconfig handshape="finger2345"  mainbend="0 0 0 1"  extfidir="u" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"   contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at" contact="armextended" />
+    </split_location>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="ir" size="big"   />
+           <directedmotion />
+      </split_motion>
+    <split_handconfig>
+<handconfig handshape="pinch12open" mainbend="bent"  extfidir="u" palmor="ld"/>
+            <handconfig handshape="finger2345"   mainbend="0 0 0 1"  extfidir="u" palmor="d"/>
+    </split_handconfig>
+
+
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

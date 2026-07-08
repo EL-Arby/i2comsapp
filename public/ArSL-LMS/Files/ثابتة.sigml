@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="thabet">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="TTT"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger23spread" thumbpos="across" />
+    <handconfig extfidir="o" palmor="d"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close"  />
+	
+     <directedmotion direction="d" />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

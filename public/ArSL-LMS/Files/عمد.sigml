@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="amada">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ABDA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across" mainbend="122" />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="forehead" side="right_at" contact="touch"/>
+ <directedmotion direction="r" size="small"/>
+ 
+    <rpt_motion repetition="fromstart">
+      <directedmotion direction="l" size="small"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

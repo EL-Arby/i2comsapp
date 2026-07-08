@@ -1,0 +1,39 @@
+<sigml>
+<hamgestural_sign gloss="hadher">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L28"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="l"/>
+      <handconfig extfidir="or" palmor="d"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm contact="touch" location="stomach"/>
+      <location_bodyarm location="shoulders"/>
+    </split_location>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        <rpt_motion repetition="fromstart">
+          <directedmotion direction="d" size="small"/>
+        </rpt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="o" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="ol"/>
+        <rpt_motion repetition="fromstart">
+          <directedmotion direction="d" size="small"/>
+        </rpt_motion>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

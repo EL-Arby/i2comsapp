@@ -1,0 +1,45 @@
+<sigml>
+<hamgestural_sign gloss="$PROD">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="kefkif"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger23spread" thumbpos="out"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </split_handconfig>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="dl"/>
+
+     
+  <split_location>
+	<location_bodyarm location="shoulders" side="left_at"   contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="armextended" />
+    </split_location>
+
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend2="bent" bend3="bent" handshape="finger23spread" thumbpos="opposed"/>
+      </tgt_motion>
+      <nomotion/>
+    </split_motion>
+ 
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+           <directedmotion curve="u" direction="o" size="big" />
+          <handconfig handshape="finger23spread" thumbpos="out"/>
+        </tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig bend2="bent" bend3="bent" handshape="finger23spread" thumbpos="opposed"/>
+        </tgt_motion>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

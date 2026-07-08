@@ -1,0 +1,42 @@
+<sigml>
+<hamgestural_sign gloss="Late">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="TAKER"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="flat" mainbend="210"   extfidir="ol" palmor="l"  />
+		<handconfig handshape="flat"  extfidir="r" palmor="d" />
+	</split_handconfig>
+   
+
+
+    <handconstellation contact="close">
+      <location_hand location="nail" digits="5" />
+      <location_hand location="side" digits="5"    />
+ 	<location_bodyarm location="shoulders" />
+	 
+    </handconstellation>
+  
+	<par_motion>
+      			
+<split_motion>
+	<directedmotion   direction="o"  curve="u"  manner="slow"   />
+        <directedmotion />
+      </split_motion> 
+	
+      				<tgt_motion>
+        				     				</tgt_motion>
+    			</par_motion>
+	
+	
+        
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

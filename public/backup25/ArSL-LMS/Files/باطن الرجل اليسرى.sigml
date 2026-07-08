@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="baten">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    mainbend="200" extfidir="od" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="r" palmor="u"/>
+    </split_handconfig>
+ 
+<handconstellation contact="close">
+      		<location_hand location="side"  digits="1"    />
+      		<location_hand location="midjoint"  digits="2"  />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+
+	 <split_motion>
+           <directedmotion />
+<directedmotion direction="d"   size="small" />
+      </split_motion>
+	 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,55 @@
+<sigml>
+<hamgestural_sign gloss="disappear">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="GAP"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="finger2345"  extfidir="u" palmor="d"  />
+		<handconfig handshape="flat"  extfidir="r" palmor="d" />
+	</split_handconfig>
+   
+
+
+     <split_location>
+	<location_bodyarm location="head"   contact="close"/>
+	<location_bodyarm location="shoulders"   contact="armextended" />
+    </split_location>
+
+    
+	<par_motion>
+      			
+<split_motion>
+	<directedmotion  direction="d"  size="small"   />
+        <directedmotion />
+      </split_motion> 
+	
+      				<tgt_motion>
+        				<changeposture/>
+
+<split_handconfig>
+    		<handconfig handshape="pinchall" mainbend="bent"  thumbpos="across" />
+		<handconfig handshape="flat" />
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="dr"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+
+    
+
+      				</tgt_motion>
+    			</par_motion>
+	
+	
+        
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

@@ -41,12 +41,17 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => rtrim(env('APP_URL', 'http://localhost'), '/').'/storage',
+            'url' => rtrim(env('APP_URL', 'http://i2comsapp'), '/').'/storage',
             'visibility' => 'public',
             'throw' => false,
             'report' => false,
         ],
-
+            'public_images' => [
+                    'driver' => 'local',
+                    'root' => '/home/vle0nxy38ty5/public_html/images',
+                    'url' => env('APP_URL') . '/images',
+                    'visibility' => 'public',
+                ],
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
@@ -74,7 +79,9 @@ return [
     */
 
     'links' => [
-        public_path('storage') => storage_path('app/public'),
+        '/home/vle0nxy38ty5/public_html/storage' => storage_path('app/public'),
+               '/home/vle0nxy38ty5/public_html/images' => storage_path('speakers'),
+
     ],
 
 ];

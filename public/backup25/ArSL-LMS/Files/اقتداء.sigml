@@ -1,0 +1,41 @@
+<sigml>
+
+<hamgestural_sign gloss="Eqteda">
+  <sign_manual both_hands="true" >
+     <split_handconfig>
+      <handconfig handshape="finger23" mainbend="3 0 0 2"   thumbpos="opposed"  extfidir="u" palmor="d"/>
+<handconfig handshape="finger23" mainbend="3 0 0 2"    thumbpos="opposed"  extfidir="u" palmor="r"/>
+ </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="right_beside"   contact="close"/>
+	<location_bodyarm location="lips"   contact="close" />
+    </split_location>
+
+<tgt_motion>
+    <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent" bend4="444"  bend5="444"    thumbpos="opposed"  extfidir="u" palmor="d"/>
+<handconfig handshape="pinchall" mainbend="bent" bend4="444"  bend5="444"     thumbpos="opposed"  extfidir="u" palmor="r"/>
+ </split_handconfig>
+</tgt_motion>
+
+
+<tgt_motion>
+     <split_handconfig>
+      <handconfig handshape="finger23" mainbend="3 0 0 2"   thumbpos="opposed"  extfidir="u" palmor="d"/>
+<handconfig handshape="finger23" mainbend="3 0 0 2"    thumbpos="opposed"  extfidir="u" palmor="r"/>
+ </split_handconfig>
+</tgt_motion>
+
+
+<tgt_motion>
+    <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent" bend4="444"  bend5="444"    thumbpos="opposed"  extfidir="u" palmor="d"/>
+<handconfig handshape="pinchall" mainbend="bent" bend4="444"  bend5="444"     thumbpos="opposed"  extfidir="u" palmor="r"/>
+ </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

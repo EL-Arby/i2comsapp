@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="person">
+
+  		<sign_manual >
+    			<handconfig handshape="cee12"  ceeopening="slack"   />
+    			<handconfig extfidir="li"/>
+    			<handconfig palmor="dr"/>
+    			<location_bodyarm location="head" contact="close"/>
+	   <directedmotion direction="d" size="big"/>
+ 
+       
+
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+
+</sigml>

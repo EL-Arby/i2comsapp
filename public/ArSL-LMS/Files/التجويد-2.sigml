@@ -1,0 +1,37 @@
+<sigml>
+<hamgestural_sign gloss="tajweed">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="wahwah"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" bend2="100" extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="head" side="right_at" contact="close" />
+<tgt_motion>
+<directedmotion direction="dl" size="small" />
+   </tgt_motion>
+<tgt_motion>  
+   <handconfig  extfidir="u" palmor="ul"/>
+</tgt_motion>
+<tgt_motion>  
+   <handconfig  extfidir="u" palmor="dl"/>
+</tgt_motion>
+<tgt_motion>  
+   <handconfig  extfidir="u" palmor="ul"/>
+</tgt_motion>
+<tgt_motion>
+<directedmotion direction="dr"  size="small"  />
+    <handconfig  extfidir="u" palmor="dl"/>
+</tgt_motion>
+
+    <tgt_motion>
+<directedmotion direction="dl" size="small"/>
+    <handconfig  extfidir="u" palmor="lu"/>
+</tgt_motion>
+    
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

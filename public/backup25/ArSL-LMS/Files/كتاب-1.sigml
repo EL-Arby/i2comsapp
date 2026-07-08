@@ -1,0 +1,49 @@
+<sigml>
+
+<hamgestural_sign gloss="book">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+ 
+<mouthing_tier>
+      <mouth_picture picture="KTAB"/>
+    </mouthing_tier>
+
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+
+
+        				<split_handconfig>
+      <handconfig handshape="flat"   extfidir="ou" palmor="l" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="ou" palmor="r" mainbend="0.8 0 0"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="thumbball"  />
+      <location_hand location="thumbball" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+  
+
+<tgt_motion>
+        				  <split_handconfig>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ul"/>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ru"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="pinkyside"  />
+      <location_hand location="pinkyside" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+   </tgt_motion>
+    
+<split_motion>
+        <directedmotion direction="" size="small" />
+	<directedmotion />
+</split_motion>
+
+
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

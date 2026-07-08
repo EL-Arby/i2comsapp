@@ -1,0 +1,15 @@
+<sigml>
+	<hamgestural_sign gloss="point_with_finger">
+  		<sign_manual >  
+			<handconfig handshape="pinch12" bend2="012"   specialfingers="3"   extfidir="uo" palmor="d"/>
+    			<location_bodyarm location="stomach"  side ="right_at" contact="far"/>
+<tgt_motion>	
+<handconfig handshape="pinch12" bend2="312"   specialfingers="3"   extfidir="uo" palmor="d"/>
+	</tgt_motion>
+<tgt_motion>	
+<handconfig handshape="pinch12" bend2="012"   specialfingers="3"   extfidir="uo" palmor="d"/>
+	</tgt_motion>
+
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

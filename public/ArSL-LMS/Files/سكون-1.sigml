@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="silence">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SKOON"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+<sign_manual  both_hands="true" lr_symm="true">
+<handconfig handshape="finger2345"     extfidir="u" palmor="u"/>
+ <location_bodyarm location="shoulders" contact="touch" side="right_at" />
+
+		
+		<tgt_motion>
+		<directedmotion direction="od"   manner="slow"/>
+			<handconfig handshape="pinchall"  mainbend="bent" extfidir="o" palmor="u"/>			
+		</tgt_motion>
+    				
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

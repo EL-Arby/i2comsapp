@@ -1,0 +1,12 @@
+<sigml>
+
+<hamgestural_sign gloss="lost">
+
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" mainbend="400"   thumbpos="across" extfidir="l" palmor="l"/>
+    <location_bodyarm location="chest" side="right_at"  contact="touch" />
+
+	  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

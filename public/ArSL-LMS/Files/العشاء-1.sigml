@@ -1,0 +1,56 @@
+<sigml>
+<hamgestural_sign gloss="AL EISHAA">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="finger2345"  extfidir="u" palmor="d"  />
+		<handconfig handshape="flat"  extfidir="r" palmor="d" />
+	</split_handconfig>
+   
+
+
+    <handconstellation contact="close">
+      <location_hand location="thumbside" />
+      <location_hand location="thumbball"   side="palmar" />
+ 	<location_bodyarm location="neck" />
+	 
+    </handconstellation>
+  
+	<par_motion>
+      			
+<split_motion>
+	<directedmotion  direction="d"  size="big"   />
+        <directedmotion />
+      </split_motion> 
+	
+      				<tgt_motion>
+        				<changeposture/>
+
+<split_handconfig>
+    		<handconfig handshape="fist"  thumbpos="across" />
+		<handconfig handshape="flat" />
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="lu" palmor="d"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+
+    
+
+      				</tgt_motion>
+    			</par_motion>
+	
+	
+        
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

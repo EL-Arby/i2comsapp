@@ -1,0 +1,33 @@
+<sigml>
+
+<hamgestural_sign gloss="After">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="MFSOLA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"     thumbpos="out"  extfidir="l" palmor="d"/>
+      <handconfig  handshape="flat"   thumbpos="out"  extfidir="r" palmor="d" />
+    </split_handconfig>
+  
+ 
+    <handconstellation contact="touch">
+<location_hand location="back"   digits="3"  />
+      <location_hand location="tip" digits="3"   />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+<split_motion>
+ <directedmotion direction="u"     size="big"/>
+ <directedmotion direction="d"     size="small"/>
+</split_motion>
+    
+
+    
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

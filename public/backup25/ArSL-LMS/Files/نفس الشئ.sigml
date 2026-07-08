@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="nafes echaa">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="methel"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="100"  bend5="333" bend4="222"  thumbpos="opposed"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="shoulders"/>
+    <tgt_motion>
+      <changeposture/>
+    <handconfig handshape="pinchall" mainbend="bent"  bend5="433" bend4="322"  thumbpos="opposed"/>
+  </tgt_motion>
+ 
+    <tgt_motion>
+         <directedmotion direction="r"/>
+     <handconfig handshape="flat" mainbend="100"  bend5="333" bend4="222"  thumbpos="opposed"/>
+  
+   </tgt_motion>
+    <tgt_motion>
+      <changeposture/>
+    <handconfig handshape="pinchall" mainbend="bent"    bend5="433" bend4="322"  thumbpos="opposed"/>
+     </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

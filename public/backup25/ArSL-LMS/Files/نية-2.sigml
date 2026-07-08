@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="intention">
+
+  		<sign_manual >
+    			<handconfig handshape="flat"  thumbpos="out" bend2="310"  bend5="0 0 0 2"  />
+    			<handconfig extfidir="l"/>
+    			<handconfig palmor="l"/>
+    			<location_bodyarm location="chest" contact="close"/>
+	   <directedmotion direction="i" size="small"/>
+ 
+       
+
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+
+</sigml>

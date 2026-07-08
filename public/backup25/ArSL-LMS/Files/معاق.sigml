@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="paralizedl">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BOAOK"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" mainbend="100"  thumbpos="out" extfidir="l" palmor="l"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+<tgt_motion>	
+     <directedmotion direction="d"  manner="fast" size="big"/> 
+ <handconfig handshape="flat"    thumbpos="out" extfidir="d" palmor="d"/>
+</tgt_motion> 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

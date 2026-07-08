@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="alayna">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="alaymmmna"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger23" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shouldertop"/>
+
+    <tgt_motion>
+    <directedmotion direction="dr" curve="u"/>
+      <handconfig extfidir="or" palmor="l"/>
+    </tgt_motion>
+    
+    <tgt_motion>
+      <directedmotion curve="r" direction="l" size="big"/>
+      <handconfig extfidir="dl" palmor="l"/>
+    </tgt_motion>
+    <directedmotion curve="l" direction="r" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

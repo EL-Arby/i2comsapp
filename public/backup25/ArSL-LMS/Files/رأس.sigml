@@ -1,0 +1,34 @@
+<sigml>
+
+<hamgestural_sign gloss="his-Head">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="ceeall"    extfidir="u" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="tip"  digits="3" />
+      		<location_hand location="side"  digits="1"  />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+
+<tgt_motion>
+
+ <split_handconfig>
+      <handconfig handshape="ceeall"    extfidir="o" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+
+<handconstellation contact="touch">
+      		<location_hand location="tip"  digits="3" />
+      		<location_hand location="side"  digits="1"  />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

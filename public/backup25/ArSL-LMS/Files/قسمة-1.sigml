@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="divide">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="VA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" mainbend="1 2 1 5"  thumbpos="opposed"  extfidir="dol" palmor="d"/>
+ 
+	<handconstellation contact="touch">
+      <location_hand location="side" digits="2"  />
+      <location_hand location="side" digits="2" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+   
+    	<tgt_motion  >
+	 <directedmotion direction="r" />
+    <handconfig handshape="flat" mainbend="1 1 1 5"  thumbpos="opposed"  extfidir="or" palmor="dr"/>
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

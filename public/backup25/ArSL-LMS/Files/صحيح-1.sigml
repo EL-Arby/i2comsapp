@@ -1,0 +1,32 @@
+<sigml>
+<hamgestural_sign gloss="right">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSA"/>
+    </mouthing_tier>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X14"/>
+        <extra_movement movement="X15"/>
+        <extra_movement movement="X13"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"  extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders"/>
+
+     <directedmotion direction="d" size="small" />
+
+ 
+<tgt_motion>
+          <directedmotion direction="ru" size="big" />
+        <handconfig extfidir="ru" palmor="l"/>
+
+      </tgt_motion>
+
+  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

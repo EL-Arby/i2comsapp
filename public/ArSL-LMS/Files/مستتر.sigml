@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="to_cover">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ESTATTR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across" extfidir="l"  palmor="ld"/>
+    <location_bodyarm location="head" side="right_at"  contact="close" />
+
+   
+<tgt_motion>
+    <directedmotion direction="d" size="big"   mannar="slow" />
+    <handconfig palmor="l"/>
+</tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

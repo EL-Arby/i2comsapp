@@ -1,0 +1,55 @@
+<sigml>
+<hamgestural_sign gloss="sahaba">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="mmmmmsahaba"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="fist"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="dl"/>
+      <handconfig extfidir="d" palmor="d"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="head"/>
+      <location_bodyarm location="stomach"/>
+    </split_location>
+    <split_motion>
+      <seq_motion>
+  <tgt_motion>
+        <directedmotion direction="dl"/>
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="l"/>
+      <handconfig extfidir="d" palmor="d"/>
+    </split_handconfig>
+  </tgt_motion>
+        <tgt_motion>
+          <handconfig handshape="flat" thumbpos="out"/>
+          <handconfig extfidir="o" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="r"/>
+      </seq_motion>
+      <directedmotion direction="dl"/>
+    </split_motion>
+
+
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="222"   bend5="122"  bend2="322" bend3="322"    extfidir="ul" palmor="r"/>
+     <handconfig handshape="flat" mainbend="222"    extfidir="ur" palmor="r"/>
+    </split_handconfig>
+
+<handconstellation contact="touch">
+      		<location_hand location="palm" digits="5"   />
+      		<location_hand location="palm"    side="ulnar"  />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

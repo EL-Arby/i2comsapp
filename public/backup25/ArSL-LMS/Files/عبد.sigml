@@ -1,0 +1,12 @@
+<sigml>
+<hamgestural_sign gloss="slave">
+  <sign_manual>
+    <handconfig handshape="fist"   mainbend="344"  bend2="244" extfidir="iu"  palmor="lu"/>
+    <location_bodyarm location="neck"    contact="touch"  />
+<tgt_motion>
+      <directedmotion direction="dor"  size="big" />
+   <location_bodyarm location="shoulders"  side="right_at"  contact="close"  />
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -29,12 +29,12 @@
     </p>
 
     <p class="text-yellow-900 font-bold mb-4">
-        At least one author of each paper must be registered to the I2COMSAPP Conference.
+        At least one author of each paper must be registered to the I2COMSAPP'26 Conference.
     </p>
 
     <div class="bg-white p-4 rounded-lg border border-yellow-300 mb-4">
         <p class="font-bold text-gray-800 mb-2">📧 Registration Contact</p>
-        <p class="text-gray-700">Email: i2comm2025@gmail.com</p>
+        <p class="text-gray-700">Email: i2comsappconf@gmail.com</p>
         <p class="text-gray-700">WhatsApp: +222 46 76 88 11</p>
     </div>
 
@@ -161,13 +161,13 @@
 
 </div>
 
-<p class="text-gray-700 font-semibold mb-8">
-            For I2COMSAPP registration fee payment, please make the relevant amount transfer to the following account:
-        </p>
+<!--<p class="text-gray-700 font-semibold mb-8">-->
+<!--            For I2COMSAPP registration fee payment, please make the relevant amount transfer to the following account:-->
+<!--        </p>-->
 
-<p class="text-blue-700 font-semibold mb-8">
-Will appear here
-        </p>
+<!--<p class="text-blue-700 font-semibold mb-8">-->
+<!--Will appear here-->
+<!--        </p>-->
         {{-- <div class="grid md:grid-cols-2 gap-6">
             <div class="bg-white p-6 rounded-xl border-2 border-blue-200">
                 <h4 class="text-xl font-bold text-blue-700 mb-4">From outside Mauritania</h4>
@@ -231,7 +231,7 @@ Will appear here
             <div class="space-y-4">
                 <div class="bg-gray-50 p-6 rounded-lg">
                     <h3 class="font-bold text-blue-900 mb-2">What's included in the registration?</h3>
-                    <p class="text-gray-600">All registrations include access to all conference sessions, conference materials, lunch, and digital certificate. VIP packages include additional benefits.</p>
+                    <p class="text-gray-600">All registrations include access to all conference sessions, conference materials, lunch, and digital certificate.</p>
                 </div>
                 <div class="bg-gray-50 p-6 rounded-lg">
                     <h3 class="font-bold text-blue-900 mb-2">Can I get a refund?</h3>

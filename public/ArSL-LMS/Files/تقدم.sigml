@@ -1,0 +1,31 @@
+<sigml>
+
+<hamgestural_sign gloss="M_Front_I">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"      extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2"   extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="shouldertop"   contact="close"  side="right_at" />
+	<location_bodyarm location="shoulders"   />
+	
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="o"   curve="r"  />
+ <directedmotion />
+      </split_motion>
+ <split_location>
+	<location_bodyarm location="shouldertop" contact="armextended"    />
+<location_bodyarm location="shoulders"   />
+	
+    </split_location>
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

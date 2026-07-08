@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="kif kif">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="kif kif"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <split_handconfig>
+      <handconfig extfidir="uo" palmor="l"/>
+      <handconfig extfidir="o" palmor="r"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="shoulders" side="right_at" />
+<tgt_motion>
+
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="dr"/>
+      <handconfig extfidir="o" palmor="ur"/>
+    </split_handconfig>
+</tgt_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ou" palmor="l"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="u" palmor="dr"/>
+      </tgt_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

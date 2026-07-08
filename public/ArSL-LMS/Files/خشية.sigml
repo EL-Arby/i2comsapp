@@ -1,0 +1,39 @@
+<sigml>
+<hamgestural_sign gloss="keshya">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="FU"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L03"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="u"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm contact="close" location="chin"/>
+      <location_bodyarm contact="touch" location="chest"/>
+    </split_location>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger2345" mainbend="round" thumbpos="out"/>
+        </tgt_motion>
+        <directedmotion direction="d" size="small" slow="true"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="late">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="TAKAR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="flat"  extfidir="l" palmor="l" thumbpos="out"/>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="or" palmor="d"/>
+    </split_handconfig>
+    <handconstellation contact="touch" >
+      <location_hand location="handback" side="ulnar"  />
+      <location_hand location="side" digits="5" />
+      <location_bodyarm location="chest"    />
+    </handconstellation>
+    
+ <split_motion>
+<directedmotion direction="o"  />
+           <directedmotion />
+      </split_motion>
+ 
+    </sign_manual>
+</hamgestural_sign>
+
+</sigml>
+

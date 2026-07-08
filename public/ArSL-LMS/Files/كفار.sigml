@@ -1,0 +1,34 @@
+<sigml>
+
+<hamgestural_sign gloss="christian">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KAFR"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+ 
+
+
+    <split_handconfig>
+
+      <handconfig handshape="finger2" thumbpos="across" extfidir="l" second_extfidir="l" palmor="d"/>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="d"/>
+
+    </split_handconfig>
+  
+   
+
+    <handconstellation contact="touch">
+      <location_hand location="nail" side="back" />
+      <location_hand location="midjoint" side="back" />
+       <location_bodyarm location="underchin" contact="close" />
+    </handconstellation>
+
+     <tgt_motion manner="rest">
+	 			 <changeposture/>
+			</tgt_motion>	
+   
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

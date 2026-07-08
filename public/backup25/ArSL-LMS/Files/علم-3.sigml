@@ -1,0 +1,40 @@
+<sigml>
+<hamgestural_sign gloss="Knowledge">
+<sign_nonmanual>
+   <extra_tier>
+      <extra_par>
+         <extra_movement movement="X14"/>
+        <extra_movement movement="X15"/>
+      </extra_par>
+</extra_tier>
+    <mouthing_tier>
+      <mouth_picture picture="ELLMM"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual>
+
+    		<handconfig handshape="flat" mainbend="1 0 0 4 "  thumbpos="opposed" extfidir="u" palmor="ul"/>
+      
+ 	<location_bodyarm location="cheek" side="right_beside" contact="close"  />     
+
+	<tgt_motion>
+	 
+    <handconfig handshape="flat" mainbend="400"  thumbpos="opposed" extfidir="u" palmor="ul"/>
+
+	</tgt_motion>
+
+<tgt_motion>
+	 
+    <handconfig handshape="flat" mainbend="1 0 0 4 "  thumbpos="opposed" extfidir="u" palmor="ul"/>
+      
+	</tgt_motion>
+
+<tgt_motion>
+	 
+    <handconfig handshape="flat" mainbend="400"  thumbpos="opposed" extfidir="u" palmor="ul"/>
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

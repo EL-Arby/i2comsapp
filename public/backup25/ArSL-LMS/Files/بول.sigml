@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="Baol">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BAOL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" specialfingers="5"  thumbpos="across"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="head" contact="close" side="right_at" />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

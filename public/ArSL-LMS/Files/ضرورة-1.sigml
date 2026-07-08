@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="nessessory">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="DRORA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+
+  <sign_manual  >
+    <handconfig handshape="fist" thumbpos="out" bend5="0 0 0 3"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders"  contact="close" side="right_at" />
+ 
+<directedmotion direction="r"  size="small" manner="fast" />
+<directedmotion direction="l"  size="small" manner="fast" />
+<directedmotion direction="r"  size="small" manner="fast" />
+ <directedmotion direction="l"  size="small" manner="fast" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

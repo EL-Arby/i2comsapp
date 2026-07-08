@@ -46,11 +46,11 @@ class SponsorResource extends Resource
                     ->maxLength(255),
                 Components\Select::make('level')
                     ->options([
-                        'platinum' => 'Platinum',
-                        'gold' => 'Gold',
-                        'silver' => 'Silver',
-                        'bronze' => 'Bronze',
-                        'collaborator' => 'Collaborator',
+                        'platinum' => '💎 Platinum',
+                        'gold' => '🏆 Gold',
+                        'silver' => '✨ Silver',
+                        'bronze' => '🤝 Bronze',
+                        'collaborator' => '🎓 Collaborator',
                     ])
                     ->default('collaborator'),
                 Components\TextInput::make('sort_order')
@@ -81,11 +81,11 @@ class SponsorResource extends Resource
                 Tables\Filters\TernaryFilter::make('is_published'),
                 Tables\Filters\SelectFilter::make('level')
                     ->options([
-                        'platinum' => 'Platinum',
-                        'gold' => 'Gold',
-                        'silver' => 'Silver',
-                        'bronze' => 'Bronze',
-                        'collaborator' => 'Collaborator',
+                        'platinum' => '💎 Platinum',
+                        'gold' => '🏆 Gold',
+                        'silver' => '✨ Silver',
+                        'bronze' => '🤝 Bronze',
+                        'collaborator' => '🎓 Collaborator',
                     ]),
             ])
             ->actions([

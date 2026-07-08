@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="layla mothlema">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <facial_expr_par>
+        <eye_brows movement="FU"/>
+        <eye_lids movement="CB"/>
+      </facial_expr_par>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L16"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="opposed"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+ 
+  <split_location>
+	<location_bodyarm location="head" side="right_at"   contact="close"/>
+	<location_bodyarm location="head" side="left_at"  contact="close" />
+    </split_location>
+ 
+
+    <tgt_motion>
+          <split_motion>
+      <directedmotion direction="l"  />
+      <directedmotion direction="or"/>
+    </split_motion>
+      <handconfig handshape="finger2345" mainbend="round" thumbpos="opposed"/>
+    </tgt_motion>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2345" mainbend="dblbent" thumbpos="opposed"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

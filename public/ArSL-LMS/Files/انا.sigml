@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="enna">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="or"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="chest"/>
+    <directedmotion direction="o" size="small"/>
+    <directedmotion curve="r" direction="r"/>
+    <directedmotion curve="r" direction="il"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="fist"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

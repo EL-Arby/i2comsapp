@@ -1,0 +1,47 @@
+<sigml>
+
+<hamgestural_sign gloss="Reception">
+
+ <sign_nonmanual>
+ <eyegaze_tier>
+      <eye_gaze direction="RI"/>
+    </eyegaze_tier>
+<mouthing_tier>
+      <mouth_picture picture="KTTAB"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"      extfidir="d" palmor="l"/>
+      <handconfig handshape="finger23spread"  thumbpos="across"  extfidir="u" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="belowstomach" side="right_at"   contact="touch"/>
+	<location_bodyarm location="shouldertop" side="left_at"    contact="close"  />
+    </split_location>
+  <tgt_motion>
+<split_motion>
+           <directedmotion />
+<directedmotion direction="rd" size="big"   />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"      extfidir="d" palmor="l"/>
+      <handconfig handshape="finger23spread"  thumbpos="across"  extfidir="ur" palmor="d"/>
+    </split_handconfig>
+  </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

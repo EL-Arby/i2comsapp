@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="blind">
+ <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+          <extra_movement movement="X24"/>
+      </extra_par>
+<extra_par>
+          <extra_movement movement="X24"/>
+      </extra_par>
+<extra_par>
+          <extra_movement movement="X24"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	
+     <directedmotion direction="d"  size="small"/>  
+<directedmotion direction="l"   curve="u" manner="slow"  />  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

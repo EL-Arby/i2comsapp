@@ -1,0 +1,23 @@
+<sigml>
+
+<hamgestural_sign gloss="MOATMAD">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" mainbend="1 1.5 0"    extfidir="u" palmor="ul"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="forehead" side="right_beside"   contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<split_motion>
+<wristmotion motion="nodding" size="small"/>
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

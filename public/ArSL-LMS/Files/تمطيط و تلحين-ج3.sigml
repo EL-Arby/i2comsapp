@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="TAMTET">
+  <sign_manual>
+    <handconfig handshape="finger23spread"  thumbpos="out"   />
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dr"/>
+    <location_bodyarm location="shoulders"/>
+    <par_motion>
+      <directedmotion direction="r" size="small" manner="fast"  />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="u" palmor="lu"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

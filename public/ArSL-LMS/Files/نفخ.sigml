@@ -1,0 +1,88 @@
+<sigml>
+  
+<hamgestural_sign gloss="NAFEK">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X12"/>
+      <extra_movement movement="X19"/>
+ <extra_movement movement="X20"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X12"/>
+      <extra_movement movement="X19"/>
+ <extra_movement movement="X20"/>
+</extra_par>
+<extra_par>
+
+      <extra_movement movement="X23"/>
+ <extra_movement movement="X24"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X12"/>
+      <extra_movement movement="X19"/>
+ <extra_movement movement="X20"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X12"/>
+      <extra_movement movement="X19"/>
+ <extra_movement movement="X20"/>
+</extra_par>
+
+
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinchall"     extfidir="ou" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+<split_location>
+	<location_bodyarm location="neck"   contact="close" />
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+
+ <tgt_motion manner="rest">
+
+ <split_handconfig>
+      <handconfig handshape="flat"   mainbend="1 0 0 4" thumbpos="opposed"  extfidir="ou" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+<split_location>
+	<location_bodyarm location="shoulders" conatct="armextended"   />
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+</tgt_motion >
+
+ <tgt_motion manner="rest">
+
+ 
+ <split_handconfig>
+      <handconfig handshape="pinchall"     extfidir="ou" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+<split_location>
+	<location_bodyarm location="neck"   contact="close" />
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+</tgt_motion>
+
+ <tgt_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"   mainbend="1 0 0 4" thumbpos="opposed"  extfidir="ou" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+<split_location>
+	<location_bodyarm location="shoulders" conatct="armextended"   />
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,18 @@
+<sigml>
+
+<hamgestural_sign gloss="complete">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinch12" bend3="000" bend4="000" bend5="000" />
+    <handconfig extfidir="u" palmor="u"/>
+    <location_bodyarm location="head" contact="close" />   
+	
+    	<tgt_motion>
+	  <directedmotion direction="d" size="big"  />
+<handconfig extfidir="u" palmor="dl"/>
+<location_bodyarm location="shoulders" contact="close"  />
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

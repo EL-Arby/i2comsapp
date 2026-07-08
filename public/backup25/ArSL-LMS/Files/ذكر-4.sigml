@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="thekr">
+<sign_nonmanual>
+      <mouthing_tier>
+      <mouth_picture picture="THKKR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  		<sign_manual >
+    			<handconfig handshape="finger2" thumbpos="across" mainbend="122" />
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="l"/>
+    			<location_bodyarm location="earlobe" side="right_beside" contact="touch"/>
+	    <circularmotion axis="l" />
+<circularmotion axis="l" />
+	<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+		</sign_manual>
+	</hamgestural_sign>
+
+</sigml>

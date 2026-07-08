@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="Pee">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="MOOL"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="322"  bend5="000"  thumbpos="out"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close"/>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,39 @@
+<sigml>
+
+<hamgestural_sign gloss="obvious">
+ <sign_nonmanual>
+  <mouthing_tier>
+      <mouth_picture picture="OAAD"/>
+    </mouthing_tier>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X14"/>
+        <extra_movement movement="X15"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true"  >
+<split_handconfig>
+      <handconfig handshape="cee12"   extfidir="ul" palmor="dr" mainbend="round"/>
+      <handconfig handshape="cee12"    extfidir="ur" palmor="dl" mainbend="round"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="side"  digits="2"/>
+      <location_hand location="side" digits="2" />
+      <location_bodyarm location="head" contact="close"/>
+    </handconstellation>
+  
+<tgt_motion>
+<split_motion>
+        <directedmotion direction="r" size="big" />
+	  <directedmotion direction="l" size="big" />
+</split_motion>
+
+<split_handconfig>
+      <handconfig handshape="finger2"   extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2"    extfidir="u" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="$lam youhsen">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L30"/>
+   <mouth_gesture movement="L30"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest"/>
+
+    <tgt_motion>
+          <directedmotion direction="dr"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig extfidir="or" palmor="ld"/>
+    </tgt_motion>
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="flat"  extfidir="ol" mainbend="100" thumbpos="out"   palmor="dl"/>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

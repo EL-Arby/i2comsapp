@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="Thanks_GOD">
+  <sign_manual >
+ 
+      <handconfig handshape="flat" thumbpos="across" extfidir="l" palmor="l"/>
+   
+       <location_bodyarm location="lowerlip"  side="right_beside" contact="touch" />
+  
+      <directedmotion direction="o" size="big" manner="fast" />
+   
+
+	<tgt_motion>
+       
+         <handconfig handshape="flat" thumbpos="across" extfidir="l" palmor="rd"/>
+   
+       
+      </tgt_motion>
+	
+      <directedmotion direction="i" size="big" />
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

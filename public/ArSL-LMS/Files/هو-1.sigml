@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="HIM">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="HO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="neck" side="right_at" contact="close"/>
+    <directedmotion  direction="u"   />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

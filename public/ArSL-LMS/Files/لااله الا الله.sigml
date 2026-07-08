@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="la elah ela allah">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="lamelahelallah"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across" />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="shoulders"/>
+    <directedmotion direction="r" size="big"/>
+    <directedmotion direction="l"/>
+    <circularmotion axis="u"/>
+    <directedmotion direction="ul" size="small"/>
+    <directedmotion direction="u"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

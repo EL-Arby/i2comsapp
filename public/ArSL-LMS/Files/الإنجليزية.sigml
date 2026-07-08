@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="English">
+  <sign_manual>
+    <handconfig handshape="fist"  extfidir="l"  palmor="d" bend2="044"/>
+    <location_bodyarm location="lowerteeth" side="right_beside" contact="close" />
+   <par_motion>
+ <directedmotion direction="r" />
+<tgt_motion>
+
+<wristmotion motion="nodding"/>
+
+</tgt_motion>
+   </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>
+

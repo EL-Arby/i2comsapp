@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="bow">
+  <sign_manual>
+    <handconfig handshape="flat" />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close"/>
+      <tgt_motion>
+        <handconfig  handshape="flat" mainbend="400" />
+      </tgt_motion>
+       <tgt_motion>
+        <handconfig  handshape="flat"  />
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

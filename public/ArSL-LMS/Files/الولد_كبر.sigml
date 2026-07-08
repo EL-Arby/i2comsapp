@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="boy_grown">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X17"/>
+<extra_movement movement="X17"/>
+      <extra_movement movement="X19"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_at"/>
+    
+      <directedmotion direction="u" size="big"  manner="slosw" />
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

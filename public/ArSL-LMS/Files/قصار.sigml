@@ -1,0 +1,31 @@
+<sigml>
+
+<hamgestural_sign gloss="short">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KSSEER"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="o" palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close"  />
+<tgt_motion>	
+     <directedmotion direction="l"   />  
+<handconfig handshape="finger2" thumbpos="across" mainbend="100"/>
+<handconstellation contact="touch">
+      		<location_hand location="nail"  digits="1" />
+      		<location_hand location="nail"  digits="1" />
+      		  
+    	</handconstellation>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,56 @@
+<sigml>
+
+<hamgestural_sign gloss="Imal's_intention">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="EBAB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  		<sign_manual >
+ <split_handconfig>
+       <handconfig  handshape="flat"   extfidir="d" palmor="l" />
+ <handconfig handshape="finger2" thumbpos="across"  extfidir="u"  palmor="d"/>
+    
+</split_handconfig>
+ <split_location>
+<location_bodyarm location="belowstomach" side="right_at" contact="touch"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="close"   />
+    </split_location>
+    			
+    		
+
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+<hamgestural_sign gloss="Imal's_intention">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="NEA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  		<sign_manual >
+ <split_handconfig>
+    <handconfig handshape="flat" thumbpos="out" bend2="310" extfidir="l"  palmor="l"/>
+      <handconfig  handshape="finger2"  thumbpos="across"  extfidir="u" palmor="d" />
+</split_handconfig>
+ <split_location>
+<location_bodyarm location="chest" contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="close"   />
+    </split_location>
+    			
+    		
+<split_motion>
+ <directedmotion direction="i"  size="small"/>
+ <directedmotion />
+
+      </split_motion>
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+
+</sigml>

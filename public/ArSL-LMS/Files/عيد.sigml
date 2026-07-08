@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="EID">
+  <sign_manual>
+
+  <handconfig handshape="fist" />
+    <handconfig extfidir="o" palmor="l"/>
+    <location_bodyarm location="shoulders" contact="close"   side="right_at" />
+	
+     <directedmotion direction="l"  size="small" manner="fast"/>  
+     <directedmotion direction="r"  size="small" manner="fast"/>
+     <directedmotion direction="l"  size="small" manner="fast"/>  
+     <directedmotion direction="r"  size="small" manner="fast"/>    
+   <tgt_motion>
+       	<handconfig handshape="flat" thumbpos="opposed" mainbend="2115" extfidir="l" palmor="u"/>
+   
+    
+      		 <location_bodyarm location="shoulders"  side="right_at" contact="close"/>
+      </tgt_motion> 	
+   <tgt_motion>
+	<directedmotion direction="d"   manner="fast" size="big" />
+			<handconfig handshape="pinchall"  mainbend="bent" extfidir="l" palmor="u"/>
+		
+    				
+		</tgt_motion>
+  
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

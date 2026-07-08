@@ -1,0 +1,46 @@
+<sigml>
+
+<hamgestural_sign gloss="four">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ARBA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"  extfidir="o" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="d"  />
+           <directedmotion />
+      </split_motion>
+
+<tgt_motion>
+ <split_motion>
+<directedmotion direction="u"  size="big" manner="fast"/>
+           <directedmotion />
+      </split_motion>
+
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"  extfidir="u" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+
+</tgt_motion>
+ 
+  
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

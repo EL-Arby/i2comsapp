@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="strong">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KAO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    
+
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="u" palmor="l"/>
+
+ 
+	<location_bodyarm location="head" side="right_at"   contact="close"/>
+
+
+
+<directedmotion direction="i" size="small" manner="fast"  />
+<directedmotion direction="o" size="small" manner="fast"  />
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

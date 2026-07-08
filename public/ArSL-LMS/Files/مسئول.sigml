@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="Resbonsible">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BSOL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" specialfingers="5" thumbpos="across"      extfidir="l" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="o" palmor="u" thumbpos="out"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"   contact="close"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+   <tgt_motion>
+      <split_motion>
+           <directedmotion direction="d"   size="small"/>
+           <directedmotion />
+      </split_motion>
+     <handconstellation contact="touch">
+         <location_hand location="palm" />
+         <location_hand location="side"  digits="5" />
+          <location_bodyarm location="chest" contact="close"/>
+      </handconstellation>
+ </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

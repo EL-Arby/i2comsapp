@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="janboho alaysar">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <split_handconfig>
+      <handconfig extfidir="ld" palmor="l"/>
+      <handconfig extfidir="u" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="stomach" side="right_at"   contact="close"/>
+      <location_bodyarm location="shoulders"/>
+    </split_location>
+    <split_motion>
+      <nomotion/>
+      <directedmotion direction="l"/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

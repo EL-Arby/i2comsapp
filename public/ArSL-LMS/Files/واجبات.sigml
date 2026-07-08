@@ -1,0 +1,41 @@
+<sigml>
+<hamgestural_sign gloss="Wajeb">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAJB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    
+        <handconfig handshape="finger2"  thumbpos="across" extfidir="u" palmor="l"  mainbend="123"/>
+	  <location_bodyarm location="nose" contact="touch"/>
+    
+	<tgt_motion manner="rest">
+	
+        <directedmotion direction="d" size="small" />
+        
+	</tgt_motion>
+  
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="home">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2"  thumbpos="across" extfidir="ul" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="o" palmor="ru"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="base"  digits="2" side="front"  />
+      <location_hand location="tip" digits="2" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+    
+  
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

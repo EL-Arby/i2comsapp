@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="kaf">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KAF"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  thumbpos="across"  />
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

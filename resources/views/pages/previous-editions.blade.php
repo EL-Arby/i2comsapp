@@ -8,35 +8,78 @@
         <section class="gallery-section" aria-labelledby="gallery-heading">
             <div class="previous-links">
                 <h6 class="previous-title">Explore Previous Editions</h6>
+                
+                
                 <div class="links-container">
-                    <a href="https://link.springer.com/conference/i2comsapp"
-                       target="_blank"
-                       class="btn-link springer">
-                        📚 Springer Proceedings (1st and second edition)
-                    </a><br/>
-                    <a href="{{ asset('storage/PreviousEditions/I2COMSAPP/i2comsapp.org/index.html') }}"
-                       target="_blank"
-                       class="btn-link website">
-                        🌐  Website 2024
-                    </a>
-                    <a href="http://www.i2comsapp.org/"
-                       target="_blank"
-                       class="btn-link website">
-                        🌐  Website 2025
-                    </a>
-                </div>
+
+    <ul class="edition-list">
+
+        <!-- SECOND EDITION -->
+        <li class="edition-item">
+            <h5 class="edition-title">
+                Second Edition (I2COMSAPP 2025)
+            </h5>
+
+            <a href="{{ asset('/backup25/index.html') }}"
+               target="_blank"
+               class="btn-link website">
+                🌐 Website
+            </a>
+
+            <br><br>
+
+            <a href="https://link.springer.com/conference/i2comsapp"
+               target="_blank"
+               class="btn-link springer">
+                📚 Springer Proceedings
+            </a>
+        </li>
+
+        <!-- FIRST EDITION -->
+        <li class="edition-item">
+            <h5 class="edition-title">
+                First Edition (I2COMSAPP 2024)
+            </h5>
+
+            <a href="{{ asset('/Backup2024/i2comsapp.org/index.html') }}"
+               target="_blank"
+               class="btn-link website">
+                🌐 Website
+            </a>
+
+            <br><br>
+
+            <a href="https://link.springer.com/conference/i2comsapp"
+               target="_blank"
+               class="btn-link springer">
+                📚 Springer Proceedings
+            </a>
+        </li>
+
+    </ul>
+
+</div>
+                
+                
+                
             </div>
             <h6 id="gallery-heading" class="gallery-title">  Photo & Video Gallery</h6>
             <div class="gallery-grid">
                 <!-- Photos -->
                 <div class="gallery-item">
-                    <img src="{{ asset('images/imgs/g1.jpg') }}" alt="Event photo 1">
+                    <img src="{{ asset('images/imgs/G5.jpg') }}" alt="Event photo 1">
                 </div>
                 <div class="gallery-item">
-                    <img src="{{ asset('images/imgs/g2.jpg') }}" alt="Event photo 2">
+                    <img src="{{ asset('images/imgs/G2.jpg') }}" alt="Event photo 2">
                 </div>
                 <div class="gallery-item">
-                    <img src="{{ asset('images/imgs/g3.jpg') }}" alt="Event photo 3">
+                    <img src="{{ asset('images/imgs/G3.jpg') }}" alt="Event photo 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ asset('images/imgs/G4.jpg') }}" alt="Event photo 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ asset('images/imgs/g1.jpg') }}" alt="Event photo 4">
                 </div>
 
                 <!-- Videos -->
@@ -46,12 +89,12 @@
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div class="gallery-item video-item">
-                    <video controls>
-                        <source src="{{ asset('videos/video2.mp4') }}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
+                <!--<div class="gallery-item video-item">-->
+                    <!--<video controls>-->
+                    <!--    <source src="{{ asset('videos/video2.mp4') }}" type="video/mp4">-->
+                <!--        Your browser does not support the video tag.-->
+                <!--    </video>-->
+                <!--</div>-->
             </div>
         </section>
     </div>
@@ -60,10 +103,38 @@
 
 @push('styles')
 <style>
+
+.edition-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edition-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #006b34;
+    margin-bottom: 15px;
+}
     .previous-links {
         text-align: center;
         margin-bottom: 40px;
     }
+    
+    .edition-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.edition-item {
+    margin-bottom: 40px;
+}
+
+.edition-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #006b34;
+    margin-bottom: 15px;
+}
 
     .previous-title {
         font-size: 2em;

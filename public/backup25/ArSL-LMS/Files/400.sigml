@@ -1,0 +1,23 @@
+<sigml>
+	<hamgestural_sign gloss="four_handared">
+  		<sign_manual >  
+			<handconfig handshape="finger2345"  mainbend="0 0 0 2"     thumbpos="across"/>
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="u"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+			 
+			<tgt_motion>
+			<handconfig handshape="finger2345" mainbend="0 3 4 2"  thumbpos="across"/>
+			</tgt_motion>
+			<tgt_motion>
+			<handconfig handshape="finger2345" mainbend="0 0 0 2"   thumbpos="across"/>
+			</tgt_motion>
+			<tgt_motion>
+			<handconfig handshape="finger2345" mainbend="0 3 4 2"   thumbpos="across"/>
+			</tgt_motion>
+			<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

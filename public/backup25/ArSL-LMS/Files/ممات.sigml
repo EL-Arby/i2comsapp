@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="Death">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OOAFAT"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" extfidir="o" palmor="ul"/>
+	<location_bodyarm location="chest" side="right_at"/>
+
+<par_motion>
+      				<directedmotion curve="u" direction="l"/>
+      				<tgt_motion>
+        				<changeposture/>
+        				    <handconfig handshape="flat" extfidir="o" palmor="d"/>
+	<location_bodyarm location="chest" />
+      				</tgt_motion>
+    			</par_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

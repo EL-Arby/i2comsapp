@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="yahther">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true">
+    <handconfig handshape="flat"/>
+    <handconfig/>
+    <handconfig/>
+    <location_bodyarm contact="close" location="chest"/>
+    <directedmotion direction="l"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2" thumbpos="opposed"/>
+      <handconfig extfidir="o" palmor="l"/>
+    </tgt_motion>
+    <directedmotion curve="u" direction="dr" size="big" slow="true"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

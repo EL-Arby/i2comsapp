@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="Fath Fam">
+  <sign_nonmanual>
+        <mouthing_tier>
+<mouth_picture picture="BBIAAA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinchall" mainbend="round"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="cheek"/>
+    <par_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="flat"   mainbend="012" thumbpos="opposed"/>
+        <handconfig extfidir="u" palmor="d"/>
+      </tgt_motion>
+      <directedmotion direction="o" size="small" slow="true"/>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

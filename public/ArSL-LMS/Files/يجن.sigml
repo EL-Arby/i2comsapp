@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="yajono">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L05"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="opposed"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm contact="close" location="cheek"/>
+<directedmotion direction="or"  size="small" />
+    <wristmotion motion="twisting"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

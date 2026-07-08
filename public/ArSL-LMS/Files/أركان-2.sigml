@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="Pillar">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="fist"     extfidir="u" palmor="l" thumbpos="across"/>
+      <handconfig handshape="flat"      extfidir="r" palmor="d"/>
+    </split_handconfig>
+  
+ <split_location>
+	<location_bodyarm location="shoulders"  side="right_at"   contact="close"/>
+	<location_bodyarm location="neck"    contact="close" />
+    </split_location>
+<split_motion>
+ <directedmotion direction="lu"    size="small" />
+ <directedmotion  />
+      </split_motion>
+
+<split_motion>
+ <directedmotion direction="l"   curve="d"    />
+ <directedmotion  />
+      </split_motion>
+
+ 
+
+    </sign_manual>
+</hamgestural_sign>
+
+</sigml>
+

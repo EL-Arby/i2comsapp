@@ -1,0 +1,41 @@
+<sigml>
+<hamgestural_sign gloss="hamel meshral">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <facial_expr_par>
+        <eye_brows movement="RB"/>
+        <eye_lids movement="SL"/>
+      </facial_expr_par>
+    </facialexpr_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" mainbend="1 2 2 3" thumbpos="opposed" />
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="ol" palmor="ul"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="chest" side="right_at" />
+      <location_bodyarm contact="touch" location="stomach"/>
+    </split_location>
+<tgt_motion>
+ 
+<split_motion>
+<directedmotion direction="u"  />
+           <directedmotion />
+      </split_motion>
+    <split_handconfig>
+      <handconfig handshape="fist"   thumbpos="across" />
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="ol" palmor="l"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="allah_is_the_greatest">
+ <sign_manual  both_hands="true" lr_symm="true">
+
+    	<handconfig handshape="flat"    extfidir="u" palmor="d" />
+
+ 	<location_bodyarm location="cheek" side="right_beside"  contact="close"  />
+	 
+	<tgt_motion>
+<handconfig handshape="flat"    extfidir="l" palmor="l" />
+<handconstellation contact="touch">
+      		<location_hand location="back"   />
+      		<location_hand location="thumbball" />
+      		 <location_bodyarm location="chest"    contact="touch"/>
+    	</handconstellation>
+</tgt_motion>
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

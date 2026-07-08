@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="Him">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ANHB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger23" thumbpos="across"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="shouldertop"  />
+      <tgt_motion>
+ <directedmotion direction="r" curve="u"  />
+   <handconfig handshape="finger23" bend3="044" thumbpos="across"  extfidir="r" palmor="l"/>
+    
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

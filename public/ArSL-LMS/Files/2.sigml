@@ -1,0 +1,10 @@
+<sigml>
+
+<hamgestural_sign gloss="two">
+  <sign_manual>
+        <handconfig handshape="finger23spread"   extfidir="u" palmor="u" thumbpos="close"/>
+     <location_bodyarm location="shoulders"  side="right_at"  contact="close" />	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

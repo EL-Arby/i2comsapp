@@ -1,0 +1,12 @@
+<sigml>
+	<hamgestural_sign gloss="put">
+  		<sign_manual >  
+			<handconfig handshape="pinch12" bend2="012"   specialfingers="3"  />
+    			<handconfig extfidir="ou"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+<directedmotion direction="d"   />
+
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

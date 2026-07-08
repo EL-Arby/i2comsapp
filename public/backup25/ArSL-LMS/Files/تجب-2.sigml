@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="tajebou">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_picture picture="wajeb"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" mainbend="round" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="touch" location="nose"/>
+   
+    <tgt_motion>
+ <directedmotion direction="ur" />
+      <handconfig handshape="finger2" bend2="200" thumbpos="across"  />
+      <handconfig extfidir="ol" palmor="d" />
+    </tgt_motion>
+    <directedmotion direction="d" size="big" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

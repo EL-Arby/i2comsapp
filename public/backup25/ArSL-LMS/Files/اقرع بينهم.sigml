@@ -1,0 +1,64 @@
+<sigml>
+<hamgestural_sign gloss="iktarea baynahom">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="opposed"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="or" palmor="ur"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="l" size="small"/>
+        <directedmotion direction="ul" size="small"/>
+      </seq_motion>
+      <directedmotion direction="r" size="small"/>
+    </split_motion>
+    <directedmotion direction="u"/>
+    <directedmotion direction="d" size="small"/>
+    <split_motion>
+      <directedmotion direction="dr" size="small"/>
+      <directedmotion direction="dl"/>
+    </split_motion>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="l" palmor="d"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="o" palmor="d"/>
+      </tgt_motion>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="dr" size="small"/>
+      <directedmotion direction="d"/>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="uo" palmor="d"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="d" palmor="d"/>
+      </tgt_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig bend2="bent" handshape="finger2345" thumbpos="opposed"/>
+        </tgt_motion>
+        <directedmotion direction="u"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

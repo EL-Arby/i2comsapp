@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="Mercy">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="RAHEM"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+ <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    
+      <handconfig handshape="pinch12open"     extfidir="liu" palmor="ld"/>
+<location_bodyarm location="shoulders"  side="left_at"  contact="touch"    />
+ 
+    <tgt_motion>
+
+      <handconfig handshape="fist"   thumbpos="opposed"   extfidir="liu" palmor="ld"/>
+ 
+   </tgt_motion>
+
+  </sign_manual>
+
+</hamgestural_sign>
+
+</sigml>

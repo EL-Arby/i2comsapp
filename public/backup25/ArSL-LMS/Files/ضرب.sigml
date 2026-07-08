@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="Forbidden">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="DARB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+<sign_manual >
+        <handconfig handshape="fist" thumbpos="out"  extfidir="ul" palmor="r"/>
+      <location_bodyarm location="head" side="right_at" contact="close"/>
+<tgt_motion>
+  <directedmotion direction="r"  size="small" />	  
+ <handconfig handshape="fist" thumbpos="out"  extfidir="u" palmor="u"/>
+
+     
+	</tgt_motion>
+	<tgt_motion>
+	     <directedmotion direction="do"  size="big" manner=" fast" />
+	<handconfig handshape="fist" thumbpos="out"  extfidir="uo" palmor="d"/>
+	</tgt_motion>
+	
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

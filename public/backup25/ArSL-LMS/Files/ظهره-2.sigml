@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="thahr">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="dhahr"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="u"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="ear" side="right_beside"/>
+      <location_bodyarm contact="touch" location="stomach"/>
+    </split_location>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat" mainbend="bent"/>
+          <handconfig extfidir="i" palmor="d"/>
+        </tgt_motion>
+        <rpt_motion repetition="fromstart">
+          <directedmotion direction="di" size="small"/>
+        </rpt_motion>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

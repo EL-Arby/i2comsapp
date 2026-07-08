@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="diffrent">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KLAV"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger23spread" bend4="222" bend5="222"  thumbpos="across"/>
+    <handconfig extfidir="ol"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders"  contact="close" />
+        <tgt_motion>
+     <directedmotion direction="r" curve="u"/>
+      <handconfig handshape="finger23spread"  bend3="2 0 0 2" bend4="222" bend5="222"  thumbpos="across"  extfidir="ur" palmor="lu"/>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

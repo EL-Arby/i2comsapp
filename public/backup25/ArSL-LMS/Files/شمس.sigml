@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="Sun">
+<sign_nonmanual>
+    <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X10"/>
+       
+
+</extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+<handconfig handshape="flat"   extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"    mainbend="001" thumbpos="out"   extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"    />
+	<location_bodyarm location="headtop"    />
+    </split_location>
+ <tgt_motion>
+<split_motion>
+          <directedmotion />
+<directedmotion direction="d"  />
+ 
+      </split_motion>
+ 
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

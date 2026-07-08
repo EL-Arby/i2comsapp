@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="Shada">
+  <sign_manual>
+
+ <handconfig handshape="flat" mainbend="2 0 0 1"  bend5="444"  extfidir="uo" palmor="u" thumbpos="across"/>
+	<location_bodyarm location="neck"    contact="close" />
+<directedmotion direction="u" size="small"    />
+
+   </sign_manual>
+</hamgestural_sign>
+</sigml>

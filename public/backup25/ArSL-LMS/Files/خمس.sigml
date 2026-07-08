@@ -1,0 +1,89 @@
+<sigml>
+<hamgestural_sign gloss="optional prayer">
+  <sign_manual>
+    <split_handconfig>
+	     <handconfig handshape="finger2"   thumbpos="across" extfidir="l" palmor="l" />
+      <handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+ 
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="1"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders" side="left_at" contact="armextended"/>
+    </handconstellation>
+
+
+
+ </sign_manual>
+</hamgestural_sign>
+<hamgestural_sign gloss="optional prayer">
+  <sign_manual>
+    <split_handconfig>
+	     <handconfig handshape="finger2"   thumbpos="across" extfidir="ul" palmor="l" />
+      <handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+ 
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="2"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders" side="left_at" contact="armextended"/>
+    </handconstellation>
+
+
+
+ </sign_manual>
+</hamgestural_sign>
+
+	<hamgestural_sign gloss="optional prayer">
+  <sign_manual>
+    <split_handconfig>
+	     <handconfig handshape="finger2"   thumbpos="across" extfidir="ul" palmor="l" />
+      <handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+ 
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="3"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders" side="left_at" contact="armextended"/>
+    </handconstellation>
+
+
+	
+ </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="optional prayer">
+  <sign_manual>
+    <split_handconfig>
+	     <handconfig handshape="finger2"   thumbpos="across" extfidir="ul" palmor="l" />
+      <handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+ 
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="4"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders" side="left_at" contact="armextended"/>
+    </handconstellation>
+
+
+ </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="optional prayer">
+  <sign_manual>
+    <split_handconfig>
+	     <handconfig handshape="finger2"   thumbpos="across" extfidir="ul" palmor="l" />
+      <handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+ 
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="5"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders" side="left_at" contact="armextended"/>
+    </handconstellation>
+
+
+ </sign_manual>
+</hamgestural_sign>
+</sigml>

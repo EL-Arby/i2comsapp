@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="youhawel">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <split_handconfig>
+      <handconfig extfidir="uo" palmor="u"/>
+      <handconfig extfidir="ur" palmor="dl"/>
+    </split_handconfig>
+    <handconstellation contact="close">
+      		<location_hand location="midjoint"   digits="2" side="front" />
+      		<location_hand location="midjoint"   digits="2"   />
+      		 <location_bodyarm location="chest"    />
+    	</handconstellation>
+ 
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ul" palmor="dr"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ur" palmor="ur"/>
+      </tgt_motion>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="uo" palmor="u"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ur" palmor="dl"/>
+      </tgt_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

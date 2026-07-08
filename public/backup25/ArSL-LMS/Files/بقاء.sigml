@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="Remain">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="uo" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="shoulders"    contact="close" />
+    </split_location>
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="od" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="od" palmor="d"/>
+    </split_handconfig>
+	</tgt_motion>
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="uo" palmor="dr"/>
+    </split_handconfig>
+	</tgt_motion>
+
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="od" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"     extfidir="od" palmor="d"/>
+    </split_handconfig>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

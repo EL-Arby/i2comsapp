@@ -1,0 +1,43 @@
+<sigml>
+
+<hamgestural_sign gloss="cloud">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="GAEM"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+       <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head" side="right_at" contact="close"   />
+	<location_bodyarm location="head" side="left_at"  contact="close"   />
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="l"  manner="slow"  />
+ <directedmotion direction="r"  manner="slow" />
+      </split_motion>
+
+<split_handconfig>
+       <handconfig handshape="finger2345"  thumbpos="out"  extfidir="lu" palmor="r"/>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="ur" palmor="l"/>
+    </split_handconfig>
+<handconstellation contact="touch">
+      		<location_hand location="handback" side="back"/>
+		<location_hand location="palm"  side="front"/>
+    	</handconstellation>
+</tgt_motion>
+  
+ <tgt_motion>
+    
+ 
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

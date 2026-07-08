@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="never">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ABD"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+        <handconfig handshape="finger2"   extfidir="ul" palmor="rd" thumbpos="across"/>
+     <location_bodyarm location="shouldertop"  side="left_at"  contact="close" />
+
+<tgt_motion>
+<directedmotion  direction="r"   size = "big"  />
+              <handconfig handshape="finger2"    extfidir="u" palmor="d" thumbpos="across" />
+</tgt_motion>	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

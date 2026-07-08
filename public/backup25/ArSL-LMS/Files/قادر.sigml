@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="kader">
+  <sign_nonmanual>
+ 
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X10"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X10"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X19"/>
+<extra_movement movement="X19"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="bent" thumbpos="out"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" contact="close" />
+    <directedmotion direction="i" size="small"/>
+
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="fist" thumbpos="out"/>
+    </tgt_motion>
+    <directedmotion direction="o"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="Special">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KAASKAAS"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual>
+    <handconfig handshape="fist"   extfidir="u" palmor="d" thumbpos="across"/>
+    <location_bodyarm location="shouldertop"  side="right_at" contact="close" />
+ <directedmotion direction="o"       />
+                      <directedmotion direction="l"    curve="l"  manner="slow" />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

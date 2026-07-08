@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="Form">
+   <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SEGA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual>
+    <split_handconfig>
+        <handconfig handshape="finger2" thumbpos="across"  bend2="210"  extfidir="ul" palmor="d" />
+	<handconfig handshape="flat"   mainbend="0.5 0 0"  extfidir="u" palmor="r"/>
+    
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="3"  />
+      <location_hand location="tip" digits="2" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+ 
+  <directedmotion direction="d"   curve="r" manner="slow"/>
+ 
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

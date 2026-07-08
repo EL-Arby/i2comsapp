@@ -1,0 +1,18 @@
+<sigml>
+	<hamgestural_sign gloss="think">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="DDAN"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+ 		<sign_manual>
+			<handconfig handshape="flat"  mainbend="100" thumbpos="opposed" extfidir="u" palmor="l"/>
+      			<location_bodyarm location="cheek" side="right_at" contact="close" />
+
+ <tgt_motion>
+	 <directedmotion direction="o"  size="big"/>
+          <handconfig handshape="cee12open"  bend2= "222"  />
+      	</tgt_motion>
+			  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

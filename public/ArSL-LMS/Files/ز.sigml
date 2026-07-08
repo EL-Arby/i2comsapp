@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="zay">
+  <sign_manual>
+    <handconfig handshape="finger23"  thumbpos="across" 
+		bend2="0.5 1 0 0"
+		bend3="0 1 1 -3" />
+    <handconfig extfidir="u" palmor="dl"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

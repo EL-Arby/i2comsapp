@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="methel imam1">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="kefkif"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+ 
+ <split_handconfig>
+     <handconfig handshape="finger23spread" thumbpos="opposed"  extfidir="u" palmor="d"/>
+       <handconfig handshape="finger23spread" thumbpos="opposed"  extfidir="u" palmor="r"/>
+    </split_handconfig>
+     <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest" side="left_at"    contact="close" />
+    </split_location>
+   
+    <split_motion>
+      <nomotion/>
+      
+    </split_motion>
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <handconfig bend2="bent" bend3="bent" handshape="finger23spread" thumbpos="opposed"/>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

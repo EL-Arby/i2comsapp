@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="Taak">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12open" mainbend="bent"  bend2="200"    extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="cheek" side="right_at"   contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="or" size="big"  />
+           <directedmotion />
+      </split_motion>
+ <split_handconfig>
+      <handconfig handshape="pinch12open" mainbend="bent"     extfidir="u" palmor="ld"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="Maafou anho">
+   <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="L12"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinchall"/>
+    <handconfig extfidir="ul"  palmor="d"/>
+    <location_bodyarm contact="close" location="forehead" side="right_at"/>
+ 
+    <directedmotion direction="r" size="small"/>
+    
+    <tgt_motion>
+      <directedmotion curve="l" direction="d" size="big"/>
+<handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig extfidir="o" palmor="d"/>
+  <location_bodyarm contact="close" location="shoulders" side="right_at"/>
+ 
+    </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

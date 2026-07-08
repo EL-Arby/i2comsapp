@@ -1,0 +1,64 @@
+<sigml>
+
+<hamgestural_sign gloss="lead-me">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+    <mouthing_tier>
+      <mouth_picture picture="EHD"/>
+    </mouthing_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"    extfidir="li" palmor="d"/>
+      <handconfig handshape="flat"   mainbend="111"  extfidir="o" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="headtop"    contact="armextended"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="id"  size="big"/>
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="lead-me">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+       <mouthing_tier>
+      <mouth_picture picture="DDNNE"/>
+    </mouthing_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"      extfidir="o" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="o" palmor="u"/>
+    </split_handconfig>
+ 
+ <handconstellation contact="touch">
+      
+      <location_hand location="palm"     />
+<location_hand location="side" digits="5" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+<split_motion>
+<directedmotion direction="o"   />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

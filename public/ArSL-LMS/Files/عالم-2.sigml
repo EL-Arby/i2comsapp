@@ -1,0 +1,27 @@
+<sigml>
+<hamgestural_sign gloss="Alm">
+  <sign_manual>
+    <handconfig handshape="finger2" mainbend="022"  thumbpos="across"/>
+    <handconfig extfidir="u"  palmor="u"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close"/>
+    <par_motion>
+      <directedmotion direction="i"  />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="uli" palmor="d"/>
+      </tgt_motion>
+    </par_motion>
+
+      <tgt_motion>
+      <directedmotion direction="u" curve="u"  size="big"   />
+        <handconfig extfidir="ul" palmor="d"/>
+   <location_bodyarm location="forehead" side="right_at" contact="close"/>
+   
+      </tgt_motion>
+ <directedmotion direction="il"   size="small"   />
+ <directedmotion direction="or"   size="small"   />
+ <directedmotion direction="il"   size="small"   />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

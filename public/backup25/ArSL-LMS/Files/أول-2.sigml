@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="First">
+
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AOAL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+ 
+      <handconfig handshape="fist" thumbpos="across" extfidir="u" palmor="d"/>
+   
+       <location_bodyarm location="cheek"  side="right_at" contact="close" />
+  
+      	<tgt_motion>
+       	 <directedmotion direction="o"   />
+         <handconfig handshape="finger2" thumbpos="across"/>
+   
+             </tgt_motion>
+	
+      
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

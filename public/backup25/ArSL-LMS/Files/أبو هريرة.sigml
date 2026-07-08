@@ -1,0 +1,36 @@
+<sigml>
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="1 0.5 0"    extfidir="lo" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="or" palmor="d"/>
+    </split_handconfig>
+ 
+ <handconstellation contact="touch">
+<location_hand location="handback"  />
+      		<location_hand location="palm"    />
+      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+<split_motion>
+<directedmotion direction="ro"  />
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="il"  curve="u" />
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="ro"  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

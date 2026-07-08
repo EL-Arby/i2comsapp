@@ -1,0 +1,13 @@
+<sigml>
+<hamgestural_sign gloss="pause">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="d"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="armextended" location="stomach"/>
+    <directedmotion direction="d" size="big"/>
+    <directedmotion direction="i" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

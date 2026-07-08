@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="brain">
+  <sign_manual>
+  <handconfig handshape="finger2"  thumbpos="opposed"  mainbend="300"    extfidir="o" palmor="ul"/>
+     <location_bodyarm location="shoulders" side="right_at"  contact="close"/>
+<tgt_motion>
+<handconfig handshape="pinch12"   mainbend="bent"    extfidir="o" palmor="ul"/>
+</tgt_motion>
+
+<tgt_motion>
+<handconfig handshape="finger2"   mainbend="300" thumbpos="opposed"    extfidir="o" palmor="ul"/>
+</tgt_motion>
+
+<tgt_motion>
+<handconfig handshape="pinch12"   mainbend="bent"    extfidir="o" palmor="ul"/>
+</tgt_motion>
+
+
+
+
+ </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

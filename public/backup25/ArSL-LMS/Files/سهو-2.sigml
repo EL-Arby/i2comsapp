@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="Saho">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAAA"/>
+    </mouthing_tier>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X41"/>
+      </extra_par>
+    <extra_par>
+        <extra_movement movement="X41"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="across"/>
+    <handconfig extfidir="lu" palmor="dl"/>
+    <location_bodyarm location="forehead" side="right_at" contact="touch"/>
+  
+<directedmotion direction="dr"  />
+  <par_motion>
+      <directedmotion direction="ru"   />
+      <tgt_motion>
+    <handconfig handshape="finger2345" mainbend="0 0 0 1"  thumbpos="out"/>
+        <handconfig extfidir="u"   palmor="d"/>
+  
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

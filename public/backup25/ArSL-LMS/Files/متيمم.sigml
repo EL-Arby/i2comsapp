@@ -1,0 +1,67 @@
+<sigml>
+<hamgestural_sign gloss="motayamem">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"   />
+    <handconfig extfidir="ou"/>
+      <handconfig palmor="d"/>
+
+    <location_bodyarm contact="close" location="shoulders"/>
+    <tgt_motion>
+<directedmotion direction="d"  />
+    <handconfig extfidir="o"/>
+   </tgt_motion>
+
+    <tgt_motion>
+      <handconfig extfidir="u" palmor="u"/>
+ <handconfig handshape="flat" mainbend="011"  />
+ <location_bodyarm contact="close" location="cheek" side="right_beside"/>
+    </tgt_motion>
+ <directedmotion direction="d"   />
+    
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="Bowl">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="o" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="o" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="palm"    />
+      		<location_hand location="handback"    />
+      		 <location_bodyarm location="chest" side="right_at"     />
+    	</handconstellation>
+
+<split_motion>
+           <directedmotion />
+<directedmotion direction="i"  />
+      </split_motion>
+
+    <tgt_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="o" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="o" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+<location_hand location="handback"    />
+      		<location_hand location="palm"    />
+      		
+      		 <location_bodyarm location="chest" side="left_at"     />
+    	</handconstellation>
+
+    </tgt_motion>
+<split_motion>
+<directedmotion direction="i"  />
+           <directedmotion />
+
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

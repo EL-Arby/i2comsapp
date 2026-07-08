@@ -1,0 +1,39 @@
+<sigml>
+  
+<hamgestural_sign gloss="Tried">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOOOOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true" outofphase="true">
+    <handconfig handshape="finger2345" thumbpos="out"  extfidir="l" palmor="l"/>
+    <handconstellation contact="close">
+      <location_hand location="tip" digits="3"/>
+      <location_hand location="palm"/>
+      <location_bodyarm location="shoulders"/>
+    </handconstellation>
+    <rpt_motion >
+      <tgt_motion>
+        <circularmotion axis="l"/>
+        <handconstellation contact="close">
+          <location_hand location="tip" digits="3"/>
+          <location_hand location="palm"/>
+        </handconstellation>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+ 
+ 
+</sigml>

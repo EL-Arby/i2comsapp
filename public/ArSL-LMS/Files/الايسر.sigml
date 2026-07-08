@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="left">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AESR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+ 
+ <split_handconfig>
+    <handconfig handshape="flat"     extfidir="d" palmor="l" />
+      <handconfig handshape="flat"    extfidir="rou" palmor="r" thumbpos="out" />
+    
+    
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="belowstomach"  side="right_at"  contact="touch" />
+	<location_bodyarm location="shoulders"  side="left_at" contact="close" />
+    </split_location>
+
+<split_motion>
+ <directedmotion />
+ <directedmotion direction="l" size="big"  />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

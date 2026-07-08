@@ -1,0 +1,72 @@
+<sigml>
+
+<hamgestural_sign gloss="ablution">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="fist"  mainbend="1 4 2" extfidir="u" palmor="u"  thumbpos="across" />
+      <handconfig handshape="flat"  mainbend="0 1.5 1"  extfidir="ur" palmor="r" thumbpos="out" />
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="palm"  side="ulnar"  />
+      <location_hand location="handback"  side="front"  />
+      <location_bodyarm location="shouldertop" side="right_beside" contact="close"/>
+    </handconstellation>
+
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="fist"  mainbend="1 4 2" extfidir="u" palmor="u"   thumbpos="across"/>
+      <handconfig handshape="flat"  mainbend="0  0 0 "  extfidir="ur" palmor="r" thumbpos="out" />
+    </split_handconfig>		
+        		
+  <handconstellation contact="touch">
+      <location_hand location="palm"  side="ulnar"  />
+      <location_hand location="wrist"  side="back"  />
+      <location_bodyarm location="shouldertop" side="right_beside" contact="close"/>
+    </handconstellation>
+      		</tgt_motion>
+<split_motion>
+        <directedmotion />
+	<directedmotion direction="d"    />
+      </split_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="ablution">
+  <sign_manual>
+    <split_handconfig>
+ <handconfig handshape="flat"  mainbend="1 1.5 1"  extfidir="ul" palmor="l" thumbpos="out" />
+      <handconfig handshape="fist"  mainbend="1 4 2" extfidir="u" palmor="u"  thumbpos="across" />
+    </split_handconfig>
+    <handconstellation contact="touch">
+ <location_hand location="handback"  side="front"  />
+      <location_hand location="palm"  side="ulnar"  />
+      <location_bodyarm location="shouldertop" side="left_beside" contact="close"/>
+    </handconstellation>
+
+ 
+
+
+<tgt_motion>
+ <split_handconfig>
+ <handconfig handshape="flat"  mainbend="0 1.5 1"  extfidir="ul" palmor="l" thumbpos="out" />
+      <handconfig handshape="fist"  mainbend="1 4 2" extfidir="u" palmor="u"   thumbpos="across"/>
+     
+    </split_handconfig>		
+        		
+  <handconstellation contact="touch">
+ <location_hand location="wrist"  side="back"  />
+      <location_hand location="palm"  side="ulnar"  />
+     
+      <location_bodyarm location="shouldertop" side="left_beside" contact="close"/>
+    </handconstellation>
+      		</tgt_motion>
+<split_motion>
+<directedmotion direction="d" size="samll"  />
+        <directedmotion />
+	
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

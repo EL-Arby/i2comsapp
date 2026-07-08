@@ -1,0 +1,29 @@
+<sigml>
+
+
+<hamgestural_sign gloss="west">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="GARB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+
+      <handconfig  handshape="finger23spread"  extfidir="u"  bend5="222" bend4="211" palmor="lu"  thumbpos="out" />
+
+
+ 	<location_bodyarm location="shoulders"  side="right_at"  contact="close"/>
+
+<tgt_motion>  
+<directedmotion direction="dl"  curve="r"   />
+     <handconfig  handshape="finger23spread"  extfidir="l"  bend5="222" bend4="211" palmor="l"  thumbpos="out" />
+
+</tgt_motion>
+
+      <handconfig  handshape="finger23spread"  extfidir="u"  bend5="222" bend4="211" palmor="ld"  thumbpos="out" />
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

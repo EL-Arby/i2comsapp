@@ -1,0 +1,15 @@
+<sigml>
+<hamgestural_sign gloss="Prayer">
+ <sign_manual  both_hands="true" lr_symm="true">
+<handconfig handshape="flat"    extfidir="l" palmor="l" />
+<handconstellation contact="touch">
+      		<location_hand location="back"   />
+      		<location_hand location="thumbball" />
+      		 <location_bodyarm location="chest"    contact="touch"/>
+    	</handconstellation>
+ 
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

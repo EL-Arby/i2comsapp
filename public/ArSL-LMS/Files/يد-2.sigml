@@ -1,0 +1,53 @@
+<sigml>
+
+
+
+
+<hamgestural_sign gloss="hands">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="flat" mainbend="0 0.2 0.5"    extfidir="u" palmor="l"  />
+      <handconfig handshape="flat"    mainbend="0 0.2 0.5"   extfidir="u" palmor="r"  />
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_hand location="palm"     />
+      <location_hand location="palm"  side="front"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+    <tgt_motion>
+
+<handconstellation contact="touch">
+      <location_hand location="palm" side="palmar"     />
+      <location_hand location="palm"  side="front"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+  </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+
+<hamgestural_sign gloss="home">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="flat" mainbend="0.5 0.2 0.5"    extfidir="oul" palmor="ul"  />
+      <handconfig handshape="flat"    mainbend="0.5 0.2 0.5"   extfidir="uor" palmor="dl"  />
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_hand location="palm"     />
+      <location_hand location="palm"  side="front"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+          
+
+	<split_motion>
+	<directedmotion direction="uir" size="small" />
+	<directedmotion />
+      </split_motion> 
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

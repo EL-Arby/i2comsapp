@@ -1,0 +1,18 @@
+<sigml>
+	<hamgestural_sign gloss="daad">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="DAD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  		<sign_manual >  
+			<handconfig handshape="fist" thumbpos="out" />
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shouldertop"  side ="right_at" contact="far"/>
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

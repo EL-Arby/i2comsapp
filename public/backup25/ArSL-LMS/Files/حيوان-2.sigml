@@ -1,0 +1,64 @@
+<sigml>
+
+<hamgestural_sign gloss="aminal">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAEOAN"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+         <handconfig handshape="finger23spread"  thumbpos="across"    extfidir="lou" palmor="d"/>
+   <handconfig handshape="finger23spread"  thumbpos="across"    extfidir="ou" palmor="d"/>
+    
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="shouldertop"    />
+	<location_bodyarm location="shouldertop" side="left_at"   contact="armextended"/>
+	
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="id"  />
+<directedmotion direction="id"  />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger23spread" mainbend="2 2 2 5"   thumbpos="across"    extfidir="lou" palmor="d"/>
+      <handconfig handshape="finger23spread" mainbend="2 2 2 5"   thumbpos="across"    extfidir="ou" palmor="d"/>
+
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="uo"  />
+<directedmotion direction="uo"  />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger23spread"    thumbpos="across"    extfidir="lou" palmor="d"/>
+      <handconfig handshape="finger23spread"    thumbpos="across"    extfidir="ou" palmor="d"/>
+
+    </split_handconfig>
+</tgt_motion>
+
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="di"  />
+<directedmotion direction="di"  />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger23spread" mainbend="2 2 2 5"   thumbpos="across"    extfidir="lou" palmor="d"/>
+ 
+      <handconfig handshape="finger23spread" mainbend="2 2 2 5"   thumbpos="across"    extfidir="ou" palmor="d"/>
+   </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

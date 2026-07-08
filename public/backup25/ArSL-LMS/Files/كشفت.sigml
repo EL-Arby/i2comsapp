@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="kashafat">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X29"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+ 
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat"/>
+      <handconfig handshape="flat" thumbpos="out"/>
+    </split_handconfig>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+ <split_location>
+	<location_bodyarm location="chest"   contact="touch" />
+    <location_bodyarm contact="touch" location="stomach"/>
+    </split_location>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        
+        <tgt_motion>
+          <directedmotion curve="u" direction="l" size="big"/>
+          <handconfig extfidir="ol" palmor="ur"/>
+<location_bodyarm contact="close" location="stomach" side="left_beside"/>
+        </tgt_motion>
+        
+    
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

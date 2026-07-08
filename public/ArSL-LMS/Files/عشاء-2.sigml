@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="Al Eshaa">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"     extfidir="l" palmor="l" thumbpos="across"/>
+      <handconfig handshape="finger2345"    extfidir="ur" palmor="r" thumbpos="out"/>
+    </split_handconfig>
+ 
+  <handconstellation contact="touch">
+      		<location_hand location="tip" digits="5" />
+      		<location_hand location="tip"  digits="2"  />
+      		 <location_bodyarm location="shoulders"    side="left_at" contact="armextended"/>
+    	</handconstellation>
+</sign_manual>
+</hamgestural_sign>
+</sigml>

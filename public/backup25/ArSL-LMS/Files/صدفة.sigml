@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="sodfa">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="ceeall"  />
+    <handconfig extfidir="ol"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_at"/>
+    <tgt_motion>
+          <directedmotion direction="l" curve="r" manner="big"/>
+      <handconfig handshape="fist"/>
+    </tgt_motion>
+    <directedmotion direction="r" curve="l" />
+  <directedmotion direction="l" curve="r" size="small" />
+    <tgt_motion>
+    <directedmotion  direction="u"/>
+ <handconfig handshape="fist" thumbpos="out" />
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

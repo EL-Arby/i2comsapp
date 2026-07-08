@@ -1,0 +1,73 @@
+<sigml>
+
+<hamgestural_sign gloss="Dome">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SSSSS"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" outofphase="true">
+	<split_handconfig>
+<handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="u"/>
+       	<handconfig handshape="flat"  mainbend="011" extfidir="r" palmor="d"/>
+    </split_handconfig>
+   
+    
+	<handconstellation contact="close">
+      		<location_hand location="tip" digits="1"  side="palmar" />
+<location_hand location="palm" />
+      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+    
+
+	  <split_motion>
+    
+	<directedmotion />
+    <directedmotion direction="d" size="small"  />
+      </split_motion> 
+
+ <split_motion>
+    
+	<directedmotion />
+    <directedmotion direction="uri" size="small"  />
+      </split_motion> 
+
+ <split_motion>
+    
+	<directedmotion />
+    <directedmotion direction="dol" size="small"  />
+      </split_motion> 
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="hassa">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="hajar"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+
+	<split_handconfig>
+<handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="u"/>
+       	 <handconfig handshape="ceeall" extfidir="u" palmor="ur"/>
+    </split_handconfig>
+
+
+ <split_location>
+ <location_bodyarm location="chest"   contact="close"/>
+	<location_bodyarm location="shoulders" side="left_at"   contact="close"/>
+	
+    </split_location>
+
+<tgt_motion>
+<split_handconfig>
+<handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="u"/>
+       	      <handconfig bend4="dblbent" bend5="dblbent" handshape="ceeall" extfidir="u" palmor="ur"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

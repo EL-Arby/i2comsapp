@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Maneaa">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="finger23spread" thumbpos="across"/>
+    <handconfig extfidir="ui" palmor="u"/>
+    <location_bodyarm contact="touch" location="ear"/>
+     
+    
+    <tgt_motion>
+<directedmotion curve="u" direction="o"/>
+ 
+      <handconfig handshape="finger23spread" mainbend="round" thumbpos="across"   extfidir="u" palmor="d"/>
+   <location_bodyarm location="shoulders" side="right_at" contact="armextended"/>
+    </tgt_motion>
+   
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

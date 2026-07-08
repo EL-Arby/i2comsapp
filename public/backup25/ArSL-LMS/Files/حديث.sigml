@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="Hadeeth">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="HDET"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="211"  extfidir="u"  palmor="l"/>
+    <location_bodyarm location="cheek" side="right_beside" contact="close" />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

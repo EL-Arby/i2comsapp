@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="boy">
+  <sign_manual>
+    <handconfig handshape="finger2"  thumbpos="opposed" extfidir="u" mainbend="3.5 0 0"  palmor="ul"/>
+    <location_bodyarm location="nose" side="right_at" contact="touch"/>
+      <tgt_motion>
+    <handconfig handshape="finger2"  thumbpos="opposed" extfidir="u" mainbend="4 0 0"  palmor="ul"/>
+      </tgt_motion>
+    <tgt_motion>
+    <handconfig handshape="finger2"  thumbpos="opposed" extfidir="u" mainbend="3.8 0 0"  palmor="ul"/>
+      </tgt_motion>
+    <tgt_motion>
+    <handconfig handshape="finger2"  thumbpos="opposed" extfidir="u" mainbend="4 0 0"  palmor="ul"/>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

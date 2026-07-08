@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="trust">
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="opposed" extfidir="u" palmor="ld"/>
+    <location_bodyarm location="cheek" contact="close"   />
+    <par_motion>
+      <directedmotion direction="ro" size="big"/>
+      <tgt_motion>
+     <handconfig handshape="pinch12open" mainbend="round"  extfidir="u" palmor="ld"/>
+      </tgt_motion>
+    </par_motion>
+  <directedmotion direction="il" size="small"/>
+<directedmotion direction="or" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

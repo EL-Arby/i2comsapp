@@ -1,0 +1,27 @@
+<sigml>
+<hamgestural_sign gloss="yebadal byna harakat">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinchall"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <directedmotion curve="r" direction="u"/>
+      <directedmotion curve="l" direction="d"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion curve="l" direction="d" size="big"/>
+      <directedmotion curve="l" direction="u" size="big"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion curve="r" direction="u" size="big"/>
+      <directedmotion curve="r" direction="d" size="big"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="l" size="small"/>
+      <directedmotion direction="r" size="small"/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

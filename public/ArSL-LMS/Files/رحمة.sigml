@@ -1,0 +1,63 @@
+<sigml>
+
+<hamgestural_sign gloss="have_mercy">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12open"     extfidir="iu" palmor="l"/>
+      <handconfig handshape="flat"   mainbend="111"  extfidir="o" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="neck"    side="right_at"  contact="close"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="ild"  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="have-Mercy">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"    extfidir="li" palmor="d"/>
+      <handconfig handshape="flat"   mainbend="111"  extfidir="o" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="headtop"    contact="armextended"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="id"  size="big"/>
+           <directedmotion />
+      </split_motion>
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="2 0 0 3" thumbpos="opposed"   extfidir="li" palmor="d"/>
+      <handconfig handshape="flat"   mainbend="111"  extfidir="o" palmor="u"/>
+    </split_handconfig>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

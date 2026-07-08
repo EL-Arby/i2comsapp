@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="desire">
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="out"  extfidir="ul" palmor="l"/>
+    <location_bodyarm location="lips"/>
+
+      <directedmotion direction="d" size="small"/>
+     
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

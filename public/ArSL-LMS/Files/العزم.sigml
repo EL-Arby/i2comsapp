@@ -1,0 +1,31 @@
+<sigml>
+
+<hamgestural_sign gloss="Azm">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X61"/>
+<extra_movement movement="X19"/>
+      <extra_movement movement="X20"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X61"/>
+<extra_movement movement="X19"/>
+      <extra_movement movement="X20"/>
+</extra_par>
+ 
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="ul" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	<tgt_motion>
+     <directedmotion direction="o"  manner="slow"  />  
+   <handconfig extfidir="lo" palmor="l"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

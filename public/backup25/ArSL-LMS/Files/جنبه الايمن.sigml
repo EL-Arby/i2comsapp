@@ -1,0 +1,12 @@
+<sigml>
+<hamgestural_sign gloss="jamb alaymen job">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="ul"/>
+    <location_bodyarm location="shouldertop"/>
+    <directedmotion direction="r"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

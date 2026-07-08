@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="Gas">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X54"/>
+<extra_movement movement="X60"/>
+</extra_par>
+ 
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X54"/>
+<extra_movement movement="X60"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12open"  extfidir="u"  palmor="d"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close" />
+      <directedmotion direction="ro" />
+ <directedmotion direction="li" />
+ <directedmotion direction="ro" />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

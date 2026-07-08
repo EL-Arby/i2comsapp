@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="same_Thing">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="NFS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    <handconfig handshape="finger23spread" thumbpos="across"  extfidir="uo" palmor="d"/>
+    <location_bodyarm location="shoulders"  contact="close"  />
+ <tgt_motion>
+  <handconfig   extfidir="od" palmor="d"/>
+ </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

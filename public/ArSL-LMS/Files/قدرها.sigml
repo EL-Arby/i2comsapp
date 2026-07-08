@@ -1,0 +1,32 @@
+<sigml>
+<hamgestural_sign gloss="kadaraha">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Meter"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" mainbend="hooked" thumbpos="across"/>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="r"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="midjoint"   digits="2" side="right_beside"   />
+      		<location_hand location="side" digits="2"  side="left_beside" />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+     
+  
+    <split_motion>
+      <directedmotion direction="u"/>
+      <directedmotion direction="d"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="d"/>
+      <directedmotion direction="u"/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

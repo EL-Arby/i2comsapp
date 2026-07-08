@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="satan">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SHEE"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual>
+
+    		<handconfig handshape="finger23"  specialfingers="25" bend2=" 0 0 0 3 " bend5=" 0 0 0 3" thumbpos="across"/>
+		
+      <handconfig extfidir="u" palmor="d"/>
+      
+ 	<location_bodyarm location="shouldertop"  contact="close"  />     
+
+	 <directedmotion direction="ur" size="big"  /> 
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

@@ -1,0 +1,42 @@
+<sigml>
+
+<hamgestural_sign gloss="back">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KALV"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="u" palmor="u" thumbpos="out" mainbend="012" />
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"  contact="armsextende"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<tgt_motion>
+
+<split_motion>
+<directedmotion direction="i"  curve="u"  />
+           <directedmotion />
+      </split_motion>
+
+<split_handconfig>
+        <handconfig handshape="flat"    extfidir="i" palmor="d" thumbpos="out" mainbend="012" />
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="ear" side="right_at"  contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="bow">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="RKOO"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="ld"/>
+    <location_bodyarm location="shoulders" side="right_at"/>
+         <tgt_motion>
+        <handconfig   handshape="flat" mainbend="400" />
+      </tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

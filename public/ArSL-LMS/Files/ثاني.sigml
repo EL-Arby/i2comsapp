@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="second">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12" specialfingers="13" mainbend="bent"  bend3="300"  bend2="000"  bend4="434"   extfidir="lou" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="pinch12" specialfingers="13" mainbend="bent"  bend2="000"  bend4="434"   extfidir="ulo" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="pinch12" specialfingers="13" mainbend="bent" bend3="300"  bend2="000"  bend4="434"   extfidir="olu" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+<tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="pinch12" specialfingers="13" mainbend="bent"  bend2="000"  bend4="434"   extfidir="oul" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

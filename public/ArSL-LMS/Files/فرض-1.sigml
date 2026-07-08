@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="must">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="FFRD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    
+        <handconfig handshape="finger2"  thumbpos="across" extfidir="u" palmor="l"  mainbend="123"/>
+	  <location_bodyarm location="nose" contact="touch"/>
+    
+	<tgt_motion manner="rest">
+	
+        <directedmotion direction="d"/>
+        
+	</tgt_motion>
+  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

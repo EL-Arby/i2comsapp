@@ -1,0 +1,40 @@
+<sigml>
+
+<hamgestural_sign gloss="book">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+
+
+        				<split_handconfig>
+      <handconfig handshape="flat"   extfidir="ou" palmor="l" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="ou" palmor="r" mainbend="0.8 0 0"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="thumbball"  />
+      <location_hand location="thumbball" />
+      <location_bodyarm location="shoulders"  contact="close"/>
+    </handconstellation>
+  
+
+<tgt_motion> 
+<split_motion>
+        <directedmotion direction="r"  curve="u"   />
+	<directedmotion direction=""  />
+</split_motion>
+
+		<split_handconfig>
+      <handconfig handshape="flat"   extfidir="o" palmor="u" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="o" palmor="u" mainbend="0.8 0 0"/>
+    </split_handconfig>
+</tgt_motion>
+    
+
+
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

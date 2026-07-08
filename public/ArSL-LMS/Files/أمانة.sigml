@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="Amana">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ABBANA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+
+  <sign_manual >
+
+    	<handconfig handshape="flat"  thumbpos="across"  extfidir="i" palmor="l" mainbend="011"/>
+
+ 	<location_bodyarm location="earlobe" contact="close " side="right_beside"  />
+	
+	<directedmotion direction="dlo" size="small" manner="fast" />
+<directedmotion direction="uri" size="small" manner="fast" />
+<directedmotion direction="dlo" size="small" manner="fast" />
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

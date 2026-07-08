@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="LIFE">
+
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ADONA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+<sign_manual  both_hands="true" lr_symm="true">
+
+    	<handconfig handshape="finger2" bend2="320"  thumbpos="across"  extfidir="ou" palmor="dl"/>
+
+ 	<location_bodyarm location="shouldertop" contact="close" />
+	<directedmotion direction="d"  manner="fast"/>
+                      <directedmotion direction="u"  />
+                      <directedmotion direction="d"  manner="fast"/>
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

@@ -1,0 +1,12 @@
+<sigml>
+	<hamgestural_sign gloss="alef_with_hamza">
+  		<sign_manual >  
+			<handconfig handshape="fist" thumbpos="out"/>
+    			<handconfig extfidir="ou"/>
+    			<handconfig palmor="o"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+			 <directedmotion direction="r" curve="d"   manner="slow"  />
+			
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

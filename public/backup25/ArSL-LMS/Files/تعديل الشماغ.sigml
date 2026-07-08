@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="taadeel chemar">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="pinch12"  mainbend="bent" />
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="ul"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="forehead" contact="touch"/>
+      <location_bodyarm contact="touch" location="chest"/>
+    </split_location>
+
+<split_motion>
+<directedmotion direction="d" size="small"   />
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="u" size="small"   />
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="d" size="small"   />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

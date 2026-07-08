@@ -1,0 +1,35 @@
+<sigml>
+<hamgestural_sign gloss="stand">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture=""/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X14"/>
+<extra_movement movement="X15"/>
+<extra_movement movement="X60"/>
+<extra_movement movement="X51"/>
+</extra_par>
+ 
+<extra_par>
+      <extra_movement movement="X14"/>
+<extra_movement movement="X15"/>
+<extra_movement movement="X60"/>
+<extra_movement movement="X51"/>
+</extra_par>
+ 
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+        <handconfig handshape="flat"   extfidir="u" palmor="l" />
+     <location_bodyarm location="head"  side="right_at"  contact="close" />
+
+<directedmotion  direction="d"  size = "small"   />
+	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

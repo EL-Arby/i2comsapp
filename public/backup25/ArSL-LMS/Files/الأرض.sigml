@@ -1,0 +1,42 @@
+<sigml>
+
+<hamgestural_sign gloss="earth">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ArD"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="lo" palmor="d" thumbpos="out" />
+      <handconfig handshape="flat"  extfidir="ro" palmor="u"  thumbpos="out"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="palm"   />
+      		<location_hand location="tip"   />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+  
+<split_motion>
+<directedmotion direction="ro" size="small" />
+           <directedmotion />
+      </split_motion>
+
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="il"  size="small" />
+           <directedmotion />
+      </split_motion>
+	</tgt_motion>
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="ro"  size="small" />
+           <directedmotion />
+      </split_motion>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

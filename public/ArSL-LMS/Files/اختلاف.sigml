@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="difference">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="MOKTLF"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  thumbpos="across" extfidir="u" bend3="200"  palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close"/>
+
+<tgt_motion>
+ <directedmotion direction="r"  />
+<handconfig handshape="finger2"  thumbpos="across" extfidir="ru" bend3="200"  palmor="u"/>
+</tgt_motion>
+
+
+<tgt_motion>
+ <directedmotion direction="l"  />
+<handconfig handshape="finger2"  thumbpos="across" extfidir="u" bend3="200"  palmor="l"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

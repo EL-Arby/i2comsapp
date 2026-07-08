@@ -1,0 +1,43 @@
+<sigml>
+<hamgestural_sign gloss="read">
+ <sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X31"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X30"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X31"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X30"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+  <split_handconfig>
+        <handconfig handshape="finger23spread" thumbpos="across"    extfidir="o" palmor="d" />
+	<handconfig handshape="flat"      extfidir="ou" palmor="u"/>
+    
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_hand location="thumbball"   />
+      <location_hand location="tip" digits="3" />
+      <location_bodyarm location="shoulders" contact="armextended"/>
+    </handconstellation>
+
+       
+         <directedmotion direction="r" size="small" />
+  <directedmotion direction="l" size="small" />
+<directedmotion direction="r" size="small" />
+<directedmotion direction="l" size="small" />
+<directedmotion direction="r" size="small" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

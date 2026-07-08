@@ -1,0 +1,35 @@
+<sigml>
+	<hamgestural_sign gloss="black">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ASSOD"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  		<sign_manual>
+     			<handconfig handshape="pinch12" mainbend="bent" extfidir="ui" palmor="i"/>
+<location_bodyarm location="forehead" side="right_beside"  contact="touch"/>
+<tgt_motion>
+  <handconfig handshape="finger2" bend2="3.5 0 0"  thumbpos="opposed" />
+<location_bodyarm location="forehead" side="right_beside"  contact="touch"/>
+</tgt_motion>
+<tgt_motion>
+  	<handconfig handshape="pinch12" mainbend="bent" extfidir="ui" palmor="i"/>
+<location_bodyarm location="forehead" side="right_beside"  contact="touch"/>
+</tgt_motion>
+   			
+			
+<tgt_motion manner="rest">
+
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

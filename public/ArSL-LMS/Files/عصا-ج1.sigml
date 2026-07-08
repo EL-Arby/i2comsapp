@@ -1,0 +1,32 @@
+<sigml>
+<hamgestural_sign gloss="stick">
+ 
+
+  <sign_manual both_hands="true">
+
+
+
+<split_handconfig>
+    		<handconfig handshape="finger2" mainbend="200"  thumbpos="across" />
+		<handconfig handshape="finger2" thumbpos="across" />
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="ou" palmor="u" />
+      <handconfig extfidir="r" palmor="dr"  />
+    
+	</split_handconfig>
+	
+
+    	 
+   <split_location>
+	<location_bodyarm location="head" side="right_at" contact="close" />
+	<location_bodyarm location="elbow" side="right_beside"  contact="touch" />
+    </split_location>
+      
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

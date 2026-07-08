@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="hated">
+   <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="MAKRO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual>
+    <handconfig handshape="fist" thumbpos="opposed"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="head"   contact="close"/>
+   
+      <directedmotion direction="d"  />
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

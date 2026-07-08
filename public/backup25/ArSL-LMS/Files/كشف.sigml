@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="kashafa">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="dl"/>
+    <handconfig palmor="l"/>
+     
+<handconstellation contact="touch">
+      		<location_hand location="handback" digits="5"     />
+      		<location_hand location="palm" digits="5"    />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+    <tgt_motion>
+    <directedmotion curve="u" direction="r" size="big"/>
+      <handconfig extfidir="or" palmor="ul"/>
+    </tgt_motion>
+
+  
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

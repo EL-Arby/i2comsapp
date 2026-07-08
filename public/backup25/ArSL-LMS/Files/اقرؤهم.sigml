@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="read">
+ <sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X57"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X32"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X57"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X32"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+  
+	<handconfig handshape="flat"      extfidir="ou" palmor="u"/>
+      <location_bodyarm location="shouldertop" contact="close"/>
+         <directedmotion direction="r" size="small" />
+  <directedmotion direction="l" size="small" />
+<directedmotion direction="r" size="small" />
+<directedmotion direction="l" size="small" />
+<directedmotion direction="r" size="small" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

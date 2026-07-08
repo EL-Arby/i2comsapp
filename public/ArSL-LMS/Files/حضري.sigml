@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="Hadari">
+  <sign_manual>
+    <handconfig handshape="flat"  mainbend="0 0 0 3" thumbpos="out"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shouldertop"/>
+     <directedmotion direction="d" size="small"/>
+  <directedmotion direction="u" size="small"/>
+ <directedmotion direction="d" size="small"/>
+ <directedmotion direction="u" size="small"/>
+
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

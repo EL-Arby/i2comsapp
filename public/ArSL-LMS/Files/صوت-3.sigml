@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="voice">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="120"  thumbpos="opposed"   extfidir="u" palmor="l"/>
+      <handconfig handshape="finger2"    thumbpos="across" extfidir="ru" palmor="dl"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="nose" side="right_at"   contact="close"/>
+	<location_bodyarm location="ear" side="left_at"  contact="touch"   />
+    </split_location>
+<split_motion>
+<directedmotion direction="oru"  manner="fast" />
+           <directedmotion />
+      </split_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,19 @@
+<sigml>
+ 
+<hamgestural_sign gloss="fall">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="dl" palmor="l"/>
+<handconstellation contact="close">
+<location_hand location="handback"     />
+      		<location_hand location="midjoint"    />
+      		 <location_bodyarm location="shoulders"   contact="armextended"/>
+    	</handconstellation>
+<tgt_motion>
+     <directedmotion direction="r"    /> 
+  <handconfig extfidir="d" palmor="d"/> 
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

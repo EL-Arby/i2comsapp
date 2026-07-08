@@ -1,0 +1,48 @@
+<sigml>
+
+<hamgestural_sign gloss="Read">
+<sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X59"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X58"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X59"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X58"/>
+</extra_par>
+    </extra_tier>
+ 
+</sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+<handconfig handshape="flat"   extfidir="u" palmor="d"/>
+      <handconfig handshape="pinch12open" mainbend="round" extfidir="ru" palmor="r"/>
+      
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="shouldertop"   contact="close" side="right_at" />
+	<location_bodyarm location="chin"    contact="close"/>
+	
+    </split_location>
+   <rpt_motion repetition="fromstart">
+      <seq_motion>
+       <split_motion>
+<directedmotion />
+ <circularmotion axis="l"  size="small" />
+           
+      </split_motion>
+      </seq_motion>
+    </rpt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

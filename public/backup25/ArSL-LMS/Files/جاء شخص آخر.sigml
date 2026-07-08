@@ -1,0 +1,33 @@
+<sigml>
+
+<hamgestural_sign gloss="other_came">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="MOATB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig  handshape="finger2" mainbend="0 0 0 2"  thumbpos="across"  extfidir="u" palmor="d" />
+<handconfig  handshape="finger2" mainbend="0 0 0 3"  thumbpos="across"  extfidir="u" palmor="d" />
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_beside" contact="close"   />
+	<location_bodyarm location="shoulders" side="left_at"  contact="close"   />
+    </split_location>
+<tgt_motion>
+<split_motion>
+ <directedmotion direction="l" />
+ <directedmotion />
+      </split_motion>
+
+<handconstellation contact="touch">
+      <location_hand location="side" digits="1" />
+        <location_hand location="side" digits="12" />
+    </handconstellation>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

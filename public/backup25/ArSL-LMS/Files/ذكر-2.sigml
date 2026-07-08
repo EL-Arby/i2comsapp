@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="inside">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOO"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"   mainbend="211"   thumbpos="opposed"   extfidir="lou" palmor="lu"/>
+      <handconfig handshape="finger2"  specialfingers="5" bend5="0 0 0 3"   extfidir="or" palmor="r" thumbpos="across"/>
+    </split_handconfig>
+ 
+     <handconstellation contact="close">
+      <location_hand location="nail" digits="5"/>
+      <location_hand location="tip" digits="5" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+ <split_motion>
+<directedmotion direction="uli" size="small" />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

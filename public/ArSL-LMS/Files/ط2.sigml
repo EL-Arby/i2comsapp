@@ -1,0 +1,14 @@
+<sigml>
+	<hamgestural_sign gloss="ta">
+  		<sign_manual >  
+			<handconfig handshape="finger2" mainbend="bent"  bend2="0001" bend3="3.5 0 0 1" thumbpos="opposed"   />
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+				 
+<tgt_motion manner="rest">
+	 
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

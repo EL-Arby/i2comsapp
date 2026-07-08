@@ -1,0 +1,317 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head runat="server">
+    <title>مشروع بيئة ويب للتعليم والتعلم </title>
+    <!-- META -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<meta http-equiv="Access-Control-Allow-Methods" content="GET">
+	
+	<!-- REFERENCES -->
+	
+	<link rel="stylesheet" type="text/css" href="UI/Styles/Style.css" />
+	
+	<link rel="stylesheet" href="http://localhost/jas/loc2017/cwa/cwasa.css" />
+    <script type="text/javascript"
+    src="http://localhost/jas/loc2017/cwa/js/extern/zip/zip-plus.js"></script>
+    <script type="text/javascript"
+    src="http://localhost/jas/loc2017/cwa/allcsa.js"></script>
+	<!--
+	<link rel="stylesheet" href="http://www.a2arsl.ariscom.org/jas/loc2017/cwa/cwasa.css" />
+    <script type="text/javascript"
+    src="http://www.a2arsl.ariscom.org/jas/loc2017/cwa/js/extern/zip/zip-plus.js"></script>
+    <script type="text/javascript"
+    src="http://www.a2arsl.ariscom.org/jas/loc2017/cwa/allcsa.js"></script>
+	-->
+    <script type="text/javascript" language="javascript">
+    <!--
+	//--------------------------------------------------------------------
+        function playText(stext)
+        {
+	        CWASA.playSiGMLText(stext);
+        }
+
+	//--------------------------------------------------------------------
+        function setSiGMLURL(sigmlURL)
+        {
+	        var loc = window.location.href;
+            var locDir = loc.substring(0, loc.lastIndexOf('/'));
+	        sigmlURL = locDir + "/Files/" + sigmlURL;
+	        document.getElementById("URLText").value = sigmlURL;
+	        return sigmlURL;
+        }
+
+	//--------------------------------------------------------------------
+        function startPlayer(sigmlURL)
+        {
+	        sigmlURL = setSiGMLURL(sigmlURL);
+            // Equivalent to click on Sign button
+	        CWASA.playSiGMLURL(sigmlURL);
+        }
+
+	//--------------------------------------------------------------------
+		function getData()
+		{ 
+			getSessionValueJavascript();
+			InfoTheSign();
+			ReadFromFile();
+		}
+            
+	//--------------------------------------------------------------------
+
+		function ReadFromFile()
+		{
+			var SplitSign = new Array();
+			var TheSigns = document.getElementById('TempTextArea').value;
+			SplitSign = TheSigns.split("+");
+			for ( var count = 0 ; count<SplitSign.length ; count++)
+				{
+					startPlayer(SplitSign[count]);
+				}   
+		}
+
+	//------------------------------------------------------------------
+		function InfoTheSign()
+		{
+			var obj1 = document.getElementById("Textcontent");
+			var obj2 = document.getElementById("WordF");
+			var obj3 = document.getElementById("WordNF"); 
+			var SplitWordSign = new Array();  
+			var TheContent = document.getElementById('InfoTempTextArea').value;
+			SplitWordSign = TheContent.split("+");
+			obj1.innerHTML = SplitWordSign [0];
+			obj2.innerHTML = SplitWordSign [1]+"\\"+SplitWordSign [3];
+			obj3.innerHTML= SplitWordSign [2]+"\\"+SplitWordSign [3];
+		}
+
+	//--------------------------------------------------------------------
+
+		function InitSignForm()
+		{
+			var SplitWordSign = new Array();
+			var obj1 = document.getElementById("Textcontent");
+			var obj2 = document.getElementById("WordF");
+			var obj3 = document.getElementById("WordNF"); 	   
+			obj1.innerHTML = "-";
+			obj2.innerHTML = "0";
+			obj3.innerHTML= "0";
+			startPlayer("dropped.sigml");       
+		}
+
+	// Initial configuration
+		var initCfg = {
+			"avsbsl" : ["luna", "anna", "marc", "francoise"],
+			"avSettings" : { "avList": "avsbsl", "initAv": "marc" }
+		};
+
+	//--------------------------------------------------------------------
+		function getSessionValueJavascript()
+		{
+			var session_StrInfo= '<%=Session["StrInfo"] %>';
+			var session_StrSigmlFiles = '<%=Session["StrSigmlFiles"] %>';
+			var session_StrContent='<%=Session["StrContent"] %>';
+			document.getElementById('InfoTempTextArea').value = session_StrInfo; 
+			document.getElementById('TempTextArea').value = session_StrSigmlFiles;
+			document.getElementById('InfoContent').value = session_StrContent;
+			//alert(session_StrInfo);
+			//alert(session_StrSigmlFiles);
+			//alert(session_StrContent);
+		}
+		
+		//CWASA.init(initCfg);
+//-->
+</script>
+
+    <style type="text/css">
+        .auto-style3 {
+            width: 177px;
+        }
+    </style>
+
+</head>
+<body onLoad="CWASA.init(initCfg);" style="overflow-y:auto;">
+
+<script type="text/javascript" language="javascript">
+    <!--
+		//CWASA.init(initCfg);
+//-->
+</script>
+
+    <form id="form1" runat="server">
+   
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="Header">
+        <!-- Ariscom Logo 
+        <img alt="" src="UI/Images/Backgrounds/HeadBG.jpg" /> 
+        -->
+        <!-- Imam University Logo -->
+        <img alt="" src="UI/Images/Backgrounds/NewHeaderBG1.jpg"/>
+    </div>
+
+    <!-- Body -->
+    <div id="Body" dir="rtl">
+        <!-- right Menu  -->
+          <div id="MainNavigation" style="width:150px">
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <table>
+            <tr>
+            <td>
+                <div>                     
+                <ul class ="HeadMenuItems">
+                    <li>المستوى الأول</li>
+                </ul>
+                  
+                <ul class="SubMenuItems">
+                    <li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="GoToSignChar" Text="الحروف الهجائية "></asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton4" runat="server" OnClick="GoToSignNumber" Text="الوحدات الرقمية "></asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton2" runat="server" OnClick="GoToComposedSignNumber" Text="الأعداد المركبة "></asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton6" runat="server" OnClick="GoToSignReligionWord" Text="قاموس إشاري "></asp:LinkButton></li>
+                </ul>
+                <ul class ="HeadMenuItems">
+                    <li>المستوى الثاني</li>
+                </ul>
+                <ul class="SubMenuItems">
+                    <li><asp:LinkButton ID="LinkButton7" runat="server" OnClick="GoToSignTopicPhrase" Text="مفاهيم دينية "></asp:LinkButton></li>
+                </ul>
+                <ul class ="HeadMenuItems">
+                    <li>المستوى الثالث</li>       
+                </ul>
+                <ul class="SubMenuItems">
+                    <li><asp:LinkButton ID="LinkButton8" runat="server" OnClick="GoToSignTranslation" Text="ترجمة إشارية "></asp:LinkButton></li>      
+                </ul>
+     
+            </div>  
+            </td>
+           </tr>
+          </table>
+            </asp:contentplaceholder>
+            
+          </div>
+      <div id="Content">
+         <table>
+             <tr>
+                 <td style="width:415px; vertical-align:top;">
+                     <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+                        <div style="width:415px"> 
+        
+        
+                        </div>      
+                      </asp:contentplaceholder>
+                 </td>
+                 <td style="width:490px; vertical-align:top;">
+                      <asp:contentplaceholder id="ContentPlaceHolder3" runat="server">
+                          <!-- Begin of Avatar Area-->
+                        <asp:UpdatePanel ID="UpdatePanel2" runat="server" >                          
+                         <ContentTemplate>
+
+                          <div style="box-sizing: border-box; width: 495px; padding: 15px;" >
+                            <table align="center" style="width:480px;" >
+                                <tr align="center">
+
+                                <!--================================================================-->
+                                <!-- CWA signing avatar panel 0 -->
+                                <!--================================================================-->
+                                <!-- Replaced by an avatar panel -->
+                                <!--================================================================-->
+                                <td width="400" height="350" >
+	                                <div class="CWASAAvatar av0" align="center" ></div>
+                                </td>
+                                
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <table dir="rtl" width="450" align="center"> 
+                                        <tr>
+	                                        <td > المحتوى :</td>
+	                                        <td colspan="3"><div name="Textcontent" id="Textcontent"> </div></td>	
+                                        </tr>
+                                        <tr>
+	                                        <td> عدد الكلمات الموجودة :</td>
+	                                        <td><div name="WordF" id="WordF"> </div></td>	
+	                                        <td> عدد الكلمات الغير الموجودة   :</td>
+	                                        <td><div name="WordNF" id="WordNF"> </div></td>	
+                                        </tr>
+                                        <tr align="center">
+	                                        <td colspan="4"> 
+                                                <input type="button" name="btnPlay" value="عرض المحتوى - Display Content" 
+	                                            onclick = "getData()" class="auto-style3"/>
+	                                        </td>	
+	                                       <!-- <td colspan="2"> 
+                                                <input type="button" name="btnPlay1" value="وضع الاستعداد -Initialize" onclick="InitSignForm()" class="Control"/>
+	                                        </td>	-->
+                                        </tr>
+                                    </table>
+
+                                    </td>
+
+                                <tr>
+
+                                    <td align="center">
+
+                                        <span class="CWASAAvMenu av0" ></span>
+                                       <!-- <input type="button" value="Sign" class="bttnPlaySiGMLURL av0" />-->
+                                        <input type="button" value="Sign" class="bttnPlaySiGMLText av0" />
+										<input type="button" value="Stop" class="bttnStop av0" />
+                                        <!-- <span class="CWASASpeed av0" ></span>
+                                        <br/> -->
+
+                                        <span style="font-size: 90%;" >
+                                               <!-- Sign/Frame:
+                                                <input class="txtSF av0" value="0/0" type="text"/>
+												-->
+                                                <!-- SToCA applet element panel -->
+                                                <!--================================================================-->
+                                                <span class="SToCA" align="center" ></span>
+                                                <!--================================================================-->
+
+                                                Gloss:
+                                                <input class="txtGloss av0" value="[none]" type="text"/>
+                                        </span>
+
+                                        <!--  CachedSiGML URL  -->
+                                        <input type="text" id="URLText" class="txtSiGMLURL av0 undisplayed"  value="Files/pause.sigml"  />
+                                        <input type="text" id="DisplayedTextArea" class="txtSiGMLURL av0 undisplayed"  value=""  runat="server"/>
+                                        <input type="text" id="TempTextArea" class="txtSiGMLURL av0 undisplayed"  value=""  />
+                                        <input type="text" id="InfoTempTextArea" class="txtSiGMLURL av0 undisplayed"  value=""  />
+										<input type="text" id="InfoContent" class="txtaSiGMLText av0 undisplayed"  value="" />
+                                     </td>
+                                    </tr>
+
+                                </table>
+                              <br />
+
+
+                            </div>
+                         </ContentTemplate>
+                        </asp:UpdatePanel>
+
+                          <!-- End of Avatar Area-->
+                      </asp:contentplaceholder>
+                 </td>
+             </tr>
+         </table>
+         
+   
+        
+      </div>        
+      <br />
+      
+        <!-- Footer -->
+      <div id="Footer" dir="rtl">
+                <!--  <img src="tt.jpg" alt="" />-->
+                <center>
+                <font color="blue" size="3">
+                كل الحقوق محفوظة لمشروع بيئة ويب للتعليم والتعلم، مرتكزة على تقنيات
+                 الترجمة الآلية من النصوص العربية إلى لغة الإشارة السعودية واستخدام الشخصيات الافتراضية ثلاثية الأبعاد 1447هـ - 2025 م
+                </font>
+                </center>
+       </div>
+  </div>
+      
+    </form>
+</body>
+</html>

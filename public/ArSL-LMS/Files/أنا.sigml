@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="Me">
+
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ANA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual>
+   
+        <handconfig handshape="finger2"   mainbend="400"  extfidir="l" palmor="l" thumbpos="across"/>
+
+           <location_bodyarm location="chest"  contact="close"/>
+      <directedmotion direction="i" size="small"  />
+					
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

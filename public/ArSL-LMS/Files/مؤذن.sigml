@@ -1,0 +1,23 @@
+<sigml>
+
+<hamgestural_sign gloss="Prayer">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ATAN"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="ul" palmor="rd"/>
+    <location_bodyarm location="ear" side="right_at"  contact="touch"/>
+	
+	
+      
+	 <tgt_motion>
+    	<directedmotion direction="r"  />
+<handconfig extfidir="u" palmor="d"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

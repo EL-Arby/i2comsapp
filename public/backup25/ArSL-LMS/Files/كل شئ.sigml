@@ -1,0 +1,27 @@
+<sigml>
+<hamgestural_sign gloss="all-thing">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOOOOOO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="finger2345"  thumbpos="out" extfidir="lu"  palmor="r"/>
+    <location_bodyarm location="shoulders"/>
+ 
+   <tgt_motion>
+      <directedmotion direction="r" curve="u" manner="slow" />
+   </tgt_motion>
+
+      <tgt_motion>
+       <directedmotion direction="ld" curve="d" manner="slow"  />
+  <handconfig handshape="finger2345"  thumbpos="out" extfidir="ou"  palmor="lu"/>
+    
+      
+      </tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="hermaphrodite">
+<sign_nonmanual>
+
+ <extra_tier>
+<extra_par>
+ <extra_movement movement="X29"/>
+      <extra_movement movement="X54"/>
+</extra_par>
+<extra_par>
+ <extra_movement movement="X29"/>
+      <extra_movement movement="X54"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+
+  <sign_manual>
+ <split_handconfig>
+      <handconfig handshape="flat"  bend2="300" bend3="300" bend4="200" bend5="100"  thumbpos="out"  extfidir="o"  palmor="d"/>
+      <handconfig handshape="finger2345" thumbpos="out"   extfidir="u" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	
+   <location_bodyarm location="shoulders" side="right_at" contact="close" />
+	<location_bodyarm location="shoulders" side="left_at"   contact="close" />
+    </split_location>
+
+ <directedmotion direction="r"     />
+ <directedmotion direction="l"     />
+ <directedmotion direction="r"   />
+ <directedmotion direction="l"     />
+      </sign_manual>
+</hamgestural_sign>
+
+</sigml>

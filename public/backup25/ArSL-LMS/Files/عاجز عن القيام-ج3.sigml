@@ -1,0 +1,42 @@
+<sigml>
+
+
+<hamgestural_sign gloss="stand">
+  <sign_manual>
+   
+    <split_handconfig>
+      <handconfig handshape="finger23"  mainbend="0 0 0 2" thumbpos="across" extfidir="d" palmor="d"/>
+      <handconfig handshape="flat" thumbpos="out" extfidir="ro" palmor="u"/>
+    </split_handconfig>
+
+     
+   <handconstellation contact="touch" >
+      <location_hand location="palm"/>
+      <location_hand location="tip" digits="3"/>
+      <location_bodyarm location="chest" contact="armextended"/>
+    </handconstellation>
+ 
+<tgt_motion>
+
+   
+    <split_handconfig>
+      <handconfig handshape="finger23"  mainbend="0 2 1 2" thumbpos="across" extfidir="ol" palmor="d"/>
+      <handconfig handshape="flat" thumbpos="out" extfidir="ro" palmor="u"/>
+    </split_handconfig>
+
+
+     
+   <handconstellation contact="touch" >
+      <location_hand location="palm"/>
+      <location_hand location="tip" digits="3"/>
+      <location_bodyarm location="chest" contact="armextended"/>
+    </handconstellation>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+
+</sigml>

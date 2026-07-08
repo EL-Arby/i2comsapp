@@ -1,0 +1,22 @@
+<sigml>
+
+<hamgestural_sign gloss="give-me">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+<mouthing_tier>
+      <mouth_picture picture="ARZQ"/>
+    </mouthing_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinchall"   extfidir="ol" palmor="dl"/>
+    <location_bodyarm location="headtop" contact="armextended"  />
+<tgt_motion>	
+     <directedmotion direction="id"  manner="fast" size="big"/>
+    <handconfig handshape="flat" mainbend="2 0 0 3" thumbpos="opposed"  extfidir="ol" palmor="dl"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

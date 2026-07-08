@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="khataya">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders"/>
+    <directedmotion direction="il" size="big"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig extfidir="ui" palmor="dr"/>
+    </tgt_motion>
+    <directedmotion direction="dr" size="small"/>
+    <directedmotion curve="r" direction="u" size="small"/>
+    <directedmotion direction="dl" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,32 @@
+<sigml>
+
+<hamgestural_sign gloss="Amea">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"  mainbend="300" thumbpos="out"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders" second_location="shoulders" second_side="right_at" >
+	  <location_hand location="tip" digits="2"/>
+	</location_bodyarm>
+    <split_motion manner="fast">
+      <seq_motion>
+        <directedmotion direction="i" size="small" />
+        <directedmotion direction="o" />
+        <directedmotion direction="i"  />
+        <directedmotion direction="o"  />
+        <directedmotion direction="i" size="small"  />
+      </seq_motion>
+      <seq_motion>
+        <directedmotion direction="o" size="small" />
+        <directedmotion direction="i"  />
+        <directedmotion direction="o" />
+        <directedmotion direction="i"  />
+        <directedmotion direction="o" size="small"  />
+      </seq_motion>
+    </split_motion>
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,35 @@
+<sigml>
+
+<hamgestural_sign gloss="adultery">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="LLL"/>
+    </mouthing_tier>
+    <extra_tier>
+      <extra_par>
+
+        <extra_movement movement="X36"/>
+        <extra_movement movement="X61"/>
+   <extra_movement movement="X11"/>
+
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="flat" extfidir="odl" palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at"/>
+
+<tgt_motion>
+	     <handconfig handshape="fist"  extfidir="oul" palmor="do"/>
+  <location_bodyarm location="chest" />
+	</tgt_motion>
+
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

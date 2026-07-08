@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="wrong">
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across" extfidir="ul" palmor="d"/>
+    <location_bodyarm location="chest"   contact="touch"/>
+  
+
+ <directedmotion direction="dr"  />
+
+<tgt_motion>
+      <directedmotion direction="u" curve="r"  manner="slow"  />
+ <handconfig handshape="finger2" thumbpos="across" extfidir="i" palmor="d"/>
+      <location_bodyarm location="shoulders" side="right_at"   contact="touch"/>
+      </tgt_motion>
+<tgt_motion>
+      <directedmotion direction="ld"    manner="slow"  />
+  </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

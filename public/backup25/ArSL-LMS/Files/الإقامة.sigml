@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="Ekama">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AKAM"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"  extfidir="o" palmor="u"/>
+    <location_bodyarm location="shoulders"  side="right_at" />
+
+ <tgt_motion>	
+     <directedmotion direction="u" manner="slow"    />  
+<handconfig handshape="flat"  extfidir="ou" palmor="u"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

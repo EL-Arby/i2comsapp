@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="tashahod awal">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="l"/>
+      <handconfig extfidir="u" palmor="u"/>
+    </split_handconfig>
+    <location_bodyarm location="chest"/>
+    <split_motion>
+      <directedmotion direction="ul" size="big"/>
+      <directedmotion direction="ur" size="small"/>
+    </split_motion>
+    <split_motion>
+      <rpt_motion repetition="fromstart">
+        <directedmotion direction="d" size="small"/>
+      </rpt_motion>
+      <nomotion/>
+    </split_motion>
+
+     
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

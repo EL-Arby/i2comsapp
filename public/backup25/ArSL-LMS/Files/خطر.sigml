@@ -1,0 +1,51 @@
+<sigml>
+<hamgestural_sign gloss="khatar">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <facial_expr_par>
+        <eye_brows movement="RB"/>
+        <eye_lids movement="WB"/>
+      </facial_expr_par>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L28"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out"/>
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="d"/>
+      <handconfig extfidir="ou" palmor="ur"/>
+    </split_handconfig>
+ 
+ 
+<handconstellation contact="close">
+      		<location_hand location="palm"    />
+      		<location_hand location="tip" digits="2"  />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+
+ 
+
+ <split_motion>
+<directedmotion direction="dl" size="small"/>
+           <directedmotion />
+      </split_motion>
+
+ <split_motion>
+<directedmotion direction="r"  curve="d" size="small"/>
+           <directedmotion />
+      </split_motion>
+ <split_motion>
+<directedmotion direction="l"  curve="u" size="small"/>
+           <directedmotion />
+      </split_motion>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="language">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="LOOO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+	<sign_manual>
+    <handconfig handshape="finger2" thumbpos="out"  extfidir="ul" palmor="rd"/>
+    <location_bodyarm location="head" side="right_at"  contact="close"/>
+	
+	
+     
+	<wristmotion motion="twisting"/>
+ 
+    <tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

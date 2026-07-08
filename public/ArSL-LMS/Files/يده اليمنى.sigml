@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="right_hand">
+  <sign_manual>
+    <handconfig handshape="flat" />
+    <handconfig extfidir="dol"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close"/>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

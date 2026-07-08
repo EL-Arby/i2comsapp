@@ -1,0 +1,55 @@
+<sigml>
+<hamgestural_sign gloss="onsorhom">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="FOG"/>
+    </mouthing_tier>
+ <extra_tier>
+ 
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_beside"/>
+    <tgt_motion>
+    <directedmotion direction="u" size="big"/>
+<location_bodyarm location="head" side="right_beside"/>
+    </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="onsorhom">
+  <sign_nonmanual>
+ <extra_tier>
+ 
+<extra_par>
+<extra_movement movement="X19"/>
+<extra_movement movement="X61"/>
+<extra_movement movement="X35"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+ 
+      <handconfig handshape="finger2" mainbend="round" thumbpos="across"   extfidir="u" palmor="l"/>
+
+ <location_bodyarm location="head" side="right_beside"/>
+ 
+    <tgt_motion>
+<directedmotion curve="u" direction="dl" size="big"/>
+      <handconfig extfidir="l" palmor="d"/>
+
+ <location_bodyarm location="shoulders" />
+    </tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

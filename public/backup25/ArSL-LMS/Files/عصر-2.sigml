@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="ASR">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="l" palmor="dl"/>
+      <handconfig handshape="finger2345"  thumbpos="out" extfidir="r" palmor="r" />
+    </split_handconfig>
+
+    <handconstellation contact="touch">
+      <location_hand location="nail" digits="3"/>
+      <location_hand location="tips" digits="2"/>
+      <location_bodyarm location="shoulders" contact="armextended"/>
+    </handconstellation>
+   
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

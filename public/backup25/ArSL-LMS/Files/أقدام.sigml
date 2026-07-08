@@ -1,0 +1,12 @@
+<sigml>
+
+<hamgestural_sign gloss="feet">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger23spread" thumbpos="across"  mainbend="2 0 0 2"  extfidir="dol" palmor="d"/>
+    <location_bodyarm location="head" side="right_at"  contact="close"  />
+	
+     <directedmotion direction="d" />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="protect">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X19"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out" bend2="022" />
+    <handconfig extfidir="ol" palmor="l"/>
+    <location_bodyarm location="shoulders"   />
+	
+     <directedmotion direction="i"  manner="fast"  />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

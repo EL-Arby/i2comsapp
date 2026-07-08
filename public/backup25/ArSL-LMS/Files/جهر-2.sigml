@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="voice">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OOO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+      <handconfig handshape="finger2" mainbend="120"  thumbpos="opposed"   extfidir="u" palmor="l"/>
+ <location_bodyarm location="nose" side="right_at"   contact="close"/>
+  
+<directedmotion direction="our" size="big" manner="slow" />
+      </sign_manual>
+</hamgestural_sign>
+
+</sigml>

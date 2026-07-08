@@ -1,0 +1,18 @@
+<sigml>
+
+
+<hamgestural_sign gloss="heart">
+  <sign_manual>
+
+      <handconfig handshape="flat" bend2="400"  thumbpos="out"  extfidir="l" palmor="l"/>
+	<location_bodyarm location="chest"    contact="close"/>
+
+
+	 <directedmotion direction="i" size="small" manner="fast"  />
+ <directedmotion direction="o" size="small" manner="fast"  />
+ <directedmotion direction="i" size="small" manner="fast"  />
+
+  </sign_manual>
+</hamgestural_sign>
+ 
+</sigml>

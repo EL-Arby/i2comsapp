@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="place">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BLD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="1 0.5 1 5"  thumbpos="opposed"   extfidir="ol" palmor="d"/>
+      <handconfig handshape="finger2345"   bend5="444" thumbpos="across" extfidir="ru" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head" side="right_at"   contact="close"/>
+	<location_bodyarm location="shoulders"    side="left_at" contact="close" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="d"  manner="fast" />
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="u"  manner="fast" />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="d"  manner="fast" />
+           <directedmotion />
+      </split_motion>
+   </sign_manual>
+</hamgestural_sign>
+
+</sigml>

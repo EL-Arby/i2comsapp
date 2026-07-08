@@ -1,0 +1,32 @@
+<sigml>
+
+<hamgestural_sign gloss="home">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BET"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="fist"  extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"  extfidir="u" palmor="r"/>
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_hand location="palm"  />
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+    
+    <tgt_motion>
+      <directedmotion direction="rl" manner="fast" />
+	<handconstellation contact="close"/>
+ </tgt_motion>
+ <directedmotion direction="r" size="small"  manner="fast" />
+    <tgt_motion>
+      <directedmotion direction="rl" manner="fast" />
+	<handconstellation contact="close"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

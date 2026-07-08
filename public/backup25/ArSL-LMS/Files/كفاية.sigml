@@ -1,0 +1,50 @@
+<sigml>
+
+<hamgestural_sign gloss="Enough">
+ <sign_nonmanual>
+ 
+  <mouthing_tier>
+      <mouth_picture picture="KKKAAVE"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+<split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"  extfidir="ul" palmor="r" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"   thumbpos="out"  extfidir="ur" palmor="l" mainbend="0.8 0 0"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="tip"  digits="1"/>
+      <location_hand location="tip"  digits="1" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+  
+
+
+<split_motion>
+        <directedmotion direction="" size="small" />
+	<directedmotion />
+</split_motion>
+
+<tgt_motion>
+<split_motion>
+        <directedmotion direction="r"  manner="fast" />
+        <directedmotion direction="l"  manner="fast" />
+</split_motion>
+<split_handconfig>
+      <handconfig handshape="flat"   extfidir="u" palmor="d" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="u" palmor="d" mainbend="0.8 0 0"/>
+    </split_handconfig>
+</tgt_motion>
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

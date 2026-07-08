@@ -1,0 +1,13 @@
+<sigml>
+
+<hamgestural_sign gloss="Aoth">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" mainbend="112"  thumbpos="out"/>
+    <handconfig extfidir="l" palmor="l"/>
+    <location_bodyarm location="shouldertop"   />
+	
+     <directedmotion direction="id"  manner="slow" />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

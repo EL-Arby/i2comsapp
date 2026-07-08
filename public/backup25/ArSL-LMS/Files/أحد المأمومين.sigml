@@ -1,0 +1,41 @@
+<sigml>
+<hamgestural_sign gloss="MAAMOM">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BABOOM"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="flat"  bend2="4 0 0 30"   thumbpos="opposed"  extfidir="ol" palmor="d"   mainbend="3" />
+		<handconfig handshape="finger2345"  extfidir="u" palmor="d" />
+	</split_handconfig>
+   
+
+
+    <handconstellation contact="touch">
+      <location_hand location="tip" digits="3" side="front" />
+      <location_hand location="tip" digits="2"   />
+ 	<location_bodyarm location="neck" />
+	 
+    </handconstellation>
+  
+	<par_motion>
+      			
+<split_motion>
+	<directedmotion  direction="u"   />
+        <directedmotion />
+      </split_motion> 
+	
+      			
+    			</par_motion>
+	
+	
+        
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

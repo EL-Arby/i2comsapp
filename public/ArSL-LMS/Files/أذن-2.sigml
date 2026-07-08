@@ -1,0 +1,9 @@
+<sigml>
+<hamgestural_sign gloss="excuse">
+  <sign_manual>
+    <handconfig handshape="cee12" bend2="3.3 0 1 8"  thumbpos="opposed" extfidir="ou"  palmor="u"/>
+    <location_bodyarm location="shoulders"/>
+      <directedmotion direction="o" curve="u" manner="slow" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

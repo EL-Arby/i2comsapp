@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="Mash">
+
+<sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345"  thumbpos="out" extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders"   />
+ <tgt_motion>
+    <handconfig handshape="finger2345"  thumbpos="out" extfidir="o" palmor="d"/>
+	</tgt_motion>
+               <tgt_motion>
+	 <directedmotion direction="i"  size="big" />
+    <handconfig handshape="finger2345"  thumbpos="out" extfidir="do" palmor="d"/>
+
+	</tgt_motion>
+	
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

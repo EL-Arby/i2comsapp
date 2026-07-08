@@ -1,0 +1,31 @@
+<sigml>
+<hamgestural_sign gloss="SLS">
+  <sign_manual both_hands="true" >
+
+ <split_handconfig>
+        <handconfig handshape="finger2" specialfingers="5"  thumbpos="across" extfidir="o"  palmor="l"/>
+      <handconfig handshape="pinch12" mainben="round"  extfidir="uo" palmor="d"/>
+    </split_handconfig>
+<handconstellation contact="touch">
+      		<location_hand location="base"  digits="2"      />
+      		<location_hand location="nail" digits="5" side="front" />
+      		  <location_bodyarm location="head" contact="armextended" side="right_at" />
+    	</handconstellation>
+
+<rpt_motion repetition="fromstart">
+
+<tgt_motion>
+<split_motion>
+           <directedmotion />
+<directedmotion direction="d" size="small"  />
+      </split_motion>
+ <split_handconfig>
+        <handconfig handshape="finger2" specialfingers="5"  thumbpos="across" extfidir="o"  palmor="l"/>
+      <handconfig handshape="finger2" mainbend="300" thumbpos="opposed"  extfidir="uo" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+ </rpt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

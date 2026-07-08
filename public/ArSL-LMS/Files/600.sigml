@@ -1,0 +1,23 @@
+<sigml>
+	<hamgestural_sign gloss="six_handared">
+  		<sign_manual >  
+			<handconfig handshape="fist"   thumbpos="out"/>
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="u"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+			 
+			<tgt_motion>
+			<handconfig handshape="fist"   thumbpos="opposed"/>
+			</tgt_motion>
+			<tgt_motion>
+			<handconfig handshape="fist"   thumbpos="out"/>
+			</tgt_motion>
+			<tgt_motion>
+			<handconfig handshape="fist"   thumbpos="opposed"/>
+			</tgt_motion>
+			<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

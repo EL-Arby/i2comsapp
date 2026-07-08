@@ -1,0 +1,35 @@
+<sigml>
+<hamgestural_sign gloss="iktarea baynahom">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="opposed"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="or" palmor="ur"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="l" size="small"/>
+        <directedmotion direction="ul" size="small"/>
+      </seq_motion>
+      <directedmotion direction="r" size="small"/>
+    </split_motion>
+    <directedmotion direction="u"/>
+    <directedmotion direction="d" size="small"/>
+
+    <tgt_motion>
+          <split_motion>
+      <directedmotion direction="dr" size="small"/>
+      <directedmotion direction="dl"/>
+    </split_motion>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+   <split_handconfig>
+      <handconfig extfidir="o" palmor="d"/>
+      <handconfig extfidir="od" palmor="d"/>
+    </split_handconfig>
+    </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

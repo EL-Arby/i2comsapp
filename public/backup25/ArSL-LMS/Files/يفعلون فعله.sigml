@@ -1,0 +1,60 @@
+<sigml>
+<hamgestural_sign gloss="yafaalouna fealaho">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+     <split_location>
+	<location_bodyarm location="shoulders"    contact="close"/>
+	<location_bodyarm location="shoulders"   contact="armextended" />
+    </split_location>
+
+    <split_motion>
+
+      <seq_motion>
+        <directedmotion direction="or" size="small"/>
+        <directedmotion direction="o" size="small"/>
+      </seq_motion>
+    </split_motion>
+    <rpt_motion repetition="fromstart">
+      <split_motion>
+        <tgt_motion>
+          <handconfig handshape="finger2345" mainbend="round" thumbpos="out"/>
+        </tgt_motion>
+
+        <tgt_motion>
+          <handconfig bend2="round" handshape="finger2" thumbpos="across"/>
+        </tgt_motion>
+      </split_motion>
+    </rpt_motion>
+    <split_motion>
+      <tgt_motion>
+        <handconfig handshape="finger2345" thumbpos="out"/>
+      </tgt_motion>
+      <tgt_motion>
+        <handconfig handshape="finger2" thumbpos="across"/>
+      </tgt_motion>
+      
+
+    </split_motion>
+<tgt_motion>
+    <split_handconfig>
+         <handconfig handshape="finger2345" mainbend="round" thumbpos="out"/>
+          <handconfig bend2="round" handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>
+    <split_handconfig>
+         <handconfig handshape="finger2345" thumbpos="out"/>
+          <handconfig  handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

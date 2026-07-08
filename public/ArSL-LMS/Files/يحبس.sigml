@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="yahbiss">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+ 
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig bend4="dblbent" bend5="dblbent" handshape="finger2345" thumbpos="across"/>
+    <handconfig extfidir="dl"/>
+    <handconfig palmor="ur"/>
+    <location_bodyarm contact="close" location="chest"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig bend2="dblbent" bend3="dblbent" bend4="dblbent" bend5="dblbent" handshape="finger2345" thumbpos="across"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

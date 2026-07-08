@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="ha">
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="bent"  thumbpos="opposed" 
+	bend2= "1 3 1.5 0"
+	bend3= "1 2.5 2 0"
+	bend4= "1 2.5 1 -2"
+	bend5= "1 2.7 1 -1"
+/>
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

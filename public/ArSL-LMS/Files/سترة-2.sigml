@@ -1,0 +1,12 @@
+<sigml>
+
+<hamgestural_sign gloss="Seperate">
+  <sign_manual>
+         <handconfig handshape="flat"     extfidir="u" palmor="d" />
+      <location_bodyarm location="shoulders"   contact="close" side="right_at" />
+
+<directedmotion direction="o"  />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

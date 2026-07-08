@@ -1,0 +1,40 @@
+<sigml>
+
+<hamgestural_sign gloss="Read">
+ <sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X31"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X30"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X31"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X30"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual >
+    
+ 
+      <handconfig handshape="pinch12open" mainbend="round" extfidir="l" palmor="l"/>
+	<location_bodyarm location="chin"    contact="close"/>
+	   <rpt_motion repetition="fromstart">
+      <seq_motion>
+        
+ <circularmotion axis="l"  />
+              </seq_motion>
+    </rpt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

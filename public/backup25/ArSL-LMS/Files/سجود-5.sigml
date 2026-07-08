@@ -1,0 +1,45 @@
+<sigml>
+
+<hamgestural_sign gloss="sjood">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    mainbend="1.5 2.5 0" extfidir="uol" palmor="d"/>
+      <handconfig  handshape="flat"   extfidir="ol" palmor="u" />
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="lips"  contact="close"/>
+	<location_bodyarm location="neck"     contact="close" />
+    </split_location>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="SJOOD">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAVE"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+<split_handconfig>
+      <handconfig handshape="flat"    mainbend="1.5 2.5 0" extfidir="uol" palmor="d"/>
+      <handconfig  handshape="flat"   extfidir="ol" palmor="u" />
+    </split_handconfig>
+  
+<handconstellation contact="touch">
+      <location_hand location="wristback" side="left_beside" />
+      <location_hand location="wristback"  side="right_beside"  />
+      <location_bodyarm location="neck" contact="close"/>
+    </handconstellation>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

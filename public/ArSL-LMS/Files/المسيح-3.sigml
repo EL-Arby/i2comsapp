@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="maseeh">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BBSSE"/>
+    </mouthing_tier>
+ 
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"  extfidir="ui" palmor="d"/>
+      <handconfig handshape="flat" extfidir="u" palmor="ur" mainbend="011" />
+    </split_handconfig>
+
+    <split_location>
+          <location_bodyarm contact="close" location="forehead"/>
+      <location_bodyarm contact="close" location="shoulders" side="left_at" />
+    </split_location>
+ 
+   
+ <tgt_motion>
+<split_motion>
+ <directedmotion curve="l" direction="d"  />
+           <directedmotion />
+      </split_motion>
+
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

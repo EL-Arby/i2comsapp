@@ -1,0 +1,31 @@
+<sigml>
+
+<hamgestural_sign gloss="Al-Waselah">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  mainbend="400"   extfidir="u"  palmor="l"/>
+      <handconfig handshape="flat"  mainbend="400"   extfidir="u"  palmor="r"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="3" />
+      		<location_hand location="tip" digits="3" />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+<split_motion>
+<directedmotion direction="u" curve="r"  />
+           <directedmotion />
+      </split_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

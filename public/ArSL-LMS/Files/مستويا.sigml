@@ -1,0 +1,15 @@
+<sigml>
+<hamgestural_sign gloss="flat">
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="u"  palmor="l"/>
+    <location_bodyarm location="head" contact="close" side="right_at" />
+    <par_motion>
+      <directedmotion direction="d" size="big" manner="slaw"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="o" palmor="l"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

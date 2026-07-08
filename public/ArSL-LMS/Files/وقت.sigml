@@ -1,0 +1,45 @@
+<sigml>
+<hamgestural_sign gloss="time">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAQT"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="finger2"  thumbpos="across" bend2="022" />
+		<handconfig handshape="fist" thumbpos="across"/>
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="ol" palmor="d"/>
+      <handconfig extfidir="rod" palmor="d"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="handback"/>
+      <location_hand location="tip" digits="2"/>
+ 	<location_bodyarm location="shoulders" />
+	 <location_bodyarm location="chest" />
+    </handconstellation>
+
+<split_motion>
+       	<directedmotion direction="u" size="small" manner="fast"/>
+      	<directedmotion direction=" "/>
+    </split_motion>
+<split_motion>
+       	<directedmotion direction="d" size="small" manner="fast"/>
+      	<directedmotion direction=" "/>
+    </split_motion>
+<split_motion>
+       	<directedmotion direction="u" size="small" manner="fast"/>
+      	<directedmotion direction=" "/>
+    </split_motion>
+
+    <tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

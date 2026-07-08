@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="go-up">
+  <sign_manual>
+    <handconfig handshape="finger23"  thumbpos="across"  mainbend="400" extfidir="ol"  palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+    <par_motion>
+<fingerplay/>
+<directedmotion direction="u"  />
+      <tgt_motion>
+<circularmotion axis="u"   />   
+      </tgt_motion>
+    </par_motion>
+    <par_motion>
+<fingerplay/>
+<directedmotion direction="u"  />
+      <tgt_motion>
+<circularmotion axis="u"   />   
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

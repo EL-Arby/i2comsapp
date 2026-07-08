@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="bad">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BATL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+           <handconfig handshape="fist"  thumbpos="out"  extfidir="u" palmor="d"/> 
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<tgt_motion>
+
+<split_motion>
+    <directedmotion direction="d"  size="big" mannar="slow" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+         <handconfig handshape="fist"   thumbpos="opposed"  extfidir="l" palmor="dr"/> 
+    <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,22 @@
+<sigml>
+
+
+<hamgestural_sign gloss="or">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="LLAO"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+
+      <handconfig handshape="finger2345"   thumbpos="out"  extfidir="u" palmor="d"/>
+	<location_bodyarm location="shoulders"  side="right_at"  contact="close"/>
+
+<tgt_motion>  
+      <handconfig  handshape="finger2345"  extfidir="uol"  bend3="211" bend5="222" bend4="211" palmor="l" thumbpos="out" />
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

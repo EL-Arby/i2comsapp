@@ -1,0 +1,18 @@
+<sigml>
+
+<hamgestural_sign gloss="Okey">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="TBAB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close"  />
+	
+     <directedmotion direction="d"  manner="fast" size="small"/>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

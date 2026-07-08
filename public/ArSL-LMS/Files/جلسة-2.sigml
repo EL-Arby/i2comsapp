@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="sit">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+   <sign_manual  both_hands="true" lr_symm="true">
+
+    	<handconfig handshape="flat"   bend3="400" bend4="400" bend2="400"   thumbpos="out"  extfidir="u" palmor="d"/>
+
+ 	<location_bodyarm location="shouldertop" contact="close" />
+	<directedmotion direction="d"  manner="fast"/>
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

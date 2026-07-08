@@ -1,0 +1,46 @@
+<sigml>
+<hamgestural_sign gloss="DEEN">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="GAP"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true">
+<split_handconfig>
+    		<handconfig handshape="finger2" thumbpos="opposed"   mainbend="121" />
+		<handconfig handshape="flat" thumbpos="across" mainbend="244"/>
+	</split_handconfig>
+       <split_handconfig>
+      <handconfig extfidir="u" palmor="ld"/>
+      <handconfig extfidir="ro" palmor="d"/>
+    </split_handconfig>
+
+
+     <split_location>
+	<location_bodyarm location="neck"   contact="close"/>
+	<location_bodyarm location="shoulders"   contact="armextended" />
+    </split_location>
+	<par_motion>
+      			
+<split_motion>
+	<directedmotion  direction="o" size="small"    />
+        <directedmotion />
+      </split_motion> 
+	
+      				<tgt_motion>
+        				<changeposture/>
+
+   
+   
+      				</tgt_motion>
+    			</par_motion>
+	
+	
+        
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

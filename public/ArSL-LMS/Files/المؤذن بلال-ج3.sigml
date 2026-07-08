@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="athan">
+<sign_nonmanual>
+   <mouthing_tier>
+      <mouth_picture picture="BAA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="ul" palmor="dl"/>
+    <location_bodyarm location="ear" contact="touch"  />
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

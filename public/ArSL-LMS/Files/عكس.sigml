@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="swap">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across" extfidir="o" mainbend="400" palmor="u"/>
+  <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="shoulders" side="left_at"   contact="armextended"/>
+    </split_location>
+
+<tgt_motion>	
+     <directedmotion direction="l" curve="u"   size="big"/>  
+ <handconfig handshape="finger2" thumbpos="across" extfidir="l"  palmor="l"/>
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

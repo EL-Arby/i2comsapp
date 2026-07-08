@@ -1,0 +1,22 @@
+<sigml>
+
+<hamgestural_sign gloss="wake">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="VVAHB"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual >
+
+      <handconfig handshape="pinch12open" bend2="122"  extfidir="u" palmor="l"/>
+       <location_bodyarm location="eyes"    contact="close"   />
+   <tgt_motion>
+
+ <directedmotion direction="or"       />
+ 
+   <handconfig handshape="pinch12open"  extfidir="u" palmor="l"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

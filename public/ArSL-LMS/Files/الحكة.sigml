@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="haka">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="hooked"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="close" location="chest"/>
+    <directedmotion direction="ui"/>
+    <directedmotion direction="ur"/>
+    <directedmotion direction="il" size="small"/>
+    <directedmotion direction="d" size="small"/>
+    <rpt_motion repetition="fromstart">
+      <directedmotion direction="u" size="small"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

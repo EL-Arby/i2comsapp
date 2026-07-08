@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="Travelar">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="d" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="o" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="belowstomach" side="right_at"   contact="touch"/>
+	<location_bodyarm location="shoulders"   side="left_at"  contact="close" />
+    </split_location>
+    <par_motion>
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="d" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="odl" palmor="r"/>
+    </split_handconfig>
+
+<tgt_motion>
+
+<split_motion>
+           <directedmotion />
+<directedmotion direction="ol" size="big"  />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="d" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="oul" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="intention">
+
+ <sign_nonmanual>
+<eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+    <mouthing_tier>
+      <mouth_picture picture="ENNE"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  		<sign_manual >
+    			<handconfig handshape="fist"  thumbpos="out" bend2="310"  />
+    			<handconfig extfidir="l"/>
+    			<handconfig palmor="l"/>
+    			<location_bodyarm location="chest" contact="close"/>
+	   <directedmotion direction="i" size="small"/>
+ 
+       
+
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+
+</sigml>

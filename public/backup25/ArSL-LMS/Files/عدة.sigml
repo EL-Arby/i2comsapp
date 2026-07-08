@@ -1,0 +1,31 @@
+<sigml>
+<hamgestural_sign gloss="aida">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="u"/>
+      <handconfig extfidir="o" palmor="ur"/>
+    </split_handconfig>
+ <split_location>
+    <location_bodyarm location="head" side="right_at"/>
+<location_bodyarm location="chest"   contact="close" side="left_at" />
+    </split_location>
+    <split_motion>
+      <seq_motion>
+    
+        <tgt_motion>
+                <directedmotion direction="d" manner="slow" size="big"/>
+          <handconfig bend4="round" bend5="round" handshape="finger2345" thumbpos="out" bend3="0 2 2 2" bend2="0 1 2 2" />
+ <handconfig extfidir="dl" palmor="l"/>
+        </tgt_motion>
+  
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

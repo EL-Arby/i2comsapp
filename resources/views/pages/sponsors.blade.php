@@ -17,8 +17,8 @@
         <!-- Platinum Sponsors -->
         <div class="mb-16">
             <div class="mb-8">
-                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-600">💎 Platinum Sponsors</h2>
-                <p class="text-gray-600 mt-2">Our premier partners</p>
+                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-600">{{ $sponsorTitles['platinum_title'] ?? '💎 Platinum Sponsors' }}</h2>
+                <p class="text-gray-600 mt-2">{{ $sponsorTitles['platinum_subtitle'] ?? 'Our premier partners' }}</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gradient-to-b from-yellow-50 to-white p-8 rounded-2xl border border-yellow-200">
                 @include('pages.sponsor-cards', ['sponsors' => $platinumSponsors])
@@ -30,8 +30,8 @@
         <!-- Gold Sponsors -->
         <div class="mb-16">
             <div class="mb-8">
-                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">🏆 Gold Sponsors</h2>
-                <p class="text-gray-600 mt-2">Key strategic partners</p>
+                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">{{ $sponsorTitles['gold_title'] ?? '🏆 Gold Sponsors' }}</h2>
+                <p class="text-gray-600 mt-2">{{ $sponsorTitles['gold_subtitle'] ?? 'Key strategic partners' }}</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gradient-to-b from-blue-50 to-white p-8 rounded-2xl border border-blue-200">
                 @include('pages.sponsor-cards', ['sponsors' => $goldSponsors])
@@ -43,8 +43,8 @@
         <!-- Silver Sponsors -->
         <div class="mb-16">
             <div class="mb-8">
-                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">✨ Silver Sponsors</h2>
-                <p class="text-gray-600 mt-2">Supporting organizations</p>
+                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">{{ $sponsorTitles['silver_title'] ?? '✨ Silver Sponsors' }}</h2>
+                <p class="text-gray-600 mt-2">{{ $sponsorTitles['silver_subtitle'] ?? 'Supporting organizations' }}</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gradient-to-b from-gray-50 to-white p-8 rounded-2xl border border-gray-200">
                 @include('pages.sponsor-cards', ['sponsors' => $silverSponsors])
@@ -56,8 +56,8 @@
         <!-- Bronze Sponsors -->
         <div class="mb-16">
             <div class="mb-8">
-                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-700">🤝 Bronze Partners</h2>
-                <p class="text-gray-600 mt-2">Community supporters</p>
+                <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-700">{{ $sponsorTitles['bronze_title'] ?? '🤝 Bronze Partners' }}</h2>
+                <p class="text-gray-600 mt-2">{{ $sponsorTitles['bronze_subtitle'] ?? 'Community supporters' }}</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 bg-gradient-to-b from-orange-50 to-white p-8 rounded-2xl border border-orange-200">
                 @include('pages.sponsor-cards', ['sponsors' => $bronzeSponsors])
@@ -78,7 +78,8 @@
 
         @if ($collaborators->count() > 0)
         <div class="mb-12 mt-16">
-            <h2 class="text-3xl font-bold mb-6 text-blue-600">Collaborators</h2>
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">{{ $sponsorTitles['collaborators_title'] ?? 'Collaborators' }}</h2>
+            <p class="text-gray-600 mb-8">{{ $sponsorTitles['collaborators_subtitle'] ?? 'Academic partners' }}</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 @include('pages.sponsor-cards', ['sponsors' => $collaborators])
             </div>

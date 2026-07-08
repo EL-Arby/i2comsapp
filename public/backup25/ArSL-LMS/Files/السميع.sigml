@@ -1,0 +1,44 @@
+<sigml>
+
+<hamgestural_sign gloss="Hear">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SABE"/>
+    </mouthing_tier>
+</sign_nonmanual>
+
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"  mainbend="100" thumbpos="across"  extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="ear" side="right_at"   contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+
+<split_motion>
+<directedmotion direction="r" size="small" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="l" size="small" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+
+
+<split_motion>
+<directedmotion direction="r" size="small" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="l" size="small" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="touch-cheek">
+  <sign_manual>
+    <handconfig handshape="flat"  mainbend="222" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="cheek" side="right_at" contact="close"/>
+    
+      <directedmotion direction="" size="small" />
+      
+ <directedmotion direction="d" size="small" manner="fast" />
+<directedmotion direction="u" size="small" manner="fast"  />
+      <directedmotion direction="d" size="small" manner="fast" />
+<directedmotion direction="u" size="small" manner="fast"  />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="Ihram-with-it">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"     extfidir="olu" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+<tgt_motion>
+
+<split_motion>
+<directedmotion direction="d"  size="big" />
+           <directedmotion />
+      </split_motion>
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"     extfidir="ol" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,62 @@
+<sigml>
+
+<hamgestural_sign gloss="yamche">
+  <sign_nonmanual>
+    <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+ 
+      <handconfig handshape="finger23" mainbend=" 2 1 1 1"  thumbpos="across"/>
+      <handconfig extfidir="o" palmor="d"/>
+    <location_bodyarm location="chest"/>
+ <fingerplay size="big" />
+
+  </sign_manual>
+</hamgestural_sign>
+<hamgestural_sign gloss="yamche">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BTTBTT"/>
+    </mouthing_tier>
+
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+     
+       <handconfig handshape="flat" thumbpos="out" extfidir="o" palmor="d"/>
+
+    <split_motion>
+  <directedmotion direction="u"/>
+      <nomotion/>
+    </split_motion>
+    <split_motion>
+  <directedmotion direction="d"/>
+      <nomotion/>
+    </split_motion>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        <directedmotion direction="u"/>
+        <directedmotion direction="d"/>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

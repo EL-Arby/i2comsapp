@@ -1,0 +1,45 @@
+<sigml>
+
+<hamgestural_sign gloss="luke">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSS"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+<split_handconfig>
+      <handconfig handshape="fist"    extfidir="ul" palmor="dr"/>
+      <handconfig  handshape="fist"   extfidir="ruo" palmor="ur" />
+    </split_handconfig>
+  
+ <split_location>
+	<location_bodyarm location="shouldertop"   contact="close"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+
+<tgt_motion>
+
+<handconstellation contact="touch">
+      <location_hand location="wristback" side="left_at" />
+      <location_hand location="wristback"  side="front"  />
+      <location_bodyarm location="chest" contact="close"/>
+    </handconstellation>
+
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

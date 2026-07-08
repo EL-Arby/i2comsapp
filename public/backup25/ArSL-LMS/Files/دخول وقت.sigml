@@ -1,0 +1,51 @@
+<sigml>
+
+<hamgestural_sign gloss="Time">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="oul" palmor="dl"/>
+      <handconfig handshape="finger2345"  thumbpos="out" extfidir="r" palmor="r" />
+    </split_handconfig>
+
+    <handconstellation contact="touch">
+      <location_hand location="nail" digits="2"/>
+      <location_hand location="tips" digits="2"/>
+      <location_bodyarm location="shoulders" contact="armextended"/>
+    </handconstellation>
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="ou" palmor="l"/>
+      <handconfig handshape="finger2345"  thumbpos="out" extfidir="r" palmor="r" />
+    </split_handconfig>
+</tgt_motion>
+
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="oul" palmor="ld"/>
+      <handconfig handshape="finger2345"  thumbpos="out" extfidir="r" palmor="r" />
+    </split_handconfig>
+</tgt_motion>
+
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="ou" palmor="l"/>
+      <handconfig handshape="finger2345"  thumbpos="out" extfidir="r" palmor="r" />
+    </split_handconfig>
+</tgt_motion>
+   
+  <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across" extfidir="oul" palmor="ld"/>
+      <handconfig handshape="finger2345"  thumbpos="out" extfidir="r" palmor="r" />
+    </split_handconfig>
+</tgt_motion>
+
+
+</sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

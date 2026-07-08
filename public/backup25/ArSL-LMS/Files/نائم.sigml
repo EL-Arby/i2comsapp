@@ -1,0 +1,52 @@
+<sigml>
+
+<hamgestural_sign gloss="sleep">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X24"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X24"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X24"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="3 0 0 2"   thumbpos="opposed"  extfidir="u" palmor="dl"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="uppereyelid" side="right_beside"   contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="4 0 0 2"   thumbpos="opposed"  extfidir="u" palmor="dl"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ </tgt_motion>
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="3 0 0 2"   thumbpos="opposed"  extfidir="u" palmor="dl"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ </tgt_motion>
+ <tgt_motion>
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="4 0 0 2"   thumbpos="opposed"  extfidir="u" palmor="dl"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

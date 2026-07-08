@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="brain">
+  <sign_manual>
+  <handconfig handshape="finger2"   mainbend="1.3 2.1 1 2"    extfidir="u" palmor="l"/>
+     <location_bodyarm location="forehead" side="right_at"  contact="touch"/>
+
+   <directedmotion direction="r" size="small" />
+  <directedmotion direction="l" size="small" />
+<directedmotion direction="r" size="small" />
+<directedmotion direction="l" size="small" />
+ </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

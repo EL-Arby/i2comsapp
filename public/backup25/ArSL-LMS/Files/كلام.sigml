@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="Read">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAAAAA"/>
+    </mouthing_tier>
+  
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12open" mainbend="round" extfidir="ul" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ur"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chin"    contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="armextended" />
+    </split_location>
+   <rpt_motion repetition="fromstart">
+      <seq_motion>
+<split_motion>
+<directedmotion direction="ur"  size="small" manner="fast"/>
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="dl"  size="small" manner="fast"/>
+           <directedmotion />
+      </split_motion>
+      </seq_motion>
+    </rpt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

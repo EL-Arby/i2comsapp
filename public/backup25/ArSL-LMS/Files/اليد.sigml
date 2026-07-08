@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="yad">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shouldertop" side="right_at" contact="close"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

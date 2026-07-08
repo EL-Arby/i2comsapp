@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="Moain-Laha">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"     extfidir="o" palmor="d"/>
+    <handconfig handshape="flat"      extfidir="o" palmor="u"/>
+    </split_handconfig>
+ 
+
+ <handconstellation >
+        <location_hand location="palm" />
+       <location_hand location="tip" digits="3" side="left_at"/>
+        <location_bodyarm location="shoulders" contact="close"/>
+      </handconstellation>
+
+<split_motion>
+            <circularmotion axis="u"  />
+	<directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

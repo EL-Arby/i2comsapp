@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="first">
+
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AOAL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist"  thumbpos="out"   extfidir="lo" palmor="l"/>
+      <handconfig handshape="finger2"   extfidir="u" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"    contact="close"/>
+	<location_bodyarm location="chest"   contact="armextended" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="o" curve="u" size="small"  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

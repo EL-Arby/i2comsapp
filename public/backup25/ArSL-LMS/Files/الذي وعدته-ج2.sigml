@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="Rabt">
+  <sign_manual both_hands="true" >
+
+  <split_handconfig>
+      <handconfig handshape="pinch12open"      extfidir="u" palmor="l"/>
+      <handconfig handshape="pinch12open"   extfidir="o" palmor="r"/>
+    </split_handconfig>
+    
+ <handconstellation contact="touch">
+      		<location_hand location="tip"  digits="2" side="right_at"  />
+<location_hand location="tip"    digits="2" side="right_at"    />
+<location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+ <split_motion>
+<directedmotion direction="o" size="small" manner="fast"  />
+<directedmotion direction="o" size="small" manner="fast"  />
+      </split_motion>
+
+  <split_motion>
+<directedmotion direction="i" size="small" manner="fast"  />
+<directedmotion direction="i" size="small" manner="fast"  />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="Eftrash">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"  />
+    <handconfig extfidir="ou" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	   <tgt_motion>
+     <directedmotion direction="d"  manner="slow" size="big"/>
+ <handconfig extfidir="o" palmor="d"/>
+   </tgt_motion>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

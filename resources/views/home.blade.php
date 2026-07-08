@@ -496,23 +496,22 @@ html[dir="rtl"] .partners-list {
 <!-- Supported By -->
 <section class="supported-by">
     <div class="supported-label">
-        <strong>Strategic partners:</strong>
+        <strong>{{ $homeSponsorsSettings['supportedByLabel'] ?? 'Strategic partners:' }}</strong>
     </div>
 
     <div class="partners-wrapper">
         <div class="partners-list">
 
-            <div class="partner">
+             <div class="partner">
                 <img src="{{ asset('images/comstech-logo.png') }}" alt="COMSTECH">
             </div>
-
             <div class="partner">
                 <img src="{{ asset('images/ALECSO.png') }}" alt="ALECSO">
             </div>
 
-            <div class="partner">
-                <img src="{{ asset('images/FASRC.jpg') }}" alt="FASRC">
-            </div>
+          <!--<div class="partner">-->
+          <!--      <img src="{{ asset('images/FASRC.jpg') }}" alt="FASRC">-->
+          <!--  </div>-->
 
             <div class="partner">
                 <img src="{{ asset('images/giz_logo.jpg') }}" alt="GIZ">
@@ -521,31 +520,14 @@ html[dir="rtl"] .partners-list {
             <div class="partner">
                 <img src="{{ asset('images/srping_LOGO.jpeg') }}" alt="Springer">
             </div>
+             <div class="partner">
+                <img src="{{ asset('images/SPOCUS.png') }}" alt="Springer">
+            </div>
 
         </div>
     </div>
 </section>
-<!-- Organizer Section -->
-{{-- <section class="py-24 bg-surface-container-low">
-<div class="max-w-7xl mx-auto px-8">
-<div class="flex flex-col md:flex-row items-center justify-between gap-12 bg-white p-12 rounded-full border border-outline-variant/10">
-<div class="max-w-xl">
-<h2 class="font-headline text-3xl font-bold text-blue-600 mb-4">Academic Excellence</h2>
-<p class="text-on-surface-variant leading-relaxed">Organized by the <span class="font-bold text-primary">Faculty of Sciences and Techniques (FST)</span>, our mission is to foster a global dialogue on the most pressing challenges in applied physics and modern computing systems.</p>
-</div>
-<div class="flex items-center gap-8">
-<div class="h-32 w-32 grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer">
-<img class="w-full h-full object-contain" data-alt="Official logo of the Faculty of Sciences and Techniques FST with intricate shield emblem and academic typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDn5RwyPt39-jEdqWw5m8PhD1p86KqLAErpQX-8IwOPIqFt2vgVS5oaShmctcPHuX4m_9LtOh50sdiKpNruKWdPr7StPz3ggxb8PLqoFhAPMp7J0AbwjMQSG2oWgw3rZJik-DSfBKDw44f5beTUIvWkmSDgwkLN_AD6KZLoFJB2oldXjMsP81TC_0l43_UCm3m3Mes-_xV9GnxBb1TMYhEc7h5oqDzeZXw5aG4fEVSNVV2ONFKs_UtF4Lx9ZyUUpyobP1U46o0KwdE"/>
-</div>
-<div class="h-16 w-px bg-outline-variant/30"></div>
-<div class="text-right">
-<span class="block font-headline font-bold text-on-surface">Nouakchott, Mauritania</span>
-<span class="text-sm text-on-surface-variant">Host Institution</span>
-</div>
-</div>
-</div>
-</div>
-</section> --}}
+
 
 <!-- Countdown Section -->
 <section class="bg-gradient-to-r from-blue-600 to-purple-600 py-16 text-white">
@@ -573,6 +555,46 @@ html[dir="rtl"] .partners-list {
 </div>
 </div>
 </section>
+
+@if ($homeSponsorsSettings['enabled'])
+<!-- Home Sponsors Section -->
+<section class="py-20 bg-gradient-to-br from-blue-50/80 via-purple-50/80 to-cyan-50/80 border-t border-blue-200">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-headline font-black text-zinc-950 mb-4">{{ $homeSponsorsSettings['title'] }}</h2>
+<p class="text-lg text-gray-600">{{ $homeSponsorsSettings['subtitle'] }}</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+@forelse(array_merge(
+    $platinumSponsors->take(2)->toArray(),
+    $goldSponsors->take(2)->toArray(),
+    $silverSponsors->take(2)->toArray(),
+    $bronzeSponsors->take(4)->toArray()
+) as $sponsor)
+    <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow flex items-center justify-center min-h-[160px]">
+        @if ($sponsor['logo_url'] ?? false)
+            <img src="{{ asset($sponsor['logo_url']) }}" alt="{{ $sponsor['name'] }}" class="max-w-full max-h-full object-contain">
+        @else
+            <div class="text-center text-gray-400">
+                <p class="text-sm font-semibold">{{ $sponsor['name'] ?? 'Sponsor' }}</p>
+            </div>
+        @endif
+    </div>
+@empty
+    <p class="text-gray-600 col-span-full text-center py-12">Featured sponsors will be displayed here.</p>
+@endforelse
+</div>
+
+<div class="text-center mt-12">
+    <a href="{{ route('sponsors') }}" class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg transition-all">
+        View All Sponsors →
+    </a>
+</div>
+</div>
+</section>
+@endif
+
 <!-- About / Scope Section -->
 <section class="py-24 bg-white">
 
@@ -605,7 +627,7 @@ html[dir="rtl"] .partners-list {
 <div class="flex justify-between items-end mb-10">
 <div class="max-w-2xl">
 <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Research Domains</p>
-<h2 class="text-4xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">Conference Topics</h2>
+<h2 class="text-4xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">Conference Tracks </h2>
 </div>
 
 </div>
@@ -629,41 +651,76 @@ html[dir="rtl"] .partners-list {
 </section>
 <!-- Featured Speakers Section -->
 <section class="py-24 bg-white">
+
 <div class="max-w-screen-2xl mx-auto px-8">
 <div class="mb-16">
 <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Eminent Minds</p>
 <h2 class="text-5xl font-headline font-black text-zinc-950 mb-4 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">Keynote Speakers</h2>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 @forelse($speakers as $speaker)
 <div class="group relative bg-white rounded-xl overflow-hidden border border-gray-200 transition-all hover:shadow-xl">
-<div class="aspect-[4/5] overflow-hidden bg-gray-100">
-<img alt="{{ $speaker->name }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"/>
-{{-- src="{{ $speaker->photo_url ?? 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"/> --}}
+<div class="aspect-[4/5] overflow-hidden bg-gray-100 w-3/4 mx-auto">
+  <img
+    alt="{{ $speaker->name }}"
+    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+    src="{{ $speaker->photo_url
+        ? asset('images/' . basename($speaker->photo_url))
+        : 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"
+>
+<!--/>-->
+<!--<img alt="{{ $speaker->name }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"-->
+<!--src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"/>-->
+<!--{{-- src="{{ $speaker->photo_url ?? 'https://placehold.co/600x750/eff5ec/006b34?text=Speaker' }}"/> --}}-->
 </div>
-<div class="p-6" data-speaker-card>
+<div class="p-8 flex flex-col" data-speaker-card>
 <h3 class="text-xl font-headline font-bold text-blue-900">{{ $speaker->name }}</h3>
-@if($speaker->role_title)
-<p class="text-blue-600 font-bold text-xs uppercase tracking-wider mb-3">{{ $speaker->role_title }}</p>
-@endif
+
 @if($speaker->affiliation)
 <p class="text-sm font-semibold text-gray-600 mb-4">{{ $speaker->affiliation }}</p>
 @endif
+
+@if($speaker->role_title)
+<p class="text-blue-600 font-bold text-xs uppercase tracking-wider mb-3">{{ $speaker->role_title }}</p>
+@endif
+@if($speaker->talk_title)
+<p class="text-lg font-semibold text-blue-900 mb-2">{{ $speaker->talk_title }}</p>
+@endif
+
 @php
+    $speakerAbstract = $speaker->talk_abstract ?? '';
+    $speakerAbstractPreview = \Illuminate\Support\Str::limit($speakerAbstract, 180);
     $speakerBio = $speaker->bio ?? '';
-    $speakerBioPreview = \Illuminate\Support\Str::limit($speakerBio, 160);
+    $speakerBioPreview = \Illuminate\Support\Str::limit($speakerBio, 180);
+    $hasLongContent = strlen($speakerAbstract) > 200 || strlen($speakerBio) > 200;
 @endphp
-<div class="text-sm text-gray-600 leading-relaxed opacity-80">
-    <p data-speaker-bio>
-        {{ $speakerBioPreview }}
-    </p>
-    <span data-speaker-bio-full class="hidden">{{ $speakerBio }}</span>
-    <span data-speaker-bio-short class="hidden">{{ $speakerBioPreview }}</span>
+<div class="text-sm text-gray-600 leading-relaxed opacity-80 space-y-4">
+    @if($speakerAbstract)
+        <div>
+            <p class="text-sm font-semibold text-blue-900 mb-2">Talk Abstract</p>
+            <p data-speaker-abstract  class="text-justify">{{ $speakerAbstractPreview }}</p>
+            <span data-speaker-full-abstract class="hidden">{{ $speakerAbstract }}</span>
+            <span data-speaker-preview-abstract class="hidden">{{ $speakerAbstractPreview }}</span>
+        </div>
+    @endif
+
+    @if($speakerBio)
+        <div>
+            <p class="text-sm font-semibold text-blue-900 mb-2">Bio</p>
+            <p data-speaker-bio  class="text-justify">{{ $speakerBioPreview }}</p>
+            <span data-speaker-full-bio class="hidden">{{ $speakerBio }}</span>
+            <span data-speaker-preview-bio class="hidden">{{ $speakerBioPreview }}</span>
+        </div>
+    @endif
 </div>
-@if(strlen($speakerBio) > 160)
+@if($hasLongContent)
 <button type="button" data-speaker-toggle data-expanded="false" class="mt-4 text-sm font-semibold text-blue-600 hover:text-blue-800 transition">Read more</button>
 @endif
+
+
+
+
+
 </div>
 </div>
 @empty
@@ -673,95 +730,70 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
 </div>
 </section>
 <script>
-    document.addEventListener('click', function (event) {
-        const button = event.target.closest('[data-speaker-toggle]');
-        if (!button) {
-            return;
-        }
-
-        const card = button.closest('[data-speaker-card]');
-        if (!card) {
-            return;
-        }
-
+        const abstract = card.querySelector('[data-speaker-abstract]');
         const bio = card.querySelector('[data-speaker-bio]');
-        const full = card.querySelector('[data-speaker-bio-full]');
-        const short = card.querySelector('[data-speaker-bio-short]');
+        const fullAbstract = card.querySelector('[data-speaker-full-abstract]');
+        const shortAbstract = card.querySelector('[data-speaker-preview-abstract]');
+        const fullBio = card.querySelector('[data-speaker-full-bio]');
+        const shortBio = card.querySelector('[data-speaker-preview-bio]');
         const expanded = button.getAttribute('data-expanded') === 'true';
 
-        if (!bio || !full || !short) {
+        if (!abstract && !bio) {
             return;
         }
 
         if (expanded) {
-            bio.textContent = short.textContent.trim();
+            if (abstract && shortAbstract) {
+                abstract.textContent = shortAbstract.textContent.trim();
+            }
+            if (bio && shortBio) {
+                bio.textContent = shortBio.textContent.trim();
+            }
             button.textContent = 'Read more';
             button.setAttribute('data-expanded', 'false');
         } else {
-            bio.textContent = full.textContent.trim();
+            if (abstract && fullAbstract) {
+                abstract.textContent = fullAbstract.textContent.trim();
+            }
+            if (bio && fullBio) {
+                bio.textContent = fullBio.textContent.trim();
+            }
             button.textContent = 'Show less';
             button.setAttribute('data-expanded', 'true');
         }
-    });
+
+    // document.addEventListener('click', function (event) {
+    //     const button = event.target.closest('[data-speaker-toggle]');
+    //     if (!button) {
+    //         return;
+    //     }
+
+    //     const card = button.closest('[data-speaker-card]');
+    //     if (!card) {
+    //         return;
+    //     }
+
+    //     const bio = card.querySelector('[data-speaker-bio]');
+    //     const full = card.querySelector('[data-speaker-bio-full]');
+    //     const short = card.querySelector('[data-speaker-bio-short]');
+    //     const expanded = button.getAttribute('data-expanded') === 'true';
+
+    //     if (!bio || !full || !short) {
+    //         return;
+    //     }
+
+    //     if (expanded) {
+    //         bio.textContent = short.textContent.trim();
+    //         button.textContent = 'Read more';
+    //         button.setAttribute('data-expanded', 'false');
+    //     } else {
+    //         bio.textContent = full.textContent.trim();
+    //         button.textContent = 'Show less';
+    //         button.setAttribute('data-expanded', 'true');
+    //     }
+    // });
 </script>
-<!-- Important Dates Timeline -->
-<section class="py-24 bg-gray-50">
-<div class="max-w-screen-2xl mx-auto px-8">
-<div class="mb-16 text-center max-w-2xl mx-auto">
-<h2 class="text-5xl font-headline font-black text-zinc-950 mb-6 bg-clip-text bg-gradient-to-r from-dark-900 to-purple-600">{{ $s['timeline_title'] ?? 'Submission Timeline' }}</h2>
-<p class="text-gray-600 font-medium">{{ $s['timeline_subtitle'] ?? 'Keep track of these critical milestones to ensure your research is part of I2COMSAPP 2026.' }}</p>
-</div>
-<div class="relative pt-12">
-<!-- Progress Line -->
-<div class="absolute top-1/2 left-0 w-full h-0.5 bg-outline-variant/20 hidden md:block"></div>
-<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-@forelse($milestones as $milestone)
-@php
-    $borderClass = match ($milestone->accent) {
-        'secondary' => 'border-purple-600',
-        'tertiary' => 'border-cyan-500',
-        'highlight' => 'border-blue-600',
-        default => 'border-blue-600',
-    };
-    $dotClass = match ($milestone->accent) {
-        'secondary' => 'bg-purple-600',
-        'tertiary' => 'bg-cyan-500',
-        'highlight' => 'bg-blue-600',
-        default => 'bg-blue-600',
-    };
-    $dateLabel = $milestone->accent === 'highlight'
-        ? 'Dec 14-16, 2026'
-        : $milestone->milestone_date->format('M j, Y');
-    $dateTextClass = match ($milestone->accent) {
-        'secondary' => 'text-purple-400',
-        'tertiary' => 'text-cyan-400',
-        'highlight' => 'text-blue-100',
-        default => 'text-blue-100',
-    };
-@endphp
-<div class="relative group">
-@if($milestone->accent === 'highlight')
-<div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-xl border-b-4 {{ $borderClass }} transition-all group-hover:-translate-y-2 group-hover:shadow-2xl z-10 relative">
-<span class="{{ $dateTextClass }} font-bold text-sm tracking-tighter block mb-2 font-headline">{{ $dateLabel }}</span>
-<h4 class="text-xl font-bold mb-4">{{ $milestone->title }}</h4>
-<p class="text-sm text-white/80 leading-relaxed">{{ $milestone->description }}</p>
-</div>
-@else
-<div class="bg-white p-8 rounded-xl border-b-4 {{ $borderClass }} transition-all group-hover:-translate-y-2 group-hover:shadow-2xl z-10 relative">
-<span class="{{ $dateTextClass }} font-bold text-sm tracking-tighter block mb-2 font-headline">{{ $dateLabel }}</span>
-<h4 class="text-xl font-bold text-blue-900 mb-4">{{ $milestone->title }}</h4>
-<p class="text-sm text-gray-600 leading-relaxed">{{ $milestone->description }}</p>
-</div>
-@endif
-<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full {{ $dotClass }} ring-8 ring-background hidden md:block z-20"></div>
-</div>
-@empty
-<p class="text-gray-600 col-span-full text-center">Important dates will be posted soon.</p>
-@endforelse
-</div>
-</div>
-</div>
-</section>
+
 
 
 <!-- Workshops Section (navbar #hands-on-workshops)
@@ -792,26 +824,33 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         </div>
 
         <!-- PANELS -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-            <!-- PANEL 1 -->
+
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+ <!-- PANEL 1 -->
             <div class="group relative bg-white rounded-xl overflow-hidden border border-gray-200 transition-all hover:shadow-xl">
 
                 <div class="overflow-hidden">
-                    <img src="{{ asset('images/AI-Future.jpg') }}"
-                         alt="Future of AI"
-                         class="w-full h-[340px] object-cover transition-transform duration-500 group-hover:scale-105">
+                    <img src="{{ asset('images/unesco.jpeg') }}"
+                         alt="DIgital"
+                         class="w-full h-[340px] object-contain transition-transform duration-500 group-hover:scale-105">
                 </div>
 
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-blue-900 leading-snug">
-                        Future of AI : Predictions from Industry Leaders
-                    </h3>
+Digital Humanities and Artificial Intelligence for Culture, Accessibility, and Pedagogical Innovation.
+</h3>
                 </div>
 
             </div>
 
-            <!-- PANEL 2 -->
+
+
+            <!-- PANEL 3 -->
             <div class="group relative bg-white rounded-xl overflow-hidden border border-gray-200 transition-all hover:shadow-xl">
 
                 <div class="overflow-hidden">
@@ -828,6 +867,22 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
                         Ethics in AI : An Open Dialogue with Experts
                     </h3>
 
+                </div>
+
+            </div>
+                        <!-- PANEL 2 -->
+            <div class="group relative bg-white rounded-xl overflow-hidden border border-gray-200 transition-all hover:shadow-xl">
+
+                <div class="overflow-hidden">
+                    <img src="{{ asset('images/AI-Future.jpg') }}"
+                         alt="Future of AI"
+                         class="w-full h-[340px] object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-blue-900 leading-snug">
+                        Future of AI : Predictions from Industry Leaders
+                    </h3>
                 </div>
 
             </div>
@@ -926,13 +981,13 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
     <div class="sponsors-track">
 
         <!-- University of Nouadhibou -->
-        <div class="sponsor-item">
+        {{-- <div class="sponsor-item">
             <img src="images/UNDB.jpg"
                  alt="University of Nouadhibou">
-        </div>
+        </div> --}}
 
         <!-- ISCAE -->
-        <div class="sponsor-item">
+        {{-- <div class="sponsor-item">
             <img src="images/iscae.png"
                  alt="ISCAE">
         </div>
@@ -947,17 +1002,31 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         <div class="sponsor-item">
             <img src="images/ISGI.jpg"
                  alt="ISGI">
-        </div>
+        </div> --}}
 
         <!-- SUPNUM -->
-        <div class="sponsor-item">
+        {{-- <div class="sponsor-item">
             <img src="images/LOGO-SUPNUM.png"
                  alt="SUPNUM">
+        </div> --}}
+       <div class="sponsor-item">
+          <img src="images/ALECSO.png"
+                 alt="alecso">
+        </div>
+
+        <div class="sponsor-item">
+          <img src="images/comstech-logo.png"
+                 alt="comstech">
+        </div>
+
+        <div class="sponsor-item">
+          <img src="images/giz_logo.jpg"
+                 alt="giz">
         </div>
 
         <!-- duplicate for infinite scroll -->
 
-        <div class="sponsor-item">
+        {{-- <div class="sponsor-item">
             <img src="images/Moov_Mauritel_logo.png"
                  alt="Moov Mauritel">
         </div>
@@ -975,13 +1044,24 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         <div class="sponsor-item">
             <img src="images/logo-arsco.jpg"
                  alt="ARSCO">
+       </div> --}}
+
+
+
+        <div class="sponsor-item">
+          <img src="images/ALECSO.png"
+                 alt="alecso">
         </div>
 
         <div class="sponsor-item">
-            <img src="images/Maurit-MESRS.png"
-                 alt="MESRS">
+          <img src="images/comstech-logo.png"
+                 alt="comstech">
         </div>
 
+        <div class="sponsor-item">
+          <img src="images/giz_logo.jpg"
+                 alt="giz">
+        </div>
     </div>
 
 </div>
@@ -992,9 +1072,9 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         <div class="mt-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-2xl text-center">
             <h3 class="text-4xl font-bold mb-4">🎯 Sponsorship Opportunities</h3>
             <p class="text-blue-100 mb-8 text-lg max-w-2xl mx-auto">
-                Interested in sponsoring I2COMSAPP 2026? Join our community of leading organizations shaping the future of AI in Africa.
+                Interested in sponsoring I2COMSAPP 2026? Join our community of leading organizations shaping the future of AI.
             </p>
-            <a href="mailto:sponsors@i2comsapp.org" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-gray-100 transition">
+            <a href="mailto: i2comsappconf@gmail.com" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-gray-100 transition">
                 📧 Become a Sponsor
             </a>
         </div>
@@ -1034,12 +1114,58 @@ src="{{ $speaker->photo_url ? asset($speaker->photo_url) : 'https://placehold.co
         </div>
     </div>
 
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-speaker-toggle]').forEach(function (button) {
+        button.addEventListener('click', function () {
+            const card = button.closest('[data-speaker-card]');
+            const expanded = button.getAttribute('data-expanded') === 'true';
+
+            const abstractText = card.querySelector('[data-speaker-abstract]');
+            const fullAbstract = card.querySelector('[data-speaker-full-abstract]');
+            const previewAbstract = card.querySelector('[data-speaker-preview-abstract]');
+
+            const bioText = card.querySelector('[data-speaker-bio]');
+            const fullBio = card.querySelector('[data-speaker-full-bio]');
+            const previewBio = card.querySelector('[data-speaker-preview-bio]');
+
+            if (expanded) {
+                if (abstractText && previewAbstract) {
+                    abstractText.textContent = previewAbstract.textContent;
+                }
+
+                if (bioText && previewBio) {
+                    bioText.textContent = previewBio.textContent;
+                }
+
+                button.textContent = 'Read more';
+                button.setAttribute('data-expanded', 'false');
+            } else {
+                if (abstractText && fullAbstract) {
+                    abstractText.textContent = fullAbstract.textContent;
+                }
+
+                if (bioText && fullBio) {
+                    bioText.textContent = fullBio.textContent;
+                }
+
+                button.textContent = 'Show less';
+                button.setAttribute('data-expanded', 'true');
+            }
+        });
+    });
+});
+</script>
+
 @endsection
 
 @push('scripts')
 <script>
 (function () {
-    const targetDate = new Date('December 23, 2026 00:00:00').getTime();
+    const targetDate = new Date('December 14, 2026 09:00:00').getTime();
     const daysEl = document.getElementById('countdown-days');
     const hoursEl = document.getElementById('countdown-hours');
     const minutesEl = document.getElementById('countdown-minutes');

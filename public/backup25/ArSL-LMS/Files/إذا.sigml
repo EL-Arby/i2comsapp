@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="IF">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ETA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  mainbend="344"  thumbpos="across"  bend2="300" />
+    <handconfig extfidir="lui"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="forehead"  contact="close"/>
+      <directedmotion direction="r" size="small"/>
+   
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

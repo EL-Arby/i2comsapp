@@ -1,0 +1,32 @@
+<sigml>
+<hamgestural_sign gloss="ain yaminihi">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_picture picture="yamin"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat"/>
+      <handconfig handshape="finger2"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="dl"/>
+      <handconfig extfidir="u" palmor="d"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <rpt_motion repetition="fromstart">
+        <directedmotion direction="r"/>
+      </rpt_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

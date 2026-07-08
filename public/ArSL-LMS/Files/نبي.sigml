@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="massenger">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="NABE"/>
+    </mouthing_tier>
+</sign_nonmanual>
+
+  <sign_manual>
+  <handconfig handshape="flat" extfidir="o" palmor="u"/>
+	
+    <location_bodyarm location="shoulders" side="right_at" />
+
+	   
+
+	<directedmotion direction="u"  manner="slow"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,15 @@
+<sigml>
+<hamgestural_sign gloss="Sand">
+
+ <sign_manual>
+
+    	<handconfig handshape="flat"   extfidir="o" palmor="l"/>
+
+ 	<location_bodyarm location="headtop" side="right_at" contact="close" />
+	<directedmotion direction="d"  size="big"   />
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

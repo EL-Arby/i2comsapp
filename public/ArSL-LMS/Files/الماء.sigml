@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="Water">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="MOO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual>
+    <handconfig handshape="flat"   mainbend="110" extfidir="l" palmor="ul"/>
+    <location_bodyarm location="neck"     contact="close" />
+  
+	 <directedmotion direction="u"  curve="d" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

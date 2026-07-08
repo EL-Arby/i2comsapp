@@ -1,0 +1,40 @@
+<sigml>
+<hamgestural_sign gloss="Boraz">
+ 
+
+  <sign_manual both_hands="true">
+
+
+
+<split_handconfig>
+<handconfig handshape="fist" thumbpos="across"  extfidir="u" palmor="u" />
+    		<handconfig handshape="flat"   thumbpos="out"  extfidir="r" palmor="ur" />
+		
+	</split_handconfig> 
+   <split_location>
+	<location_bodyarm location="headtop" side="right_at" contact="close" />
+<location_bodyarm location="lowerarm" side="right_beside"  contact="touch" />
+	
+    </split_location>
+      
+<split_motion>
+
+           <directedmotion />
+<directedmotion direction="d"  manner="fast"  size="small" />
+      </split_motion>
+<split_motion>
+
+           <directedmotion />
+<directedmotion direction="u"  manner="fast"  size="small" />
+      </split_motion>
+<split_motion>
+
+           <directedmotion />
+<directedmotion direction="d"  manner="fast"  size="small" />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="khrouj rih">
+  <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12open"/>
+    <handconfig extfidir="uo"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="head"/>
+    <directedmotion direction="dr" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

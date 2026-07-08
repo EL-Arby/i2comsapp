@@ -1,0 +1,71 @@
+<sigml>
+<hamgestural_sign gloss="salam imam">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across"/>
+      <handconfig handshape="finger2345" thumbpos="across"/>
+    </split_handconfig>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="chest"/>
+    <split_motion>
+      <directedmotion direction="ol" size="small"/>
+      <directedmotion direction="ir" size="small"/>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="finger2" mainbend="dblbent" thumbpos="across"/>
+      </tgt_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig bend2="dblbent" handshape="finger2345" thumbpos="across"/>
+        </tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig bend2="dblbent" bend3="dblbent" handshape="finger2345" thumbpos="across"/>
+        </tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig bend2="dblbent" bend3="dblbent" bend4="dblbent" handshape="finger2345" thumbpos="across"/>
+        </tgt_motion>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger2345" mainbend="round" thumbpos="out"/>
+          <handconfig extfidir="u" palmor="l"/>
+        </tgt_motion>
+        <directedmotion direction="u" size="small"/>
+      </seq_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat"/>
+          <handconfig extfidir="d" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="d"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+     
+        <tgt_motion>
+             <directedmotion curve="d" direction="r" manner="slow" />
+          <handconfig extfidir="u" palmor="rd"/>
+        </tgt_motion>
+    
+        <tgt_motion>
+             <directedmotion curve="d" direction="l" manner="slow" />
+          <handconfig extfidir="u" palmor="l"/>
+        </tgt_motion>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

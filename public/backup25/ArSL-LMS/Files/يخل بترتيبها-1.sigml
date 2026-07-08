@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="yokhel bitartibiha">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="ceeall"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    
+ <split_location>
+	<location_bodyarm location="shouldertop"     contact="close"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+    
+    <split_motion>
+      <directedmotion curve="r" direction="d"/>
+      <directedmotion curve="l" direction="u" size="big"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion curve="r" direction="u"/>
+      <directedmotion curve="l" direction="d" size="big"/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

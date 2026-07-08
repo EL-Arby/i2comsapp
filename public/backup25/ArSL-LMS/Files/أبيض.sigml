@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="white">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ABEAD"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="lo"/>
+    <location_bodyarm location="nose" side="right_at" contact="close"/>
+    <directedmotion direction="dl"  manner="fast"/>
+<directedmotion direction="ur"  manner="fast"/>
+<directedmotion direction="dl"  manner="fast"/>
+<tgt_motion manner="rest">
+	 
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

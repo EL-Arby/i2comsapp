@@ -1,0 +1,45 @@
+<sigml>
+
+
+<hamgestural_sign gloss="sky">
+
+   <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+  </sign_nonmanual>
+
+  	<sign_manual both_hands="true">
+	
+	<split_handconfig>
+		<handconfig handshape="flat"  extfidir="ol" palmor="od"/>
+       		<handconfig handshape="flat"  extfidir="or" palmor="od"/>
+      	</split_handconfig>
+   
+    
+	<handconstellation contact="close">
+      		<location_hand location="side" digits="3"/>
+		<location_hand location="side" digits="3"/>
+      		<location_bodyarm location="headtop" />
+    	</handconstellation>
+
+	
+	<split_motion>
+        <directedmotion direction="" size="small" />
+	<directedmotion />
+	
+      </split_motion> 
+
+
+	<split_motion>
+        
+ <directedmotion direction="r"/>
+<directedmotion direction="l" />
+	
+	
+      </split_motion> 
+
+
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

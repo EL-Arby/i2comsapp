@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="HKM">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOCCKB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist" bend2="044" thumbpos="across"   extfidir="u" palmor="dl"/>
+      <handconfig handshape="flat"   extfidir="or"    palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head"  side="right_at"    contact="close"/>
+	<location_bodyarm location="shoulders"   side="left_at" contact="close" />
+    </split_location>
+    <par_motion>
+
+<tgt_motion>
+<split_motion>
+<directedmotion   direction="d" curve="l"  size="big"/>
+           <directedmotion />
+      </split_motion>
+
+<split_handconfig>
+      <handconfig handshape="fist" bend2="044" thumbpos="across"   extfidir="dl" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="or"    palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+   </par_motion>
+ </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,35 @@
+<sigml>
+<hamgestural_sign gloss="LIKE">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BTLBTLBTL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="1 0 0 3"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders" side="left_at"  contact="close"  />
+ <tgt_motion>
+<directedmotion direction="d"   size="small"     /> 
+  <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="4 0 0 0"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+
+<tgt_motion>
+<directedmotion direction="r"     />  
+      <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="1 0 0 3"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+ 
+<tgt_motion>
+<directedmotion direction="r"    />  
+      <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="4 0 0 0"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+<tgt_motion>
+<directedmotion direction="r"    />  
+      <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="1 0 0 3"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+
+ <tgt_motion>
+  <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="4 0 0 0"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

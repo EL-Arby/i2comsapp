@@ -1,0 +1,37 @@
+<sigml>
+<hamgestural_sign gloss="mosaraf">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="d"/>
+      <handconfig extfidir="ur" palmor="dr"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="i" size="small"/>
+        <directedmotion direction="ul"/>
+      </seq_motion>
+      <seq_motion>
+        <directedmotion direction="o" size="small"/>
+        <directedmotion direction="ur"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ur" palmor="ur"/>
+      </tgt_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ur" palmor="d"/>
+      </tgt_motion>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="r" size="small"/>
+      <directedmotion direction="i" size="small"/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,65 @@
+<sigml>
+
+<hamgestural_sign gloss="YAWN">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAAAAA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X62"/>
+      <extra_movement movement="X63"/>
+</extra_par>
+<extra_par>
+           <extra_movement movement="X62"/>
+      <extra_movement movement="X63"/>
+</extra_par>
+<extra_par>
+           <extra_movement movement="X62"/>
+      <extra_movement movement="X63"/>
+</extra_par>
+<extra_par>
+           <extra_movement movement="X62"/>
+      <extra_movement movement="X63"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"      thumbpos="out"  extfidir="u" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="underchin"    side="front" contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+
+ 
+<split_motion>
+<directedmotion direction="o"  size="small"/>
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="i"  size="small"/>
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="o"  size="small"/>
+           <directedmotion />
+      </split_motion>
+
+<split_motion>
+<directedmotion direction="i"  size="small"/>
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

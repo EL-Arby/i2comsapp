@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 05 Mar 2025 04:59:43 at http://i2comsapp.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://i2comsapp.org/ -O1 "D:\Recherche\InnovCOM\I2COMSAPP\I2COMSAPP" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:02:07	Warning: 	Retry after error -4 (No data (connection closed)) at link i2comsapp.org/I2ComsApp2024-Flyer.pdf (from i2comsapp.org/)
+05:02:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 6728942 got 1301670): i2comsapp.org/I2comsapp2024_Call4Papers.pdf
+05:02:54	Warning: 	Retry after error -4 (Incorrect length (1301670 Bytes, 6728942 expected)) at link i2comsapp.org/I2comsapp2024_Call4Papers.pdf (from i2comsapp.org/)
+05:02:54	Warning: 	Retry after error -4 (Incorrect length (396019 Bytes, 574551 expected)) at link i2comsapp.org/Microsoft+Word+Proceedings+Templates.zip (from i2comsapp.org/)
+05:02:54	Error: 	"Not Found" (404) at link i2comsapp.org/www.latice.rnu.tn/english/memb_jemni.htm (from i2comsapp.org/)
+05:02:54	Error: 	"Not Found" (404) at link i2comsapp.org/owl.video.play.png (from i2comsapp.org/index.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 15 seconds : 54 links scanned, 48 files written (11207651 bytes overall) [10650063 bytes received at 24482 bytes/sec], 736696 bytes transferred using HTTP compression in 9 files, ratio 21%, 1.9 requests per connection
+(2 errors, 4 warnings, 0 messages)

@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="four">
+  <sign_manual both_hands="true" >
+    <handconfig handshape="finger2345" thumbpos="across"/>
+    <handconfig extfidir="ruo" palmor="d"/>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at" contact="armextended"/>
+	<location_bodyarm location="shoulders" contact="close" />
+    </split_location>
+<tgt_motion>
+   <directedmotion direction="d"   size="big" manner="fast" />
+ <handconfig extfidir="ro" palmor="d"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

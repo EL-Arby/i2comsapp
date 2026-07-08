@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="Middle">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OSAT"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="400"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders" side="left_at" contact="close"/>
+    <par_motion>
+      <directedmotion direction="r"  size="big"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="u" palmor="d"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

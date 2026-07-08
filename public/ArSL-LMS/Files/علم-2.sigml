@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="knowledge">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OOLB"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual >
+          <handconfig handshape="flat" mainbend="2 0 0 4"  thumbpos="opposed"  extfidir="uo" palmor="ul"/>
+	<location_bodyarm location="cheek" side="right_beside"   contact="close"/>
+
+ <tgt_motion>
+      <handconfig handshape="pinchall" mainbend="bent"  thumbpos="opposed"  extfidir="uo" palmor="ul"/>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

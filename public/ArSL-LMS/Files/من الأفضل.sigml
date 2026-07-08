@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="men afdhal">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest"/>
+    <rpt_motion repetition="fromstart">
+      <split_motion>
+        <seq_motion>
+          <directedmotion direction="u" size="small"/>
+          <directedmotion direction="d" size="small"/>
+        </seq_motion>
+        <seq_motion>
+          <directedmotion direction="d" size="small"/>
+          <directedmotion direction="u" size="small"/>
+        </seq_motion>
+      </split_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

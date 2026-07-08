@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="Some_of_Prayers">
+
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+       	<handconfig handshape="finger23spread" mainbend="3 0 0 2"  thumbpos="opposed"  extfidir="u" palmor="l"/>
+      	<handconfig handshape="finger2345"  thumbpos="out"    extfidir="u" palmor="d"/>
+    </split_handconfig>
+   
+	
+     <split_location>
+<location_bodyarm location="shoulders"  side="left_at"   contact="close" />
+	<location_bodyarm location="shoulders"   side="left_at"  contact="armextended"/>
+    </split_location>
+ <tgt_motion>
+	<split_handconfig>
+       	<handconfig handshape="finger23spread" mainbend="4 0 0 2"  thumbpos="opposed"  extfidir="u" palmor="l"/>
+      	<handconfig handshape="finger2345"  thumbpos="out"    extfidir="u" palmor="d"/>
+    </split_handconfig>
+ </tgt_motion>
+	
+<tgt_motion>
+	<split_handconfig>
+       	<handconfig handshape="finger23spread" mainbend="3 0 0 2"  thumbpos="opposed"  extfidir="u" palmor="l"/>
+      	<handconfig handshape="finger2345"  thumbpos="out"    extfidir="u" palmor="d"/>
+    </split_handconfig>
+ </tgt_motion>
+<tgt_motion>
+	<split_handconfig>
+       	<handconfig handshape="finger23spread" mainbend="4 0 0 2"  thumbpos="opposed"  extfidir="u" palmor="l"/>
+      	<handconfig handshape="finger2345"  thumbpos="out"    extfidir="u" palmor="d"/>
+    </split_handconfig>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

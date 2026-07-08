@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="bigger">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ADEEM"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out" extfidir="ul" palmor="d"/>
+    <handconstellation contact="touch">
+      		<location_hand location="tip"  digits="3" />
+      		<location_hand location="tip"  digits="3" />
+      		 <location_bodyarm location="head"   contact="close"/>
+    	</handconstellation>
+
+<tgt_motion>
+     <directedmotion direction="r"  manner="fast"  />  
+  <handconfig handshape="flat" thumbpos="out" extfidir="u" palmor="l"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

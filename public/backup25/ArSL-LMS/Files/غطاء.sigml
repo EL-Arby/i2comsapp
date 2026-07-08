@@ -1,0 +1,18 @@
+<sigml>
+
+<hamgestural_sign gloss="cover">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="ou" palmor="u"/>
+    <location_bodyarm location="chest" contact="close"  />
+<tgt_motion>	
+     <directedmotion direction="ui" curve="u"   size="big" manner="fast" />  
+    <handconfig handshape="finger2345"  mainbend="111" />
+    <handconfig extfidir="iu" palmor="d"/>
+    
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

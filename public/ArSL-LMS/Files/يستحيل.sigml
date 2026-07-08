@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="yastahel">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="AD"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_picture picture="mostahel"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig bend2="dblbent" bend3="dblbent" bend4="dblbent" handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="uol"  palmor="r"/>
+     
+<handconstellation contact="close">
+      		<location_hand location="handback"    />
+      		<location_hand location="palm"   />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+ 
+     
+
+ <tgt_motion>
+  <directedmotion direction="r" size="big" />
+   <handconfig extfidir="uo"  palmor="d"/>
+ </tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

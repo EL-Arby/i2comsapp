@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="Sabeq">
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="u" mainbend="121"  palmor="l"/>
+    <location_bodyarm location="head" side="right_at"  contact="close"/>
+      <directedmotion direction="d" curve="d" size="small"/>
+   <directedmotion direction="d" curve="d" size="small"/>
+<directedmotion direction="d" curve="d" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

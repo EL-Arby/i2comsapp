@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="HIM">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HO"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="300"  thumbpos="across"    extfidir="lou" palmor="d"/>
+      <handconfig handshape="finger2" thumbpos="across"  extfidir="u" palmor="rd"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest"     />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="dl" size="small"  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

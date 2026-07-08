@@ -1,0 +1,31 @@
+<sigml>
+<hamgestural_sign gloss="moftares">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="AD"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <facial_expr_par>
+        <eye_brows movement="RB"/>
+        <nose movement="WI"/>
+      </facial_expr_par>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L10"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="ceeall"  ceeopening="slack" />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="lu"/>
+    <location_bodyarm location="chest" side="right_beside" />
+ 
+    
+    <tgt_motion>
+   <directedmotion curve="u" direction="uli" size="big" />
+      <handconfig handshape="finger2345" mainbend="round" thumbpos="opposed"/>
+    </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

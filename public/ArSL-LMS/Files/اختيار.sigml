@@ -1,0 +1,16 @@
+<sigml>
+
+<hamgestural_sign gloss="choose">
+  <sign_manual >
+ 
+      <handconfig handshape="flat"  bend2="3.5 0 0 30"   thumbpos="opposed" extfidir="u" palmor="ld"/>
+      <location_bodyarm location="shoulders"   contact="close"/>
+
+<tgt_motion>
+<directedmotion direction="ir" size="big"   />
+<handconfig handshape="pinch12open" mainbend="bent"  extfidir="u" palmor="ld"/>
+   	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

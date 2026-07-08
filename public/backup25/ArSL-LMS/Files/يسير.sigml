@@ -1,0 +1,35 @@
+<sigml>
+<hamgestural_sign gloss="$PROD">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L05"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+       <handconfig handshape="finger2" mainbend="round" thumbpos="opposed"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="uo" palmor="ul"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="shoulders"/>
+      <location_bodyarm contact="touch" location="chest"/>
+    </split_location>
+    <split_motion>
+      <rpt_motion repetition="fromstart">
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger2" mainbend="212" thumbpos="opposed"/>
+        </tgt_motion>
+      </rpt_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

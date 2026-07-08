@@ -1,0 +1,158 @@
+<sigml>
+<hamgestural_sign gloss="yaghomoho">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    <split_handconfig>
+      <handconfig handshape="finger2" bend2="100"  thumbpos="across"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="d"/>
+      <handconfig extfidir="d" palmor="r"/>
+    </split_handconfig>
+   
+ <split_location>
+	<location_bodyarm location="chest"  side="right_at"  contact="close"/>
+	<location_bodyarm location="stomach"  side="left_at"  contact="touch" />
+    </split_location>
+
+
+      <tgt_motion>
+ 
+<split_motion>
+    <directedmotion direction="ur" size="small"/>
+           <directedmotion />
+      </split_motion>
+
+    <split_handconfig>
+    <handconfig extfidir="dl" palmor="d"/>
+      <handconfig extfidir="d" palmor="r"/>
+    </split_handconfig>
+        
+      </tgt_motion>
+
+
+      <tgt_motion>
+ 
+<split_motion>
+    <directedmotion direction="oil"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+    <split_handconfig>
+    <handconfig extfidir="l" palmor="ld"/>
+      <handconfig extfidir="d" palmor="r"/>
+    </split_handconfig>
+        
+      </tgt_motion>
+
+
+ <tgt_motion>
+
+  <split_handconfig>
+      <handconfig handshape="finger2" bend2="100"  thumbpos="across"/>
+      <handconfig  handshape="finger2" bend2="100"  thumbpos="across"/>
+    </split_handconfig>
+ <split_location>
+	<location_bodyarm />
+	<location_bodyarm location="chest"  side="left_at"  contact="close" />
+    </split_location>
+
+ <split_handconfig>
+    <handconfig extfidir="l" palmor="ld"/>
+      <handconfig extfidir="r" palmor="rd"/>
+    </split_handconfig>
+
+   </tgt_motion>
+
+ <tgt_motion>
+ 
+<split_motion>
+           <directedmotion />
+    <directedmotion direction="ul" size="small"/>
+      </split_motion>
+
+    <split_handconfig>
+    <handconfig  />
+      <handconfig extfidir="rd" palmor="d"/>
+    </split_handconfig>
+        
+      </tgt_motion>
+
+  <tgt_motion>
+ 
+<split_motion>
+           <directedmotion />
+ <directedmotion direction="ori" size="small"  />
+      </split_motion>
+
+    <split_handconfig>
+<handconfig />
+    <handconfig extfidir="r" palmor="rd"/>
+      
+    </split_handconfig>
+        
+      </tgt_motion>
+
+   <tgt_motion>
+
+ 
+
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="0 2 2 3"  bend5="0 1 2 3"  extfidir="ul" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chest"   />
+	<location_bodyarm location="stomach"   contact="touch" />
+    </split_location>
+
+
+   </tgt_motion>
+<split_motion>
+ <directedmotion direction="i"  />
+           <directedmotion />
+      </split_motion>
+
+
+   <tgt_motion>
+
+ <split_handconfig>
+      <handconfig handshape="fist" thumbpos="out"  extfidir="ul" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+
+   </tgt_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

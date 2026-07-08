@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Bless">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BAARRK"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+   
+        <handconfig handshape="pinchall"   extfidir="l" palmor="d"/>  
+      <location_bodyarm location="headtop" side="right_at" contact="close"/>
+<tgt_motion>
+      <directedmotion direction="d" size="big" mannar="slow" />
+ <handconfig handshape="flat"  mainbend="111" thumbpos="opposed"  extfidir="l" palmor="d"/> 
+</tgt_motion>					
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

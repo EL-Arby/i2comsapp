@@ -1,0 +1,90 @@
+<sigml>
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger23spread" thumbpos="across"     extfidir="d" palmor="dr"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+    <par_motion>
+    <split_motion>
+<fingerplay/>
+           <directedmotion />
+      </split_motion>
+      <tgt_motion>
+<split_motion>
+<directedmotion direction="ro" size="small"  curve="u"   />
+           <directedmotion />
+      </split_motion>
+      </tgt_motion>
+      <tgt_motion>
+   </tgt_motion>
+ </par_motion>
+
+   <par_motion>
+    <split_motion>
+<fingerplay/>
+           <directedmotion />
+      </split_motion>
+      <tgt_motion>
+<split_motion>
+<directedmotion direction="ro" size="small"  curve="u"   />
+           <directedmotion />
+      </split_motion>
+      </tgt_motion>
+      <tgt_motion>
+   </tgt_motion>
+ </par_motion>
+
+   <par_motion>
+    <split_motion>
+<fingerplay/>
+           <directedmotion />
+      </split_motion>
+      <tgt_motion>
+<split_motion>
+<directedmotion direction="lo" size="small"  curve="u"   />
+           <directedmotion />
+      </split_motion>
+      </tgt_motion>
+      <tgt_motion>
+   </tgt_motion>
+ </par_motion>
+   <par_motion>
+    <split_motion>
+<fingerplay/>
+           <directedmotion />
+      </split_motion>
+      <tgt_motion>
+<split_motion>
+<directedmotion direction="lo" size="small"  curve="u"   />
+           <directedmotion />
+      </split_motion>
+      </tgt_motion>
+      <tgt_motion>
+   </tgt_motion>
+ </par_motion>
+   <par_motion>
+    <split_motion>
+<fingerplay/>
+           <directedmotion />
+      </split_motion>
+      <tgt_motion>
+<split_motion>
+<directedmotion direction="lo" size="small"  curve="u"   />
+           <directedmotion />
+      </split_motion>
+      </tgt_motion>
+      <tgt_motion>
+   </tgt_motion>
+ </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

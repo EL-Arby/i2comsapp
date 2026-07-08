@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="BLAL">
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+                      <handconfig handshape="cee12" ceeopening="tight"  extfidir="il" palmor="r"/>
+       	<handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="d"/>
+          </split_handconfig>
+   
+ 
+ <split_location>
+	<location_bodyarm location="nose"    contact="ulnar"/>
+   		 <location_bodyarm location="shoulders"  side="left_at" contact="armextended"/>
+    	</split_location>
+
+<split_motion>
+<directedmotion direction="" size="small"   />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

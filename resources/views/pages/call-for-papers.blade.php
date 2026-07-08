@@ -8,6 +8,18 @@
     $brochurePath = $settings['call_for_papers_brochure_path'] ?? 'storage/I2comsapp2024_Call4Papers.pdf';
     $bodyHtml = $settings['call_for_papers_body'] ?? null;
     $guidelinesText = $settings['call_for_papers_guidelines'] ?? "📝 Format: PDF or Word document (max 8 pages)\n📎 Font: Times New Roman, 12pt, 1.5 line spacing\n🏷️ Language: English (abstracts welcome in French or Arabic)\n👥 Authorship: Maximum 5 authors per paper\n📧 Correspondence: Provide email for all co-authors";
+    // Admin-managed flags
+    $enabled = isset($settings['call_for_papers_enabled']) ? filter_var($settings['call_for_papers_enabled'], FILTER_VALIDATE_BOOLEAN) : true;
+    $forceOpen = isset($settings['call_for_papers_force_open']) ? filter_var($settings['call_for_papers_force_open'], FILTER_VALIDATE_BOOLEAN) : false;
+
+    // Deadline parsing
+    try {
+        $abstractDeadline = isset($settings['call_for_papers_abstract_deadline']) ? \Carbon\Carbon::parse($settings['call_for_papers_abstract_deadline'])->endOfDay() : null;
+    } catch (Exception $e) {
+        $abstractDeadline = null;
+    }
+    $now = \Carbon\Carbon::now();
+    $submissionOpen = $forceOpen || ($abstractDeadline ? $now->lte($abstractDeadline) : false);
 @endphp
 <main class="pt-32 px-8 md:px-16 pb-24 bg-white">
     @if ($bodyHtml)
@@ -16,7 +28,7 @@
     <div class="max-w-5xl mx-auto">
         <!-- Header Section -->
         <div class="mb-16">
-            <h1 class="text-6xl font-black text-zinc-950 mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">{{ $settings['call_for_papers_heading'] ?? 'Call for Papers' }}</h1>
+            <h1 class="text-6xl font-black text-zinc-950 mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">{{ $settings['call_for_papers_heading'] ?? 'Important Dates ' }}</h1>
             {{-- <p class="text-xl text-gray-600 font-medium max-w-3xl">
                 {{ $settings['call_for_papers_lead'] ?? 'Submit your abstracts and research papers related to AI, digital transformation, ethics, and practical applications in developing nations.' }}
             </p> --}}
@@ -55,7 +67,7 @@
             positive change in developing countries.
         </p>
 
-        <a href="{{ asset('storage/I2COMSAPP-Program.pdf') }}"
+        <a href="{{ asset('Call4Papers-26.pdf') }}"
            target="_blank"
            class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
             📄 Download Call for Papers
@@ -73,7 +85,8 @@
             <p>• Contributions will be rigorously peer reviewed and checked against any kind of plagiarism.</p>
         </div>
 <div class="mt-8">
-    <a href="{{ asset('storage\Microsoft+Word+Proceedings+Templates.zip') }}"
+    <a href="{{ asset('\Microsoft+Word+LaTeX2e+Proceedings+Templates (3).zip
+') }}"
        download
        class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-purple-700 transition-all shadow-md hover:shadow-lg">
         📥 Download Paper Template
@@ -88,6 +101,34 @@
         </div> --}}
     </div>
 
+
+<!-- Submit Button -->
+    <div class="bg-gradient-to-br from-blue-50 via-purple-50 to-cyan-50 p-10 rounded-2xl border-2 border-blue-300 mb-8 text-center">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">📤 Submit Your Paper</h3>
+
+        <p class="text-gray-700 mb-8">
+            Please submit your paper through the official EasyChair submission system.
+        </p>
+
+        @if ($enabled && $submissionOpen)
+            <a href="https://easychair.org/conferences/?conf=i2comsapp26"
+               target="_blank"
+               class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-bold hover:shadow-lg transition-all">
+                📤 Click to Submit Your Paper
+            </a>
+        @else
+            <div class="p-8 bg-red-50 border border-red-200 rounded-lg">
+                <p class="text-red-800 font-bold mb-2">Submissions are currently closed.</p>
+                @if (! $enabled)
+                    <p class="text-gray-700">The conference administrators have disabled submissions. Please check back later.</p>
+                @elseif ($abstractDeadline)
+                    <p class="text-gray-700">Submission deadline was {{ $abstractDeadline->toFormattedDateString() }}.</p>
+                @else
+                    <p class="text-gray-700">Submissions are not open at this time.</p>
+                @endif
+            </div>
+        @endif
+    </div>
     <!-- Publication -->
     <div class="bg-gradient-to-br from-blue-50 via-purple-50 to-cyan-50 p-10 rounded-2xl border-2 border-blue-300 mb-8">
         <h3 class="text-2xl font-bold text-blue-900 mb-6">📚 Publication</h3>
@@ -111,20 +152,7 @@
         </a>
     </div>
 
-    <!-- Submit Button -->
-    <div class="bg-gradient-to-br from-blue-50 via-purple-50 to-cyan-50 p-10 rounded-2xl border-2 border-blue-300 mb-8 text-center">
-        <h3 class="text-2xl font-bold text-blue-900 mb-4">📤 Submit Your Paper</h3>
-
-        <p class="text-gray-700 mb-8">
-            Please submit your paper through the official EasyChair submission system.
-        </p>
-
-        <a href="https://easychair.org/account/signin?l=5802622091239139184.1778004503.f22a7046"
-           target="_blank"
-           class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-bold hover:shadow-lg transition-all">
-            📤 Click to Submit Your Paper
-        </a>
-    </div>
+    
 
 </div>
 

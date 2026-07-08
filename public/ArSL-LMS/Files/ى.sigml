@@ -1,0 +1,14 @@
+<sigml>
+	<hamgestural_sign gloss="Yaa_maqsura">
+  		<sign_manual >  
+			<handconfig handshape="finger2" thumbpos="out"  specialfingers="5" bend5=" 0 0 0 4"/>
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+				 <directedmotion direction="d" size="small" />
+<tgt_motion manner="rest">
+	 
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

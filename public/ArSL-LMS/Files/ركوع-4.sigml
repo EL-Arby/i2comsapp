@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="bow">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  />
+      <handconfig handshape="flat"   extfidir="u" palmor="r"/>
+    </split_handconfig>
+ <split_location>
+	<location_bodyarm location="belowstomach" side="right_at"  contact="touch"/>
+	<location_bodyarm location="shouldertop"  side="left_at"    contact="close" />
+    </split_location>
+
+
+<tgt_motion>
+<split_handconfig>
+      <handconfig handshape="flat"  />
+      <handconfig handshape="flat"  mainbend="400"  extfidir="u" palmor="r"/>
+    </split_handconfig>
+ </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

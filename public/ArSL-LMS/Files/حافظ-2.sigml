@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="hafedh">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="HAFZ"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at"/>
+    
+    <tgt_motion>
+    
+      <handconfig handshape="finger2345" mainbend="round"/>
+ <location_bodyarm location="forehead" side="right_at" contact="close"/>
+    </tgt_motion>
+    
+ <directedmotion direction="i" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>
+

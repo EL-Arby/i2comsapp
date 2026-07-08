@@ -1,0 +1,46 @@
+<sigml>
+<hamgestural_sign gloss="Partner">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSSREK"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+
+<sign_manual>
+
+    <split_handconfig>
+        <handconfig handshape="finger2"   thumbpos="across" extfidir="u" palmor="d"/>
+	<handconfig handshape="finger2"   thumbpos="across" extfidir="u" palmor="d"/>
+    </split_handconfig>
+    
+    <split_location>
+	<location_bodyarm location="chest" side="right_at" />
+	<location_bodyarm location="shouldertop" side="left_at" contact="close" />
+    </split_location>
+
+		<tgt_motion manner="rest">
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+<hamgestural_sign gloss="setting partners with allah">
+<sign_manual>
+
+    <split_handconfig>
+        <handconfig handshape="finger2"   thumbpos="across" extfidir="u" palmor="d"/>
+	<handconfig handshape="finger2"   thumbpos="across" extfidir="u" palmor="d"/>
+    </split_handconfig>
+
+    <handconstellation contact="touch">
+      <location_hand location="side"  digits="2" side="right_beside"/>
+      <location_hand location="side"  digits="2" side="left_beside"/>
+    	<location_bodyarm location="shouldertop" side="left_at" contact="close" />
+    </handconstellation>
+ 
+
+	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

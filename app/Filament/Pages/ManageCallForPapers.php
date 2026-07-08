@@ -15,6 +15,7 @@ use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Checkbox;
 use BackedEnum;
 use Filament\Support\Icons\Heroicon;
 use UnitEnum;
@@ -62,6 +63,8 @@ class ManageCallForPapers extends Page
             'call_for_papers_note_4' => SiteSetting::getValue('call_for_papers_note_4', '✓ Include a <strong>completed title page</strong> with authors\' information'),
             'call_for_papers_note_5' => SiteSetting::getValue('call_for_papers_note_5', '✓ Submit through EasyChair or email to: <strong>i2comsapp2026@email.com</strong>'),
             'call_for_papers_note_6' => SiteSetting::getValue('call_for_papers_note_6', '✓ Late submissions may not be accepted'),
+            'call_for_papers_enabled' => SiteSetting::getValue('call_for_papers_enabled', '1'),
+            'call_for_papers_force_open' => SiteSetting::getValue('call_for_papers_force_open', '0'),
         ]);
     }
 
@@ -122,6 +125,18 @@ class ManageCallForPapers extends Page
                             ->required(),
                     ])
                     ->columns(3),
+
+                Section::make('Settings')
+                    ->schema([
+                        Checkbox::make('call_for_papers_enabled')
+                            ->label('Enable submissions')
+                            ->helperText('When unchecked, the submission link will be hidden on the public page'),
+
+                        Checkbox::make('call_for_papers_force_open')
+                            ->label('Force submissions open')
+                            ->helperText('Ignore the submission deadline and keep submission link visible'),
+                    ])
+                    ->columns(1),
 
                 Section::make('Brochure')
                     ->schema([

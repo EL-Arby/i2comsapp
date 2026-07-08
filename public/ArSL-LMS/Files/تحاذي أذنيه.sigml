@@ -1,0 +1,106 @@
+<sigml>
+<hamgestural_sign gloss="touhadhi othounaihi">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="d"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+
+
+
+<handconstellation contact="touch">
+      		<location_hand location="tip"  digits="2"   />
+      		<location_hand location="tip" digits="3"  />
+
+
+	<location_bodyarm location="shoulders" side="right_at" contact="close" />
+
+      	</handconstellation>
+
+ 
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="theraa">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="d"/>
+      <handconfig extfidir="ui" palmor="r"/>
+    </split_handconfig>
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at" contact="close" />
+	<location_bodyarm location="ear" side="right_at"  contact="touch" />
+    </split_location>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="theraa">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="d"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+
+
+
+<handconstellation contact="touch">
+      		<location_hand location="tip"  digits="2"   />
+      		<location_hand location="tip" digits="3"  />
+
+
+	<location_bodyarm location="shoulders" side="right_at" contact="close" />
+
+      	</handconstellation>
+
+ 
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="theraa">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="d"/>
+      <handconfig extfidir="ui" palmor="r"/>
+    </split_handconfig>
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at" contact="close" />
+	<location_bodyarm location="ear" side="right_at"  contact="touch" />
+    </split_location>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+ 
+</sigml>

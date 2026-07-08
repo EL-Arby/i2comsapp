@@ -1,0 +1,31 @@
+<sigml>
+<hamgestural_sign gloss="chak">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L32"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="close" location="cheek"/>
+    <directedmotion direction="r" size="small"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig extfidir="u" palmor="ul"/>
+    </tgt_motion>
+   
+    <tgt_motion>
+ <directedmotion direction="l" size="small"/>
+      <handconfig extfidir="u" palmor="l"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

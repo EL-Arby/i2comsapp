@@ -1,0 +1,39 @@
+<sigml>
+
+<hamgestural_sign gloss="Details">
+  <sign_manual>
+    <split_handconfig>
+        <handconfig handshape="flat"   extfidir="l" palmor="l" />
+	<handconfig handshape="flat"   extfidir="o" palmor="u"/>
+    
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="thumbball"  />
+      <location_hand location="side" digits="5" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+<tgt_motion>
+            <directedmotion direction="o" curve="u" size="small" manner="fast"/>
+    <handconstellation contact="touch">
+      <location_hand location="palm"  />
+      <location_hand location="side" digits="5" />
+    </handconstellation>
+</tgt_motion>
+<tgt_motion>
+             <directedmotion direction="o" curve="u" size="small"/>
+   <handconstellation contact="touch">
+      <location_hand location="midjoint"  digits="5" />
+      <location_hand location="side" digits="5" />
+    </handconstellation>
+	</tgt_motion>
+<tgt_motion>
+             <directedmotion direction="o" curve="u" size="small"/>
+	</tgt_motion>
+    
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

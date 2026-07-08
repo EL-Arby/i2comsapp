@@ -1,0 +1,47 @@
+<sigml>
+
+<hamgestural_sign gloss="tell_him">
+  <sign_manual>
+    <handconfig handshape="fist" thumbpos="across"/>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="d"/>
+      <handconfig extfidir="or" palmor="r"/>
+    </split_handconfig>
+
+    <handconstellation contact="touch">
+      <location_hand location="side" digits="1"/>
+<location_hand location="nail" digits="1"/>
+    </handconstellation>
+
+      <tgt_motion>
+        <directedmotion direction="u" size="small"  manner="fast"/>
+<handconfig handshape="fist" thumbpos="across"/>
+        </tgt_motion>
+
+ <tgt_motion>
+        <directedmotion direction="d" size="small"  manner="fast"/>
+   <split_handconfig>
+<handconfig handshape="finger23spread" thumbpos="across"/>
+  <handconfig handshape="fist" thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+    </handconstellation>
+        </tgt_motion>
+
+      <tgt_motion>
+        <directedmotion direction="u" size="small"  manner="fast"/>
+<handconfig handshape="fist" thumbpos="across"/>
+        </tgt_motion>
+
+<tgt_motion>
+        <directedmotion direction="d" size="small" manner="fast"/>
+   <split_handconfig>
+<handconfig handshape="finger23spread" thumbpos="across"/>
+  <handconfig handshape="fist" thumbpos="across"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+    </handconstellation>
+        </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

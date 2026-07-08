@@ -1,0 +1,41 @@
+<sigml>
+
+<hamgestural_sign gloss="cover">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X38"/>
+        <extra_movement movement="X10"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+<split_handconfig>
+
+      <handconfig handshape="flat" mainbend="0 0 0 1" thumbpos="out"    extfidir="l" palmor="l"/>
+ <handconfig handshape="flat" mainbend="1 0.5 0"  thumbpos="out"  extfidir="o" palmor="ru"/>
+    </split_handconfig>
+
+ 
+ <split_location>
+		<location_bodyarm location="chest"   contact="touch" />
+<location_bodyarm location="chest"  side="left_beside"  contact="close"/>
+    </split_location>
+<tgt_motion>
+<split_motion>
+           <directedmotion />
+<directedmotion direction="r" curve="r"   size="big" />
+      </split_motion>
+
+ 
+ <split_handconfig>
+ <handconfig handshape="flat"  mainbend="0 0 0 1" thumbpos="out"  extfidir="l" palmor="l"/>
+      <handconfig handshape="flat" mainbend="1 0.5 0"    extfidir="rod" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

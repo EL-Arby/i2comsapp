@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="kadeer">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <facial_expr_par>
+        <eye_brows movement="FU"/>
+        <eye_lids movement="SB"/>
+      </facial_expr_par>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L03"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig bend4="round" bend5="round" handshape="finger2345" thumbpos="out" bend3="100" />
+    <handconfig extfidir="o"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="head" side="right_at"/>
+   
+    <tgt_motion>
+     <directedmotion direction="i" size="small"/>
+      <handconfig extfidir="u" palmor="d"/>
+    </tgt_motion>
+   
+    <tgt_motion>
+       <directedmotion direction="do" size="big"/>
+      <handconfig extfidir="o" palmor="l"/>
+    </tgt_motion>
+
+    <directedmotion direction="dl" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

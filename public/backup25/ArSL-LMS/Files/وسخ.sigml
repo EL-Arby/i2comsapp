@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="dirty">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X10"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X10"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinchall" mainbend="bent"  extfidir="uo" palmor="lu"/>
+    <location_bodyarm location="nose" side="right_at" contact="touch"/>
+
+             <tgt_motion>
+<directedmotion direction="do"  size="big"  />
+        <handconfig  handshape="flat"  mainbend="0 0 0 3"  extfidir="o" palmor="l"  thumbpos="opposed" />
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

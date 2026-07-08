@@ -1,0 +1,47 @@
+<sigml>
+<hamgestural_sign gloss="LIKE">
+  <sign_nonmanual>
+   <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X10"/>
+      </extra_par>
+    <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X10"/>
+      </extra_par>
+    <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X10"/>
+      </extra_par>
+    <extra_par>
+        <extra_movement movement="X61"/>
+        <extra_movement movement="X10"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true" outofphase="true" >
+    <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="1 0 0 3"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders"     contact="close"  />
+ <tgt_motion>
+  <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="4 0 0 0"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+
+<tgt_motion>
+<directedmotion direction="r" size="small"   />  
+      <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="1 0 0 3"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+ 
+ <tgt_motion>
+  <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="4 0 0 0"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+<tgt_motion>
+<directedmotion direction="r" size="small"   />  
+      <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="1 0 0 3"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+ <tgt_motion>
+  <handconfig handshape="finger23spread" thumbpos="opposed" mainbend="4 0 0 0"  extfidir="u" palmor="d"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

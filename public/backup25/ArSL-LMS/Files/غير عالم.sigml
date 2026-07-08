@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="don't know">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="FAHB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+        <handconfig handshape="flat"   thumbpos="out"   mainbend="100" extfidir="ulo" palmor="l" />
+      <location_bodyarm location="forehead" side="right_beside"  contact="close"/>
+        <tgt_motion>
+            <handconfig handshape="flat"   thumbpos="out"   mainbend="322"  bend2="100" extfidir="ulo" palmor="l" /> 
+ </tgt_motion>
+      <tgt_motion>
+            <handconfig handshape="flat"   thumbpos="out"   mainbend="100"    extfidir="ulo" palmor="l" /> 
+ </tgt_motion>
+      <tgt_motion>
+            <handconfig handshape="flat"   thumbpos="out"   mainbend="322"  bend2="100" extfidir="ulo" palmor="l" /> 
+ </tgt_motion>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

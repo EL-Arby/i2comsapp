@@ -1,0 +1,15 @@
+<sigml>
+
+<hamgestural_sign gloss="move">
+  <sign_manual both_hands="true">
+    <handconfig handshape="flat" />
+    <handconfig extfidir="o" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	
+ <tgt_motion>
+   <handconfig extfidir="or" palmor="d"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

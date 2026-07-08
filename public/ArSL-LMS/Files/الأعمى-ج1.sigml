@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="blind">
+ <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+          <extra_movement movement="X24"/>
+      </extra_par>
+<extra_par>
+          <extra_movement movement="X24"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+ 	<sign_manual>
+	<handconfig handshape="finger2" thumbpos="opposed" extfidir="l" palmor="l" bend2="3 0 0 "/>
+      	<location_bodyarm location="eyes"  side="left_at"  contact="touch" />
+	</sign_manual>
+</hamgestural_sign>
+
+</sigml>

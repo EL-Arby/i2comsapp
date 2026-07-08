@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="Bowl">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BOOL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="200" bend5="1 1 0"   thumbpos="across"  extfidir="od" palmor="d"/>
+      <handconfig handshape="finger2" bend3="000"  bend4="000" bend5="000" mainbend="110"  thumbpos="opposed" extfidir="ri" palmor="l"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="tip"  digits="2"  />
+      		<location_hand location="side" digits="5"        />
+      		 <location_bodyarm location="shouldertop" side="right_at"   contact="close"/>
+    	</handconstellation>
+
+<split_motion>
+           <directedmotion />
+<directedmotion direction="d"  />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

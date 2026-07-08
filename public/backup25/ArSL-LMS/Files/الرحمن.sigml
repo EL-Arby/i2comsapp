@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="Mercy">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+
+   <mouthing_tier>
+      <mouth_picture picture="RHMNN"/>
+    </mouthing_tier>
+   
+  </sign_nonmanual>
+
+  <sign_manual>
+    
+      <handconfig handshape="pinch12open"  extfidir="liu" palmor="dl"/>
+      <location_bodyarm location="shouldertop"  contact="close" side="right_at"   />
+ 
+<directedmotion direction="ldil"  size="big" />
+
+  </sign_manual>
+
+</hamgestural_sign>
+
+</sigml>

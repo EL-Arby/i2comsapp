@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="them">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAOLA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+ 
+	<sign_manual>
+    <handconfig handshape="finger2345" thumbpos="opposed"  extfidir="u" palmor="dr"/>
+    <location_bodyarm location="ear" side="right_beside"  contact="close"/>
+	
+	
+     
+	<wristmotion motion="stircw"/>
+<wristmotion motion="stircw"/>
+    <tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

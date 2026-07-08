@@ -6,11 +6,11 @@
 <main class="pt-32 px-8 md:px-16 pb-24 bg-white">
 
 
-    <div class="bg-gradient-to-br from-blue-50/80 via-purple-50/80 to-cyan-50/80 backdrop-blur-md rounded-[2rem] shadow-xl overflow-hidden p-10 text-gray-900 border border-blue-200">
-                <div class="mb-8">
-                    <h2 class="text-5xl font-headline font-black tracking-tight">Accommodation</h2>
+    <div class="bg-gradient-to-br from-blue-50/80 via-purple-50/80 to-cyan-50/80 backdrop-blur-md rounded-xl sm:rounded-2xl md:rounded-[2rem] shadow-xl overflow-hidden p-4 sm:p-6 md:p-10 text-gray-900 border border-blue-200">
+                <div class="mb-6 sm:mb-8">
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-headline font-black tracking-tight">Accommodation</h2>
                 </div>
-                <div class="text-base leading-8 text-slate-200 mb-10">
+                <div class="text-sm sm:text-base leading-7 sm:leading-8 text-slate-200 mb-6 sm:mb-10">
                     <p class="mb-4">For those coming from abroad, the organization committee has discussed promotional accommodation fees for the three hotels shown below. For more details, please contact conference organizers:</p>
                     <p class="text-blue-700 font-semibold mb-8">
                         Will appear here
@@ -19,24 +19,24 @@
                     <p>• at: <a href="mailto:medmhdbennannu@gmail.com" class="underline text-blue-600">medmhdbennannu@gmail.com</a></p> --}}
                 </div>
 
-                <div class="grid gap-8 lg:grid-cols-3 text-slate-900">
-                    <div class="bg-white rounded-[2rem] overflow-hidden shadow-2xl text-center p-6">
-                        <h3 class="font-bold text-2xl mb-4">Sunset Hotel</h3>
-                        <img src="{{ asset('images/sunset-hotel.jpg') }}" alt="Sunset Hotel" class="mx-auto mb-4 rounded-3xl object-cover h-64 w-full">
-                        <p class="text-lg font-semibold mb-3">Single room: 110 euros<br>Double room: 125 euros</p>
-                        <a href="http://www.sunsethotel.mr/" target="_blank" rel="noopener noreferrer" class="inline-block text-blue-600 font-semibold hover:text-blue-800">Hotel Website</a>
+                <div class="grid gap-4 sm:gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-slate-900">
+                    <div class="bg-white rounded-lg sm:rounded-2xl md:rounded-[2rem] overflow-hidden shadow-2xl text-center p-4 sm:p-6">
+                        <h3 class="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">Sunset Hotel</h3>
+                        <img src="{{ asset('images/sunset.jpg') }}" alt="Sunset Hotel" class="mx-auto mb-3 sm:mb-4 rounded-lg sm:rounded-2xl md:rounded-3xl object-cover h-40 sm:h-56 md:h-64 w-full">
+                        <p class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">Single room: 110 euros<br>Double room: 125 euros</p>
+                        <a href="http://www.sunsethotel.mr/" target="_blank" rel="noopener noreferrer" class="inline-block text-blue-600 font-semibold hover:text-blue-800 text-sm sm:text-base">Hotel Website</a>
                     </div>
-                    <div class="bg-white rounded-3xl overflow-hidden shadow-xl text-center p-6">
-                        <h3 class="font-bold text-2xl mb-4">Nouakchott Hotel</h3>
-                        <img src="{{ asset('images/nouakchott-hotel.jpg') }}" alt="Nouakchott Hotel" class="mx-auto mb-4 rounded-3xl object-cover h-64 w-full">
-                        <p class="text-lg font-semibold mb-3">Single room: 109 euros<br>Double room: 136 euros</p>
-                        <a href="http://www.nouakchotthotel.com/" target="_blank" rel="noopener noreferrer" class="inline-block text-blue-600 font-semibold hover:text-blue-800">Hotel Website</a>
+                    <div class="bg-white rounded-lg sm:rounded-2xl md:rounded-3xl overflow-hidden shadow-xl text-center p-4 sm:p-6">
+                        <h3 class="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">Nouakchott Hotel</h3>
+                        <img src="{{ asset('images/nkchotel.jpg') }}" alt="Nouakchott Hotel" class="mx-auto mb-3 sm:mb-4 rounded-lg sm:rounded-2xl md:rounded-3xl object-cover h-40 sm:h-56 md:h-64 w-full">
+                        <p class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">Single room: 109 euros<br>Double room: 136 euros</p>
+                        <a href="http://www.nouakchotthotel.com/" target="_blank" rel="noopener noreferrer" class="inline-block text-blue-600 font-semibold hover:text-blue-800 text-sm sm:text-base">Hotel Website</a>
                     </div>
-                    <div class="bg-white rounded-3xl overflow-hidden shadow-xl text-center p-6">
-                        <h3 class="font-bold text-2xl mb-4">Fasq Hotel</h3>
-                        <img src="{{ asset('images/fasq-hotel.jpg') }}" alt="Fasq Hotel" class="mx-auto mb-4 rounded-3xl object-cover h-64 w-full">
-                        <p class="text-lg font-semibold mb-3">Single room: 225 euros</p>
-                        <a href="http://www.fasqhotels.com/" target="_blank" rel="noopener noreferrer" class="inline-block text-blue-600 font-semibold hover:text-blue-800">Hotel Website</a>
+                    <div class="bg-white rounded-lg sm:rounded-2xl md:rounded-3xl overflow-hidden shadow-xl text-center p-4 sm:p-6">
+                        <h3 class="font-bold text-xl sm:text-2xl mb-3 sm:mb-4">Fasq Hotel</h3>
+                        <img src="{{ asset('images/fasq.jpg') }}" alt="Fasq Hotel" class="mx-auto mb-3 sm:mb-4 rounded-lg sm:rounded-2xl md:rounded-3xl object-cover h-40 sm:h-56 md:h-64 w-full">
+                        <p class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">Single room: 225 euros</p>
+                        <a href="http://www.fasqhotels.com/" target="_blank" rel="noopener noreferrer" class="inline-block text-blue-600 font-semibold hover:text-blue-800 text-sm sm:text-base">Hotel Website</a>
                     </div>
                 </div>
             </div>

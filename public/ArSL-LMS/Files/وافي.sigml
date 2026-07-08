@@ -1,0 +1,39 @@
+<sigml>
+
+<hamgestural_sign gloss="enough">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAVE"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"  extfidir="ul" palmor="r"/>
+      <handconfig  handshape="flat"  thumbpos="out"  extfidir="ur" palmor="l" />
+
+    </split_handconfig>
+  
+ <split_location>
+	<location_bodyarm location="shoulders"   />
+	<location_bodyarm location="shoulders"   contact="close"   />
+</split_location>
+
+ <tgt_motion>
+    
+<split_motion>
+        <directedmotion direction="r" size="big" />
+	<directedmotion direction="l" size="big" />
+</split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="out"  extfidir="u" palmor="d"/>
+      <handconfig  handshape="flat"  thumbpos="out"  extfidir="u" palmor="d" />
+
+    </split_handconfig>
+ </tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

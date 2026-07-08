@@ -1,0 +1,16 @@
+<sigml>
+	<hamgestural_sign gloss="taa">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="TA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  		<sign_manual >  
+			 <handconfig handshape="finger23" thumbpos="across"/>
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+ <directedmotion direction="o"  size="small"  />
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

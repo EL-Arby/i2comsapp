@@ -1,0 +1,32 @@
+<sigml>
+
+
+<hamgestural_sign gloss="to-the_left">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ESAR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true">
+    <split_handconfig>
+      <handconfig handshape="flat"/>
+      <handconfig handshape="flat" />
+    </split_handconfig>
+
+    <split_handconfig>
+      <handconfig extfidir="d" palmor="ol" />
+      <handconfig extfidir="u" palmor="uro"/>
+    </split_handconfig>
+<split_location>
+	<location_bodyarm  location="belowstomach" side="right_at" contact="touch" />
+	<location_bodyarm location="shoulders"  side="left_at" contact="armextended" />
+    </split_location> 
+   	<split_motion>
+           <directedmotion />
+	<directedmotion direction="l"  size="small" manner="fast" />
+      </split_motion>
+	
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

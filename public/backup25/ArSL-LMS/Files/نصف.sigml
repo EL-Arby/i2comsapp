@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="half">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="NNSF"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" extfidir="o" palmor="l"/>
+      <handconfig handshape="flat"  thumbpos="out"   extfidir="uo" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head"    contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="close" />
+    </split_location>
+
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="d"  size="big" />
+           <directedmotion />
+      </split_motion>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

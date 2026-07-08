@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="left_hand">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="020" bend5="010"   extfidir="ulo" palmor="d"/>
+      <handconfig handshape="fist"   extfidir="ro" palmor="ru"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="lowerarm" side="front"   contact="touch"/>
+	<location_bodyarm location="chest"     contact="armextended" />
+    </split_location>
+
+
+<split_motion>
+<directedmotion direction="u"  size="small" />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="d"  size="small" />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="u"  size="small" />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="d"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

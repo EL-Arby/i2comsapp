@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="Aakel">
+  <sign_manual>
+    <handconfig handshape="finger2" mainbend="020" thumbpos="across"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="forehead" side="right_beside" contact="touch"/>
+     <tgt_motion>
+    <location_bodyarm location="forehead" side="right_at" contact="touch"/>
+  
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,14 @@
+<sigml>
+
+<hamgestural_sign gloss="hermaphrodite">
+  <sign_manual>
+    <handconfig handshape="flat"  bend2="300" bend3="300" bend4="200" bend5="100"  thumbpos="out"  extfidir="o"  palmor="d"/>
+   <location_bodyarm location="shoulders" side="right_at" contact="close" />
+ <directedmotion direction="r"     />
+ <directedmotion direction="l"     />
+ <directedmotion direction="r"   />
+ <directedmotion direction="l"     />
+      </sign_manual>
+</hamgestural_sign>
+
+</sigml>

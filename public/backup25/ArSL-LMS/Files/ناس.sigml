@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="human">
+
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ENSAN"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+
+      <handconfig handshape="pinch12open"    bend2=" 2 2 1.5" extfidir="lo" palmor="d"/>
+      <handconfig handshape="flat"      extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="handback"  side="left_at" />
+      		<location_hand location="tip"   />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  
+ <tgt_motion >
+
+ <split_handconfig>
+
+      <handconfig handshape="pinch12open"    extfidir="lo" palmor="d"/>
+      <handconfig handshape="flat"      extfidir="r" palmor="d"/>
+    </split_handconfig>
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

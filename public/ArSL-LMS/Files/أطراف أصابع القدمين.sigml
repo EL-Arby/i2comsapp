@@ -1,0 +1,12 @@
+<sigml>
+<hamgestural_sign gloss="tip-toes">
+ <sign_manual  both_hands="true"  >
+<handconfig handshape="flat" mainbend="200"  thumbpos="across"  extfidir="do" palmor="d" />
+ <location_bodyarm location="shouldertop"    contact="close"/>
+    	
+ 
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

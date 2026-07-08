@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="decrease">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="NKAS"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="flat" thumbpos="opposed" mainbend = "2 1 0 4" extfidir="ou" palmor="u"/>
+    <location_bodyarm location="shouldertop" side="right_at"  contact="close"  />
+ <tgt_motion>
+  <directedmotion direction="d"  manner="fast"  />
+<handconfig handshape="ceeall"  mainbend = "round" extfidir="ou" palmor="u"/>
+ </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

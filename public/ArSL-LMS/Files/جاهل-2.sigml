@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="Uneducated">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist"  thumbpos="out"    extfidir="lu" palmor="ld"/>
+      <handconfig handshape="flat"  thumbpos="out"  extfidir="ruo" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="chin"   side="left_at"   contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="close" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="odl"  size="small" />
+           <directedmotion />
+      </split_motion>
+<tgt_motion>
+</tgt_motion>
+<tgt_motion>
+    
+ <split_handconfig>
+      <handconfig handshape="fist"  thumbpos="out"    extfidir="uo" palmor="d"/>
+      <handconfig handshape="flat"  thumbpos="out"  extfidir="ruo" palmor="r"/>
+    </split_handconfig>
+
+<handconstellation contact="touch">
+      		<location_hand location="palm"   />
+      		<location_hand location="tip" digits="1"  />
+      		 <location_bodyarm location="shoulders"  side="left_at"    contact="close"/>
+    	</handconstellation>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,101 @@
+<sigml>
+
+<hamgestural_sign gloss="mug">
+  <sign_manual>
+    <handconfig handshape="flat"  />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="head" side="right_at" />
+
+   <rpt_motion repetition="fromstart">
+      <tgt_motion>
+            <directedmotion direction="l"  manner="fast" size="small"/>
+        <handconfig extfidir="u" palmor="l"/>
+      </tgt_motion>
+    </rpt_motion>
+     
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="book">
+  <sign_manual both_hands="true" >
+
+
+        				<split_handconfig>
+      <handconfig handshape="flat"   extfidir="ou" palmor="l" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="ou" palmor="r" mainbend="0.8 0 0"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="thumbball"  />
+      <location_hand location="thumbball" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+  
+
+<tgt_motion>
+        				  <split_handconfig>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ul"/>
+      <handconfig handshape="flat"   extfidir="ou" palmor="ru"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="pinkyside"  />
+      <location_hand location="pinkyside" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+   </tgt_motion>
+    
+<split_motion>
+        <directedmotion direction="" size="small" />
+	<directedmotion />
+</split_motion>
+
+
+ </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="044"    extfidir="o" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="o" palmor="ru"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shouldertop" side="right_at"   contact="close"/>
+	<location_bodyarm location="shouldertop"   contact="close" />
+    </split_location>
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="r"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="044"    extfidir="ro" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="o" palmor="ru"/>
+    </split_handconfig>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="big">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KTHEER"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="ul" palmor="d"/>
+    <location_bodyarm location="head" contact="close"  />
+<tgt_motion>	
+     <directedmotion direction="r"  manner="slow" />
+   <handconfig extfidir="u" palmor="l"/> 
+</tgt_motion> 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

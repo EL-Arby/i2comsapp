@@ -1,0 +1,39 @@
+<sigml>
+<hamgestural_sign gloss="kosouf">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="kosouf"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true">
+    <split_handconfig>
+      <handconfig handshape="flat"   />
+      <handconfig handshape="cee12" ceeopening="slack"  thumbpos="opposed"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="ur" palmor="d"/>
+    </split_handconfig>
+   
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"      />
+      		<location_hand location="side" digits="5"  side="right_beside" />
+      		 <location_bodyarm location="head"     contact="close"/>
+    	</handconstellation>
+
+  
+ <tgt_motion>
+    <split_motion>
+      <directedmotion direction="l" size="small"/>
+      <directedmotion direction="" size="small"/>
+    </split_motion>
+
+<handconstellation contact="touch">
+      		<location_hand location="thumbside"    />
+      		<location_hand location="side" digits="5"  side="right_beside" />
+    	</handconstellation>
+ </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

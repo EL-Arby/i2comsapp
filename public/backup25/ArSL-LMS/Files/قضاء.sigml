@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="Repay">
+  <sign_manual both_hands="true" >
+    <handconfig handshape="flat" mainbend="012" thumbpos="opposed"  extfidir="u" palmor="d"/>
+
+ 
+    <handconstellation contact="close">
+      <location_hand location="side" digits="1" side="right_at" />
+       <location_hand location="side" digits="1" />
+ 	<location_bodyarm location="shouldertop" side="right_at" contact="close" />
+	 
+    </handconstellation>	 
+	
+<split_motion>
+ <directedmotion direction="dl" curve="u" size="big" manner="slow" />
+ <directedmotion direction="dl" curve="u" size="big"  manner="slow" />
+
+      </split_motion>
+
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

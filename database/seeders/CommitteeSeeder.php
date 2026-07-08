@@ -18,22 +18,127 @@ class CommitteeSeeder extends Seeder
         Committee::truncate();
 
         // Honorary Chair
-        $honorary = Committee::create([
-            'name' => 'Honorary Chair',
-            'slug' => 'honorary-chair',
-            'description' => 'Honorary General Chair of the Conference.',
-            'sort_order' => 1,
-            'is_published' => true,
-        ]);
+        
+// General Chair
+$general = Committee::create([
+    'name' => 'Honorary Chair',
+    'slug' => 'Honorary-Chair',
+    'description' => 'General Chairs and Track Topics Chairs of the Conference.',
+    'sort_order' => 1,
+    'is_published' => true,
+]);
 
-        CommitteeMember::create([
-            'committee_id' => $honorary->id,
-            'name' => 'Pr. Aly Mohamed Salem Boukhary',
-            'title' => 'Honorary Chair',
-            'affiliation' => 'President, Nouakchott University, Mauritania',
-            'sort_order' => 0,
-            'is_published' => true,
-        ]);
+$generalMembers = [
+
+    // GENERAL CHAIR
+    [
+        'title' => 'Honorary Chair',
+        'name' => 'Pr. Aly Mohamed Salem Boukhary',
+        'affiliation' => 'President, Nouakchott University, Mauritania',
+        'sort_order' => 0,
+    ],
+     [
+        'title' => 'Conference Chair',
+        'name' => 'Pr.  Yahya Mohamed Elhadj',
+        'affiliation' => 'DAHD, Arab Center for Research and Policy Studies, Qatar',
+        'sort_order' => 0,
+    ],
+
+    // TRACKS TOPICS
+        // TRACKS TOPICS
+    [
+        'title' => 'AI for Digital Economy and Finance',
+        'name' => 'Pr Abdellah Yousfi',
+        'affiliation' => 'Mohamed V University, Morocco',
+        'sort_order' => 1,
+    ],
+
+    [
+        'title' => 'AI for Biometrics and Cybersecurity',
+        'name' => 'Pr Farouk Nanne',
+        'affiliation' => 'Nouakchott University, Mauritania',
+        'sort_order' => 2,
+    ],
+
+    [
+        'title' => 'AI for Healthcare and Well-being',
+        'name' => 'Pr Mohamed Deriche',
+        'affiliation' => 'Ajman University, UAE',
+        'sort_order' => 3,
+    ],
+
+    [
+        'title' => 'AI for Education and Learning',
+        'name' => 'Pr Farid Meziane',
+        'affiliation' => 'Derby University, UK',
+        'sort_order' => 4,
+    ],
+
+    [
+        'title' => 'AI for Autonomous Systems and Robotics',
+        'name' => 'Pr Anis Koubaa',
+        'affiliation' => 'Alfaisal University, Saudi Arabia',
+        'sort_order' => 5,
+    ],
+
+    [
+        'title' => 'AI for Energy and Resource Management',
+        'name' => 'Pr Abdella Kouzou',
+        'affiliation' => 'Djelfa University, Algeria',
+        'sort_order' => 6,
+    ],
+
+    [
+        'title' => 'AI for Agriculture and Food Security',
+        'name' => 'Pr Cheikh Tourad Mohamedou El Ghotob',
+        'affiliation' => 'Nouakchott University, Mauritania',
+        'sort_order' => 7,
+    ],
+
+    [
+        'title' => 'AI for Culture and Accessibility',
+        'name' => 'Dr Ahmed Elhayek',
+        'affiliation' => 'Prince Mugrin University, Saudi Arabia',
+        'sort_order' => 8,
+    ],
+
+    [
+        'title' => 'Generative AI and Creative Technologies',
+        'name' => 'Dr Ismail Barrada',
+        'affiliation' => 'UM6P, Morocco',
+        'sort_order' => 9,
+    ],
+
+    [
+        'title' => 'AI for Networking, IoT, Cloud, and Emerging Tech',
+        'name' => 'Pr Mohamed O Elhacen',
+        'affiliation' => 'Carthage University, Tunisia',
+        'sort_order' => 10,
+    ],
+
+    [
+        'title' => 'Other Relevant Topics in AI such as AI Ethics and so on',
+        'name' => 'Pr Fouzi Harrag',
+        'affiliation' => 'Ferhat Abbas University, Algeria',
+        'sort_order' => 11,
+    ],
+
+];
+
+foreach ($generalMembers as $member) {
+
+    CommitteeMember::create([
+        'committee_id' => $general->id,
+        'name' => $member['name'],
+        'title' => $member['title'],
+        'affiliation' => $member['affiliation'],
+        'sort_order' => $member['sort_order'],
+        'is_published' => true,
+    ]);
+
+}
+
+
 
         // Organizing Committee
         $organizing = Committee::create([

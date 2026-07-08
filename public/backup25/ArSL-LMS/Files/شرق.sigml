@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="east">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="across"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="shoulders"/>
+          <tgt_motion>
+<directedmotion direction="r" curve="u" size="small"/>
+      <handconfig extfidir="ru" palmor="l" />
+      </tgt_motion>
+  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

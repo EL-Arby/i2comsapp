@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="fahem">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L06"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig bend2="221" handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="forehead" contact="close" side="right_beside"  />
+    <directedmotion direction="idl" size="small"/>
+    <directedmotion direction="r"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

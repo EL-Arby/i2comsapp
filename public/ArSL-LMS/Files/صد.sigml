@@ -1,0 +1,44 @@
+<sigml>
+
+<hamgestural_sign gloss="prevent">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ESDON"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent"    extfidir="u" palmor="ul"/>
+      <handconfig handshape="pinchall" mainbend="bent"    extfidir="u" palmor="ru"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head"  side="right_at"   contact="close"/>
+	<location_bodyarm location="head" side="left_at"   contact="close"/>
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="odr"  size="big" />
+  <directedmotion direction="ord"  size="big" />
+      </split_motion>
+
+    
+ <split_handconfig>
+      <handconfig handshape="flat" mainbend="2 0 0 4"   thumbpos="opposed"   extfidir="o" palmor="rd"/>
+      <handconfig handshape="flat" mainbend="2 0 0 4"   thumbpos="opposed"   extfidir="or" palmor="rd"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

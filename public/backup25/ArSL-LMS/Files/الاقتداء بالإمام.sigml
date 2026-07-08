@@ -1,0 +1,47 @@
+<sigml>
+
+<hamgestural_sign gloss="Eqteda">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="2 0 0 3"  thumbpos="opposed"    extfidir="u" palmor="ld"/>
+      <handconfig handshape="finger2" thumbpos="across"   extfidir="u" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="chest"   contact="armextended"/>
+    </split_location>
+
+<tgt_motion>
+
+
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="bent"  thumbpos="opposed"    extfidir="u" palmor="ld"/>
+      <handconfig handshape="finger2" thumbpos="across"   extfidir="u" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="odl" curve="u"  size="small"  />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger23" mainbend="2 0 0 3"  thumbpos="opposed"    extfidir="u" palmor="ld"/>
+      <handconfig handshape="finger2" thumbpos="across"   extfidir="u" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>
+
+
+ <split_handconfig>
+      <handconfig handshape="pinch12"  bend3="400"  mainbend="bent"       extfidir="u" palmor="ld"/>
+      <handconfig handshape="finger2" thumbpos="across"   extfidir="u" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

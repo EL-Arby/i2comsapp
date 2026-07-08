@@ -1,0 +1,60 @@
+<sigml>
+
+<hamgestural_sign gloss="gaze">
+<sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X65"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X65"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X65"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X65"/>
+</extra_par>
+    </extra_tier>
+ </sign_nonmanual>
+  <sign_manual >
+    
+      <handconfig handshape="finger23spread"   thumbpos="across" extfidir="o" palmor="d"/>
+	<location_bodyarm location="eyes"     contact="armextended"/>
+
+<tgt_motion>
+ <handconfig  extfidir="uo" palmor="d"/>
+
+</tgt_motion>
+<tgt_motion>
+</tgt_motion>
+<tgt_motion>
+ <handconfig  extfidir="do" palmor="d"/>
+</tgt_motion>
+<tgt_motion>
+</tgt_motion>
+<tgt_motion>
+ <handconfig  extfidir="uo" palmor="d"/>
+</tgt_motion>
+<tgt_motion>
+</tgt_motion>
+<tgt_motion>
+ <handconfig  extfidir="do" palmor="d"/>
+</tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

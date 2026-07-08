@@ -1,0 +1,20 @@
+<sigml>
+	<hamgestural_sign gloss="similar">
+ 		<sign_manual>
+			<handconfig handshape="finger23"  mainbend="2 0 0 3"  thumbpos="across" extfidir="ou" palmor="u"/>
+      			<location_bodyarm location="shoulders" side="right_at">
+				<location_hand location="tip" digits="2"/>
+			</location_bodyarm>
+			<par_motion>
+	  			<fingerplay/>
+			</par_motion>
+
+			<par_motion>
+	  			<fingerplay/>
+			</par_motion>
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

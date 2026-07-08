@@ -1,0 +1,18 @@
+<sigml>
+
+<hamgestural_sign gloss="Ibn-Maktom">
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+       	<handconfig handshape="finger2" thumbpos="across" extfidir="ou" palmor="d"/>
+      	<handconfig handshape="finger2" mainbend="1 0 0 3"  thumbpos="across" extfidir="ui" palmor="d"/>
+    </split_handconfig>
+   
+    <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="eyes"  side="left_beside"  contact="touch" />
+    </split_location>
+	 </sign_manual>
+</hamgestural_sign>
+
+</sigml>

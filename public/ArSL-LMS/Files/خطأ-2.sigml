@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="wrong">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KAATTA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual >
+
+      <handconfig handshape="finger2"  thumbpos="across"  extfidir="o" palmor="d"/>
+  
+	<location_bodyarm location="shouldertop"    contact="close"/>
+
+<directedmotion direction="dl"    />
+     <directedmotion direction="u" size="samll"    />
+     <directedmotion direction="dr"    />
+       </sign_manual>
+</hamgestural_sign>
+
+</sigml>

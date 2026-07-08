@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="but">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ELLA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" />
+    <par_motion>
+      <directedmotion direction="o" curve="r"  size="small"/>
+      <tgt_motion>
+        <handconfig extfidir="u" palmor="l"/>
+      </tgt_motion>
+    </par_motion>
+ <directedmotion direction="u" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

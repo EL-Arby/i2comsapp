@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="Hurt">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+      <extra_movement movement="X50"/>
+    <extra_movement movement="X52"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="finger2345" thumbpos="out" mainbend="0 1 0 3"  extfidir="u" palmor="ul"/>
+    <location_bodyarm location="shoulders"   side="right_at"  contact="close"  />
+<tgt_motion>
+    <handconfig handshape="finger2345" thumbpos="out" mainbend="0 2 2 3"  extfidir="u" palmor="ul"/>
+ </tgt_motion>
+ 
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

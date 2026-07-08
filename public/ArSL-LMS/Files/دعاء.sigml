@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="pray">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+     <mouthing_tier>
+<mouth_picture picture="DOAA"/>
+    </mouthing_tier>
+   
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" mainbend="011" extfidir="u" palmor="u"/>
+    <location_bodyarm location="shoulders"  />
+	
+     <directedmotion direction="u"    />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

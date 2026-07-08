@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="HUNGRY">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="JOAN"/>
+    </mouthing_tier>
+<extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    
+      <handconfig handshape="flat" extfidir="dl" palmor="l" mainbend="211" thumbpos="out" />
+     <location_bodyarm location="stomach"   contact="close"/>
+<directedmotion direction="i"  size="small" />
+<directedmotion direction="r"  size="small" />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

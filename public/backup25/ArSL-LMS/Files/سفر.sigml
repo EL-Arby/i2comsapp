@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="travel">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SPPAR"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="u" palmor="l"/>
+    <location_bodyarm location="cheek" side="right_beside"  contact="close"/>
+
+<directedmotion direction="o"  />
+<directedmotion direction="i"  manner="fast" />
+<directedmotion direction="o"  />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

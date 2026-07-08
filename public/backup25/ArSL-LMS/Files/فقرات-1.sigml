@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="Faqarat">
+  <sign_manual>
+    <handconfig handshape="cee12" ceeopening="slack" extfidir="our"  palmor="l"/>
+    <location_bodyarm location="head" side="right_at" />
+    <par_motion>
+      <directedmotion direction="d" size="big"/>
+     </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

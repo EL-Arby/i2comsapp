@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="she">
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="or"/>
+    <handconfig palmor="ld"/>
+    <location_bodyarm location="chest"/>
+    
+      <directedmotion direction="or" size="big" />
+   
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="gather">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" mainbend="122"  thumbpos="opposed"  extfidir="ol" palmor="l"/>
+    <location_bodyarm location="shoulders" side="right_at"  contact="close"  />
+<tgt_motion>
+
+<directedmotion direction="l"  manner="slow"  />
+
+   <handconstellation contact="touch">
+      <location_hand location="tip" digits="2"/>
+      <location_hand location="tip" digits="2"/>
+      <location_bodyarm location="shoulders"/>
+    </handconstellation>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

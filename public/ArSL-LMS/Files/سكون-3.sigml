@@ -1,0 +1,22 @@
+<sigml>
+
+<hamgestural_sign gloss="Skoon">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="iii"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345"  mainbend="1 0 0 3" thumbpos="opposed"/>
+    <handconfig extfidir="ou" palmor="u"/>
+    <location_bodyarm location="head" side="right_at"  contact="close"  />
+<tgt_motion>	
+     <directedmotion direction="d"  manner="slow" size="big"/>  
+      <handconfig handshape="finger2345"  mainbend="bent" thumbpos="opposed"/>
+
+</tgt_motion>
+</sign_manual>
+</hamgestural_sign>
+
+</sigml>

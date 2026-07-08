@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="fear">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KOOF"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X14"/>
+<extra_movement movement="X15"/>
+</extra_par>
+
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345"  thumbpos="out" />
+    <handconfig extfidir="o" palmor="dl"/>
+    <location_bodyarm location="chest" side="right_at" />
+	
+
+<tgt_motion>	
+      <handconfig  palmor="ul"/>
+</tgt_motion>
+	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

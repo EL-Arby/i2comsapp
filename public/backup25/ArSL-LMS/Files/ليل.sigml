@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="night">
+ 
+	<sign_manual>
+		<handconfig handshape="finger2345" mainbend="100" thumbpos="opposed" extfidir="u" palmor="l"/>
+		<location_bodyarm location="head" side="right_at" contact="close" />
+
+  	
+
+		<tgt_motion>
+			<handconfig handshape="fist"  thumbpos="across" extfidir="u" palmor="l"/>
+		<location_bodyarm location="shoulders" side="right_at" contact="close" />
+    				
+		</tgt_motion>
+		
+    
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+
+</sigml>

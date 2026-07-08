@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="Wali-AlAmer">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BSOL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2"  specialfingers="5"  thumbpos="across" extfidir="ou" palmor="l"/>
+      <handconfig handshape="flat" thumbpos="out" extfidir="or" palmor="u"/>
+    </split_handconfig>
+    <handconstellation  contact="armextended">
+      <location_hand location="palm"/>
+      <location_hand location="tip" digits="3"/>
+      <location_bodyarm location="chest" contact="armextended"/>
+    </handconstellation>
+ 
+<tgt_motion>
+   <split_handconfig>
+      <handconfig handshape="finger2"  specialfingers="5"  thumbpos="across" extfidir="o" palmor="l"/>
+      <handconfig handshape="flat" thumbpos="out" extfidir="or" palmor="u"/>
+    </split_handconfig>
+   <handconstellation contact="touch" >
+      <location_hand location="palm"   digits="3" />
+      <location_hand location="side" digits="5"/>
+
+    </handconstellation>
+ 
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+
+</sigml>

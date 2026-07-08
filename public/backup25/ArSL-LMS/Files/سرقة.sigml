@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="sareka">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L15"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="oul"/>
+    <handconfig palmor="r"/>
+    <location_bodyarm location="chest"/>
+
+    <tgt_motion>
+          <directedmotion curve="r" direction="r" size="big"/>
+      <handconfig handshape="finger2" mainbend="round" thumbpos="out"/>
+      <handconfig extfidir="or" palmor="d"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

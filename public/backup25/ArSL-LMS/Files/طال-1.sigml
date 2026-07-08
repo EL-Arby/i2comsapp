@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="long">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="TOWEEL"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+ </sign_nonmanual>
+
+
+  <sign_manual  >
+    <handconfig handshape="flat" thumbpos="out" mainbend="110"  extfidir="l" palmor="l"/>
+    <location_bodyarm location="shouldertop"  contact="close" side="right_at" />
+  <directedmotion direction="o"  size="big" manner="slow" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

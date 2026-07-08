@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="EtQan">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="across" extfidir="u" palmor="lu"/>
+    <location_bodyarm location="head" contact="close"  />
+
+<tgt_motion>
+   <handconfig handshape="finger2" mainbend="100"  thumbpos="across" extfidir="u" palmor="lu"/>
+   	</tgt_motion>
+<tgt_motion>
+    <directedmotion direction="d"  manner="fast" size="small"/> 
+<handconfig handshape="fist" mainbend="100"  thumbpos="across" extfidir="u" palmor="lu"/>
+   	</tgt_motion>
+
+
+<tgt_motion>
+   <handconfig handshape="finger2" mainbend="100"  thumbpos="across" extfidir="u" palmor="lu"/>
+   	</tgt_motion>
+<tgt_motion>
+    <directedmotion direction="d"  manner="fast" size="small"/> 
+<handconfig handshape="fist" mainbend="100"  thumbpos="across" extfidir="u" palmor="lu"/>
+   	</tgt_motion>		
+     
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

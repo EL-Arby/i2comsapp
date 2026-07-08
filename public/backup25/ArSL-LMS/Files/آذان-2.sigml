@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="Athan">
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+    	<handconfig handshape="finger2" mainbend="1 0 0 3"  thumbpos="across" extfidir="ul" palmor="dr"/>
+         	<handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+<location_bodyarm location="ear"   side="right_at" contact="touch" />
+	 <location_bodyarm location="shoulders" contact="armextended"/>
+
+    </split_location>
+    
+	 
+    
+<split_motion>
+<directedmotion direction="ru" />
+           <directedmotion />
+
+      </split_motion>
+	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

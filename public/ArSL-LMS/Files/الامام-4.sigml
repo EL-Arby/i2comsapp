@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="IMAM">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" thumbpos="across"  extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="armextended"/>
+	<location_bodyarm location="shoulders"   contact="close" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="l"  curve="u" />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

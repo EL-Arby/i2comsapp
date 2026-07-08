@@ -1,0 +1,10 @@
+<sigml>
+<hamgestural_sign gloss="Bellybutton">
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across" bend2="400"/>
+    <handconfig extfidir="l" palmor="l"/>
+    <location_bodyarm location="stomach"  contact="touch"/>
+   <wristmotion motion="stircw" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

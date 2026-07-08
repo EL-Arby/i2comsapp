@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="second">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="THAN"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual >
+          <handconfig handshape="finger23spread"    thumbpos="across"  extfidir="u" palmor="ul"/>
+	<location_bodyarm location="eyebrows" side="right_beside"   contact="close"/>
+
+ </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="rakaatain awalain">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2345" thumbpos="across" bend5="444"   extfidir="o"  palmor="d" />
+      <handconfig handshape="finger2" mainbend="300" thumbpos="opposed"  extfidir="r"  palmor="d"/>
+    </split_handconfig>
+    <location_bodyarm location="chest"/>
+
+
+      <tgt_motion>
+
+  <split_handconfig>
+          <handconfig  handshape="finger2345"   bend5="444"     thumbpos="across"/>
+   <handconfig handshape="finger2" mainbend="4 0 0" thumbpos="opposed"  extfidir="rd"  palmor="d"/>
+    </split_handconfig>
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="1"  side="ulnar"    />
+      		<location_hand location="side" digits="4"  />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,48 @@
+<sigml>
+
+<hamgestural_sign gloss="Can't">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="LAABB"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+    <handconfig handshape="finger2" thumbpos="across"  extfidir="uil"  palmor="l"/>
+ <handconfig handshape="finger2" thumbpos="across" specialfingers="5"     extfidir="or" palmor="ru"/>
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="cheek" side="left_beside" contact="touch" />
+	<location_bodyarm location="shoulders" side="left_at"  contact="close" />
+    </split_location>
+
+ <par_motion>
+<split_motion>
+    <directedmotion direction="ro" size="big" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+
+  <tgt_motion>
+ <split_handconfig>
+    <handconfig handshape="finger2" thumbpos="across"   extfidir="u" palmor="ld"/>
+ <handconfig handshape="finger2" thumbpos="across" specialfingers="5"      extfidir="ro" palmor="ru"/>
+    </split_handconfig>
+      
+      </tgt_motion>
+ </par_motion>
+   
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

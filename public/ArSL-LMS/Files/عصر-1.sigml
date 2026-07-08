@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="ASR">
+ 
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="RaDee"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual both_hands="true">
+
+<split_handconfig>
+    		<handconfig handshape="ceeall"  ceeopopening="slack" />
+		<handconfig handshape="flat" />
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="lu" palmor="rd" />
+      <handconfig extfidir="ri" palmor="d"  />
+    
+	</split_handconfig>
+	
+
+    	 
+   <split_location>
+	<location_bodyarm location="shouldertop" side="left_at" contact="close" />
+	<location_bodyarm location="elbow" side="right_at" contact="touch" />
+    </split_location>
+   
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

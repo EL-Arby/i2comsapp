@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="goodness">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KAER"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  		<sign_manual >
+    			<handconfig handshape="finger23" thumbpos="out"  />
+    			<handconfig extfidir="ul"/>
+    			<handconfig palmor="l"/>
+    			<location_bodyarm location="lips" contact="touch"/>
+	   <directedmotion direction="d" size="small" />
+       
+
+		</sign_manual>
+	</hamgestural_sign>
+
+		</sigml>

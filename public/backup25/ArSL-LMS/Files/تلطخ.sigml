@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="talatakh">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L16"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="fist"/>
+    <handconfig extfidir="ol"  palmor="dl"/>
+    <location_bodyarm location="shouldertop" side="right_at"/>
+  
+
+    <tgt_motion>
+ <directedmotion direction="dil" manner="slow"/>
+      <handconfig handshape="finger2345" thumbpos="out"  extfidir="dl"  palmor="dl"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

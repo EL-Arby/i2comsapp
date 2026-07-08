@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="remove">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="flat"     extfidir="l" palmor="dl"  />
+      <handconfig handshape="flat"       extfidir="ou" palmor="u"  />
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="thumbball"    />
+      <location_hand location="side"   digits="5"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+ <split_motion>
+<directedmotion direction="ou"  />
+           <directedmotion />
+      </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+ 
+
+</sigml>

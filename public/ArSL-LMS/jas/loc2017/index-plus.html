@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>JASigning loc.2017 Plus</title>
+<!--
+<link rel="stylesheet" type="text/css" href="WHATEVER.css">
+-->
+<style type="text/css">
+h1,h2,h3 { color: navy }
+</style>
+
+</head>
+
+<body>
+
+<h1>JASigning loc.2017 Plus</h1>
+
+<p><strong>Please see the
+<a href="http://vh.cmp.uea.ac.uk/index.php/JASigning_Conditions">Conditions of Use</a> applying to
+the <a href="http://vh.cmp.uea.ac.uk/index.php/JASigning">JASigning</a> software.</strong></p>
+
+<p>For information on this and previous versions, please see
+the <a href="http://vh.cmp.uea.ac.uk/index.php/JASigning_Release_Notes">JASigning Release Notes</a>.</p>
+
+<p>Users of JASigning on Windows should see the comments
+on runtime support in the <a href="http://vh.cmp.uea.ac.uk/index.php/JASigning_Platform_Issues">JASigning Platform Issues</a> notes.</p>
+
+<p>These examples use a wider range of avatar characters than the standard examples.
+These avatars are made available for evaluation only.</p>
+
+<hr>
+
+
+<a name="html5-pages"></a>
+<h2>HTML5 web pages using WebGL with all avatars</h2>
+
+<p>
+Web pages using pure HTML5 and WebGL connect to a server to process SiGML data.
+<br>
+These pages should function on all major browsers on Windows and OS X.
+They should also function on iOS devices.
+Feedback is <a href="mailto:cmp_virtualsigning@uea.ac.uk">requested</a> on experience
+with other platforms.
+</p>
+
+<ul>
+<li><p><a href="./WebGLAv.html">WebGL Renderer example with one avatar</a></p></li>
+<li><p><a href="./WebGLAvTwo.html">WebGL Renderer example with two avatars</a></p></li>
+<li><p><a href="./CWASA-plus-gui-panel.html">WebGL SiGML Player Applet</a> (CWASA) with Avatar and GUI panels</p></li>
+<li><p><a href="./CWASA-plus-gui-elements.html">WebGL SiGML Player Applet</a> (CWASA) with Avatar and GUI elements</p></li>
+<li><p><a href="./CWASA-plus-bespoke-gui.html">WebGL SiGML Player Applet</a> (CWASA) with Avatar and bespoke GUI</p></li>
+</ul>
+
+<hr>
+
+
+<a name="html-applets"></a>
+<h2>HTML web pages using Java Applets with all avatars</h2>
+
+<p>
+Web pages using JASigning Java applets to process SiGML data.
+<br>
+Using Java applets is deprecated and support is due to cease at the end of 2016.
+For comments on supported browsers see the
+<a href="http://vh.cmp.uea.ac.uk/index.php/JASigning_Platform_Issues">JASigning Platform Issues</a> notes.
+</p>
+
+<ul>
+<li><p><a href="./SPA-plus-amb-mo.html">SiGML Player Applet</a> (SPA)</p></li>
+<li><p><a href="./SPA-plus.html">SPA without idle ambient motion</a></p></li>
+<li><p><a href="./SPA-framed-gui-LS-win.html">Frame-based SPA</a></p></li>
+<li><p><a href="./cwa/OneAv.html">Single WebGL avatar</a></p></li>
+<li><p><a href="./cwa/TwoAv.html">Multiple WebGL avatars</a></p></li>
+<li><p><a href="./cwa/OneAvTest.html">Single WebGL avatar Test Page</a></p></li>
+</ul>
+
+<hr>
+
+
+<h2>Java Web Start Applications</h2>
+
+<p>JASigning applications are launched via JNLP files. Users of JASigning on Mac OS X should see the comments
+on Java Web Start in the <a href="http://vh.cmp.uea.ac.uk/index.php/JASigning_Platform_Issues">JASigning Platform Issues</a> notes.</p>
+
+<ul>
+<li><p><a href="./jnlp/SiGMLPlayer-plus.jnlp">SiGML Player</a>
+	(with extra avatars)<br>
+    Plays a SiGML file from a given URL or a SiGML sequence delivered on a network socket.</p></li>
+<li><p><a href="./jnlp/SiGMLURLApp-plus.jnlp">SiGML URL Player</a>
+	(with extra avatars)<br>
+    Plays a SiGML file from a given <tt>file:</tt> or <tt>http:</tt> URL.</p></li>
+<li><p><a href="./jnlp/SiGMLURLApp-rnid.jnlp">SiGML URL Player</a>
+	(for RNID)<br>
+    Plays a SiGML file from a given <tt>file:</tt> or <tt>http:</tt> URL.</p></li>
+<li><p><a href="./jnlp/SiGMLServicePlayer-plus.jnlp">SiGML Service Player</a>
+	(with extra avatars)<br>
+    Plays a SiGML sequence delivered on a network socket, for example
+	by the SiGML Client application (final item).
+	Also accepts switch-avatar requests via a (different) network socket.
+	Has the usual range of GUI controls.</p></li>
+<li><p><a href="./jnlp/SiGMLServicePlayer-rnid.jnlp">SiGML Service Player</a>
+	(for RNID)<br>
+    Plays a SiGML sequence delivered on a network socket, for example
+	by the SiGML Client application (next item).</p></li>
+<li><p><a href="./jnlp/BareSiGMLPlayer-plus.jnlp">Bare SiGML Player</a>
+	(with extra avatars)<br>
+    Plays a SiGML sequence delivered on a network socket.
+	Also accepts switch-avatar requests via a (different) network socket.
+	Has no GUI, apart from the avatar pane iteself.</p></li>
+<li><p><a href="./jnlp/SiGMLServiceClientApp.jnlp">SiGML Service Client</a><br>
+    Allows SiGML files to be input, edited, and sent to the SiGML Player or SiGML Service Player
+	application (previous three items).</p></li>
+</ul>
+
+<hr>
+
+
+<a name="dev"></a>
+<h2>JASigning Developer Documentation</h2>
+
+<p>
+There is some rudimentary JASigning
+<a href="./devdoc/index.html">developer's documentation</a>.</p>
+
+
+<hr>
+
+<a name="conditions"></a>
+<h2>JASigning - Conditions of Use</h2>
+
+<p>
+<a href="http://vh.cmp.uea.ac.uk/index.php/JASigning_Conditions">Conditions of Use</a> apply to
+the <a href="http://vh.cmp.uea.ac.uk/index.php/JASigning">JASigning</a> software. For enquires about public 
+and commercial use of the software and the virtual
+characters Anna and Marc, please
+<a href="mailto:cmp_virtualsigning@uea.ac.uk">email</a> us.</p>
+
+<p> Development of the JASigning software was supported by the
+EU Framework 7 project Dicta-Sign FP7-ICT-3-231135. </p>
+
+<hr>
+<small><em>JRWG &nbsp;&nbsp; 2016-11-18</em></small>
+
+</body>
+
+</html>

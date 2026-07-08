@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="come">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X65"/>
+        <extra_movement movement="X19"/>
+      </extra_par>
+      <extra_par>
+        <extra_movement movement="X65"/>
+        <extra_movement movement="X19"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="opposed" bend2="122" />
+    <handconfig extfidir="ou" palmor="l"/>
+    <location_bodyarm location="head"  side="right_beside" contact="close"  />
+	
+     <directedmotion direction="dl"    size="big"/>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

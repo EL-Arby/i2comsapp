@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="Bedah">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BDAA"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12" bend3="222"  extfidir="u"  palmor="lu"/>
+    <location_bodyarm location="ear"  side="right_at" contact="touch"/>
+     
+      <tgt_motion>
+      <handconfig handshape="pinch12" bend3="222"  extfidir="u"  palmor="lu"/>
+      </tgt_motion>
+      <tgt_motion>
+      <handconfig handshape="finger23"  thumbpos="across" extfidir="u"  palmor="lu"/>
+      </tgt_motion>
+      <tgt_motion>
+      <handconfig handshape="pinch12" bend3="222"  extfidir="u"  palmor="lu"/>
+      </tgt_motion>
+      <tgt_motion>
+      <handconfig handshape="pinch12"  bend3="222"   extfidir="u"  palmor="lu"/>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

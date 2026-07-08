@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="Then">
+  <sign_manual>
+    <handconfig handshape="flat" bend5="444" thumbpos="across"/>
+    <handconfig extfidir="ur" palmor="l"/>
+    <location_bodyarm location="shouldertop" side="right_at" />
+    <par_motion>
+      <directedmotion direction="ld" curve="u"/>
+ 
+      <tgt_motion>
+            <handconfig extfidir="ol" palmor="d"/>
+ 
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

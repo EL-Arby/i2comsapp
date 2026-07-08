@@ -1,0 +1,38 @@
+<sigml>
+<hamgestural_sign gloss="move-tounge">
+ <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X57"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X32"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X57"/>
+</extra_par>
+<extra_par>
+<extra_movement movement="X32"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+   <handconfig handshape="flat"      extfidir="u" palmor="d"/>
+      <location_bodyarm location="shoulders" side="right_at"  contact="close"/>
+   
+<tgt_motion>
+   <handconfig handshape="flat"   mainbend="111"     extfidir="o" palmor="d"/>
+</tgt_motion>
+<tgt_motion>
+   <handconfig handshape="flat"      extfidir="u" palmor="d"/>
+</tgt_motion>
+<tgt_motion>
+   <handconfig handshape="flat"   mainbend="111"     extfidir="o" palmor="d"/>
+</tgt_motion>
+<tgt_motion>
+   <handconfig handshape="flat"      extfidir="u" palmor="d"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

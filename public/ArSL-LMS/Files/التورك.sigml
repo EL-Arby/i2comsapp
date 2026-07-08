@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="Nsb_right_leg">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BOOL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="opposed" mainbend="200"  bend5="101"   extfidir="do" palmor="d"/>
+      <handconfig handshape="flat"  extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="handback" side="back"  />
+      		<location_hand location="midjoint"    side="front"/>
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

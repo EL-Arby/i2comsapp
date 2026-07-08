@@ -19,6 +19,9 @@ class SpeakersTable
                     ->searchable(),
                 TextColumn::make('role_title')
                     ->searchable(),
+                TextColumn::make('talk_title')
+                    ->label('Talk Title')
+                    ->searchable(),
                 TextColumn::make('affiliation')
                     ->searchable(),
                 TextColumn::make('photo_url')

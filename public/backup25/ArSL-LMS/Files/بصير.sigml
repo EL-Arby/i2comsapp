@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="see">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SHOV"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+
+      <handconfig handshape="finger23spread"  thumbpos="across"  extfidir="u" palmor="d"/>
+  
+	<location_bodyarm location="lowereyelid"     side="right_at" contact="touch"/>
+ <tgt_motion>
+ 
+ <directedmotion direction="o"        />
+
+
+</tgt_motion>
+
+       </sign_manual>
+</hamgestural_sign>
+
+</sigml>

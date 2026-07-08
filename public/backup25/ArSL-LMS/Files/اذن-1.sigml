@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="excuse">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ETHN"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+<handconfig handshape="finger2"  bend2="200"   extfidir="uo" palmor="u"/>
+     <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="neck"   side="right_at" contact="armextended"   />
+	<location_bodyarm location="shoulders"     />
+    </split_location>
+
+<split_motion>
+ <directedmotion direction="ol"   />
+ <directedmotion />
+      </split_motion>
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

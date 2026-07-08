@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Moshahadat aloura">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_lids movement="SB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="T13"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger23" thumbpos="opposed"/>
+    <handconfig extfidir="dl"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_beside"/>
+    <directedmotion direction="dl"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,11 @@
+<sigml>
+<hamgestural_sign gloss="go">
+  <sign_manual>
+        <handconfig handshape="flat"   extfidir="o" palmor="l" />
+     <location_bodyarm location="shoulders"  side="right_at"  contact="close" />
+<directedmotion  direction="o"  size = "big"   />
+             	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

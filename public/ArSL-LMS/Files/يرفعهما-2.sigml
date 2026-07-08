@@ -1,0 +1,17 @@
+<sigml>
+<hamgestural_sign gloss="yarfaahouma1">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="uo" palmor="d"/>
+    <location_bodyarm location="stomach" side="right_at"/>
+<tgt_motion>
+    <directedmotion direction="u"  curve="u"  size="big"/>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="neck" contact="close" side="right_at"/>
+</tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

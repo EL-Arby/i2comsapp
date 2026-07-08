@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="Scentist">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOLB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="0 0 0 2"  thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="forehead" side="right_at" contact="close"/>
+      <directedmotion direction="r" size="small" manner="fast"/>
+  <directedmotion direction="l" size="small" manner="fast"/>
+  <directedmotion direction="r" size="small" manner="fast"/>
+  <directedmotion direction="l" size="small" manner="fast"/>
+ 
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

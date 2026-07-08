@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="person">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SHKS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  		<sign_manual >
+    			<handconfig handshape="cee12"  ceeopening="slack"   />
+    			<handconfig extfidir="rou"/>
+    			<handconfig palmor="l"/>
+    			<location_bodyarm location="head" side="right_beside"  contact="close"/>
+	   <directedmotion direction="d" size="big"/>
+ 
+       
+
+		</sign_manual>
+	</hamgestural_sign>
+
+
+
+
+</sigml>

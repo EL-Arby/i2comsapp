@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="ma sheata">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_picture picture="kol"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm contact="close" location="cheek"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig extfidir="uo" palmor="d"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

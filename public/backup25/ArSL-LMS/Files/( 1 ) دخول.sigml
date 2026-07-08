@@ -1,0 +1,16 @@
+<sigml>
+
+<hamgestural_sign gloss="Enter">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="DKOOL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+<sign_manual>
+    <handconfig handshape="flat"   extfidir="o" palmor="l"  />
+    <location_bodyarm location="shoulders"  side="right_at" contact="close" />
+                      <directedmotion direction="o"      manner="slow" />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

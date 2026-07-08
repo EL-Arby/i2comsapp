@@ -1,0 +1,46 @@
+<sigml>
+
+<hamgestural_sign gloss="Thier_Imam">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BOTBEN"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig  />
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="rd"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="belowstomach" side="right_at" contact="close"   />
+	<location_bodyarm location="shoulders"     />
+    </split_location>
+
+  
+ <tgt_motion>
+    
+ <split_handconfig>
+      <handconfig  handshape="finger2"  thumbpos="across"   extfidir="u" palmor="d" />
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+<location_bodyarm location="neck"   side="right_at" contact="armextended"   />
+	<location_bodyarm   />
+	
+    </split_location>
+</tgt_motion>
+<tgt_motion>
+<split_motion>
+ <directedmotion direction="ol"  />
+ <directedmotion />
+      </split_motion>
+
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

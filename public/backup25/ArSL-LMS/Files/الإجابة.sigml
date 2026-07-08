@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="answer">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="EJBEJB"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" mainbend="311"  thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shoulders" contact="close" />
+
+      <directedmotion direction="o"   />
+    <directedmotion direction="i"   />
+    <directedmotion direction="ol"     />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

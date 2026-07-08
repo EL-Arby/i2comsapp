@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="Mansubah">
+ <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+ <handconfig handshape="flat"     extfidir="d" palmor="l"/>
+      <handconfig handshape="flat"     extfidir="u" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="belowstomach" side="right_at"     contact="touch"/>
+	<location_bodyarm location="shouldertop" side="left_at"   contact="armextended"   />
+    </split_location>
+ 
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+ 
+</sigml>

@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="save">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAVFD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"  extfidir="ul"  palmor="l"/>
+    <location_bodyarm location="head" contact="close" />
+   <tgt_motion>
+      <directedmotion direction="ru"  />
+           <handconfig handshape="pinchall" mainbend="bent"   extfidir="u"  palmor="l"/>
+        
+<location_bodyarm location="forehead" side="right_at"  contact="touch" />
+</tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

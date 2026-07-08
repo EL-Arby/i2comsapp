@@ -1,0 +1,59 @@
+<sigml>
+
+
+<hamgestural_sign gloss="stand">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSSS"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+<extra_movement movement="X39"/>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X39"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+   
+    <split_handconfig>
+      <handconfig handshape="finger23"  mainbend="0 2 1 2" thumbpos="across" extfidir="ol" palmor="d"/>
+      <handconfig handshape="flat" thumbpos="out" extfidir="ro" palmor="u"/>
+    </split_handconfig>
+
+     
+   <handconstellation contact="touch" >
+      <location_hand location="palm"/>
+      <location_hand location="tip" digits="3"/>
+      <location_bodyarm location="chest" contact="armextended"/>
+    </handconstellation>
+ 
+<tgt_motion>
+
+   
+    <split_handconfig>
+      <handconfig handshape="finger23"  mainbend="0 2 1 2" thumbpos="across" extfidir="odl" palmor="d"/>
+      <handconfig handshape="flat" thumbpos="out" extfidir="ro" palmor="u"/>
+    </split_handconfig>
+
+
+     
+   <handconstellation contact="touch" >
+      <location_hand location="palm"/>
+      <location_hand location="tip" digits="3"/>
+      <location_bodyarm location="chest" contact="armextended"/>
+    </handconstellation>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+
+</sigml>

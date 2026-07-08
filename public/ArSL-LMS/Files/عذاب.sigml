@@ -1,0 +1,34 @@
+<sigml>
+<hamgestural_sign gloss="Adhab">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="Aadhab"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger23spread" thumbpos="out"/>
+      <handconfig handshape="finger2"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="do" palmor="d"/>
+      <handconfig extfidir="o" palmor="d"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="ul"/>
+        <directedmotion direction="dl" size="small"/>
+      </seq_motion>
+      <directedmotion direction="or" size="small"/>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="do" size="small" slow="true"/>
+        <directedmotion direction="o" size="small" slow="true"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

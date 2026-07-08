@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="broken">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="across"   extfidir="o" palmor="d"/>
+<handconstellation contact="touch">
+      		<location_hand location="side" digits="1" />
+      		<location_hand location="side" digits="2" />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+ 
+<tgt_motion>
+
+  <handconfig   extfidir="o" palmor="l"/>
+
+<handconstellation contact="touch">
+      		<location_hand location="nail" digits="1" />
+      		<location_hand location="nail" digits="1" />
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

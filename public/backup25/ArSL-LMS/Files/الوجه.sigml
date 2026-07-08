@@ -1,0 +1,14 @@
+<sigml>
+<hamgestural_sign gloss="face">
+ <sign_manual  both_hands="true" lr_symm="true">
+
+    	<handconfig handshape="finger2" thumbpos="opposed" mainbend="0 0.5 1"   extfidir="ul" palmor="d" />
+
+ 	<location_bodyarm location="eyebrows" contact="armsextended"  />
+	 
+	
+     </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

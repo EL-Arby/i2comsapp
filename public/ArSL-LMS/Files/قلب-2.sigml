@@ -1,0 +1,44 @@
+<sigml>
+
+
+<hamgestural_sign gloss="heart">
+  <sign_manual>
+
+      <handconfig handshape="fist"   thumbpos="across"  extfidir="ul" palmor="l"/>
+	<location_bodyarm location="chest"    contact="touch"/>
+
+
+	 <directedmotion direction="o" size="small" manner="fast"  />
+ <directedmotion direction="i" size="small" manner="fast"  />
+ <directedmotion direction="o" size="small" manner="fast"  />
+ <directedmotion direction="i" size="small" manner="fast"  />
+
+  </sign_manual>
+</hamgestural_sign>
+<hamgestural_sign gloss="heart_beat">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="QALLB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+
+      <handconfig handshape="finger2345" mainbend="2 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+	<location_bodyarm location="shoulders"  side="left_at" contact="close"/>
+
+<tgt_motion>  
+      <handconfig handshape="finger2345" mainbend="1 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+</tgt_motion>
+<tgt_motion>  
+      <handconfig handshape="finger2345" mainbend="2 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+</tgt_motion>
+<tgt_motion>  
+      <handconfig handshape="finger2345" mainbend="1 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+</tgt_motion>
+<tgt_motion>  
+      <handconfig handshape="finger2345" mainbend="2 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

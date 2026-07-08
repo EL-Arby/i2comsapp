@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="Dammah">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAAOA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="pinch12" mainbend="bent"  extfidir="u" palmor="d"/>
+    <location_bodyarm location="head" side="right_at" />
+	
+<tgt_motion>
+    <handconfig  extfidir="u" palmor="dl"/>
+</tgt_motion>
+<tgt_motion>
+    <handconfig  extfidir="u" palmor="d"/>
+</tgt_motion>
+	<tgt_motion>
+	  
+<directedmotion direction="ld" />
+<handconfig  extfidir="u" palmor="dl"/>
+    
+	</tgt_motion>
+    	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

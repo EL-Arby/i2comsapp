@@ -1,0 +1,35 @@
+<sigml>
+<hamgestural_sign gloss="harr">
+   <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" />
+       <handconfig handshape="finger2" mainbend="hooked"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="shouldertop" side="right_at" />
+      <location_bodyarm location="forehead" side="front" contact="touch" />
+    </split_location>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        <directedmotion direction="l" size="small" slow="true"/>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

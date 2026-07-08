@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="Untie">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="pinch12open"      extfidir="u" palmor="l"/>
+      <handconfig handshape="pinch12open"   extfidir="o" palmor="r"/>
+    </split_handconfig>
+    
+ <handconstellation contact="touch">
+      		<location_hand location="thumbside"        />
+      		<location_hand location="tips"  digits="1" />
+    	</handconstellation>
+ 
+ <tgt_motion>
+ 
+  
+
+<split_motion>
+ <directedmotion direction="ur"       />
+ <directedmotion direction="dl"     />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="pinch12open" bend2="122"      extfidir="lu" palmor="d"/>
+      <handconfig handshape="pinch12open" bend2="122"   extfidir="o" palmor="ru"/>
+    </split_handconfig>
+   
+</tgt_motion>
+
+
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

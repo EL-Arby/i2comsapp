@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="fall">
+<sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+   
+  </sign_nonmanual>
+ 
+  <sign_manual both_hands="true" lr_symm="true">
+<handconfig handshape="flat" mainbend="bent" thumbpos="opposed"/>
+  <handconfig extfidir="ul" palmor="l"/>
+    <location_bodyarm location="headtop" side="right_at"  contact="close"  />
+	
+ <tgt_motion>
+   <directedmotion direction="di"/>
+      <handconfig extfidir="l" palmor="l"/>
+    <location_bodyarm contact="close"   location="chest"/>
+ 
+ </tgt_motion>
+<directedmotion direction="i" curve="d" size="small"/>
+</sign_manual>
+</hamgestural_sign>
+
+</sigml>

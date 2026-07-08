@@ -1,0 +1,26 @@
+<sigml>
+<hamgestural_sign gloss="Mohaddah">
+<sign_nonmanual>
+
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+
+    </extra_tier>
+
+  </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="pinch12open"   extfidir="ulo" palmor="l"  />
+    <location_bodyarm location="shouldertop" side="right_at"/>
+    <par_motion>
+      <directedmotion direction="d" size="big"  />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig   extfidir="lo" />
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

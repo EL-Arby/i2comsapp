@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="Rade">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="RADE"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger23" thumbpos="across"  extfidir="l" palmor="l"/>
+    <location_bodyarm location="shouldertop"  />
+      <tgt_motion>
+ <directedmotion direction="or" curve="l"  />
+   <handconfig handshape="finger23" thumbpos="across"  extfidir="o" palmor="l"/>
+    
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+	<hamgestural_sign gloss="sheen">
+  		<sign_manual >  
+			<handconfig handshape="flat"    
+			bend2=" 0 0 0 2"
+			bend3=" 0 0 0 2"
+			bend4=" 0 0 0 2"
+			bend5=" 0 0 0 2.5"/>
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="far"/>
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

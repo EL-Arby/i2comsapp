@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="enough">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KLAS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"     extfidir="uol" palmor="rd"/>
+      <handconfig handshape="flat"     extfidir="our" palmor="ld"/>
+    </split_handconfig>
+ <handconstellation contact="touch">
+<location_hand location="handback"  digits="4" />
+      		<location_hand location="palm" digits="2"/>
+      		
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="r"   />
+<directedmotion direction="l"   />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"   extfidir="uo" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="ou" palmor="d"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

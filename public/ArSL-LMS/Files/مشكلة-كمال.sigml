@@ -1,0 +1,50 @@
+<sigml>
+<hamgestural_sign gloss="moshkela">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_picture picture="moshkol"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="uo"/>
+    <handconfig palmor="u"/>
+    <location_bodyarm location="chest"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="o"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="o" palmor="u"/>
+        </tgt_motion>
+      </seq_motion>
+      <seq_motion>
+        <directedmotion direction="ur"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="u" palmor="u"/>
+        </tgt_motion>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion curve="u" direction="u"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="ul" palmor="d"/>
+        </tgt_motion>
+      </seq_motion>
+      <seq_motion>
+        <directedmotion direction="do"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="or" palmor="u"/>
+        </tgt_motion>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

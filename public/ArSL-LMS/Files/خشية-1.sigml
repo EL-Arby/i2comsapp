@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="fear">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOOOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="o" palmor="l"/>
+    <location_bodyarm location="chest" contact="close"  />
+	
+    <wristmotion motion="twisting" />
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

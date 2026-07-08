@@ -1,0 +1,32 @@
+<sigml>
+<hamgestural_sign gloss="Fast">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BSORA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" mainbend="044"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="r"/>
+    <location_bodyarm location="head" contact="close" side="right_at"/>
+    <par_motion>
+      <directedmotion direction="odl" curve="r"  manner="fast" />
+      <tgt_motion>
+            <handconfig handshape="finger2"  thumbpos="out" />
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="l"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

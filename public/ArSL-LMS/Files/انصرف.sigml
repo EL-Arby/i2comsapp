@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="ENSARF">
+   <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"      extfidir="u" palmor="dr"/>
+      <handconfig handshape="flat"    extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"   />
+	<location_bodyarm location="shouldertop"   contact="close"  side="left_at" />
+    </split_location>
+<tgt_motion>
+
+ <split_handconfig>
+      <handconfig handshape="finger2"      extfidir="u" palmor="ul"/>
+      <handconfig handshape="flat"    extfidir="u" palmor="dr"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,31 @@
+<sigml>
+
+<hamgestural_sign gloss="Forget">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X14"/>
+        <extra_movement movement="X15"/>
+        <extra_movement movement="X55"/>
+  <extra_movement movement="X50"/>
+     <extra_movement movement="X41"/>
+        <extra_movement movement="X64"/>
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    
+
+      <handconfig handshape="flat"  thumbpos="out" extfidir="ul" palmor="dl" 
+bend2 = " 0 0 1 2 " bend3="0 0 1 2" bend4=" 0 0 1 2" bend5="0 1 0.5 2" bend1="1 0 0"/>	
+<location_bodyarm location="forehead" side="right_beside"   contact="touch"/>
+
+ <tgt_motion>
+
+<directedmotion direction="r"  size="big" />
+<handconfig handshape="pinchall"  mainbend="bent"  extfidir="ul" palmor="d"/>
+  </tgt_motion>
+ </sign_manual>
+</hamgestural_sign>
+
+</sigml>

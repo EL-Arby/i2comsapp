@@ -1,0 +1,37 @@
+<sigml>
+<hamgestural_sign gloss="mosque">
+ 
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BSJD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual both_hands="true">
+
+
+
+<split_handconfig>
+    		<handconfig handshape="cee12"  ceeopening ="slack" thumbpos="across" />
+		<handconfig handshape="fist" thumbpos="across" />
+	</split_handconfig>
+   
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l" />
+      <handconfig extfidir="r" palmor="r"  />
+    
+	</split_handconfig>
+	
+
+    	 
+   <split_location>
+	<location_bodyarm location="head" side="right_beside" contact="close" />
+	<location_bodyarm location="elbow" side="right_beside"  contact="close" />
+    </split_location>
+      
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

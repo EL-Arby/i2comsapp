@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="Adeltha">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ADL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true"  lr_symm="true" outofphase="true" >
+    <handconfig handshape="fist" thumbpos="opposed" bend2="120"  extfidir="u" palmor="l"/>
+    <location_bodyarm location="shoulders"  contact="close"  />
+
+<directedmotion direction="r"  size="small" manner="fast" />  
+<directedmotion direction="l"   size="small" manner="fast"/>  
+<directedmotion direction="r"  size="small" manner="fast"/>  
+ 
+      </sign_manual>
+</hamgestural_sign>
+</sigml>

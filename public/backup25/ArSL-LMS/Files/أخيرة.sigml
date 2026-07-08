@@ -1,0 +1,63 @@
+<sigml>
+
+<hamgestural_sign gloss="last-bow">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AKKAR"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345" thumbpos="across"   bend5="444"  extfidir="u" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"     contact="armextended"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+
+<tgt_motion>
+<split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="across"  bend5="444"   extfidir="u" palmor="d"/>
+      <handconfig handshape="flat"   extfidir="o" palmor="r"/>
+    </split_handconfig>
+<split_location>
+	<location_bodyarm location="shoulders"     contact="armextended"/>
+	<location_bodyarm location="shoulders" side="left_at"  contact="close" />
+    </split_location>
+</tgt_motion>
+
+<split_motion>
+           <directedmotion />
+<directedmotion direction="r"  size="big" />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="Reception">
+  <sign_manual both_hands="true" >
+
+<split_handconfig>
+      <handconfig handshape="finger2345" bend4="0 0 0 5"  bend5="444"   bend3="0 0 0 7"  bend2="0 0 0 1"  thumbpos="across"    extfidir="u" palmor="d"/>
+      <handconfig handshape="finger2"  thumbpos="out"  extfidir="o" palmor="d"/>
+    </split_handconfig>
+ 
+ 
+<handconstellation contact="touch">
+      		<location_hand location="tip"  digits="2"  side="front"  />
+      		<location_hand location="tip"  digits="4" side="left_beside"      />
+      		 <location_bodyarm location="shoulders"    />
+    	</handconstellation>
+<tgt_motion>
+<split_motion>
+
+      </split_motion>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

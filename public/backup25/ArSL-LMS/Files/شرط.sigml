@@ -1,0 +1,36 @@
+<sigml>
+<hamgestural_sign gloss="imposition">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SHROT"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    
+        <handconfig handshape="finger2"  thumbpos="across" extfidir="ul" palmor="r" />
+	  <location_bodyarm location="head" side="right_at" contact="close" />
+    
+	
+        <directedmotion direction="ur"/>
+
+  
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="imposition">
+  <sign_manual>
+    <split_handconfig>
+        <handconfig handshape="finger2345"   thumbpos="across" extfidir="l" palmor="l" />
+	<handconfig handshape="flat"   extfidir="u" palmor="d"/>
+    
+    </split_handconfig>
+    <handconstellation contact="touch">
+ <location_hand location="thumbball"     />
+      <location_hand location="tip"   digits="5" side="back" />
+     
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+   </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,33 @@
+<sigml>
+
+<hamgestural_sign gloss="strong">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KAOE"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist"    thumbpos="across"  extfidir="u" palmor="l"/>
+      <handconfig handshape="finger2345"  thumbpos="out"   extfidir="u" palmor="u"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="head" side="right_at"   contact="close"/>
+	<location_bodyarm location="shoulders"  side="left_at"  contact="close" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="i" size="small" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+<split_motion>
+<directedmotion direction="o" size="small" manner="fast"  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

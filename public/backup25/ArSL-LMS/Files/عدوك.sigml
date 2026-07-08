@@ -1,0 +1,33 @@
+<sigml>
+<hamgestural_sign gloss="Adouk">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="UP"/>
+    </eyegaze_tier>
+    <mouthing_tier>
+      <mouth_picture picture="Adou"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="d"/>
+      <handconfig extfidir="ur" palmor="dl"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="stomach" side="right_beside"/>
+      <location_bodyarm location="chest" side="left_at" contact="close"/>
+    </split_location>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+  
+        <directedmotion direction="ur" size="big"/>
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

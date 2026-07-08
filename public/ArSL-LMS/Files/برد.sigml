@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="cold">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BRD"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="across"/>
+    <handconfig extfidir="u" palmor="l"/>
+    <location_bodyarm location="shoulders"  contact="close"  />
+	
+     <directedmotion direction="r"  manner="fast" size="small"/>  
+<directedmotion direction="l"  manner="fast" size="small"/>
+<directedmotion direction="r"  manner="fast" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

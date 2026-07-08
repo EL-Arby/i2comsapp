@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="After-it">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BAD"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+       	<handconfig handshape="flat"  mainbend="111" extfidir="l" palmor="l"/>
+      	<handconfig handshape="flat"     extfidir="r" palmor="r"/>
+    </split_handconfig>
+   
+    
+	<handconstellation contact="close">
+      		<location_hand location="palm"   />
+      		<location_hand location="back" />
+      		 <location_bodyarm location="shoulders"  contact="close"/>
+    	</handconstellation>
+    
+<split_motion>
+ <directedmotion direction="o" curve="u" size="big" />
+ <directedmotion />
+      </split_motion>
+	
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

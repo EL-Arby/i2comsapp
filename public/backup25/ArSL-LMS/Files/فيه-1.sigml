@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="Inside">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="FEE"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  mainbend="400"  thumbpos="across"  extfidir="ou"  palmor="d"/>
+    <location_bodyarm location="head"/>
+    <par_motion>
+      <directedmotion direction="d" size="big" />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="o" palmor="d"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

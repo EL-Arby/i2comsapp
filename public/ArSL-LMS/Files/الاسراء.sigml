@@ -1,0 +1,71 @@
+<sigml>
+<hamgestural_sign gloss="israa">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="finger2"/>
+      <handconfig handshape="fist"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="or" palmor="u"/>
+      <handconfig extfidir="o" palmor="r"/>
+    </split_handconfig>
+    <location_bodyarm location="chest" side="right_beside"/>
+    <split_motion>
+      <seq_motion>
+        <directedmotion curve="u" direction="ul" size="big"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="l" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="l"/>
+        <directedmotion direction="dl"/>
+      </seq_motion>
+      <directedmotion direction="i" size="small"/>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger2345" thumbpos="out"/>
+          <handconfig extfidir="ul" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="ur" size="small"/>
+        <directedmotion direction="i" size="small"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger2"/>
+        </tgt_motion>
+        <directedmotion direction="dl" size="small"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="l" palmor="d"/>
+        </tgt_motion>
+      </seq_motion>
+      <directedmotion direction="i" size="small"/>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="u"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="ul" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="d"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="l" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="ur"/>
+        <directedmotion direction="r"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="or" palmor="d"/>
+        </tgt_motion>
+        <directedmotion direction="dr"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

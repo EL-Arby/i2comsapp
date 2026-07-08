@@ -1,0 +1,47 @@
+<sigml>
+<hamgestural_sign gloss="yomsekoho">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L07"/>
+      <mouth_gesture movement="L29"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="l"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="shoulders"/>
+    <split_motion>
+      <directedmotion direction="o" size="small" manner="fast"/>
+      <directedmotion direction="dr" manner="fast"/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="il"/>
+      <directedmotion direction="ir" size="small"/>
+    </split_motion>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="fist" thumbpos="opposed"/>
+    </tgt_motion>
+
+
+      <tgt_motion>
+<split_motion>
+      <directedmotion direction="or"/>
+      <directedmotion direction="or"/>
+      </split_motion>
+    <split_handconfig>
+         <handconfig extfidir="o" palmor="l"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+
+      </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

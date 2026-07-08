@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="majnoun">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="RU"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="T13"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="cheek"/>
+    <directedmotion direction="ru" size="small"/>
+    <wristmotion motion="twisting"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

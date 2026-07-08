@@ -1,0 +1,211 @@
+﻿body
+{
+    background: #EFFAFF url('../Images/Backgrounds/RightPageBG.jpg') repeat-y top center;
+}
+#Header
+{
+    margin: 0 auto;/*0+7*/
+    width: 1087px;/*600+501*/
+    min-height: 124px;
+    direction: rtl;     
+}
+html > /* */  body #Header, html > /* */ body #Body
+{
+     border: 1px solid transparent;
+     margin-bottom: 0px;
+}
+
+#Body
+{
+   margin: 0 auto; 
+   width: 1087px;/*600+501*/
+   min-height: 450px;/*450*/
+   direction: rtl;
+   background:  url('../Images/Backgrounds/NewBodyBg.jpg') repeat-y top center;
+   clear: both;
+   height: auto; 
+}
+
+#Footer
+{
+    margin: 0 auto;
+    width: 1080px; /*586+501*/
+    direction: rtl;
+    height: 42px;
+    padding-top: 10px;
+    background: #00112A url('../Images/Backgrounds/FooterBG.jpg') repeat-x top center;
+    clear: both;
+    margin-right:6px;
+    margin-left:2px;
+}
+/* Top Menu */
+#MainNavigation
+{
+    width: 150px;
+    float: right;
+    padding-top: 15px;
+    padding-left: 4px;
+    margin-right: 8px;
+}
+
+/* Body Layout */
+#Content
+{
+    float: right;
+	/*overflow-y: scroll;*/
+    width: 920px; /*420+500*/
+	min-height: 450px;/*450*/
+   
+}
+/* Side Menus */
+/* Sub Menu Boxes */
+.MenuBox
+{
+    margin-bottom: 5px;
+     background: #FFF;
+}
+.MenuBox h2
+{
+    background: #D0DAE1;
+    height: 30px;
+    line-height: 30px;
+}
+.MenuBoxRes
+{
+    margin-bottom: 5px;
+     background: #FFF;
+}
+.MenuBoxRes h2
+{
+    background: #D0DAE1;
+    height: 30px;
+    line-height: 30px;
+}
+
+html > body .MenuBox h2
+{
+    min-height: 30px;
+    height: auto;
+}
+/* Sub Menus Header */
+h2.Options
+{
+      background: #D0DAE1 url(../images/icons/Options.jpg) no-repeat right 3px;
+      padding-right: 30px;
+}
+h2.OptionsRes
+{
+      background: #D0DAE1 url(../images/icons/Options.jpg) no-repeat right 3px;
+      padding-right: 30px;
+      height : 20pt;
+      vertical-align:middle;
+}
+
+
+/* Sub menu Content */
+.MenuBoxContent
+{
+   
+    padding: 5px 10px 10px 2px;
+}
+.MenuBoxContent ul
+{
+    margin-top: 5px;
+}
+.MenuBoxContent ul li
+{
+    padding-right: 12px;
+    padding-bottom: 8px;
+    background: url(../images/icons/UlIcon.jpg) no-repeat right 3px;
+}
+
+.MenuBoxContent label
+{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.MenuBox .ButtonContainer
+{
+    text-align: left;
+    clear: right;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.MenuBox .ButtonContainer img
+{
+    vertical-align: middle;
+}
+.MenuBoxRes .ButtonContainer
+{
+    text-align: left;
+    clear: right;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.MenuBoxRes .ButtonContainer img
+{
+    vertical-align: middle;
+}
+
+ /* Side Menu Items */
+ ul.MenuItems 
+ {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ ul.HeadMenuItems 
+ {
+    margin-top: 20px;
+    margin-bottom: 2px;
+ }
+
+
+ html > /* */ body ul.MenuItems
+ {
+     margin-top: 8px;
+ }
+ ul.MenuItems li
+ {
+     background: url(../images/backgrounds/MenuItemsBg.jpg) no-repeat right top;
+     height: 22px;
+     width: 125px;
+     padding-right: 25px;
+     padding-top: 5px;
+     margin-bottom: 1px;
+ }
+ul.HeadMenuItems li
+ {
+     background: url(../images/backgrounds/HeadMenuItemsBg.jpg) no-repeat right top;
+     height: 22px;
+     width: 135px;
+     padding-right: 25px;
+     padding-top: 5px;
+     margin-bottom: 1px;
+ }
+
+ul.SubMenuItems li
+ {
+     background: url(../images/backgrounds/MenuItemsBg.jpg) no-repeat right top;
+     height: 22px;
+     width: 135px;
+     padding-right: 20px;
+     padding-top: 5px;
+     margin-bottom: 1px;
+ }
+ /* Pages */
+
+.Navigation .Button
+{
+    vertical-align: middle;
+}
+/* Buttons & controls */
+.Button
+{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.Control
+{
+    width: 105px;
+}

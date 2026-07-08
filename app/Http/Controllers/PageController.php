@@ -51,7 +51,20 @@ class PageController extends Controller
         $silverSponsors = Sponsor::published()->where('level', 'silver')->ordered()->get();
         $bronzeSponsors = Sponsor::published()->where('level', 'bronze')->ordered()->get();
         
-        return view('pages.sponsors', compact('collaborators', 'platinumSponsors', 'goldSponsors', 'silverSponsors', 'bronzeSponsors'));
+        $sponsorTitles = [
+            'platinum_title' => SiteSetting::getValue('platinum_sponsors_title', '💎 Platinum Sponsors'),
+            'platinum_subtitle' => SiteSetting::getValue('platinum_sponsors_subtitle', 'Our premier partners'),
+            'gold_title' => SiteSetting::getValue('gold_sponsors_title', '🏆 Gold Sponsors'),
+            'gold_subtitle' => SiteSetting::getValue('gold_sponsors_subtitle', 'Key strategic partners'),
+            'silver_title' => SiteSetting::getValue('silver_sponsors_title', '✨ Silver Sponsors'),
+            'silver_subtitle' => SiteSetting::getValue('silver_sponsors_subtitle', 'Supporting organizations'),
+            'bronze_title' => SiteSetting::getValue('bronze_sponsors_title', '🤝 Bronze Partners'),
+            'bronze_subtitle' => SiteSetting::getValue('bronze_sponsors_subtitle', 'Community supporters'),
+            'collaborators_title' => SiteSetting::getValue('collaborators_title', 'Collaborators'),
+            'collaborators_subtitle' => SiteSetting::getValue('collaborators_subtitle', 'Academic partners'),
+        ];
+        
+        return view('pages.sponsors', compact('collaborators', 'platinumSponsors', 'goldSponsors', 'silverSponsors', 'bronzeSponsors', 'sponsorTitles'));
     }
 
     public function exhibitions()

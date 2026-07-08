@@ -1,0 +1,29 @@
+<sigml>
+
+<hamgestural_sign gloss="want">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual >
+
+      <handconfig handshape="flat" mainbend="2 1 0"  thumbpos="out"  extfidir="il" palmor="rd"/>
+
+	<location_bodyarm location="shouldertop"     contact="close"/>
+	<directedmotion direction="id" size="small"  />
+        <directedmotion direction="ou" size="small"  />
+           <directedmotion direction="id" size="small"  />
+             </sign_manual>
+</hamgestural_sign>
+
+</sigml>

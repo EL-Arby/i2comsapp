@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="MaMom">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"      extfidir="u" palmor="d" thumbpos="across"/>
+      <handconfig handshape="finger2345"    extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   />
+	<location_bodyarm location="shouldertop"   contact="close"    />
+    </split_location>
+<tgt_motion>
+<split_motion>
+ <directedmotion  />
+ <directedmotion direction="li"      />
+      </split_motion>
+
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,33 @@
+<sigml>
+  
+<hamgestural_sign gloss="Tried">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ASHD"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true"  >
+    <handconfig handshape="finger2" thumbpos="out"  extfidir="luo" palmor="l" mainbend = "121"/>
+
+      <location_bodyarm location="lowereyelid" contact="touch"/>
+
+
+ 
+
+  	<tgt_motion>
+  <directedmotion direction="d"  size="small"  curve="u"  />
+ <location_bodyarm location="chest" contact="close"/>
+			</tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

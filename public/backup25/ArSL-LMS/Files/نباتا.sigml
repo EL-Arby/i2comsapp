@@ -1,0 +1,56 @@
+<sigml>
+<hamgestural_sign gloss="nabata">
+  <sign_nonmanual>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L05"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="pinchall"/>
+      <handconfig handshape="flat" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="u"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="shoulders" contact="close"/>
+      <location_bodyarm contact="touch" location="stomach"/>
+    </split_location>
+    <split_motion>
+      <seq_motion>
+        
+        <tgt_motion>
+         <directedmotion direction="iu"/>
+          <handconfig handshape="finger2345" thumbpos="out"/>
+        </tgt_motion>
+        <directedmotion direction="o"  />
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+       
+        <tgt_motion>
+          <directedmotion direction="uo" size="big"/>
+          <handconfig handshape="flat" mainbend="003"  thumbpos="opposed"/>
+        </tgt_motion>
+        <directedmotion direction="ir" size="small"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <rpt_motion repetition="fromstart">
+        <directedmotion direction="r" size="small"/>
+      </rpt_motion>
+      <rpt_motion repetition="fromstart">
+        <directedmotion direction="r" size="small"/>
+      </rpt_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

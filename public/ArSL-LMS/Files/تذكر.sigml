@@ -1,0 +1,31 @@
+<sigml>
+<hamgestural_sign gloss="tadhakara">
+ 
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X64"/>
+</extra_par>
+ 
+    </extra_tier>
+
+  </sign_nonmanual>
+ 
+  <sign_manual>
+    <handconfig handshape="fist"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="close" location="ear"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2" thumbpos="across"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,15 @@
+<sigml>
+	<hamgestural_sign gloss="zero">
+  		<sign_manual>
+    			<handconfig handshape="pinch12"/>
+    			<handconfig extfidir="u"/>
+    			<handconfig palmor="d"/>
+    			<location_bodyarm location="shoulders"  side ="right_at" contact="close"/>
+			<tgt_motion manner="rest">
+	 			 <changeposture/>
+			</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>
+	
+

@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="karim">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="ol"/>
+    <handconfig palmor="lu"/>
+    <location_bodyarm contact="close" location="shoulders" side="right_at" />
+    <par_motion>
+      <tgt_motion>
+         <directedmotion direction="d" size="big"/>
+        <handconfig handshape="finger2345" thumbpos="out"/>
+        <handconfig extfidir="o" palmor="l"/>
+      </tgt_motion>
+     
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="farash kadmah">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true">
+    <split_handconfig>
+      <handconfig handshape="flat" mainbend="300"  thumbpos="across"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="ldo" palmor="l"/>
+      <handconfig extfidir="r" palmor="ur" />
+    </split_handconfig>
+ 
+	 <handconstellation contact="touch">
+      		<location_hand location="tip"    />
+      		<location_hand location="back" digits="3"  />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+   
+    <directedmotion direction="d" size="small" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

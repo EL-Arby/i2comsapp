@@ -1,0 +1,158 @@
+<sigml>
+
+<hamgestural_sign gloss="KoL-RAKAH">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"   thumbpos="across" mainbend="1 0.5 0"    extfidir="li" palmor="d"/>
+      <handconfig handshape="finger2345"   extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <handconstellation contact="touch">
+<location_hand location="tip"  digits="2"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+ 
+ 
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="d" size="small"  />
+           <directedmotion />
+      </split_motion>
+ 
+
+<handconstellation contact="touch">
+<location_hand location="base"  digits="2" side="front"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+
+<tgt_motion>
+ <handconstellation contact="touch">
+<location_hand location="tip"  digits="3"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+
+  
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="d" size="small"  />
+           <directedmotion />
+      </split_motion>
+ 
+
+<handconstellation contact="touch">
+<location_hand location="base"  digits="3" side="front"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+
+
+<tgt_motion>
+ <handconstellation contact="touch">
+<location_hand location="tip"  digits="4"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+<tgt_motion>
+
+<split_motion>
+<directedmotion direction="d" size="small"  />
+           <directedmotion />
+      </split_motion>
+ 
+
+<handconstellation contact="touch">
+<location_hand location="base"  digits="4" side="front"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+<tgt_motion>
+ <handconstellation contact="touch">
+<location_hand location="tip"  digits="5"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+
+
+ 
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="d" size="small"  />
+           <directedmotion />
+      </split_motion>
+ 
+
+<handconstellation contact="touch">
+<location_hand location="base"  digits="5" side="front"/>
+<location_hand location="tip"  digits="2"/>      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+<hamgestural_sign gloss="KoL-RAKAH">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    mainbend="1 0.5 0"    extfidir="l" palmor="rd"/>
+      <handconfig handshape="finger2345"     extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <handconstellation contact="close">
+<location_hand location="side"    />
+<location_hand location="tip"    />      		
+      		 <location_bodyarm location="shoulders"  side="left_at"  contact="close"/>
+    	</handconstellation>
+
+ 
+ 
+ <tgt_motion>
+<split_motion>
+<directedmotion direction="l" curve="l"   manner="slow" size="big"  />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"    mainbend="1 0.5 0"    extfidir="d" palmor="rd"/>
+      <handconfig handshape="finger2345"     extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+</tgt_motion>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="r" curve="r"   manner="slow" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"    mainbend="1 0.5 0"    extfidir="l" palmor="ld"/>
+      <handconfig handshape="finger2345"     extfidir="u" palmor="dr"/>
+    </split_handconfig>
+
+
+ 
+ <handconstellation contact="close">
+<location_hand location="side"    />
+<location_hand location="tip"    />      		
+      		 <location_bodyarm location="shoulders"  side="left_at"  contact="close"/>
+    	</handconstellation>
+ 
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

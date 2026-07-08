@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="Second_best">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="fist"   thumbpos="out"      extfidir="o" palmor="l"/>
+      <handconfig handshape="fist"   thumbpos="out"      extfidir="o" palmor="r"/>
+       </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at"   contact="close"/>
+	<location_bodyarm location="shoulders"   side="left_at" contact="close" />
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion  />
+           <directedmotion  direction="ro"  curve="u"  size="big"    />
+      </split_motion>
+    
+ 
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

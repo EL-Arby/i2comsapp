@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="full">
+  <sign_manual >
+ 
+      <handconfig handshape="fist" thumbpos="across" extfidir="u" palmor="u" bend2="344"/>
+   
+       <location_bodyarm location="head"  contact="close" />
+  
+<tgt_motion>
+      <directedmotion direction="d" size="small" manner="fast" />
+   <handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="u"  />
+</tgt_motion>
+<tgt_motion>
+      <handconfig handshape="fist" thumbpos="across" extfidir="u" palmor="u" bend2="344"/>
+   
+</tgt_motion>
+<tgt_motion>
+      <directedmotion direction="d" size="small" manner="fast" />
+   <handconfig handshape="finger2" thumbpos="across" extfidir="u" palmor="u"  />
+</tgt_motion>
+   </sign_manual>
+</hamgestural_sign>
+</sigml>

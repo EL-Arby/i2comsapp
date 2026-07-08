@@ -1,0 +1,28 @@
+<sigml>
+
+<hamgestural_sign gloss="Eat">
+<sign_nonmanual>
+
+    <extra_tier>
+<extra_par>
+      <extra_movement movement="X50"/>
+       
+
+</extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    
+      <handconfig handshape="pinchall"   mainbend="bent"   extfidir="uo" palmor="u"/>
+	<location_bodyarm location="shoulders"    />
+
+ <tgt_motion>
+<directedmotion direction="iu"  />
+
+	<location_bodyarm location="lips"    />
+
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

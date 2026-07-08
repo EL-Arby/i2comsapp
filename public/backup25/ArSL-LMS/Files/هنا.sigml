@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="he">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ONA"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+    <handconfig handshape="finger2"  mainbend="400" thumbpos="across"  />
+    <handconfig extfidir="ol" palmor="d"/>
+    <location_bodyarm location="head" contact="close"  side="right_at" />
+	
+
+<directedmotion direction="d"   />
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,16 @@
+<sigml>
+
+<hamgestural_sign gloss="capable-of">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="l" palmor="l"/>
+    <location_bodyarm location="chest" contact="touch"  />
+<tgt_motion>	
+     <directedmotion direction="o"  manner="fast" size="big"/>
+<handconfig handshape="fist" thumbpos="across"/>
+<handconfig extfidir="lo" palmor="l"/>
+</tgt_motion>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="alone_at_the_back">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="MOATB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345"  thumbpos="out"  extfidir="u" palmor="dl"/>
+      <handconfig  handshape="finger2"  thumbpos="across"  extfidir="u" palmor="rd" />
+
+    </split_handconfig>
+  
+ <split_location>
+	<location_bodyarm location="shoulders"   />
+	<location_bodyarm location="shoulders"   contact="close"   />
+    </split_location>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

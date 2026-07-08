@@ -1,0 +1,22 @@
+<sigml>
+<hamgestural_sign gloss="on-you">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ALEKOB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="finger23" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close"/>
+    <par_motion>
+      <directedmotion direction="or" curve="u" manner="slow"/>
+      <tgt_motion>
+        <handconfig extfidir="our" palmor="lu"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

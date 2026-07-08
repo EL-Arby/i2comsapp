@@ -1,0 +1,26 @@
+<sigml>
+
+<hamgestural_sign gloss="ten">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ASRA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual >
+
+      <handconfig handshape="finger2"  thumbpos="across"  extfidir="ul" palmor="l"/>
+  
+	<location_bodyarm location="head"     contact="close"/>
+ <tgt_motion>
+ 
+ <directedmotion direction="d"        />
+
+<handconfig handshape="finger2"  thumbpos="across"    extfidir="l" palmor="l"/>
+  
+	
+</tgt_motion>
+
+       </sign_manual>
+</hamgestural_sign>
+
+</sigml>

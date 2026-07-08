@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="direction">
+  <sign_manual both_hands="true"  >
+    <handconfig handshape="flat"  extfidir="u" palmor="l"/>
+    <location_bodyarm location="head" contact="close"/>
+    <par_motion>
+      <directedmotion direction="od" curve="u"    />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ou" palmor="l"/>
+      </tgt_motion>
+    </par_motion>
+  <par_motion>
+      <directedmotion direction="r"    size="small"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="uor" palmor="l"/>
+      </tgt_motion>
+    </par_motion>
+ <par_motion>
+      <directedmotion direction="l"    />
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="uol" palmor="l"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+ 
+</sigml>

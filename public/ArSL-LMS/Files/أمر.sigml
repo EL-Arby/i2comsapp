@@ -1,0 +1,27 @@
+<sigml>
+<hamgestural_sign gloss="order">
+
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ABR"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+   
+        <handconfig handshape="finger2" thumbpos="across"   extfidir="u" palmor="l"/>
+
+     
+      <location_bodyarm location="shouldertop" side="right_at" contact="close"/>
+      
+		<tgt_motion>
+        			
+					<directedmotion direction="o"  />
+        				<handconfig extfidir="o" palmor="l"/>
+ <location_bodyarm location="chest" side="right_at" contact="armextended"/>
+      				</tgt_motion>
+
+		 			
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

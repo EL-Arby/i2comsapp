@@ -1,0 +1,23 @@
+<sigml>
+<hamgestural_sign gloss="Salam">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SLAB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" />
+    <handconfig extfidir="iul"/>
+    <handconfig palmor="ld"/>
+    <location_bodyarm location="forehead" contact="close" side="right_at" />
+    <par_motion>
+      <directedmotion direction="rd" curve="u" size="big"/>
+      <tgt_motion>
+        <handconfig extfidir="or" palmor="l"/>
+    <location_bodyarm location="chest" contact="close" side="right_beside" />
+   
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

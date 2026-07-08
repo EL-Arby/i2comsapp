@@ -1,0 +1,72 @@
+<sigml>
+<hamgestural_sign gloss="Aqlaf">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="opposed" mainbend="2 0 0 2" extfidir="uol" palmor="ul"/>
+      <handconfig handshape="finger2"   mainbend="2 0 0 8" extfidir="ro" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+ 
+ <handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"    />
+<location_hand location="midjoint"   digits="2"  side="right_beside" />
+      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+ 
+      <tgt_motion>
+     
+<split_motion>
+<directedmotion direction="dr"  />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="pinchall"    mainbend="bent" extfidir="uol" palmor="ul"/>
+      <handconfig handshape="finger2"   mainbend="2 0 0 8" extfidir="ro" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+      </tgt_motion>
+
+  
+   
+      <tgt_motion>
+ 
+      
+<split_motion>
+<directedmotion direction="ul"  />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"  thumbpos="opposed" mainbend="2 0 0 2" extfidir="uol" palmor="ul"/>
+      <handconfig handshape="finger2"   mainbend="2 0 0 8" extfidir="ro" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+
+      
+ <handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"    />
+<location_hand location="midjoint"   digits="2"  side="right_beside" />
+      		
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+
+</tgt_motion>
+
+ 
+      <tgt_motion>
+     
+<split_motion>
+<directedmotion direction="dr"  />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="pinchall"    mainbend="bent" extfidir="uol" palmor="ul"/>
+      <handconfig handshape="finger2"   mainbend="2 0 0 8" extfidir="ro" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

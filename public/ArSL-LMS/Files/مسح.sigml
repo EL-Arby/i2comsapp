@@ -1,0 +1,69 @@
+<sigml>
+<hamgestural_sign gloss="$PROD">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out" />
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="u"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+     
+ 
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"     />
+      		<location_hand location="palm"  digits="1"/>
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+<rpt_motion repetition="fromstart">
+
+ <tgt_motion>
+       <split_motion>
+
+           <directedmotion />
+<directedmotion direction="o"  />
+      </split_motion>
+  <split_handconfig>
+      <handconfig extfidir="o" palmor="u"/>
+      <handconfig extfidir="r" palmor="ld"/>
+    </split_handconfig>
+
+ </tgt_motion>
+        </rpt_motion>
+
+ <tgt_motion>
+
+     
+ 
+  <split_handconfig>
+      <handconfig extfidir="o" palmor="u"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"     />
+      		<location_hand location="palm"  digits="1"/>
+      		 <location_bodyarm location="chest"   contact="close"/>
+    	</handconstellation>
+
+ </tgt_motion>
+   
+
+
+<rpt_motion repetition="fromstart">
+
+ <tgt_motion>
+       <split_motion>
+
+           <directedmotion />
+<directedmotion direction="ui" size="small"  />
+      </split_motion>
+  <split_handconfig>
+      <handconfig extfidir="o" palmor="u"/>
+      <handconfig extfidir="r" palmor="rd"/>
+    </split_handconfig>
+
+ </tgt_motion>
+        </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="work">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OAAKEF"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+
+  		<sign_manual >
+ <split_handconfig>
+    <handconfig handshape="fist" thumbpos="across"    extfidir="l"  palmor="l"/>
+     <handconfig handshape="fist" thumbpos="across"    extfidir="r"  palmor="r"/>
+</split_handconfig>
+
+ <split_location>
+	<location_bodyarm location="shouldertop"  contact="close"/>
+	<location_bodyarm location="chest"     />
+    </split_location>
+<tgt_motion>
+     <handconstellation contact="touch">
+      <location_hand location="thumbball"  side="right_at" />
+       <location_hand location="side"  digits="4" />
+      
+    </handconstellation>
+      		</tgt_motion>
+
+		</sign_manual>
+	</hamgestural_sign>
+
+</sigml>

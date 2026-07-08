@@ -1,0 +1,43 @@
+<sigml>
+
+<hamgestural_sign gloss="cut">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="QATA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig  handshape="finger23spread"  thumbpos="across"  extfidir="l" palmor="l" />
+      <handconfig handshape="flat"   extfidir="o" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="right_at" contact="armextended"   />
+	<location_bodyarm location="shoulders"   contact="close"   />
+    </split_location>
+<tgt_motion>
+<split_motion>
+ <directedmotion direction="l"  size="big" manner="fast"/>
+ <directedmotion />
+
+      </split_motion>
+ <split_handconfig>
+      <handconfig  handshape="finger23"  thumbpos="across"  extfidir="l" palmor="l" />
+      <handconfig handshape="flat"   extfidir="o" palmor="d"/>
+    </split_handconfig>
+
+
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Himself">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="NAFFS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"  extfidir="ul"  palmor="l"/>
+    <location_bodyarm location="nose" contact="touch"/>
+      <tgt_motion>
+              <directedmotion direction="d" curve="u" />
+            <handconfig handshape="finger2"  mainbend="400"  thumbpos="across"  extfidir="ul"  palmor="l"/>
+    <location_bodyarm location="chest" contact="touch"/>
+      </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

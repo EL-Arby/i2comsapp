@@ -1,0 +1,58 @@
+<sigml>
+
+<hamgestural_sign gloss="go-and-back">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOOOOOOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual >
+      
+<split_handconfig>
+	    <handconfig handshape="flat"   extfidir="l" bend2="110" bend3="110" bend4="110" bend5="000" palmor="d" />
+      <handconfig handshape="finger2345" thumbpos="out" extfidir="r" palmor="r"/>
+ 
+    </split_handconfig>
+
+ <split_location>
+	<location_bodyarm location="shouldertop"   side ="right_at" contact="close"/>
+	<location_bodyarm location="shoulders"   side="left_at" contact="close" />
+    </split_location>
+
+	
+<directedmotion direction="" size="small" />
+	 
+<tgt_motion>
+ 
+        <directedmotion direction="o" size="big" mannar="fast" />
+	 
+      <handconfig handshape="flat"   extfidir="lo" bend2="110" bend3="110" bend4="110" bend5="000" palmor="rd" />
+</tgt_motion>
+
+<tgt_motion>
+ 
+        <directedmotion direction="i" size="big" mannar="fast" />
+	 
+      <handconfig handshape="flat"   extfidir="l" bend2="110" bend3="110" bend4="110" bend5="000" palmor="d" />
+</tgt_motion>
+<tgt_motion>
+ 
+        <directedmotion direction="o" size="big" mannar="fast" />
+	 
+      <handconfig handshape="flat"   extfidir="lo" bend2="110" bend3="110" bend4="110" bend5="000" palmor="rd" />
+</tgt_motion>
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

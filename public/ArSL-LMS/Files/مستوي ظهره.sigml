@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="Mostwi">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="flat"  extfidir="ol" palmor="d"/>
+      <handconfig handshape="flat" mainbend="400"  extfidir="u" palmor="r"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="back"  digits="4" />
+      <location_hand location="tip" digits="4"/>
+      <location_bodyarm location="neck" contact="close"/>
+    </handconstellation>
+    <tgt_motion>
+    <split_motion>
+        <directedmotion direction="r" />
+	<directedmotion direction="" />
+</split_motion>
+    <split_handconfig>
+      <handconfig handshape="flat"  extfidir="o" palmor="d"/>
+      <handconfig handshape="flat" mainbend="400"  extfidir="u" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,181 @@
+
+INPUT STRING: »”„
+LOOK-UP WORD: bsm
+  SOLUTION 1: (bisomi) [bisomi_1] bi/PREP+somi/NOUN
+     (GLOSS):  + in/by + (the) Name of + 
+  SOLUTION 2: (basama) [basam-i_1] basam/VERB_PERFECT+a/PVSUFF_SUBJ:3MS
+     (GLOSS):  + smile + he/it <verb>
+  SOLUTION 3: (basom) [basom_1] basom/NOUN
+     (GLOSS):  + smiling + 
+  SOLUTION 4: (bisam~) [sam~_1] bi/PREP+sam~/NOUN
+     (GLOSS): by/with + poison + 
+
+INPUT STRING: «··Â
+LOOK-UP WORD: Allh
+  SOLUTION 1: (All~`h) [All~ah_1] All~`h/NOUN_PROP
+     (GLOSS):  + Allah/God + 
+
+INPUT STRING: «·—Õ„‰
+LOOK-UP WORD: AlrHmn
+  SOLUTION 1: (AlraHom`n) [raHom`n_1] Al/DET+raHom`n/NOUN_PROP
+     (GLOSS): the + Rahman + 
+  SOLUTION 2: (AlraHom`n) [raHom`n_2] Al/DET+raHom`n/ADJ
+     (GLOSS): the + merciful + 
+
+INPUT STRING: «·—ÕÌ„
+LOOK-UP WORD: AlrHym
+  SOLUTION 1: (AlraHiym) [raHiym_1] Al/DET+raHiym/NOUN_PROP
+     (GLOSS): the + Rahim + 
+  SOLUTION 2: (AlraHiym) [raHiym_2] Al/DET+raHiym/ADJ
+     (GLOSS): the + compassionate + 
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING: ﬂ «»
+LOOK-UP WORD: ktAb
+  SOLUTION 1: (kitAb) [kitAb_1] kitAb/NOUN
+     (GLOSS):  + book + 
+  SOLUTION 2: (kut~Ab) [kut~Ab_1] kut~Ab/NOUN
+     (GLOSS):  + kuttab (village school)/Quran school + 
+  SOLUTION 3: (kut~Ab) [kAtib_1] kut~Ab/NOUN
+     (GLOSS):  + authors/writers + 
+
+INPUT STRING: «·’·«…
+LOOK-UP WORD: AlSlAp
+  SOLUTION 1: (AlSalAap) [SalAp_1] Al/DET+SalA/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): the + prayer/salat + [fem.sg.]
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING:  ⁄—Ì›
+LOOK-UP WORD: tEryf
+  SOLUTION 1: (taEoriyf) [taEoriyf_1] taEoriyf/NOUN
+     (GLOSS):  + identification/notification + 
+
+INPUT STRING: «·’·«…
+LOOK-UP WORD: AlSlAp
+  SOLUTION 1: (AlSalAap) [SalAp_1] Al/DET+SalA/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): the + prayer/salat + [fem.sg.]
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING: «·’·«…
+LOOK-UP WORD: AlSlAp
+  SOLUTION 1: (AlSalAap) [SalAp_1] Al/DET+SalA/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): the + prayer/salat + [fem.sg.]
+
+INPUT STRING: ·€…
+LOOK-UP WORD: lgp
+  SOLUTION 1: (lugap) [lugap_1] lug/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS):  + language + [fem.sg.]
+
+INPUT STRING: «·œ⁄«¡
+LOOK-UP WORD: AldEA'
+  SOLUTION 1: (AlduEA') [duEA'_1] Al/DET+duEA'/NOUN
+     (GLOSS): the + call/request/invocation + 
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING: ‘—⁄«
+LOOK-UP WORD: $rEA
+  SOLUTION 1: ($araEA) [$araE-a_1] $araE/VERB_PERFECT+A/PVSUFF_SUBJ:3MD
+     (GLOSS):  + start/undertake + they (both) <verb>
+  SOLUTION 2: ($araEA) [$araE-a_2] $araE/VERB_PERFECT+A/PVSUFF_SUBJ:3MD
+     (GLOSS):  + enact/prescribe + they (both) <verb>
+  SOLUTION 3: ($ar~aEA) [$ar~aE_1] $ar~aE/VERB_PERFECT+A/PVSUFF_SUBJ:3MD
+     (GLOSS):  + legislate + they (both) <verb>
+  SOLUTION 4: ($aroEAF) [$aroE_1] $aroE/NOUN+AF/NSUFF_MASC_SG_ACC_INDEF
+     (GLOSS):  + law + [acc.indef.]
+
+INPUT STRING: ﬁ—»…
+LOOK-UP WORD: qrbp
+  SOLUTION 1: (qirobap) [qirobap_1] qirob/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS):  + waterskin + [fem.sg.]
+  SOLUTION 2: (qurobap) [qurobap_1] qurob/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS):  + pious deed + [fem.sg.]
+
+INPUT STRING: ›⁄·Ì…
+LOOK-UP WORD: fElyp
+  SOLUTION 1: (fiEoliy~ap) [fiEoliy~_1] fiEoliy~/ADJ+ap/NSUFF_FEM_SG
+     (GLOSS):  + actual/real/de facto + [fem.sg.]
+  SOLUTION 2: (faEil~iy~ap) [Eil~iy~ap_1] fa/CONJ+Eil~iy~/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): and/so + causality + [fem.sg.]
+  SOLUTION 3: (faEaliy~ap) [Ealiy~_1] fa/CONJ+Ealiy~/ADJ+ap/NSUFF_FEM_SG
+     (GLOSS): and/so + supreme/high + [fem.sg.]
+  SOLUTION 4: (faEiloyap) [Eiloyap_1] fa/CONJ+Eiloy/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): and/so + prominent + [fem.sg.]
+  SOLUTION 5: (faEuliy~ap) [Euliy~ap_1] fa/CONJ+Euliy~/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): and/so + upper room + [fem.sg.]
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING: ﬂ «»
+LOOK-UP WORD: ktAb
+  SOLUTION 1: (kitAb) [kitAb_1] kitAb/NOUN
+     (GLOSS):  + book + 
+  SOLUTION 2: (kut~Ab) [kut~Ab_1] kut~Ab/NOUN
+     (GLOSS):  + kuttab (village school)/Quran school + 
+  SOLUTION 3: (kut~Ab) [kAtib_1] kut~Ab/NOUN
+     (GLOSS):  + authors/writers + 
+
+INPUT STRING: «·ÿÂ«—…
+LOOK-UP WORD: AlThArp
+  SOLUTION 1: (AlTahArap) [TahArap_1] Al/DET+TahAr/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): the + purity/chastity + [fem.sg.]
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING: »«»
+LOOK-UP WORD: bAb
+  SOLUTION 1: (bAb) [bAb_1] bAb/NOUN
+     (GLOSS):  + door/gate + 
+  SOLUTION 2: (bAb) [bAb_2] bAb/NOUN
+     (GLOSS):  + category/rubric + 
+  SOLUTION 3: (bi|b) [|b_1] bi/PREP+|b/NOUN_PROP
+     (GLOSS): by/with + August + 
+  SOLUTION 4: (bi>ab) [>ab_1] bi/PREP+>ab/NOUN
+     (GLOSS): by/with + father + 
+
+INPUT STRING: «·Ê÷Ê¡
+LOOK-UP WORD: AlwDw'
+  SOLUTION 1: (AlwuDuw') [wuDuw'_1] Al/DET+wuDuw'/NOUN
+     (GLOSS): the + ritual ablution/state of purity + 
+  SOLUTION 2: (AlwaDuw') [waDuw'_1] Al/DET+waDuw'/NOUN
+     (GLOSS): the + water for ablution + 
+
+INPUT STRING: .     Comment: Non-Alphabetic Data
+
+INPUT STRING: «·Ê÷Ê¡
+LOOK-UP WORD: AlwDw'
+  SOLUTION 1: (AlwuDuw') [wuDuw'_1] Al/DET+wuDuw'/NOUN
+     (GLOSS): the + ritual ablution/state of purity + 
+  SOLUTION 2: (AlwaDuw') [waDuw'_1] Al/DET+waDuw'/NOUN
+     (GLOSS): the + water for ablution + 
+
+INPUT STRING: ·€…
+LOOK-UP WORD: lgp
+  SOLUTION 1: (lugap) [lugap_1] lug/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS):  + language + [fem.sg.]
+
+INPUT STRING: Ì⁄‰Ì
+LOOK-UP WORD: yEny
+  SOLUTION 1: (yaEoniy) [EanaY-i_1] ya/IV3MS+Eoniy/VERB_IMPERFECT
+     (GLOSS): he/it + mean/signify/concern + 
+  SOLUTION 2: (yuEan~iy) [Ean~aY_1] yu/IV3MS+Ean~iy/VERB_IMPERFECT
+     (GLOSS): he/it + afflict + 
+
+INPUT STRING: «·Õ”‰
+LOOK-UP WORD: AlHsn
+  SOLUTION 1: (AlHuson) [Huson_1] Al/DET+Huson/NOUN
+     (GLOSS): the + good/beauty + 
+  SOLUTION 2: (AlHasan) [Hasan_1] Al/DET+Hasan/NOUN_PROP
+     (GLOSS): the + Hassan + 
+  SOLUTION 3: (AlHasan) [Hasan_2] Al/DET+Hasan/NOUN
+     (GLOSS): the + good + 
+
+INPUT STRING: Ê«·‰Ÿ«›…
+LOOK-UP WORD: wAlnZAfp
+  SOLUTION 1: (waAlnaZAfap) [naZAfap_1] wa/CONJ+Al/DET+naZAf/NOUN+ap/NSUFF_FEM_SG
+     (GLOSS): and + the + cleanliness/cleaning + [fem.sg.]
+
+INPUT STRING: .     Comment: Non-Alphabetic Data

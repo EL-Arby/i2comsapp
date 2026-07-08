@@ -1,0 +1,52 @@
+<sigml>
+
+<hamgestural_sign gloss="free">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HOR"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+<split_handconfig>
+      <handconfig handshape="fist"    extfidir="ul" palmor="dr"/>
+      <handconfig  handshape="fist"   extfidir="ruo" palmor="ur" />
+    </split_handconfig>
+  
+<handconstellation contact="touch">
+      <location_hand location="wristback" side="left_at" />
+      <location_hand location="wristback"  side="front"  />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+
+ <split_motion>
+<directedmotion direction="ru"  />
+<directedmotion direction="ld"  />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="free">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HOR"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+ 
+      <handconfig  handshape="flat"   bend3="200"  extfidir="lu" palmor="ld" />
+
+      <location_bodyarm location="forehead" side="right_at"  contact="close"/>
+  <tgt_motion>
+<directedmotion direction="r" size="small"  />
+      <handconfig  handshape="flat"  thumbpos="out" mainbend="0 0 0 2"     extfidir="u" palmor="ld" />
+
+  </tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+</sigml>

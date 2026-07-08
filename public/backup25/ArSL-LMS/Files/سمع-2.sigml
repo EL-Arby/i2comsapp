@@ -1,0 +1,23 @@
+<sigml>
+
+<hamgestural_sign gloss="hear">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ESBA"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+ 	<sign_manual>
+	<handconfig handshape="finger2" thumbpos="across" mainbend="100"  extfidir="ul" palmor="dl"   />
+      	<location_bodyarm location="ear"    side="front"  />
+                     </sign_manual>
+</hamgestural_sign>
+</sigml>

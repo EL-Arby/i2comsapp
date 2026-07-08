@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="hot">
+  <sign_nonmanual>
+    <extra_tier>
+      <extra_par>
+        <extra_movement movement="X10"/>
+        <extra_movement movement="X61"/>
+
+      </extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" mainbend="044"  thumbpos="across"/>
+    <handconfig extfidir="l"  palmor="d"/>
+    <location_bodyarm location="forehead"  contact="touch" />
+      <directedmotion direction="r"    />
+     
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

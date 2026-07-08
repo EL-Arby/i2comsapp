@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="Try">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="SSS"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true" outofphase="true">
+    <handconfig handshape="flat" mainbend="0 1 1 2"  thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="u"/>
+    <handconstellation contact="close">
+      <location_hand location="tip" digits="3"/>
+      <location_hand location="palm"/>
+      <location_bodyarm location="shouldertop" side="close" />
+    </handconstellation>
+      <tgt_motion>
+        <circularmotion axis="lu" size="big" manner="slow" />
+        <handconstellation contact="close">
+          <location_hand location="tip" digits="3"/>
+          <location_hand location="palm"/>
+        </handconstellation>
+      </tgt_motion>
+      </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="arrange">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="NDAB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="020"    extfidir="lu" palmor="dl" thumbpos="across" />
+      <handconfig handshape="flat"   extfidir="u" palmor="rd"/>
+    </split_handconfig>
+ <handconstellation contact="touch">
+      		<location_hand location="tip"  digits="4"  />
+      		<location_hand location="tip" digits="2"  />
+      		 <location_bodyarm location="shoulders"   contact="close"/>
+    	</handconstellation>
+  
+
+<split_motion>
+<directedmotion direction="d" curve="r"   manner="slow" />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

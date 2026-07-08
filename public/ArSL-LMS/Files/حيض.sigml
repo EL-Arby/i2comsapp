@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Period">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="DDB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shouldertop" side="right_at"/>
+      <tgt_motion>
+       <handconfig handshape="flat" mainbend="440" thumbpos="out"/>
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

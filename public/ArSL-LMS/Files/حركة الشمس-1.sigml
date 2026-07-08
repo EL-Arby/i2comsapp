@@ -1,0 +1,42 @@
+<sigml>
+
+<hamgestural_sign gloss="Sun-Movement">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+<handconfig handshape="flat"   extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"    mainbend="1 1 0 3" thumbpos="out"   extfidir="ou" palmor="d"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"    />
+	<location_bodyarm location="head"    />
+    </split_location>
+ <tgt_motion>
+<split_motion>
+          <directedmotion />
+<directedmotion direction="rd"   size="small" />
+ 
+      </split_motion>
+  <split_handconfig>
+<handconfig handshape="flat"   extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"    mainbend="1 1 0 3" thumbpos="out"   extfidir="ou" palmor="ld"/>
+    </split_handconfig>
+ </tgt_motion>
+ <tgt_motion >
+ </tgt_motion>
+ <tgt_motion >
+<split_motion>
+          <directedmotion />
+<directedmotion direction="rd"   size="small" />
+ 
+      </split_motion>
+  <split_handconfig>
+<handconfig handshape="flat"   extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"    mainbend="1 1 0 3" thumbpos="out"   extfidir="ou" palmor="ld"/>
+    </split_handconfig>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

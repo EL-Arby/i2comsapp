@@ -1,0 +1,35 @@
+<sigml>
+
+<hamgestural_sign gloss="two-sides">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="ettghnn"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+<split_handconfig>
+      <handconfig handshape="flat"   extfidir="u" palmor="d" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="u" palmor="d" mainbend="0.8 0 0"/>
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="side"  digits="1"/>
+      <location_hand location="side"  digits="1" />
+      <location_bodyarm location="shouldertop" contact="close"/>
+    </handconstellation>
+  
+
+
+ 
+<tgt_motion>
+<split_motion>
+        <directedmotion direction="r" />
+	<directedmotion direction="l" />
+</split_motion>
+<split_handconfig>
+      <handconfig handshape="flat"   extfidir="ur" palmor="l" mainbend="0.8 0 0"/>
+      <handconfig handshape="flat"    extfidir="ul" palmor="r" mainbend="0.8 0 0"/>
+    </split_handconfig>
+</tgt_motion>
+ </sign_manual>
+</hamgestural_sign>	
+</sigml>

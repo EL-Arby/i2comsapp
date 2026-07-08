@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="conditon">
+  <sign_manual>
+    <split_handconfig>
+        <handconfig handshape="finger2"  thumbpos="across" extfidir="l" palmor="d" />
+	<handconfig handshape="flat"   extfidir="u" palmor="d"/>
+    
+    </split_handconfig>
+    <handconstellation contact="touch">
+      <location_hand location="nail"  digits="4" side="front"    />
+      <location_hand location="side" digits="2" side="left_beside" />
+      <location_bodyarm location="shoulders" contact="close"/>
+    </handconstellation>
+  
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

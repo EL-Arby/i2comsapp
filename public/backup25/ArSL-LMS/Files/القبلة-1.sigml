@@ -1,0 +1,35 @@
+<sigml>
+
+
+<hamgestural_sign gloss="Qubla">
+  <sign_manual both_hands="true" lr_symm="true" outofphase="true">
+    <split_handconfig>
+      <handconfig handshape="pinchall" mainbend="bent" thumbpos="across"/>
+      <handconfig handshape="pinchall" mainbend="bent" thumbpos="across"/>
+    </split_handconfig>
+
+    <split_handconfig>
+      <handconfig extfidir="ol" palmor="d"/>
+      <handconfig extfidir="uor" palmor="u"/>
+    </split_handconfig>
+<split_location>
+	<location_bodyarm location="shouldertop" contact="close"  />
+	<location_bodyarm location="chest"    />
+    </split_location>
+
+ 
+
+<split_motion>
+            <directedmotion />
+	<directedmotion direction="ru" size="small" manner="fast" />
+      </split_motion> 
+	<split_motion>
+            <circularmotion axis="u"    />
+	<directedmotion  />
+      </split_motion> 
+  
+  </sign_manual>
+</hamgestural_sign>
+
+	
+</sigml>

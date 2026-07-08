@@ -1,0 +1,34 @@
+<sigml>
+
+<hamgestural_sign gloss="sit">
+ <sign_nonmanual>
+	 <eyegaze_tier>
+      <eye_gaze direction="DN"/>
+    </eyegaze_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    mainbend="1 2.5 0" extfidir="uol" palmor="d"/>
+      <handconfig  handshape="flat"   extfidir="ol" palmor="u" />
+    </split_handconfig>
+  
+<handconstellation contact="touch">
+      <location_hand location="wristback" side="left_beside" />
+      <location_hand location="wristback"  side="right_beside"  />
+      <location_bodyarm location="neck" contact="close"/>
+    </handconstellation>
+
+ 
+ 
+<tgt_motion>
+ <split_handconfig>
+      <handconfig       extfidir="iu" palmor="ul"/>
+      <handconfig      extfidir="ol" palmor="u" />
+    </split_handconfig>
+ </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

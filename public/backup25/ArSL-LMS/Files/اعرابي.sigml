@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="Iarabi">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BADOI"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+
+    <handconfig handshape="cee12open" bend2="2 2 2"   extfidir="u" palmor="l" side="right_at"/>
+      <location_bodyarm location="chest" side="right_at"   contact="close"/>
+	
+<tgt_motion>
+<directedmotion direction="l"   curve="u"  size="big"  />
+          <location_bodyarm location="eyebrows"    />
+
+</tgt_motion>
+  <directedmotion direction="r"   size="small"  mannar="fast" />
+      <directedmotion direction="l"   size="small"  mannar="fast" />
+   <directedmotion direction="r"   size="small"  mannar="fast" />
+   <directedmotion direction="l"   size="small"  mannar="fast" />
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

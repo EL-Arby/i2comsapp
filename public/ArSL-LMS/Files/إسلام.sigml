@@ -1,0 +1,20 @@
+<sigml>
+<hamgestural_sign gloss="Islam">
+
+  		<sign_manual >
+    			<handconfig handshape="finger2" thumbpos="opposed" mainbend="121" />
+    			<handconfig extfidir="ur"/>
+    			<handconfig palmor="u"/>
+    			<location_bodyarm location="cheek" side="right_at" contact="close"/>
+	   <directedmotion direction="r" size="small"/>
+        <directedmotion direction="l"/>
+        <directedmotion direction="r"/>
+        <directedmotion direction="l"/>
+        <directedmotion direction="r" size="small"/>
+	<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+		</sign_manual>
+	</hamgestural_sign>
+
+</sigml>

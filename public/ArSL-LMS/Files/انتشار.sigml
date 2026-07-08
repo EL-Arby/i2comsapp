@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="inteshar">
+  <sign_nonmanual>
+    <eyegaze_tier>
+      <eye_gaze direction="FR"/>
+    </eyegaze_tier>
+    <facialexpr_tier>
+      <eye_brows movement="RB"/>
+    </facialexpr_tier>
+    <mouthing_tier>
+      <mouth_gesture movement="L05"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist"  extfidir="o" palmor="d"/>
+    <handconstellation contact="touch">
+      		<location_hand location="side"   digits="1"  />
+      		<location_hand location="side" digits="1"  />
+      		 <location_bodyarm location="shouldertop"   contact="close"/>
+    	</handconstellation>
+
+    <tgt_motion>
+
+    <directedmotion direction="r"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

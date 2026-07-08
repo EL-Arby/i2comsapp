@@ -1,0 +1,46 @@
+<sigml>
+
+<hamgestural_sign gloss="AQAM">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AKKAAM"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+ 
+ <split_handconfig>
+    <handconfig handshape="finger2"  bend2="300"   extfidir="ol" palmor="d" thumbpos="across" />
+      <handconfig handshape="finger23spread"    extfidir="u" palmor="u" thumbpos="across" />
+    </split_handconfig> 
+    
+   <handconstellation contact="touch">
+      <location_hand location="tip" digits="3" />
+      <location_hand location="tip" digits="2"   />
+ 	<location_bodyarm location="neck" />
+    </handconstellation>
+ <tgt_motion>
+ <split_handconfig>
+    <handconfig handshape="flat" extfidir="o" palmor="u" thumbpos="across" />
+      <handconfig handshape="finger23spread"    extfidir="u" palmor="u" thumbpos="across" />
+    </split_handconfig>
+
+ <split_location>
+<location_bodyarm location="stomach"   side="right_at" contact="armextended"   />
+	<location_bodyarm   />
+	
+    </split_location>
+</tgt_motion>
+<tgt_motion>
+<split_motion>
+ <directedmotion direction="u" size="big" />
+ <directedmotion />
+      </split_motion>
+<split_handconfig>
+    <handconfig handshape="flat" extfidir="ou" palmor="u"  />
+      <handconfig handshape="finger23spread"    extfidir="u" palmor="u" thumbpos="across" />
+    </split_handconfig>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,62 @@
+<sigml>
+<hamgestural_sign gloss="jinbaihi">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" mainbend="bent"/>
+      <handconfig handshape="finger2" thumbpos="across"  mainbend="300" />
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="u" palmor="rd"/>
+    </split_handconfig>
+     
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"  side="front" />
+<location_hand location="side" digits="2"    side="palmar" />
+      		 <location_bodyarm location="head"  side="right_at"   contact="close"/>
+    	</handconstellation>
+
+
+ <tgt_motion>
+
+
+      <split_motion>
+           <directedmotion />
+<directedmotion direction="d"  curve="l"  size="small"  />
+      </split_motion>
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"  side="front" />
+<location_hand location="thumbball" side="right_at"   />
+      		 <location_bodyarm location="head"  side="right_at"  contact="close"/>
+    	</handconstellation>
+
+ </tgt_motion>
+
+ <tgt_motion>
+
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="ur" palmor="rd"/>
+    </split_handconfig>
+     
+    
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2"  side="front" />
+<location_hand location="side" digits="5" side="right_at"   />
+      		 <location_bodyarm location="head"  side="right_at"    contact="close"/>
+    	</handconstellation>
+
+ </tgt_motion>
+
+
+
+      <split_motion>
+           <directedmotion />
+<directedmotion direction="dr"  curve="d"  size="small"  />
+      </split_motion>
+
+  
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

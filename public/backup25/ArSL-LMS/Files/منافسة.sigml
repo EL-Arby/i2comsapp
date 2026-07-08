@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="monafasa">
+   <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="out"  extfidir="o" palmor="l"/>
+    <location_bodyarm location="chest" contact="close" />
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="o" size="small"/>
+        <directedmotion direction="i" size="small"/>
+      </seq_motion>
+      <seq_motion>
+        <directedmotion direction="i" size="small"/>
+        <directedmotion direction="o" size="small" />
+      </seq_motion>
+    </split_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

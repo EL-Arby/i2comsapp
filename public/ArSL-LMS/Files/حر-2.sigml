@@ -1,0 +1,13 @@
+<sigml>
+<hamgestural_sign gloss="Hur">
+  <sign_manual>
+    <handconfig handshape="finger2" bend2="400" bend5="000"   bend3="000"  bend4="000"  thumbpos="out"/>
+    <handconfig extfidir="u"  palmor="l"/>
+    <location_bodyarm location="forehead"  side="right_at" contact="touch" />
+      <tgt_motion>
+<directedmotion direction="ru" manner="fast"     />
+<handconfig extfidir="u"  palmor="dl"/>
+     </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

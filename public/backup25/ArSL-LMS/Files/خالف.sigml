@@ -1,0 +1,30 @@
+<sigml>
+<hamgestural_sign gloss="kalef">
+  <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOOO"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig bend3="round" handshape="finger23spread" thumbpos="across"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm contact="close" location="chest"/>
+ 
+    <tgt_motion>
+     <directedmotion direction="uor" size="big"/>
+      <handconfig handshape="finger23spread" bend3="100"  thumbpos="across"/>
+      <handconfig extfidir="ou" palmor="l"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

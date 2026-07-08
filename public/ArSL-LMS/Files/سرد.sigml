@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="Sard">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SAD"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual >
+      <handconfig handshape="finger2345"   extfidir="u" palmor="d" bend2="1 0 0 1 "  bend3="1 0 0 1 "  bend4="1 0 0 1 "  bend5="1 0 0 1 " />
+      <location_bodyarm location="head"  side="right_at"  contact="close" />
+ <tgt_motion>
+<directedmotion direction="d"  size="big"  manner="slow"/>
+<handconfig handshape="finger2345"   extfidir="o" palmor="d"  />
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

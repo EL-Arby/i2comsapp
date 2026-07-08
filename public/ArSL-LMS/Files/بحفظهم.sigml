@@ -1,0 +1,14 @@
+<sigml>
+
+<hamgestural_sign gloss="save-them">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="out"  mainbend="012" extfidir="ol" palmor="l"/>
+    <location_bodyarm location="headtop"   />
+<tgt_motion>	
+     <directedmotion direction="dli"  manner="fast" size="big"/>
+<location_bodyarm location="chest"   />
+</tgt_motion>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

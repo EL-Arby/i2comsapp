@@ -1,0 +1,13 @@
+<sigml>
+<hamgestural_sign gloss="da">
+  <sign_manual>
+    <handconfig handshape="pinch12" mainbend="bent" specialfingers="3"
+        contactkind="base" contactpair="13"/>
+	<handconfig extfidir="u" palmor="d"/>
+	<location_bodyarm location="shoulders" side="right_at"/>
+	<tgt_motion manner="rest">
+	 
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

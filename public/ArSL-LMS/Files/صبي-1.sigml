@@ -1,0 +1,21 @@
+<sigml>
+<hamgestural_sign gloss="young">
+
+<sign_nonmanual>
+   <extra_tier>
+      <extra_par>
+ <extra_movement movement="X51"/>
+
+      </extra_par>
+</extra_tier>
+<facialexpr_tier>
+      <eye_lids movement="SB"/>
+    </facialexpr_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  mainbend="1.5 0 0"  extfidir="l" palmor="d"/>
+    <location_bodyarm location="shoulders"   contact="close" />
+         
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

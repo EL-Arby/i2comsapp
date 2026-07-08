@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="khourouj mani">
+  <sign_nonmanual/>
+  <sign_manual>
+    <handconfig handshape="pinch12" mainbend="dblbent"   extfidir="ou"  palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at" contact="close" />
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <directedmotion direction="o" size="small"   />
+        <handconfig handshape="finger2" thumbpos="opposed"/>
+      </tgt_motion>
+    </rpt_motion>
+    <tgt_motion>
+      <changeposture/>
+         <handconfig handshape="pinch12" mainbend="dblbent"   extfidir="ou"  palmor="d"/>
+     </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

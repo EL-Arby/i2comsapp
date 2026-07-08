@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="fatha etah">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="tah"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true">
+    <split_handconfig>
+      <handconfig handshape="finger2" extfidir="uo" mainbend="200"  palmor="l" thumbpos="across"/>
+      <handconfig handshape="flat" extfidir="u" palmor="d" thumbpos="across"/>
+    </split_handconfig>
+  
+    <split_location>
+	<location_bodyarm location="neck"  side="right_at" contact="close"/>
+	<location_bodyarm location="shoulders"   contact="front" />
+    </split_location>
+
+    <split_motion>
+      <seq_motion>
+        
+    <directedmotion direction="l"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

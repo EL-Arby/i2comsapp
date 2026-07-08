@@ -1,0 +1,17 @@
+<sigml>
+
+<hamgestural_sign gloss="fingers">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="l" palmor="rd"/>
+    <location_bodyarm location="ear" side="right_at"  contact="close"/>
+	
+	
+      
+	
+    	
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

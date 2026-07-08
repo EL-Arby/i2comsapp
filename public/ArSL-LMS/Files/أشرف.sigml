@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="Ashraf">
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" contact="touch" />
+      <tgt_motion>
+<directedmotion direction="or"   />
+    <handconfig handshape="fist" thumbpos="out"/>
+        <handconfig extfidir="or" palmor="l"/>
+      </tgt_motion>
+
+<directedmotion direction="l"   size="small" />
+<directedmotion direction="r"   size="small" />
+
+  <tgt_motion>
+<directedmotion direction="l"   curve="l" size="small" />
+    <handconfig handshape="flat" thumbpos="out"/>
+        <handconfig extfidir="o" palmor="u"/>
+      </tgt_motion>
+
+<directedmotion direction="u"   />
+
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

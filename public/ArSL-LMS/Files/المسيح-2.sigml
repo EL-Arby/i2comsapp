@@ -1,0 +1,24 @@
+<sigml>
+<hamgestural_sign gloss="maseeh">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="maseeh"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="headtop"/>
+    <directedmotion direction="di" size="small"/>
+    <directedmotion direction="i" size="small"/>
+    <directedmotion direction="i" size="small"/>
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="flat" mainbend="bent" thumbpos="opposed"/>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

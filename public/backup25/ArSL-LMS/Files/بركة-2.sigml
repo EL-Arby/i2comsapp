@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="bless">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BARAKA"/>
+    </mouthing_tier>
+</sign_nonmanual>
+
+  <sign_manual>
+    <handconfig handshape="pinchall"  mainbend="bent"  extfidir="ou" palmor="d"/>
+    <location_bodyarm location="head"  side="right_at" contact="close"  />
+ <tgt_motion>	
+     <directedmotion direction="d"    size="big"/>  
+ <handconfig handshape="flat" thumbpos="opposed"   mainbend="3 0 0 "  extfidir="o" palmor="d"/>
+ </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

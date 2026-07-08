@@ -1,0 +1,19 @@
+<sigml>
+
+
+<hamgestural_sign gloss="excuse">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OTR"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12" bend2="400" 
+	    contactkind="side" contactpair="22"/>
+	<handconfig extfidir="uo" palmor="u"/>
+	<location_bodyarm location="shoulders" side="right_at"/>
+
+	
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

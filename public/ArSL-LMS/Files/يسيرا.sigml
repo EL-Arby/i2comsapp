@@ -1,0 +1,28 @@
+<sigml>
+<hamgestural_sign gloss="$PROD">
+ 
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+       <handconfig handshape="finger2" mainbend="round" thumbpos="opposed"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="uo" palmor="ul"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="shoulders"/>
+      <location_bodyarm contact="touch" location="chest"/>
+    </split_location>
+    <split_motion>
+       
+        <tgt_motion>
+          
+          <handconfig handshape="finger2" mainbend="212" thumbpos="opposed"/>
+        </tgt_motion>
+ 
+      <nomotion/>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

@@ -1,0 +1,21 @@
+<sigml>
+
+<hamgestural_sign gloss="stand">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="MANSOB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="out"/>
+    <handconfig extfidir="u" palmor="d"/>
+    <location_bodyarm location="chin" contact="close"  />
+
+<tgt_motion>
+
+            <location_bodyarm location="neck" contact="armextended"  /> 
+      </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,69 @@
+<sigml>
+
+<hamgestural_sign gloss="divide">
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="flat"    extfidir="o" palmor="l"/>
+      <handconfig handshape="fist" thumbpos="across"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+ 
+<handconstellation contact="close">
+      		<location_hand location="handback"  side="left_beside" />
+      		<location_hand location="side"  digits="5"  side="left_at"/>
+      		 <location_bodyarm location="shoulders"  />
+    	</handconstellation>
+  
+
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="d"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+
+<handconstellation contact="touch">
+      		<location_hand location="handback"  side="left_beside" />
+      		<location_hand location="side"  digits="5"  side="left_at"/>
+      		 <location_bodyarm location="shoulders"  />
+    	</handconstellation>
+	</tgt_motion>
+
+
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="u"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"   mainbend="400"  extfidir="o" palmor="l"/>
+      <handconfig handshape="fist" thumbpos="across"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+<handconstellation contact="close">
+      		<location_hand location="handback"  side="left_beside" />
+      		<location_hand location="side"  digits="5"  side="left_at"/>
+      		 <location_bodyarm location="shoulders"  />
+    	</handconstellation>
+	</tgt_motion>
+
+<tgt_motion>
+	 <split_motion>
+<directedmotion direction="u"  size="small" />
+           <directedmotion />
+      </split_motion>
+
+ <split_handconfig>
+      <handconfig handshape="flat"   mainbend="400"  extfidir="o" palmor="l"/>
+      <handconfig handshape="fist" thumbpos="across"  extfidir="r" palmor="d"/>
+    </split_handconfig>
+<handconstellation contact="touch">
+      		<location_hand location="handback"  side="left_beside" />
+      		<location_hand location="side"  digits="5"  side="left_at"/>
+      		 <location_bodyarm location="shoulders"  />
+    	</handconstellation>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

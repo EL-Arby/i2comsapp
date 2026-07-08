@@ -1,0 +1,20 @@
+<sigml>
+	<hamgestural_sign gloss="girl">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BBNNTT"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  		<sign_manual >
+   	 		<handconfig handshape="finger2345"  mainbend="bent" thumbpos="opposite" />
+    			<handconfig extfidir="u" palmor="l"/>	
+			<location_bodyarm location="forehead" side="right_beside" contact="close"/>
+		
+			<directedmotion direction="d" manner="slow" />
+			
+<tgt_motion manner="rest">
+	  
+	</tgt_motion>
+  		</sign_manual>
+	</hamgestural_sign>
+</sigml>

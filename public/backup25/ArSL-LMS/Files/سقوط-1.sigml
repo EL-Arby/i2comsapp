@@ -1,0 +1,30 @@
+<sigml>
+
+<hamgestural_sign gloss="fall">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="TSKT"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinchall"  mainbend="bent"/>
+    <handconfig extfidir="ol" palmor="l"/>
+    <location_bodyarm location="head" side="right_at"  contact="close"  />
+	 <tgt_motion>
+     <directedmotion direction="d" size="big" />
+
+    <handconfig handshape="flat"  thumbpos="opposed"  mainbend="300" extfidir="ol" palmor="d"/>
+ </tgt_motion>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

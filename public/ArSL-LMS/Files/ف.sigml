@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="fa">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="FAA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinch12" bend2="1.5 2.5 0 5" 
+	    contactkind="tip" contactpair="12"/>
+	<handconfig extfidir="u" palmor="d"/>
+	<location_bodyarm location="shoulders" side="right_at"/>
+
+<tgt_motion>
+	     <handconfig handshape="pinch12" bend2="2.5 2.5 0 5" 
+	    contactkind="tip" contactpair="12"/>
+	<handconfig extfidir="u" palmor="d"/>
+	</tgt_motion>
+
+<tgt_motion manner="rest">
+	  <changeposture/>
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

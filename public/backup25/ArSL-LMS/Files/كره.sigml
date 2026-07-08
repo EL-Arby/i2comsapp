@@ -1,0 +1,42 @@
+<sigml>
+
+<hamgestural_sign gloss="Hate Him">
+<sign_nonmanual>
+   <extra_tier>
+      <extra_par>
+         <extra_movement movement="X61"/>
+        <extra_movement movement="X54"/>
+<extra_movement movement="X51"/>
+<extra_movement movement="X38"/>
+      </extra_par>
+
+</extra_tier>
+ <eyegaze_tier>
+      <eye_gaze direction="LD"/>
+  
+    </eyegaze_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345" bend2="1 2 1 2"  bend3="0 2 1 2"  bend4="1 2 1 2"  bend5="1 2 1 2"   thumbpos="opposed" extfidir="u" palmor="ld"/>
+      <handconfig handshape="finger2"    thumbpos="across" extfidir="u" palmor="dr"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders"   contact="close"/>
+	<location_bodyarm location="chest"  side="left_at" contact="armextended" />
+    </split_location>
+
+<tgt_motion>
+<split_motion>
+<directedmotion direction="ol" />
+           <directedmotion />
+      </split_motion>
+
+
+	</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

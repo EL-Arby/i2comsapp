@@ -1,0 +1,36 @@
+<sigml>
+<hamgestural_sign gloss="curse">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ELAN"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+      <extra_movement movement="X15"/>
+ <extra_movement movement="X14"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+      <extra_movement movement="X15"/>
+ <extra_movement movement="X14"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="across"/>
+    <handconfig extfidir="u" palmor="ul"/>
+    <location_bodyarm location="headtop" side="right_at" contact="close"/>
+    <par_motion>
+      <directedmotion direction="dl" size="big"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ol" palmor="l"/>
+    <location_bodyarm location="chest" side="left_at" contact="close"/>
+   
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

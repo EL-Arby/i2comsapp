@@ -1,0 +1,25 @@
+<sigml>
+<hamgestural_sign gloss="kalb">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="KALB"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig  handshape="pinchall" mainbend="bent"  bend2="0 0 0 3" bend5="0 0 0 3"  />
+    <handconfig extfidir="u"/>
+    <handconfig palmor="ld"/>
+    <location_bodyarm location="head" side="right_at" contact="close" />
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend3="300" bend4="300" handshape="finger2345" thumbpos="opposed"/>
+      </tgt_motion>
+    </rpt_motion>
+    <tgt_motion>
+      <changeposture/>
+         <handconfig  handshape="pinchall" mainbend="bent"  bend2="0 0 0 3" bend5="0 0 0 3"  />
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

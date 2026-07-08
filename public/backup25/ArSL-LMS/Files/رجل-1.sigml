@@ -1,0 +1,20 @@
+<sigml>
+
+<hamgestural_sign gloss="man">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="RJAAL"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+               <handconfig handshape="pinch12"  mainbend="bent"   bend2="300"   extfidir="u" palmor="l"/>
+ 		 <location_bodyarm location="lips" side="right_at"  contact="touch"/>
+    	
+	<tgt_motion>
+<handconfig handshape="finger2"  mainbend="044"     extfidir="u" palmor="l"/>
+	</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,121 @@
+<sigml>
+
+<hamgestural_sign gloss="cough">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SAOT"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2" mainbend="300" thumbpos="opposed"   extfidir="l" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="neck"    contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="il" size="small"  />
+           <directedmotion />
+      </split_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+
+<hamgestural_sign gloss="cough">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AmmmmA"/>
+    </mouthing_tier>
+
+<extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+</extra_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"  thumbpos="opposed" mainbend="300"    extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="lips"    contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="o"  size="small" manner="fast" />
+           <directedmotion />
+      </split_motion>
+
+<tgt_motion >
+</tgt_motion >
+<tgt_motion >
+<split_motion>
+<directedmotion direction="o"  size="small" manner="fast" />
+           <directedmotion />
+      </split_motion>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="cough">
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="AmmmmA"/>
+    </mouthing_tier>
+
+<extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+</extra_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2"  thumbpos="opposed" mainbend="300"    extfidir="u" palmor="l"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="lips"    contact="touch"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<split_motion>
+<directedmotion direction="o"  size="small" manner="fast" />
+           <directedmotion />
+      </split_motion>
+
+<tgt_motion >
+</tgt_motion >
+<tgt_motion >
+<split_motion>
+<directedmotion direction="o"  size="small" manner="fast" />
+           <directedmotion />
+      </split_motion>
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

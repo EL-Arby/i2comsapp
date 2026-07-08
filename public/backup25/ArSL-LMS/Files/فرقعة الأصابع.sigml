@@ -1,0 +1,113 @@
+<sigml>
+<hamgestural_sign gloss="farqaa asabee">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="flat" thumbpos="out"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="l"/>
+      <handconfig extfidir="ur" palmor="dr"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="chest"/>
+    <split_motion>
+      <nomotion/>
+      <directedmotion direction="dr" size="big"/>
+    </split_motion>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="r" palmor="r"/>
+        </tgt_motion>
+        <directedmotion direction="uo"/>
+        <directedmotion direction="i" size="small"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend5="bent" handshape="flat" thumbpos="out"/>
+      </tgt_motion>
+      <directedmotion direction="i" size="small"/>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend4="bent" bend5="bent" handshape="flat" thumbpos="out"/>
+      </tgt_motion>
+      <seq_motion>
+        <directedmotion direction="do" size="small"/>
+        <directedmotion direction="ui" size="small"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend3="bent" bend4="bent" bend5="bent" handshape="flat" thumbpos="out"/>
+      </tgt_motion>
+      <seq_motion>
+        <directedmotion direction="o" size="small"/>
+        <directedmotion direction="ui" size="small"/>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend2="round" bend3="dblbent" bend4="dblbent" bend5="dblbent" handshape="flat" thumbpos="out"/>
+        <handconfig extfidir="ol" palmor="dl"/>
+      </tgt_motion>
+      <seq_motion>
+        <directedmotion direction="l"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat" thumbpos="out"/>
+          <handconfig extfidir="ur" palmor="r"/>
+        </tgt_motion>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <seq_motion>
+        <directedmotion direction="dl"/>
+        <directedmotion direction="ul" size="small"/>
+      </seq_motion>
+      <nomotion/>
+    </split_motion>
+    <split_motion>
+      <directedmotion direction="il" size="small"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend4="bent" bend5="bent" handshape="flat" thumbpos="out"/>
+      </tgt_motion>
+    </split_motion>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="fist" thumbpos="out"/>
+        </tgt_motion>
+        <directedmotion direction="ul"/>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat" thumbpos="out"/>
+          <handconfig extfidir="ur" palmor="dl"/>
+        </tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat" thumbpos="across"/>
+        </tgt_motion>
+      </seq_motion>
+    </split_motion>
+    <split_motion>
+      <nomotion/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="flat" mainbend="dblbent" thumbpos="across"/>
+      </tgt_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

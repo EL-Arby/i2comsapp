@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="take">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AKT"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2"  extfidir="iur"/>
+    <handconfig palmor="u"/>
+    <location_bodyarm location="shoulders" side="right_beside" contact="close"/>
+    
+ <tgt_motion>
+    <handconfig handshape="pinchall" mainbend="bent" extfidir="l"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest" side="right_beside" contact="close"/>
+            </tgt_motion>
+<tgt_motion>
+      <directedmotion direction="l" curve="r" size="big"/>
+   <location_bodyarm location="chest" side="front"  contact="touch" />
+   
+      </tgt_motion>
+ 
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

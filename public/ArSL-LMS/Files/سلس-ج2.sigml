@@ -1,0 +1,38 @@
+<sigml>
+
+<hamgestural_sign gloss="Try">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ALTOOLALTOOL"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+      <location_bodyarm location="shoulders"/>
+   <rpt_motion repetition="fromstart">
+                <circularmotion axis="l"/>
+      </rpt_motion>
+                <circularmotion axis="l"/>
+      </sign_manual>
+</hamgestural_sign>
+</sigml>

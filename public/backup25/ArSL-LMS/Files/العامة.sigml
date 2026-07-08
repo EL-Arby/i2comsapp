@@ -1,0 +1,25 @@
+<sigml>
+
+<hamgestural_sign gloss="Amah">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="AAB"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="out"/>
+    <handconfig extfidir="lu" palmor="r"/>
+
+<handconstellation contact="touch">
+      		<location_hand location="tip" digits="2" />
+      		<location_hand location="tip" digits="2" />
+      		 <location_bodyarm location="head"   contact="close"/>
+    	</handconstellation>
+ <tgt_motion>
+     <directedmotion direction="r" curve="u"  size="big"/> 
+ <handconfig extfidir="u" palmor="d"/> 
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

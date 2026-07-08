@@ -1,0 +1,27 @@
+<sigml>
+
+<hamgestural_sign gloss="stomach">
+<sign_nonmanual>
+ <extra_tier>
+      <extra_par>
+        <extra_movement movement="X61"/>
+	<extra_movement movement="X24"/>
+	        <extra_movement movement="X53"/>
+      </extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+
+
+  <sign_manual>
+        <handconfig handshape="flat"  mainbend= " 0 0 0 2" thumbpos="out"/>
+	<handconfig extfidir="dl" palmor="ol"/>
+	<location_bodyarm location="stomach"  contact="touch" />
+
+	<directedmotion direction="o" size="small" manner="fast" />
+	<directedmotion direction="i" size="small" manner="fast" />
+
+  </sign_manual>
+</hamgestural_sign>
+</sigml>
+

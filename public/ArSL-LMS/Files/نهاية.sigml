@@ -1,0 +1,24 @@
+<sigml>
+
+<hamgestural_sign gloss="Finish">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="KALS"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+
+<sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="d"/>
+    <location_bodyarm location="shoulders"   />
+
+               <tgt_motion>
+	 <directedmotion direction="iu"   />
+    <handconfig handshape="fist"  thumbpos="out" extfidir="u" palmor="d"/>
+
+	</tgt_motion>
+	
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

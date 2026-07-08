@@ -1,0 +1,14 @@
+<sigml>
+
+<hamgestural_sign gloss="inform">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinchall" mainbend="bent" extfidir="u" palmor="d"/>
+    <location_bodyarm location="chin"    contact="close"  />
+	
+     <directedmotion direction="o"  manner="fast" size="small"/>  
+   <directedmotion direction="r"  curve="l"    />  
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="Arabic">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="ARBE"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="u"  palmor="l" mainbend="400" bend5="300"/>
+    <location_bodyarm location="lowerteeth" side="right_beside" contact="close" />
+
+<wristmotion motion="twisting"/>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>
+

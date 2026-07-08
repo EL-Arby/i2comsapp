@@ -1,0 +1,52 @@
+<sigml>
+
+<hamgestural_sign gloss="heart">
+<sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="QALB"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual both_hands="true" >
+    
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="2 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+ 
+ <split_location>
+	<location_bodyarm location="shoulders" side="left_at"   contact="close"/>
+	<location_bodyarm location="chest"   contact="touch" />
+    </split_location>
+
+<tgt_motion>  
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="1 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>  
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="2 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>  
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="1 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+<tgt_motion>  
+ <split_handconfig>
+      <handconfig handshape="finger2345" mainbend="2 2 2 5"   thumbpos="opposed"  extfidir="l" palmor="u"/>
+      <handconfig handshape="flat"   extfidir="r" palmor="r"/>
+    </split_handconfig>
+</tgt_motion>
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

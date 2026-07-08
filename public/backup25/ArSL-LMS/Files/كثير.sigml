@@ -1,0 +1,34 @@
+<sigml>
+
+<hamgestural_sign gloss="alot">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="BBBBBKATEER"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345"  thumbpos="opposed"/>
+    <handconfig extfidir="ou" palmor="ul"/>
+    <location_bodyarm location="shoulders" contact="close"  />
+	
+  <tgt_motion>
+     <handconfig handshape="pinchall" mainbend="bent"  extfidir="ou" palmor="ul"/>
+</tgt_motion>
+
+  <tgt_motion>
+     <handconfig handshape="finger2345" thumbpos="opposed"  extfidir="ou" palmor="ul"/>
+</tgt_motion>
+
+  <tgt_motion>
+     <handconfig handshape="pinchall" mainbend="bent"  extfidir="ou" palmor="lu"/>
+</tgt_motion>
+
+  <tgt_motion>
+     <handconfig handshape="finger2345" thumbpos="out"  extfidir="ou" palmor="l"/>
+</tgt_motion>
+
+     <directedmotion direction="r" curve="u"  manner="slow" size="big"/> 
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

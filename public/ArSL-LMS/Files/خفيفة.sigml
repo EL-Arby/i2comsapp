@@ -1,0 +1,19 @@
+<sigml>
+
+<hamgestural_sign gloss="light">
+
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="SHO"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinchall" mainbend="bent"/>
+    <handconfig extfidir="o" palmor="u"/>
+    <location_bodyarm location="shoulders" side="right_at"  contact="close"  />
+	
+     <directedmotion direction="d"  manner="slow" />  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

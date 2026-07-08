@@ -1,0 +1,18 @@
+<sigml>
+
+<hamgestural_sign gloss="all">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" mainbend="400"  thumbpos="across" />
+    <handconfig extfidir="uli" palmor="d"/>
+     <location_bodyarm location="eyes" contact="close"/>
+    
+    
+    	
+  <directedmotion direction="d"   size="big" manner="slow"/>
+
+ 
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

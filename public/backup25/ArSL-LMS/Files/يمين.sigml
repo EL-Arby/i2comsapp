@@ -1,0 +1,16 @@
+<sigml>
+<hamgestural_sign gloss="right">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="EBEN"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat"  extfidir="ou"  palmor="lu"/>
+    <location_bodyarm location="shouldertop"/>
+     
+   <directedmotion direction="r" size="small" manner="fast"/>
+          
+    </sign_manual>
+</hamgestural_sign>
+</sigml>

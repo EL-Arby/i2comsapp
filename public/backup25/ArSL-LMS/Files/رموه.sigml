@@ -1,0 +1,29 @@
+<sigml>
+<hamgestural_sign gloss="ramouh">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="RBOH"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="pinchall"/>
+    <handconfig extfidir="u"  palmor="ld"/>
+    <location_bodyarm contact="close" location="shoulders"/>
+   
+    <tgt_motion>
+       <directedmotion curve="u" direction="or" size="big"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+ <handconfig extfidir="uo"  palmor="d"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

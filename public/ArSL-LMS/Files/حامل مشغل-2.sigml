@@ -1,0 +1,37 @@
+<sigml>
+<hamgestural_sign gloss="hamel meshral">
+  <sign_nonmanual/>
+  <sign_manual both_hands="true" lr_symm="true">
+    <split_handconfig>
+      <handconfig handshape="fist" thumbpos="across" />
+      <handconfig handshape="finger23"  mainbend="0 0 0 3" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="l"/>
+      <handconfig extfidir="ur" palmor="d"/>
+    </split_handconfig>
+    <location_bodyarm location="shoulders" side="right_at"/>
+    <split_motion>
+      <directedmotion direction="" size="small"/>
+      <directedmotion curve="u" direction="r"/>
+    </split_motion>
+    <split_motion>
+      <nomotion/>
+      <seq_motion>
+        <rpt_motion repetition="fromstart">
+          <tgt_motion>
+
+            <handconfig extfidir="r" palmor="d"/>
+ 
+<handconstellation contact="touch">
+      		<location_hand location="thumbball"   digits="2"    />
+      		<location_hand location="thumbball"   />
+    	</handconstellation>
+          </tgt_motion>
+        </rpt_motion>
+ 
+      </seq_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+</sigml>

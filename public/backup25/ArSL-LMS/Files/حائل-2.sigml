@@ -1,0 +1,15 @@
+<sigml>
+
+<hamgestural_sign gloss="wall">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="flat" thumbpos="out"  extfidir="l" palmor="l"/>
+      <handconstellation contact="close"  >
+      <location_hand location="tip"  digits="5" />
+      <location_hand location="tip" digits="5" />
+      <location_bodyarm location="chest" contact="close"/>
+    </handconstellation>
+     <directedmotion direction="u"  manner="slow" size="big"/>  
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

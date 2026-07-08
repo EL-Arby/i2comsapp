@@ -1,0 +1,69 @@
+<sigml>
+<hamgestural_sign gloss="sure">
+   <sign_nonmanual>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+<extra_movement movement="X55"/>
+</extra_par>
+    </extra_tier>
+
+  </sign_nonmanual>
+<sign_manual>
+
+    <split_handconfig>
+        <handconfig handshape ="finger2"   thumbpos="across" extfidir="l" palmor="d"/>
+	<handconfig handshape ="flat"  extfidir="or" palmor="u"/>
+    </split_handconfig>
+    
+    <split_location>
+	<location_bodyarm location="shoulders"  side="right_at" contact="close"  />
+	<location_bodyarm location="chest"  contact="close" />
+    </split_location>
+<tgt_motion>
+<split_motion>
+<directedmotion direction="u"    />
+           <directedmotion />
+      </split_motion>
+
+    <split_handconfig>
+        <handconfig handshape ="finger2"   thumbpos="across" extfidir="dl" palmor="d"/>
+	<handconfig handshape ="flat"  extfidir="or" palmor="u"/>
+    </split_handconfig>
+</tgt_motion>
+ 
+	
+	
+	
+  </sign_manual>
+</hamgestural_sign>
+
+<hamgestural_sign gloss="sure">
+  <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_gesture movement="C02"/>
+    </mouthing_tier>
+ <extra_tier>
+<extra_par>
+      <extra_movement movement="X61"/>
+</extra_par>
+    </extra_tier>
+  </sign_nonmanual>
+  <sign_manual>
+
+	   <split_handconfig>
+        <handconfig handshape ="finger2"  mainbend="0.5 0 0 " thumbpos="across"    extfidir="l" palmor="d"/>
+	<handconfig handshape ="flat"  extfidir="or" palmor="u"/>
+    </split_handconfig>
+    
+	<handconstellation contact="touch">
+      		<location_hand location="palm"  />
+		<location_hand location="tip" digits="2"/>
+      		<location_bodyarm location="chest"   contact="close" />
+    	</handconstellation>
+    
+
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

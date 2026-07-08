@@ -1,0 +1,19 @@
+<sigml>
+<hamgestural_sign gloss="Invalid">
+ <sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="BATL"/>
+    </mouthing_tier>
+  </sign_nonmanual>
+  <sign_manual>
+   
+        <handconfig handshape="fist"  thumbpos="out"  extfidir="u" palmor="d"/>  
+      <location_bodyarm location="head" side="right_at" contact="close"/>
+<tgt_motion>
+      <directedmotion direction="d"   size="big" mannar="slow" />
+ <handconfig handshape="fist"   thumbpos="opposed"  extfidir="l" palmor="dr"/> 
+</tgt_motion>					
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

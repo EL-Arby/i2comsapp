@@ -1,0 +1,37 @@
+<sigml>
+
+<hamgestural_sign gloss="place">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="OOD"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" outofphase="true">
+
+	<split_handconfig>
+       	<handconfig handshape="pinchall"  mainbend="bent"    extfidir="ol" palmor="d"/>
+      	<handconfig handshape="flat"  thumbpos="out" extfidir="o" palmor="u"/>
+    </split_handconfig>
+   
+     <split_location>
+	<location_bodyarm location="head"   contact="close"/>
+	<location_bodyarm location="chest"   contact="close" />
+    </split_location>
+
+	 <tgt_motion >
+  <directedmotion direction="d" manner="slow"   />
+<handconstellation contact="touch">
+      <location_hand location="palm"      />
+      <location_hand location="tip"  digits="3" />
+      <location_bodyarm location="chest" contact="close"/>
+    </handconstellation>
+	</tgt_motion>
+    
+
+	   
+  </sign_manual>
+</hamgestural_sign>
+
+
+
+</sigml>

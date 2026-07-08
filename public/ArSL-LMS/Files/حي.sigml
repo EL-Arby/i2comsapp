@@ -1,0 +1,33 @@
+<sigml>
+
+<hamgestural_sign gloss="come">
+ <sign_nonmanual>
+<mouthing_tier>
+      <mouth_picture picture="HAEA"/>
+    </mouthing_tier>
+ </sign_nonmanual>
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="uo" palmor="d"/>
+    <location_bodyarm location="shoulders" contact="armextended"  />
+<tgt_motion>	
+     <directedmotion direction="i"  manner="fast" size="big"/> 
+    <handconfig handshape="finger2345"  mainbend="044" thumbpos="out"/>
+    <handconfig extfidir="u" palmor="d"/> 
+</tgt_motion>
+
+<tgt_motion>	
+     <directedmotion direction="o"  manner="fast" size="big"/> 
+    <handconfig handshape="finger2345"  thumbpos="out"/>
+    <handconfig extfidir="ou" palmor="d"/> 
+</tgt_motion>
+
+<tgt_motion>	
+     <directedmotion direction="i"  manner="fast" size="big"/> 
+    <handconfig handshape="finger2345"  mainbend="044" thumbpos="out"/>
+    <handconfig extfidir="u" palmor="d"/> 
+</tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

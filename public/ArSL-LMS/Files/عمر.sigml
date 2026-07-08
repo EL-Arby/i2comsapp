@@ -1,0 +1,18 @@
+<sigml>
+<hamgestural_sign gloss="age">
+
+<sign_nonmanual>
+    <mouthing_tier>
+      <mouth_picture picture="OBBR"/>
+    </mouthing_tier>
+</sign_nonmanual>
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="across" extfidir="l" palmor="d"/>
+    <location_bodyarm location="chest"   contact="touch" side="armextended" />
+    
+ <directedmotion direction="u" curve="u" size="small" />
+    
+     
+  </sign_manual>
+</hamgestural_sign>
+</sigml>
