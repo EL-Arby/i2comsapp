@@ -17,9 +17,12 @@ class Registration extends Model
         'organization',
         'job_title',
         'registration_type',
+        'workshop_id',
+        'participant_type',
         'amount_paid',
         'payment_received',
         'payment_method',
+        'payment_proof',
         'notes',
         'is_active',
     ];
@@ -37,5 +40,10 @@ class Registration extends Model
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
+    }
+
+    public function workshop(): BelongsTo
+    {
+        return $this->belongsTo(Workshop::class);
     }
 }

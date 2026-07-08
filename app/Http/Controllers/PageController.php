@@ -8,6 +8,7 @@ use App\Models\Speaker;
 use App\Models\Workshop;
 use App\Models\Hotel;
 use App\Models\Sponsor;
+use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
@@ -64,9 +65,18 @@ class PageController extends Controller
         return view('pages.program');
     }
 
-    public function registration()
+    public function registration(Request $request)
     {
-        return view('pages.registration');
+        $selectedType = $request->query('type', 'attendee');
+        $allowedTypes = ['author', 'attendee', 'workshop'];
+
+        if (! in_array($selectedType, $allowedTypes, true)) {
+            $selectedType = 'attendee';
+        }
+
+        $workshops = Workshop::published()->ordered()->get();
+
+        return view('pages.registration', compact('selectedType', 'workshops'));
     }
 
     public function previousEditions()
